@@ -1,0 +1,28 @@
+{
+  "name": "help-sheets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byersdz/help-sheets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/byersdz/help-sheets/issues"
+  },
+  "homepage": "https://github.com/byersdz/help-sheets#readme"
+}
