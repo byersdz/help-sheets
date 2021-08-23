@@ -1,10 +1,13 @@
 const { keys, build, templates } = require( '../constants' );
 const fs = require( 'fs' );
 const get = require( 'lodash/get' );
+const forEach = require( 'lodash/forEach' );
+const buildState = require( './buildState' );
 
 function buildCountry( country ) {
   const urlName = get( country, keys.URL_NAME );
   const name = get( country, keys.NAME );
+  const states = get( country, keys.STATES );
 
   const countryDirectoryPath = `${ build.DIST_PATH }/${ urlName }`;
   const countryPagePath = `${ countryDirectoryPath }/index.html`;
@@ -21,6 +24,12 @@ function buildCountry( country ) {
   pageHTML = pageHTML.replace( templates.PAGE_CONTENT, pageContent );
 
   fs.writeFileSync( countryPagePath, pageHTML );
+
+  if ( states ) {
+    forEach( states, state => {
+      buildState( state, country );
+    } );
+  }
 }
 
 module.exports = buildCountry;
