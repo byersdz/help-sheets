@@ -32,12 +32,21 @@ languageCodes.ENGLISH = 'en';
 const build = {};
 
 build.DIST_PATH = './dist';
+build.ASSETS_SOURCE_PATH = './assets';
+build.ASSETS_DESTINTAION_PATH = './dist/assets';
+build.ASSETS_COUNTRY_PREFIX = '../assets/';
+build.ASSETS_STATE_PREFIX = '../../assets/';
+build.ASSETS_CITY_PREFIX = '../../../assets/';
+build.NORMALIZE_CSS_PATH = 'css/normalize.css';
+build.STYLES_CSS_PATH = 'css/styles.css';
 
 const templates = {};
 
 templates.PAGE_PATH = './templates/page.html';
 templates.PAGE_TITLE = '{{pageTitle}}';
 templates.PAGE_CONTENT = '{{pageContent}}';
+templates.NORMALIZE_CSS = '{{normalizeCss}}';
+templates.STYLES_CSS = '{{stylesCss}}';
 
 constants.keys = keys;
 constants.languageCodes = languageCodes;

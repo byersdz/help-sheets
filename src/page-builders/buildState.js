@@ -18,10 +18,15 @@ function buildState( state, country ) {
   const pageTitle = `Help Sheets - ${ name }`;
   const pageContent = name;
 
+  const normalizeCssPath = `${ build.ASSETS_STATE_PREFIX }${ build.NORMALIZE_CSS_PATH }`;
+  const stylesCssPath = `${ build.ASSETS_STATE_PREFIX }${ build.STYLES_CSS_PATH }`;
+
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 
   let pageHTML = `${ pageTemplate }`;
   pageHTML = pageHTML.replace( templates.PAGE_TITLE, pageTitle );
+  pageHTML = pageHTML.replace( templates.NORMALIZE_CSS, normalizeCssPath );
+  pageHTML = pageHTML.replace( templates.STYLES_CSS, stylesCssPath );
   pageHTML = pageHTML.replace( templates.PAGE_CONTENT, pageContent );
 
   fs.writeFileSync( statePagePath, pageHTML );

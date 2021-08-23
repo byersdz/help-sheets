@@ -4,6 +4,7 @@ const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
 const fs = require( 'fs' );
 const rimraf = require( 'rimraf' );
+const ncp = require( 'ncp' );
 const buildCountry = require( './page-builders/buildCountry' );
 
 const countries = get( data, keys.COUNTRIES );
@@ -14,6 +15,12 @@ if ( !fs.existsSync( build.DIST_PATH ) ) {
   fs.mkdirSync( build.DIST_PATH );
 }
 
-forEach( countries, country => {
-  buildCountry( country );
+ncp( build.ASSETS_SOURCE_PATH, build.ASSETS_DESTINTAION_PATH, err => {
+  if ( err ) {
+    console.error( err );
+  }
+
+  forEach( countries, country => {
+    buildCountry( country );
+  } );
 } );

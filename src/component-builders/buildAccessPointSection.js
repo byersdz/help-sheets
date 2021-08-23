@@ -10,6 +10,7 @@ function buildAccessPointSection( accessPoints ) {
 
   return `
   <div class="access-points-section">
+  <h3>Access Points</h3>
   ${ accessPointsRender }
   </div>
   `;
