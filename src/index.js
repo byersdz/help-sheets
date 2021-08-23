@@ -4,7 +4,7 @@ const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
 const fs = require( 'fs' );
 const rimraf = require( 'rimraf' );
-const buildCountry = require( './buildCountry' );
+const buildCountry = require( './page-builders/buildCountry' );
 
 const countries = get( data, keys.COUNTRIES );
 

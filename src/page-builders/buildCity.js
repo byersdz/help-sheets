@@ -1,6 +1,7 @@
-const { keys, build, templates } = require( '../constants' );
+const { keys, build, templates } = require( '../../constants' );
 const fs = require( 'fs' );
 const get = require( 'lodash/get' );
+const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 
 function buildCity( city, state, country ) {
   const countryUrlName = get( country, keys.URL_NAME );
@@ -8,6 +9,7 @@ function buildCity( city, state, country ) {
   const stateName = get( state, keys.NAME );
   const urlName = get( city, keys.URL_NAME );
   const name = get( city, keys.NAME );
+  const accessPoints = get( city, keys.ACCESS_POINTS );
 
   const cityDirectoryPath = `${ build.DIST_PATH }/${ countryUrlName }/${ stateUrlName }/${ urlName }`;
   const cityPagePath = `${ cityDirectoryPath }/index.html`;
@@ -15,7 +17,10 @@ function buildCity( city, state, country ) {
   fs.mkdirSync( cityDirectoryPath );
 
   const pageTitle = `Help Sheets - ${ name }, ${ stateName }`;
-  const pageContent = name;
+  let pageContent = name;
+
+  const accessPointsSection = buildAccessPointSection( accessPoints );
+  pageContent += accessPointsSection;
 
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 

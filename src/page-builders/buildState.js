@@ -1,4 +1,4 @@
-const { keys, build, templates } = require( '../constants' );
+const { keys, build, templates } = require( '../../constants' );
 const fs = require( 'fs' );
 const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
