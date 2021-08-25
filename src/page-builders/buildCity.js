@@ -1,12 +1,14 @@
 const { keys, build, templates } = require( '../../constants' );
 const fs = require( 'fs' );
 const get = require( 'lodash/get' );
+const forEach = require( 'lodash/forEach' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 
 function buildCity( city, state, country ) {
   const countryUrlName = get( country, keys.URL_NAME );
   const stateUrlName = get( state, keys.URL_NAME );
   const stateName = get( state, keys.NAME );
+  const stateAccessPoints = get( state, keys.ACCESS_POINTS );
   const urlName = get( city, keys.URL_NAME );
   const name = get( city, keys.NAME );
   const accessPoints = get( city, keys.ACCESS_POINTS );
@@ -19,7 +21,15 @@ function buildCity( city, state, country ) {
   const pageTitle = `Help Sheets - ${ name }, ${ stateName }`;
   let pageContent = name;
 
-  const accessPointsSection = buildAccessPointSection( accessPoints );
+  const combinedAccessPoints = [];
+  forEach( stateAccessPoints, point => {
+    combinedAccessPoints.push( point );
+  } );
+  forEach( accessPoints, point => {
+    combinedAccessPoints.push( point );
+  } );
+
+  const accessPointsSection = buildAccessPointSection( combinedAccessPoints );
   pageContent += accessPointsSection;
 
   const normalizeCssPath = `${ build.ASSETS_CITY_PREFIX }${ build.NORMALIZE_CSS_PATH }`;
