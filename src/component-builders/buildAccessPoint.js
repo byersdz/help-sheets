@@ -32,7 +32,7 @@ function buildAccessPoint( accessPoint ) {
   `;
 
   return `
-    <div class="access-point">
+    <div class="access-point item">
     ${ nameRender }
     ${ descriptionRender }
     ${ phoneRender }

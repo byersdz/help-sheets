@@ -1,3 +1,35 @@
 
 body {
+  font-family: sans-serif;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section h2 {
+  margin: 0;
+}
+
+.section .item {
+  margin: 4px;
+  padding: 8px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.section .item .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.section .item .description {
+  margin-bottom: 8px;
+}
+
+.section .item .phone {
+  font-weight: bold;
+  margin-bottom: 4px;
 }
