@@ -2,11 +2,11 @@ const { keys } = require( '../../constants' );
 const get = require( 'lodash/get' );
 const formatPhone = require( '../formatters/formatPhone' );
 
-function buildResource( resource ) {
-  const name = get( resource, keys.NAME );
-  const description = get( resource, keys.DESCRIPTION );
-  const phone = get( resource, keys.PHONE );
-  const url = get( resource, keys.URL );
+function buildItem( item, className ) {
+  const name = get( item, keys.NAME );
+  const description = get( item, keys.DESCRIPTION );
+  const phone = get( item, keys.PHONE );
+  const url = get( item, keys.URL );
 
   const nameRender = `
   <div class="name">
@@ -33,7 +33,7 @@ function buildResource( resource ) {
   `;
 
   return `
-    <div class="resource item">
+    <div class="item ${ className }">
     ${ nameRender }
     ${ descriptionRender }
     ${ phoneRender }
@@ -42,4 +42,4 @@ function buildResource( resource ) {
   `;
 }
 
-module.exports = buildResource;
+module.exports = buildItem;

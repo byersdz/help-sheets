@@ -1,11 +1,11 @@
 const forEach = require( 'lodash/forEach' );
-const buildResource = require( './buildResource' );
+const buildItem = require( './buildItem' );
 
 function buildResourcesSection( resources ) {
   let resourcesRender = '';
 
   forEach( resources, resource => {
-    resourcesRender += buildResource( resource );
+    resourcesRender += buildItem( resource, 'resource' );
   } );
 
   return `

@@ -1,11 +1,11 @@
 const forEach = require( 'lodash/forEach' );
-const buildAccessPoint = require( './buildAccessPoint' );
+const buildItem = require( './buildItem' );
 
 function buildAccessPointSection( accessPoints ) {
   let accessPointsRender = '';
 
   forEach( accessPoints, point => {
-    accessPointsRender += buildAccessPoint( point );
+    accessPointsRender += buildItem( point, 'access-point' );
   } );
 
   return `
