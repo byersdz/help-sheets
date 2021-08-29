@@ -1,6 +1,7 @@
 const { keys } = require( '../../constants' );
 const get = require( 'lodash/get' );
 const formatPhone = require( '../formatters/formatPhone' );
+const buildProvidesSection = require( './buildProvidesSection' );
 
 function buildItem( item, className ) {
   const name = get( item, keys.NAME );
@@ -34,12 +35,15 @@ function buildItem( item, className ) {
   </div>
   ` : '';
 
+  const providesRender = buildProvidesSection( item );
+
   return `
     <div class="item ${ className }">
     ${ nameRender }
     ${ descriptionRender }
     ${ phoneRender }
     ${ urlRender }
+    ${ providesRender }
     </div>
   `;
 }

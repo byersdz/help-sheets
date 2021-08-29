@@ -12,6 +12,9 @@ function buildBasicNeedsSection( items ) {
   <div class="basic-needs-section section">
   <div class="basic-needs-section-header section-header">
     <h2>Basic Needs</h2>
+    <div class="section-header-description">
+      Regularly scheduled providers of basic needs such as meals, showers, or clothing.
+    </div>
   </div>
   ${ itemsRender }
   </div>

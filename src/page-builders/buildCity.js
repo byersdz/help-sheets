@@ -37,11 +37,11 @@ function buildCity( city, state, country ) {
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );
   pageContent += accessPointsSection;
 
-  const resourcesSection = buildResourcesSection( resources );
-  pageContent += resourcesSection;
-
   const basicNeedsSection = buildBasicNeedsSection( basicNeeds );
   pageContent += basicNeedsSection;
+
+  const resourcesSection = buildResourcesSection( resources );
+  pageContent += resourcesSection;
 
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 
