@@ -4,6 +4,7 @@ const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
+const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
 const addAssetsToTemplate = require( './addAssetsToTemplate' );
 
 function buildCity( city, state, country ) {
@@ -15,6 +16,7 @@ function buildCity( city, state, country ) {
   const name = get( city, keys.NAME );
   const accessPoints = get( city, keys.ACCESS_POINTS );
   const resources = get( city, keys.RESOURCES );
+  const basicNeeds = get( city, keys.BASIC_NEEDS );
 
   const cityDirectoryPath = `${ build.DIST_PATH }/${ countryUrlName }/${ stateUrlName }/${ urlName }`;
   const cityPagePath = `${ cityDirectoryPath }/index.html`;
@@ -37,6 +39,9 @@ function buildCity( city, state, country ) {
 
   const resourcesSection = buildResourcesSection( resources );
   pageContent += resourcesSection;
+
+  const basicNeedsSection = buildBasicNeedsSection( basicNeeds );
+  pageContent += basicNeedsSection;
 
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 

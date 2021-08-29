@@ -8,29 +8,31 @@ function buildItem( item, className ) {
   const phone = get( item, keys.PHONE );
   const url = get( item, keys.URL );
 
-  const nameRender = `
+  const nameRender = name ? `
   <div class="name">
   ${ name }
   </div>
-  `;
+  ` : '';
 
-  const descriptionRender = `
+  const descriptionRender = description ? `
   <div class="description">
   ${ description }
   </div>
-  `;
+  ` : '';
 
-  const phoneRender = `
+  const phoneRender = phone ? `
   <div class="phone">
   ${ formatPhone( phone ) }
   </div>
-  `;
+  ` : '';
 
-  const urlRender = `
+  const urlRender = url ? `
   <div class="url">
-  ${ url }
+  <a href="${ url }" target="_blank" rel="noopener noreferrer">
+    ${ url }
+  </a>
   </div>
-  `;
+  ` : '';
 
   return `
     <div class="item ${ className }">
