@@ -12,9 +12,6 @@ function buildResourcesSection( resources ) {
   <div class="access-points-section section">
   <div class="resources-section-header section-header">
     <h2>Resources</h2>
-    <div class="section-header-description">
-      Miscellaneous Resources
-    </div>
   </div>
   ${ resourcesRender }
   </div>
