@@ -1,5 +1,6 @@
 const { keys } = require( '../../constants' );
 const get = require( 'lodash/get' );
+const formatPhone = require( '../formatters/formatPhone' );
 
 function buildResource( resource ) {
   const name = get( resource, keys.NAME );
@@ -21,7 +22,7 @@ function buildResource( resource ) {
 
   const phoneRender = `
   <div class="phone">
-  ${ phone }
+  ${ formatPhone( phone ) }
   </div>
   `;
 

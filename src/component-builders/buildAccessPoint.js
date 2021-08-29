@@ -1,5 +1,6 @@
 const { keys } = require( '../../constants' );
 const get = require( 'lodash/get' );
+const formatPhone = require( '../formatters/formatPhone' );
 
 function buildAccessPoint( accessPoint ) {
   const name = get( accessPoint, keys.NAME );
@@ -21,7 +22,7 @@ function buildAccessPoint( accessPoint ) {
 
   const phoneRender = `
   <div class="phone">
-  ${ phone }
+  ${ formatPhone( phone ) }
   </div>
   `;
 
