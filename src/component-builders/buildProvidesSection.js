@@ -11,7 +11,7 @@ function buildProvidesSection( item ) {
     return result;
   }
 
-  result += `<div class="provides">
+  result += `<div class="field provides">
   <div class="provides-header">
   Provides:
   </div>

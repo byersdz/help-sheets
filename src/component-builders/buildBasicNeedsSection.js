@@ -16,7 +16,9 @@ function buildBasicNeedsSection( items ) {
       Regularly scheduled providers of basic needs such as meals, showers, or clothing.
     </div>
   </div>
-  ${ itemsRender }
+    <div class="items">
+    ${ itemsRender }
+    </div>
   </div>
   `;
 }

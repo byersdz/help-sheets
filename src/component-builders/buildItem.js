@@ -10,25 +10,25 @@ function buildItem( item, className ) {
   const url = get( item, keys.URL );
 
   const nameRender = name ? `
-  <div class="name">
+  <div class="field name">
   ${ name }
   </div>
   ` : '';
 
   const descriptionRender = description ? `
-  <div class="description">
+  <div class="field description">
   ${ description }
   </div>
   ` : '';
 
   const phoneRender = phone ? `
-  <div class="phone">
+  <div class="field phone">
   ${ formatPhone( phone ) }
   </div>
   ` : '';
 
   const urlRender = url ? `
-  <div class="url">
+  <div class="field url">
   <a href="${ url }" target="_blank" rel="noopener noreferrer">
     ${ url }
   </a>

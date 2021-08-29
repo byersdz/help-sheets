@@ -13,7 +13,9 @@ function buildResourcesSection( resources ) {
   <div class="resources-section-header section-header">
     <h2>Resources</h2>
   </div>
-  ${ resourcesRender }
+    <div class="items">
+    ${ resourcesRender }
+    </div>
   </div>
   `;
 }

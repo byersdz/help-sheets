@@ -16,7 +16,9 @@ function buildAccessPointSection( accessPoints ) {
       Entry points to find and access local resources
     </div>
   </div>
-  ${ accessPointsRender }
+    <div class="items">
+    ${ accessPointsRender }
+    </div>
   </div>
   `;
 }
