@@ -3,6 +3,7 @@ const fs = require( 'fs' );
 const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
+const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
 
 function buildCity( city, state, country ) {
   const countryUrlName = get( country, keys.URL_NAME );
@@ -12,6 +13,7 @@ function buildCity( city, state, country ) {
   const urlName = get( city, keys.URL_NAME );
   const name = get( city, keys.NAME );
   const accessPoints = get( city, keys.ACCESS_POINTS );
+  const resources = get( city, keys.RESOURCES );
 
   const cityDirectoryPath = `${ build.DIST_PATH }/${ countryUrlName }/${ stateUrlName }/${ urlName }`;
   const cityPagePath = `${ cityDirectoryPath }/index.html`;
@@ -31,6 +33,9 @@ function buildCity( city, state, country ) {
 
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );
   pageContent += accessPointsSection;
+
+  const resourcesSection = buildResourcesSection( resources );
+  pageContent += resourcesSection;
 
   const normalizeCssPath = `${ build.ASSETS_CITY_PREFIX }${ build.NORMALIZE_CSS_PATH }`;
   const stylesCssPath = `${ build.ASSETS_CITY_PREFIX }${ build.STYLES_CSS_PATH }`;

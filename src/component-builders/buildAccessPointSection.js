@@ -10,7 +10,12 @@ function buildAccessPointSection( accessPoints ) {
 
   return `
   <div class="access-points-section section">
-  <h2>Access Points</h2>
+  <div class="access-points-section-header section-header">
+    <h2>Access Points</h2>
+    <div class="section-header-description">
+      Entry points to find and access local resources
+    </div>
+  </div>
   ${ accessPointsRender }
   </div>
   `;
