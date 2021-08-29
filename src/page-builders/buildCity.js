@@ -4,6 +4,7 @@ const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
+const addAssetsToTemplate = require( './addAssetsToTemplate' );
 
 function buildCity( city, state, country ) {
   const countryUrlName = get( country, keys.URL_NAME );
@@ -37,15 +38,11 @@ function buildCity( city, state, country ) {
   const resourcesSection = buildResourcesSection( resources );
   pageContent += resourcesSection;
 
-  const normalizeCssPath = `${ build.ASSETS_CITY_PREFIX }${ build.NORMALIZE_CSS_PATH }`;
-  const stylesCssPath = `${ build.ASSETS_CITY_PREFIX }${ build.STYLES_CSS_PATH }`;
-
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 
   let pageHTML = `${ pageTemplate }`;
+  pageHTML = addAssetsToTemplate( build.ASSETS_CITY_PREFIX, pageHTML );
   pageHTML = pageHTML.replace( templates.PAGE_TITLE, pageTitle );
-  pageHTML = pageHTML.replace( templates.NORMALIZE_CSS, normalizeCssPath );
-  pageHTML = pageHTML.replace( templates.STYLES_CSS, stylesCssPath );
   pageHTML = pageHTML.replace( templates.PAGE_CONTENT, pageContent );
 
   fs.writeFileSync( cityPagePath, pageHTML );
