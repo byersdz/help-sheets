@@ -30,23 +30,23 @@ data[keys.RESOURCES] = [
 data[keys.BASIC_NEEDS] = [
   {
     [keys.NAME]: "Richmond's First Baptist Church",
-    [keys.URL]: 'https://www.fbcrichmond.org/',
+    [keys.URL]: 'https://www.fbcrichmond.org/service-missions/local/',
     [keys.ADDRESS_1]: '2709 Monument Ave',
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: 'Fellowship and hot meal',
-        [keys.HOURS]: 'Thursdays 6pm - 8:30pm',
+        [keys.DESCRIPTION]: 'Hot Meals',
+        [keys.HOURS]: 'Wednesday 6pm - 7pm',
       },
       {
         [keys.DESCRIPTION]: 'Clothes closet',
-        [keys.HOURS]: 'M/W 10am - 12pm',
+        [keys.HOURS]: 'Monday and Wednesday 11am - 2pm',
       },
       {
-        [keys.DESCRIPTION]: 'Showers',
-        [keys.HOURS]: 'M/W/Sat 10am - 12pm',
+        [keys.DESCRIPTION]: 'Showers / Food Pantry',
+        [keys.HOURS]: 'Monday and Thursday 11am - 2pm',
       },
     ],
   },
