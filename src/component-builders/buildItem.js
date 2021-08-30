@@ -1,6 +1,7 @@
 const { keys } = require( '../../constants' );
 const get = require( 'lodash/get' );
 const formatPhone = require( '../formatters/formatPhone' );
+const buildAddress = require( './buildAddress' );
 const buildProvidesSection = require( './buildProvidesSection' );
 
 function buildItem( item, className ) {
@@ -27,6 +28,8 @@ function buildItem( item, className ) {
   </div>
   ` : '';
 
+  const addressRender = buildAddress( item );
+
   const urlRender = url ? `
   <div class="field url">
   <a href="${ url }" target="_blank" rel="noopener noreferrer">
@@ -42,6 +45,7 @@ function buildItem( item, className ) {
     ${ nameRender }
     ${ descriptionRender }
     ${ phoneRender }
+    ${ addressRender }
     ${ urlRender }
     ${ providesRender }
     </div>
