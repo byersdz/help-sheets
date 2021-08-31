@@ -9,12 +9,15 @@ const combineItems = require( './combineItems' );
 
 function buildCity( city, state, country ) {
   const countryUrlName = get( country, keys.URL_NAME );
+  const countryAccessPoints = get( country, keys.ACCESS_POINTS, [] );
   const countryResources = get( country, keys.RESOURCES, [] );
+  const countryBasicNeeds = get( country, keys.BASIC_NEEDS, [] );
 
   const stateUrlName = get( state, keys.URL_NAME );
   const stateName = get( state, keys.NAME );
   const stateAccessPoints = get( state, keys.ACCESS_POINTS, [] );
   const stateResources = get( state, keys.RESOURCES, [] );
+  const stateBasicNeeds = get( state, keys.BASIC_NEEDS );
 
   const urlName = get( city, keys.URL_NAME );
   const name = get( city, keys.NAME );
@@ -30,11 +33,12 @@ function buildCity( city, state, country ) {
   const pageTitle = `Help Sheets - ${ name }, ${ stateName }`;
   let pageContent = name;
 
-  const combinedAccessPoints = combineItems( [stateAccessPoints, accessPoints] );
+  const combinedAccessPoints = combineItems( [countryAccessPoints, stateAccessPoints, accessPoints] );
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );
   pageContent += accessPointsSection;
 
-  const basicNeedsSection = buildBasicNeedsSection( basicNeeds );
+  const combinedBasicNeeds = combineItems( [countryBasicNeeds, stateBasicNeeds, basicNeeds] );
+  const basicNeedsSection = buildBasicNeedsSection( combinedBasicNeeds );
   pageContent += basicNeedsSection;
 
   const combinedResources = combineItems( [countryResources, stateResources, resources] );

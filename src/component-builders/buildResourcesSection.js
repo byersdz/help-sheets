@@ -2,6 +2,10 @@ const forEach = require( 'lodash/forEach' );
 const buildItem = require( './buildItem' );
 
 function buildResourcesSection( resources ) {
+  if ( !resources || resources.length === 0 ) {
+    return '';
+  }
+
   let resourcesRender = '';
 
   forEach( resources, resource => {

@@ -2,6 +2,10 @@ const forEach = require( 'lodash/forEach' );
 const buildItem = require( './buildItem' );
 
 function buildAccessPointSection( accessPoints ) {
+  if ( !accessPoints || accessPoints.length === 0 ) {
+    return '';
+  }
+
   let accessPointsRender = '';
 
   forEach( accessPoints, point => {
