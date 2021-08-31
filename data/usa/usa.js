@@ -28,6 +28,13 @@ data[keys.RESOURCES] = [
     [keys.PRIORITY]: priorities.LOW,
   },
   {
+    [keys.NAME]: 'National Runaway Safeline',
+    [keys.DESCRIPTION]: '24/7 crisis line for runaway and homeless youth',
+    [keys.PHONE]: '18007862929',
+    [keys.URL]: 'https://www.1800runaway.org',
+    [keys.PRIORITY]: priorities.LOW,
+  },
+  {
     [keys.NAME]: 'National Human Trafficking Hotline',
     [keys.DESCRIPTION]: 'Call if you or someone you know is a victim of human trafficking',
     [keys.PHONE]: '18883737888',
