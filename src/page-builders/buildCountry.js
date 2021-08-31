@@ -4,11 +4,17 @@ const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
 const buildState = require( './buildState' );
 const addAssetsToTemplate = require( './addAssetsToTemplate' );
+const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
+const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
+const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
 
 function buildCountry( country ) {
   const urlName = get( country, keys.URL_NAME );
   const name = get( country, keys.NAME );
   const states = get( country, keys.STATES );
+  const accessPoints = get( country, keys.ACCESS_POINTS, [] );
+  const resources = get( country, keys.RESOURCES, [] );
+  const basicNeeds = get( country, keys.BASIC_NEEDS, [] );
 
   const countryDirectoryPath = `${ build.DIST_PATH }/${ urlName }`;
   const countryPagePath = `${ countryDirectoryPath }/index.html`;
@@ -16,8 +22,16 @@ function buildCountry( country ) {
   fs.mkdirSync( countryDirectoryPath );
 
   const pageTitle = `Help Sheets - ${ name }`;
-  const pageContent = name;
+  let pageContent = name;
 
+  const accessPointsSection = buildAccessPointSection( accessPoints );
+  pageContent += accessPointsSection;
+
+  const basicNeedsSection = buildBasicNeedsSection( basicNeeds );
+  pageContent += basicNeedsSection;
+
+  const resourcesSection = buildResourcesSection( resources );
+  pageContent += resourcesSection;
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 
   let pageHTML = `${ pageTemplate }`;
