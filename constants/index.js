@@ -24,6 +24,7 @@ keys.HOURS = 'hours';
 keys.CITIES = 'cities';
 keys.STATES = 'states';
 keys.COUNTRIES = 'countries';
+keys.PRIORITY = 'priority';
 
 const languageCodes = {};
 
@@ -48,9 +49,15 @@ templates.PAGE_CONTENT = '{{pageContent}}';
 templates.NORMALIZE_CSS = '{{normalizeCss}}';
 templates.STYLES_CSS = '{{stylesCss}}';
 
+const priorities = {};
+
+priorities.NORMAL = 'normal';
+priorities.LOW = 'low';
+
 constants.keys = keys;
 constants.languageCodes = languageCodes;
 constants.build = build;
 constants.templates = templates;
+constants.priorities = priorities;
 
 module.exports = constants;
