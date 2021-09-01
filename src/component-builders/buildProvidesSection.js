@@ -12,9 +12,7 @@ function buildProvidesSection( item ) {
   }
 
   result += `<div class="field provides">
-  <div class="provides-header">
-  Provides:
-  </div>
+  <div class="provides-items">
   `;
 
   forEach( provides, p => {
@@ -41,7 +39,7 @@ function buildProvidesSection( item ) {
     `;
   } );
 
-  result += '</div>\n';
+  result += '</div></div>\n';
 
   return result;
 }
