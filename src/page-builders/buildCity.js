@@ -6,6 +6,7 @@ const buildResourcesSection = require( '../component-builders/buildResourcesSect
 const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
 const addAssetsToTemplate = require( './addAssetsToTemplate' );
 const combineItems = require( './combineItems' );
+const createSheetPdf = require( '../pdf/createSheetPdf' );
 
 function buildCity( city, state, country ) {
   const countryUrlName = get( country, keys.URL_NAME );
@@ -53,6 +54,11 @@ function buildCity( city, state, country ) {
   pageHTML = pageHTML.replace( templates.PAGE_CONTENT, pageContent );
 
   fs.writeFileSync( cityPagePath, pageHTML );
+
+  createSheetPdf( {
+    directory: cityDirectoryPath,
+    fileName: `${ urlName }-help-sheet.pdf`,
+  } );
 }
 
 module.exports = buildCity;
