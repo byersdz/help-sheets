@@ -13,7 +13,7 @@ function buildResourcesSection( resources ) {
   } );
 
   return `
-  <div class="access-points-section section">
+  <div class="resources-section section">
   <div class="resources-section-header section-header">
     <h2>Resources</h2>
   </div>
