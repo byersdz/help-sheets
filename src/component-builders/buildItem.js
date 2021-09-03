@@ -42,9 +42,11 @@ function buildItem( item, className ) {
 
   return `
     <div class="item ${ className }">
-    ${ nameRender }
-    ${ descriptionRender }
-    ${ phoneRender }
+    <div class="item-top">
+      ${ nameRender }
+      ${ descriptionRender }
+      ${ phoneRender }
+    </div>
     ${ addressRender }
     ${ urlRender }
     ${ providesRender }

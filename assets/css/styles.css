@@ -48,7 +48,7 @@ a {
   margin-bottom: 8px;
 }
 
-.section .item .field:last-child {
+.section .item > .field:last-child {
   margin-bottom: 0;
 }
 
@@ -177,6 +177,22 @@ a {
 
   .section .item .field {
     margin-bottom: 1px;
+  }
+
+  .section .item .item-top .field {
+    display: inline;
+  }
+
+  .section .item .item-top .phone {
+    white-space: nowrap;
+  }
+
+  .section .item .item-top .description::before {
+    content: "- ";
+  }
+
+  .section .item .item-top .phone::before {
+    content: "- ";
   }
 
   .section .item .address .line {
