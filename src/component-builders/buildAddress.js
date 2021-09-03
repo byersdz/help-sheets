@@ -13,15 +13,15 @@ function buildAddress( item ) {
   }
 
   const line1Render = address1 ? `
-  <div class="line line-1">
+  <span class="line line-1">
     ${ address1 }
-  </div>
+  </span>
   ` : '';
 
   const line2Render = address2 ? `
-  <div class="line line-2">
+  <span class="line line-2">
     ${ address2 }
-  </div>
+  </span>
   ` : '';
 
   let line3 = city || '';
@@ -40,9 +40,9 @@ function buildAddress( item ) {
   line3 += zipCode;
 
   const line3Render = line3 ? `
-  <div class="line line-3">
+  <span class="line line-3">
     ${ line3 }
-  </div>
+  </span>
   ` : '';
 
   return `

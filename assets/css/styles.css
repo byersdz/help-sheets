@@ -60,6 +60,10 @@ a {
   font-weight: bold;
 }
 
+.section .item .address .line {
+  display: block;
+}
+
 .section .item .provides {
   padding: 8px;
 }
@@ -172,11 +176,15 @@ a {
   }
 
   .section .item .field {
-    margin-bottom: 2px;
+    margin-bottom: 1px;
+  }
+
+  .section .item .address .line {
+    display: initial;
   }
 
   .section .item .provides {
-    padding: 2px 0 0 0;
+    padding: 1px 0 0 0;
   }
 
   .section .item .provides .provides-items {
