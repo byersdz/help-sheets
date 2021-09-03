@@ -65,11 +65,11 @@ data[keys.BASIC_NEEDS] = [
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Food Pantry - once per 30 days',
-        [keys.HOURS]: 'Tuesday/Wednesday/Thursday 9am - 12pm',
+        [keys.HOURS]: 'Tuesday / Wednesday / Thursday 9am - 12pm',
       },
       {
         [keys.DESCRIPTION]: 'Baby Clothes - 4x per year',
-        [keys.HOURS]: 'Tuesday/Wednesday/Thursday 10am - 12pm',
+        [keys.HOURS]: 'Tuesday / Wednesday / Thursday 10am - 12pm',
       },
     ],
   },
