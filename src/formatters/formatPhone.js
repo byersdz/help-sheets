@@ -1,4 +1,4 @@
-function formatPhone( phone ) {
+function formatPhone( phone, extension = '' ) {
   let result = phone;
 
   if ( phone.length === 11 ) {
@@ -11,6 +11,10 @@ function formatPhone( phone ) {
   }
   else if ( phone.length === 3 ) {
     result = `call ${ phone }`;
+  }
+
+  if ( extension ) {
+    result += ` ext: ${ extension }`;
   }
 
   return result;

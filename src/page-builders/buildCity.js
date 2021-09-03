@@ -32,7 +32,7 @@ function buildCity( city, state, country ) {
   fs.mkdirSync( cityDirectoryPath );
 
   const pageTitle = `Help Sheets - ${ name }, ${ stateName }`;
-  let pageContent = name;
+  let pageContent = '';
 
   const combinedAccessPoints = combineItems( [countryAccessPoints, stateAccessPoints, accessPoints] );
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );

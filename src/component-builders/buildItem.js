@@ -8,6 +8,7 @@ function buildItem( item, className ) {
   const name = get( item, keys.NAME );
   const description = get( item, keys.DESCRIPTION );
   const phone = get( item, keys.PHONE );
+  const phoneExtension = get( item, keys.PHONE_EXTENSION, '' );
   const url = get( item, keys.URL );
 
   const nameRender = name ? `
@@ -24,7 +25,7 @@ function buildItem( item, className ) {
 
   const phoneRender = phone ? `
   <div class="field phone">
-  ${ formatPhone( phone ) }
+  ${ formatPhone( phone, phoneExtension ) }
   </div>
   ` : '';
 

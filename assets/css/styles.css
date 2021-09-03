@@ -172,7 +172,7 @@ a {
     break-inside: avoid;
     padding: 2px;
     padding-left: 4px;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   .section .item .field {

@@ -13,6 +13,7 @@ keys.BASIC_NEEDS = 'basicNeeds';
 keys.NAME = 'name';
 keys.DESCRIPTION = 'description';
 keys.PHONE = 'phone';
+keys.PHONE_EXTENSION = 'phoneExtension';
 keys.URL = 'url';
 keys.ADDRESS_1 = 'address1';
 keys.ADDRESS_2 = 'address2';
