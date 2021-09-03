@@ -17,16 +17,6 @@ data[keys.ACCESS_POINTS] = [
   },
 ];
 
-data[keys.RESOURCES] = [
-  {
-    [keys.NAME]: 'The Daily Planet',
-    [keys.DESCRIPTION]: 'Mental Health. in/out-patient substance abuse services. '
-      + 'Vision, medical, and dental. Call for intake appointments.',
-    [keys.URL]: 'https://dailyplanetva.org/',
-    [keys.PHONE]: '8047832505',
-  },
-];
-
 data[keys.BASIC_NEEDS] = [
   {
     [keys.NAME]: "Richmond's First Baptist Church",
@@ -49,6 +39,36 @@ data[keys.BASIC_NEEDS] = [
         [keys.HOURS]: 'Monday and Thursday 11am - 2pm',
       },
     ],
+  },
+  {
+    [keys.NAME]: 'Commonwealth Catholic Charities of Virginia',
+    [keys.PHONE]: '8042855900',
+    [keys.URL]: 'https://www.cccofva.org',
+    [keys.ADDRESS_1]: '1601 Rolling Hills Drive',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23229',
+    [keys.DESCRIPTION]: 'housing/financial counseling; immigration services',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry - once per 30 days',
+        [keys.HOURS]: 'Tuesday/Wednesday/Thursday 9am - 12pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Baby Clothes - 4x per year',
+        [keys.HOURS]: 'Tuesday/Wednesday/Thursday 10am - 12pm',
+      },
+    ],
+  },
+];
+
+data[keys.RESOURCES] = [
+  {
+    [keys.NAME]: 'The Daily Planet',
+    [keys.DESCRIPTION]: 'Mental Health. in/out-patient substance abuse services. '
+      + 'Vision, medical, and dental. Call for intake appointments.',
+    [keys.URL]: 'https://dailyplanetva.org/',
+    [keys.PHONE]: '8047832505',
   },
 ];
 
