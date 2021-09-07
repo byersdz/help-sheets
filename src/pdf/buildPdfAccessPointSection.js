@@ -12,13 +12,14 @@ function buildPdfAccessPointSection( accessPoints ) {
   rows.push( [
     {
       colSpan: 2,
+      fillColor: '#eeeeee',
       text: [
         {
           text: 'Access Points',
           style: 'sectionHeader',
         },
         {
-          text: ' Entry points to find and access local resources',
+          text: ' - Entry points to find and access local resources',
           style: 'sectionDescription',
         },
       ],

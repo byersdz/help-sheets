@@ -23,6 +23,16 @@ function createSheetPdf( options ) {
       'First paragraph',
       [...accessPointSection],
     ],
+    defaultStyle: {
+      fontSize: 12,
+    },
+    styles: {
+      sectionHeader: {
+        fontSize: 14,
+        bold: true,
+      },
+    },
+    pageMargins: [20, 20, 20, 20],
   };
 
   const pdfDoc = printer.createPdfKitDocument( docDefinition );
