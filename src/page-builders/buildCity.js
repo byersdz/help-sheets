@@ -58,6 +58,9 @@ function buildCity( city, state, country ) {
   createSheetPdf( {
     directory: cityDirectoryPath,
     fileName: `${ urlName }-help-sheet.pdf`,
+    accessPoints: combinedAccessPoints,
+    basicNeeds: combinedBasicNeeds,
+    resources: combinedResources,
   } );
 }
 

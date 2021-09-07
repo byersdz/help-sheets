@@ -1,5 +1,6 @@
 const PdfPrinter = require( 'pdfmake' );
 const fs = require( 'fs' );
+const buildPdfAccessPointSection = require( './buildPdfAccessPointSection' );
 
 const fonts = {
   Roboto: {
@@ -13,12 +14,14 @@ const fonts = {
 const printer = new PdfPrinter( fonts );
 
 function createSheetPdf( options ) {
-  const { directory, fileName } = options;
+  const { directory, fileName, accessPoints } = options;
+
+  const accessPointSection = buildPdfAccessPointSection( accessPoints );
 
   const docDefinition = {
     content: [
       'First paragraph',
-      'Another paragraph, this time little bit longer to make sure, this line will be divided into at least two lines',
+      [...accessPointSection],
     ],
   };
 
