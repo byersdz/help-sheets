@@ -34,7 +34,7 @@ function buildSection( { items, header, description } ) {
     currentRow.push( builtItem );
     if ( index === items.length - 1 ) {
       if ( currentRow.length === 1 ) {
-        currentRow.push( {} );
+        currentRow.push( { text: '', border: [true, true, false, false] } );
       }
       rows.push( currentRow );
     }
@@ -45,6 +45,7 @@ function buildSection( { items, header, description } ) {
   } );
 
   result.push( {
+    margin: [0, 0, 0, 5],
     table: {
       widths: ['*', '*'],
       headerRows: 1,
