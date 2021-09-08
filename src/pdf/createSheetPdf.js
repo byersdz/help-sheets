@@ -1,6 +1,7 @@
 const PdfPrinter = require( 'pdfmake' );
 const fs = require( 'fs' );
-const buildPdfAccessPointSection = require( './buildPdfAccessPointSection' );
+const cloneDeep = require( 'lodash/cloneDeep' );
+const buildSection = require( './buildSection' );
 
 const fonts = {
   Roboto: {
@@ -14,16 +15,43 @@ const fonts = {
 const printer = new PdfPrinter( fonts );
 
 function createSheetPdf( options ) {
-  const { directory, fileName, accessPoints } = options;
+  const {
+    directory,
+    fileName,
+    accessPoints,
+    basicNeeds,
+    resources,
+  } = options;
 
-  const accessPointSection = buildPdfAccessPointSection( accessPoints );
+  const accessPointSection = buildSection( {
+    items: accessPoints,
+    header: 'Access Points',
+    description: ' - Entry points to find and access local resources.',
+  } );
+
+  const basicNeedsSection = buildSection( {
+    items: basicNeeds,
+    header: 'Basic Needs',
+    description: ' - Basic needs such as food pantries, meals, showers, or clothing.',
+  } );
+
+  const resourcesSection = buildSection( {
+    items: resources,
+    header: 'Resources',
+    description: '',
+  } );
+
+  const testSection = cloneDeep( resourcesSection );
 
   const docDefinition = {
     content: [
       [...accessPointSection],
+      [...basicNeedsSection],
+      [...resourcesSection],
+      [...testSection],
     ],
     defaultStyle: {
-      fontSize: 12,
+      fontSize: 11,
     },
     styles: {
       sectionHeader: {
