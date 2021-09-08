@@ -44,8 +44,6 @@ function buildPdfAccessPointSection( accessPoints ) {
     }
   } );
 
-  console.log( rows );
-
   result.push( {
     table: {
       widths: ['*', '*'],

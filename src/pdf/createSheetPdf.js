@@ -20,7 +20,6 @@ function createSheetPdf( options ) {
 
   const docDefinition = {
     content: [
-      'First paragraph',
       [...accessPointSection],
     ],
     defaultStyle: {
@@ -29,6 +28,12 @@ function createSheetPdf( options ) {
     styles: {
       sectionHeader: {
         fontSize: 14,
+        bold: true,
+      },
+      itemName: {
+        bold: true,
+      },
+      itemPhone: {
         bold: true,
       },
     },
