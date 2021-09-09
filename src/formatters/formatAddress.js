@@ -17,6 +17,34 @@ function formatAddress( item ) {
     result += ` ${ address2 }`;
   }
 
+  let cityStateZip = city;
+  if ( state ) {
+    if ( cityStateZip ) {
+      cityStateZip += `, ${ state }`;
+    }
+    else {
+      cityStateZip = state;
+    }
+  }
+
+  if ( zipCode ) {
+    if ( cityStateZip ) {
+      cityStateZip += ` ${ zipCode }`;
+    }
+    else {
+      cityStateZip = zipCode;
+    }
+  }
+
+  if ( cityStateZip ) {
+    if ( result ) {
+      result += ` ${ cityStateZip }`;
+    }
+    else {
+      result = cityStateZip;
+    }
+  }
+
   return result;
 }
 
