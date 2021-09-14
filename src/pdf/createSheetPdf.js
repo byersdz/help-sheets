@@ -64,6 +64,9 @@ function createSheetPdf( options ) {
       itemPhone: {
         bold: true,
       },
+      itemUrl: {
+        color: '#187e20',
+      },
     },
     pageMargins: [20, 20, 20, 20],
   };
