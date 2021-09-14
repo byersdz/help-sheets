@@ -67,6 +67,13 @@ function createSheetPdf( options ) {
       itemUrl: {
         color: '#187e20',
       },
+      providesDescription: {
+        alignment: 'center',
+        decoration: 'underline',
+      },
+      providesHours: {
+        alignment: 'center',
+      },
     },
     pageMargins: [20, 20, 20, 20],
   };
