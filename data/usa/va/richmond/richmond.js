@@ -32,6 +32,21 @@ data[keys.BASIC_NEEDS] = [
     [keys.URL]: 'https://feedmore.org/agency-network/agency-locator',
   },
   {
+    [keys.NAME]: 'Second Presbyterian Church',
+    [keys.PHONE]: '8046499148',
+    [keys.URL]: 'https://www.2presrichmond.org/opportunities/',
+    [keys.ADDRESS_1]: '5 North Fifth Street',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23219',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Monday 11:30 am - 12:45pm',
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Richmond's First Baptist Church",
     [keys.URL]: 'https://www.fbcrichmond.org/service-missions/local/',
     [keys.ADDRESS_1]: '2709 Monument Ave',
@@ -70,6 +85,25 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: 'Baby Clothes - 4x per year',
         [keys.HOURS]: 'Tuesday / Wednesday / Thursday 10am - 12pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "St. Peter's Catholic Church",
+    [keys.PHONE]: '8046434315',
+    [keys.URL]: 'https://stpeterchurch1834.org/',
+    [keys.ADDRESS_1]: '800 East Grace Street',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23218',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Hot Meals',
+        [keys.HOURS]: 'Tuesday 11:45am - 12:30pm, Wednesday 4pm - 4:30pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Shower / Pantry',
+        [keys.HOURS]: 'Tuesday 1pm - 3pm',
       },
     ],
   },

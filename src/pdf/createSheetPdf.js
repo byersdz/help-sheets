@@ -1,6 +1,5 @@
 const PdfPrinter = require( 'pdfmake' );
 const fs = require( 'fs' );
-const cloneDeep = require( 'lodash/cloneDeep' );
 const buildSection = require( './buildSection' );
 
 const fonts = {
@@ -41,21 +40,18 @@ function createSheetPdf( options ) {
     description: '',
   } );
 
-  const testSection = cloneDeep( resourcesSection );
-
   const docDefinition = {
     content: [
       [...accessPointSection],
       [...basicNeedsSection],
       [...resourcesSection],
-      [...testSection],
     ],
     defaultStyle: {
-      fontSize: 11,
+      fontSize: 10,
     },
     styles: {
       sectionHeader: {
-        fontSize: 14,
+        fontSize: 12,
         bold: true,
       },
       itemName: {
