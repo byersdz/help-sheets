@@ -1,6 +1,7 @@
 const { keys } = require( '../../constants' );
 const get = require( 'lodash/get' );
 const formatPhone = require( '../formatters/formatPhone' );
+const formatUrl = require( '../formatters/formatUrl' );
 const buildAddress = require( './buildAddress' );
 const buildProvidesSection = require( './buildProvidesSection' );
 
@@ -9,7 +10,8 @@ function buildItem( item, className ) {
   const description = get( item, keys.DESCRIPTION );
   const phone = get( item, keys.PHONE );
   const phoneExtension = get( item, keys.PHONE_EXTENSION, '' );
-  const url = get( item, keys.URL );
+  const url = get( item, keys.URL, '' );
+  const displayUrl = formatUrl( url );
 
   const nameRender = name ? `
   <div class="field name">
@@ -34,7 +36,7 @@ function buildItem( item, className ) {
   const urlRender = url ? `
   <div class="field url">
   <a href="${ url }" target="_blank" rel="noopener noreferrer">
-    ${ url }
+    ${ displayUrl }
   </a>
   </div>
   ` : '';

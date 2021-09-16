@@ -2,6 +2,7 @@ const get = require( 'lodash/get' );
 const { keys } = require( '../../constants' );
 const formatPhone = require( '../formatters/formatPhone' );
 const formatAddress = require( '../formatters/formatAddress' );
+const formatUrl = require( '../formatters/formatUrl' );
 const buildPdfProvidesSection = require( './buildPdfProvidesSection' );
 
 function buildPdfItem( item ) {
@@ -49,7 +50,8 @@ function buildPdfItem( item ) {
     }
 
     if ( url ) {
-      const urlText = phone ? ` - ${ url }` : url;
+      const displayUrl = formatUrl( url );
+      const urlText = phone ? ` - ${ displayUrl }` : displayUrl;
       phoneSection.text.push( {
         text: urlText,
         style: 'itemUrl',
