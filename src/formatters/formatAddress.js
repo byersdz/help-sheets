@@ -38,7 +38,7 @@ function formatAddress( item ) {
 
   if ( cityStateZip ) {
     if ( result ) {
-      result += ` ${ cityStateZip }`;
+      result += `, ${ cityStateZip }`;
     }
     else {
       result = cityStateZip;
