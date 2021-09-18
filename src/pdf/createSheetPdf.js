@@ -66,6 +66,12 @@ function createSheetPdf( options ) {
       [...accessPointSection],
       [...basicNeedsSection],
       [...resourcesSection],
+      {
+        text: 'Available services can change often.'
+        + ' Please contact support@HelpSheets.org with any updates to the information provided.'
+        + ' HelpSheets.org does not manage any of the organizations listed, please contact each agency for details.',
+        style: 'footer',
+      },
     ],
     defaultStyle: {
       fontSize: 10,
@@ -99,6 +105,9 @@ function createSheetPdf( options ) {
       },
       providesHours: {
         alignment: 'center',
+      },
+      footer: {
+        fontSize: 9,
       },
     },
     pageMargins: [20, 20, 20, 20],
