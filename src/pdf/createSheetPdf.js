@@ -17,6 +17,7 @@ function createSheetPdf( options ) {
   const {
     directory,
     fileName,
+    placeName,
     accessPoints,
     basicNeeds,
     resources,
@@ -40,8 +41,28 @@ function createSheetPdf( options ) {
     description: '',
   } );
 
+  const linkColor = '#187e20';
+
   const docDefinition = {
     content: [
+      {
+        table: {
+          widths: ['auto', '*'],
+          body: [[
+            {
+              text: `${ placeName } - Help Sheet`,
+              style: 'headerPlace',
+              border: [false, false, false, false],
+            },
+            {
+              text: 'HelpSheets.org',
+              style: 'headerLink',
+              border: [false, false, false, false],
+              link: 'https://helpsheets.org',
+            },
+          ]],
+        },
+      },
       [...accessPointSection],
       [...basicNeedsSection],
       [...resourcesSection],
@@ -50,6 +71,15 @@ function createSheetPdf( options ) {
       fontSize: 10,
     },
     styles: {
+      headerPlace: {
+        fontSize: 12,
+        bold: true,
+      },
+      headerLink: {
+        fontSize: 12,
+        alignment: 'right',
+        color: linkColor,
+      },
       sectionHeader: {
         fontSize: 12,
         bold: true,
@@ -61,7 +91,7 @@ function createSheetPdf( options ) {
         bold: true,
       },
       itemUrl: {
-        color: '#187e20',
+        color: linkColor,
       },
       providesDescription: {
         alignment: 'center',

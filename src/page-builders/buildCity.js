@@ -31,7 +31,9 @@ function buildCity( city, state, country ) {
 
   fs.mkdirSync( cityDirectoryPath );
 
-  const pageTitle = `Help Sheets - ${ name }, ${ stateName }`;
+  const placeName = `${ name }, ${ stateName }`;
+
+  const pageTitle = `Help Sheets - ${ placeName }`;
   let pageContent = '';
 
   const combinedAccessPoints = combineItems( [countryAccessPoints, stateAccessPoints, accessPoints] );
@@ -58,6 +60,7 @@ function buildCity( city, state, country ) {
   createSheetPdf( {
     directory: cityDirectoryPath,
     fileName: `${ urlName }-help-sheet.pdf`,
+    placeName,
     accessPoints: combinedAccessPoints,
     basicNeeds: combinedBasicNeeds,
     resources: combinedResources,
