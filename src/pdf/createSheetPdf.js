@@ -68,8 +68,11 @@ function createSheetPdf( options ) {
       [...resourcesSection],
       {
         text: 'Available services can change often.'
-        + ' Please contact support@HelpSheets.org with any updates to the information provided.'
-        + ' HelpSheets.org does not manage any of the organizations listed, please contact each agency for details.',
+        + ' Please email support@HelpSheets.org with any updates to the information provided.',
+        style: 'footer',
+      },
+      {
+        text: 'HelpSheets.org does not manage any of the organizations listed, please contact each agency for details.',
         style: 'footer',
       },
     ],
