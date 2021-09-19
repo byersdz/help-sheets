@@ -1,8 +1,8 @@
 function buildPdfLinks( pdfLink ) {
   return `
-  <div class="pdf-link">
+  <div class="pdf-link do-not-print">
     <a href="${ pdfLink }">
-      Click here to open the PDF version of this sheet.
+      Click here to open the print optimized PDF version of this sheet.
     </a>
   </div>
   `;
