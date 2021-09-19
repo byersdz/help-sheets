@@ -14,6 +14,14 @@ data[keys.STATES] = [virginia];
 
 data[keys.RESOURCES] = [
   {
+    [keys.NAME]: 'Free Mobile Phone Service',
+    [keys.DESCRIPTION]: "The FCC's Lifeline program provides free mobile phone service"
+      + ' for qualifying low income individuals.',
+    [keys.URL]: 'https://www.safelinkwireless.com',
+    [keys.ALT_URL]: 'https://www.assurancewireless.com',
+    [keys.PRIORITY]: priorities.LOW,
+  },
+  {
     [keys.NAME]: 'US Department of Veterans Affairs',
     [keys.DESCRIPTION]: '24/7 Homeless Call Center Hotline',
     [keys.PHONE]: '18774243838',

@@ -12,6 +12,8 @@ function buildItem( item, className ) {
   const phoneExtension = get( item, keys.PHONE_EXTENSION, '' );
   const url = get( item, keys.URL, '' );
   const displayUrl = formatUrl( url );
+  const altUrl = get( item, keys.ALT_URL, '' );
+  const displayAltUrl = formatUrl( altUrl );
 
   const nameRender = name ? `
   <div class="field name">
@@ -41,6 +43,14 @@ function buildItem( item, className ) {
   </div>
   ` : '';
 
+  const altUrlRender = altUrl ? `
+  <div class="field url">
+  <a href="${ altUrl }" target="_blank" rel="noopener noreferrer">
+    ${ displayAltUrl }
+  </a>
+  </div>
+  ` : '';
+
   const providesRender = buildProvidesSection( item );
 
   return `
@@ -52,6 +62,7 @@ function buildItem( item, className ) {
     </div>
     ${ addressRender }
     ${ urlRender }
+    ${ altUrlRender }
     ${ providesRender }
     </div>
   `;

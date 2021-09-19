@@ -11,6 +11,7 @@ function buildPdfItem( item ) {
   const phone = get( item, keys.PHONE );
   const phoneExtension = get( item, keys.PHONE_EXTENSION );
   const url = get( item, keys.URL );
+  const altUrl = get( item, keys.ALT_URL );
   const address = formatAddress( item );
 
   const result = [];
@@ -60,6 +61,15 @@ function buildPdfItem( item ) {
     }
 
     result.push( phoneSection );
+  }
+
+  if ( altUrl ) {
+    const displayUrl = formatUrl( altUrl );
+    result.push( {
+      text: displayUrl,
+      style: 'itemUrl',
+      link: altUrl,
+    } );
   }
 
   const providesSection = buildPdfProvidesSection( item );
