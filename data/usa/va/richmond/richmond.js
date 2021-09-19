@@ -91,7 +91,7 @@ data[keys.BASIC_NEEDS] = [
   {
     [keys.NAME]: "St. Peter's Catholic Church",
     [keys.PHONE]: '8046434315',
-    [keys.URL]: 'https://stpeterchurch1834.org/',
+    [keys.URL]: 'https://stpeterchurch1834.org',
     [keys.ADDRESS_1]: '800 East Grace Street',
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
@@ -104,6 +104,111 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: 'Shower / Pantry',
         [keys.HOURS]: 'Tuesday 1pm - 3pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Oregon Hill Baptist Center',
+    [keys.PHONE]: '8046481353',
+    [keys.URL]: 'https://www.richmondbaptist.org/oregon-hill',
+    [keys.ADDRESS_1]: '400 S. Pine Street',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23220',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Bagged Lunch',
+        [keys.HOURS]: 'Thursday 10am - 11am',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "St. Paul's Episcopal Church",
+    [keys.PHONE]: '8046433589',
+    [keys.URL]: 'https://www.stpaulsrva.org',
+    [keys.ADDRESS_1]: '815 E Grace St',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23219',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Bagged Lunch',
+        [keys.HOURS]: 'Thursday 10:30am - 12pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Centenary United Methodist',
+    [keys.PHONE]: '8046488319',
+    [keys.URL]: 'https://centumc.org',
+    [keys.ADDRESS_1]: '411 E Grace ST',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23219',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Bagged Lunch',
+        [keys.HOURS]: 'Friday 11am - 12:30pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Grace and Holy Trinity Episcopal Church',
+    [keys.PHONE]: '8043595628',
+    [keys.URL]: 'https://ghtc.org',
+    [keys.ADDRESS_1]: '8 North Laurel Street',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23220',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'To Go Lunch',
+        [keys.HOURS]: 'Friday 12pm - 1pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "St. Mark's Episcopal Church",
+    [keys.PHONE]: '8043584771',
+    [keys.URL]: 'https://www.stmarksrva.org',
+    [keys.ADDRESS_1]: '520 North Arthur Ashe Boulevard',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23220',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: '2nd and 4th Saturdays of the month, 9am - 10:30am',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Shepherd's Way Relief Center",
+    [keys.PHONE]: '8045627490',
+    [keys.URL]: 'https://www.ourshepherdsway.org',
+    [keys.ADDRESS_1]: '400 East Main Street',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23219',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Meals, Food Pantry, Clothes, Toiletries',
+        [keys.HOURS]: 'Mon / Tue / Wed: 9am - 10:30am. Sat: 12pm - 1pm. Sun: 8:30am - 9:30am',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Bon Air Baptist Church',
+    [keys.PHONE]: '8042721475',
+    [keys.URL]: 'https://bonairbaptist.org',
+    [keys.ADDRESS_1]: '2531 Buford Road',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23235',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Drive thru food pantry',
+        [keys.HOURS]: 'Wednesday 3 - 4:30pm',
       },
     ],
   },
