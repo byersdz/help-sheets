@@ -25,7 +25,7 @@ function buildCountry( country ) {
   fs.mkdirSync( countryDirectoryPath );
 
   const pageTitle = `Help Sheets - ${ name }`;
-  let pageContent = name;
+  let pageContent = '';
 
   const accessPointsSection = buildAccessPointSection( accessPoints );
   pageContent += accessPointsSection;

@@ -12,6 +12,7 @@ const createSheetPdf = require( '../pdf/createSheetPdf' );
 
 function buildState( state, country ) {
   const countryUrlName = get( country, keys.URL_NAME );
+  const countryName = get( country, keys.NAME );
   const countryAccessPoints = get( country, keys.ACCESS_POINTS, [] );
   const countryResources = get( country, keys.RESOURCES, [] );
   const countryBasicNeeds = get( country, keys.BASIC_NEEDS, [] );
@@ -31,7 +32,16 @@ function buildState( state, country ) {
   fs.mkdirSync( stateDirectoryPath );
 
   const pageTitle = `Help Sheets - ${ name }`;
-  let pageContent = name;
+  let pageContent = '';
+
+  const breadCrumbs = `
+  <div class="breadcrumbs do-not-print">
+  <a href="../">${ countryName }</a> /
+  ${ name }
+  </div>
+  `;
+
+  pageContent += breadCrumbs;
 
   const combinedAccessPoints = combineItems( [countryAccessPoints, accessPoints] );
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );

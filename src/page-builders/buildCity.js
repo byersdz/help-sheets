@@ -10,6 +10,7 @@ const createSheetPdf = require( '../pdf/createSheetPdf' );
 
 function buildCity( city, state, country ) {
   const countryUrlName = get( country, keys.URL_NAME );
+  const countryName = get( country, keys.NAME );
   const countryAccessPoints = get( country, keys.ACCESS_POINTS, [] );
   const countryResources = get( country, keys.RESOURCES, [] );
   const countryBasicNeeds = get( country, keys.BASIC_NEEDS, [] );
@@ -37,6 +38,16 @@ function buildCity( city, state, country ) {
 
   const pageTitle = `Help Sheets - ${ placeName }`;
   let pageContent = '';
+
+  const breadCrumbs = `
+  <div class="breadcrumbs do-not-print">
+  <a href="../../">${ countryName }</a> /
+  <a href="../">${ stateName }</a> /
+  ${ name }
+  </div>
+  `;
+
+  pageContent += breadCrumbs;
 
   const combinedAccessPoints = combineItems( [countryAccessPoints, stateAccessPoints, accessPoints] );
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );
