@@ -29,6 +29,8 @@ function buildCity( city, state, country ) {
   const cityDirectoryPath = `${ build.DIST_PATH }/${ countryUrlName }/${ stateUrlName }/${ urlName }`;
   const cityPagePath = `${ cityDirectoryPath }/index.html`;
 
+  const pdfFileName = `${ urlName }-help-sheet.pdf`;
+
   fs.mkdirSync( cityDirectoryPath );
 
   const placeName = `${ name }, ${ stateName }`;
@@ -59,7 +61,7 @@ function buildCity( city, state, country ) {
 
   createSheetPdf( {
     directory: cityDirectoryPath,
-    fileName: `${ urlName }-help-sheet.pdf`,
+    fileName: pdfFileName,
     placeName,
     accessPoints: combinedAccessPoints,
     basicNeeds: combinedBasicNeeds,

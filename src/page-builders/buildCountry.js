@@ -7,6 +7,7 @@ const addAssetsToTemplate = require( './addAssetsToTemplate' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
 const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
+const createSheetPdf = require( '../pdf/createSheetPdf' );
 
 function buildCountry( country ) {
   const urlName = get( country, keys.URL_NAME );
@@ -18,6 +19,8 @@ function buildCountry( country ) {
 
   const countryDirectoryPath = `${ build.DIST_PATH }/${ urlName }`;
   const countryPagePath = `${ countryDirectoryPath }/index.html`;
+
+  const pdfFileName = `${ urlName }-help-sheet.pdf`;
 
   fs.mkdirSync( countryDirectoryPath );
 
@@ -42,6 +45,15 @@ function buildCountry( country ) {
   pageHTML = pageHTML.replace( templates.PAGE_CONTENT, pageContent );
 
   fs.writeFileSync( countryPagePath, pageHTML );
+
+  createSheetPdf( {
+    directory: countryDirectoryPath,
+    fileName: pdfFileName,
+    placeName: name,
+    accessPoints,
+    basicNeeds,
+    resources,
+  } );
 
   if ( states ) {
     forEach( states, state => {
