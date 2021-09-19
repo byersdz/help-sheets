@@ -9,6 +9,16 @@ a {
   overflow-wrap: break-word;
 }
 
+p {
+  margin: 8px 0;
+}
+
+h1 {
+  margin: 4px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
 .content-wrapper {
   width: 100%;
   display: flex;
@@ -18,6 +28,11 @@ a {
 .breadcrumbs {
   font-size: 14px;
   margin: 4px;
+}
+
+.page-description {
+  margin: 0 4px;
+  font-size: 14px;
 }
 
 .section {

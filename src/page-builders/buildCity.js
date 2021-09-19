@@ -1,6 +1,7 @@
 const { keys, build, templates } = require( '../../constants' );
 const fs = require( 'fs' );
 const get = require( 'lodash/get' );
+const buildPageDescription = require( '../component-builders/buildPageDescription' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
 const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
@@ -48,6 +49,14 @@ function buildCity( city, state, country ) {
   `;
 
   pageContent += breadCrumbs;
+
+  pageContent += `
+  <h1>
+  ${ placeName } - Help Sheet
+  </h1>
+  `;
+
+  pageContent += buildPageDescription();
 
   const combinedAccessPoints = combineItems( [countryAccessPoints, stateAccessPoints, accessPoints] );
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );

@@ -4,6 +4,7 @@ const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
 const buildCity = require( './buildCity' );
 const addAssetsToTemplate = require( './addAssetsToTemplate' );
+const buildPageDescription = require( '../component-builders/buildPageDescription' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
 const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
@@ -42,6 +43,14 @@ function buildState( state, country ) {
   `;
 
   pageContent += breadCrumbs;
+
+  pageContent += `
+  <h1>
+  ${ name } - Help Sheet
+  </h1>
+  `;
+
+  pageContent += buildPageDescription();
 
   const combinedAccessPoints = combineItems( [countryAccessPoints, accessPoints] );
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );

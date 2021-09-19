@@ -224,7 +224,7 @@ data[keys.RESOURCES] = [
   },
   {
     [keys.NAME]: 'CARITAS The Healing Place for Men',
-    [keys.DESCRIPTION]: 'Free residential recovery program. Call for intake.',
+    [keys.DESCRIPTION]: 'No cost residential recovery program. Call for intake.',
     [keys.URL]: 'https://www.caritasva.org/get-help/get-sober',
     [keys.PHONE]: '8042301184',
     [keys.ADDRESS_1]: '700 Dinwiddie Avenue',
@@ -234,7 +234,7 @@ data[keys.RESOURCES] = [
   },
   {
     [keys.NAME]: 'CARITAS The Healing Place for Women',
-    [keys.DESCRIPTION]: 'Free residential recovery program. Call for intake.',
+    [keys.DESCRIPTION]: 'No cost residential recovery program. Call for intake.',
     [keys.URL]: 'https://www.caritasva.org/get-help/get-sober',
     [keys.PHONE]: '8044183049',
     [keys.ADDRESS_1]: '2220 Stockton Street',
