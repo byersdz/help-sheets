@@ -29,7 +29,9 @@ function buildItem( item, className ) {
 
   const phoneRender = phone ? `
   <div class="field phone">
-  ${ formatPhone( phone, phoneExtension ) }
+  <a href="tel:${ phone }" class="phone-link">
+    ${ formatPhone( phone, phoneExtension ) }
+  </a>
   </div>
   ` : '';
 
