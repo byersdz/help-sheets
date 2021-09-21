@@ -48,7 +48,7 @@ function buildAddress( item ) {
 
   return `
   <div class="field address">
-    <a href="${ formatMapLink( item ) }" class="address-link">
+    <a href="${ formatMapLink( item ) }" class="address-link" target="_blank" rel="noopener noreferrer">
       ${ line1Render }
       ${ line2Render }
       ${ line3Render }
