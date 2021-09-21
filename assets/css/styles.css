@@ -17,6 +17,11 @@ a:hover {
   color: #000;
 }
 
+.address-link {
+  color: #000;
+  font-weight: normal;
+}
+
 p {
   margin: 8px 0;
 }

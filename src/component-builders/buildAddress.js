@@ -1,4 +1,5 @@
 const get = require( 'lodash/get' );
+const formatMapLink = require( '../formatters/formatMapLink' );
 const { keys } = require( '../../constants' );
 
 function buildAddress( item ) {
@@ -47,9 +48,11 @@ function buildAddress( item ) {
 
   return `
   <div class="field address">
-    ${ line1Render }
-    ${ line2Render }
-    ${ line3Render }
+    <a href="${ formatMapLink( item ) }" class="address-link">
+      ${ line1Render }
+      ${ line2Render }
+      ${ line3Render }
+    </a>
   </div>
   `;
 }
