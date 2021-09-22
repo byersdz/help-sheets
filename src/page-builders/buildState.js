@@ -5,6 +5,7 @@ const forEach = require( 'lodash/forEach' );
 const buildCity = require( './buildCity' );
 const addAssetsToTemplate = require( './addAssetsToTemplate' );
 const buildPageDescription = require( '../component-builders/buildPageDescription' );
+const buildCityList = require( '../component-builders/buildCityList' );
 const buildPdfLinks = require( '../component-builders/buildPdfLinks' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
@@ -52,6 +53,22 @@ function buildState( state, country ) {
   `;
 
   pageContent += buildPageDescription();
+
+  const cityList = buildCityList( {
+    state,
+    linkPrefix: './',
+  } );
+
+  if ( cityList ) {
+    pageContent += `
+    <div class="toc state-toc do-not-print">
+      <div class="toc-header">
+      ${ name } city sheets:
+      </div>
+      ${ cityList }
+    </div>
+    `;
+  }
 
   pageContent += buildPdfLinks( `./${ pdfFileName }` );
 
