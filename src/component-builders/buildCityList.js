@@ -17,7 +17,7 @@ function buildCityList( data ) {
 
   forEach( orderedCities, city => {
     itemsRender += `
-    <div class="list-item city">
+    <div class="list-item city-list-item">
     <a href="${ linkPrefix }${ get( city, keys.URL_NAME, '' ) }">
      ${ get( city, keys.NAME, '' ) }
     </a>
