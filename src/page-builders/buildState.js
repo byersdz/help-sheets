@@ -26,6 +26,7 @@ function buildState( state, country ) {
   const accessPoints = get( state, keys.ACCESS_POINTS, [] );
   const resources = get( state, keys.RESOURCES, [] );
   const basicNeeds = get( state, keys.BASIC_NEEDS );
+  const excludeList = get( state, keys.EXCLUDE_LIST );
 
   const stateDirectoryPath = `${ build.DIST_PATH }/${ countryUrlName }/${ urlName }`;
   const statePagePath = `${ stateDirectoryPath }/index.html`;
@@ -72,15 +73,15 @@ function buildState( state, country ) {
 
   pageContent += buildPdfLinks( `./${ pdfFileName }` );
 
-  const combinedAccessPoints = combineItems( [countryAccessPoints, accessPoints] );
+  const combinedAccessPoints = combineItems( [countryAccessPoints, accessPoints], excludeList );
   const accessPointsSection = buildAccessPointSection( combinedAccessPoints );
   pageContent += accessPointsSection;
 
-  const combinedBasicNeeds = combineItems( [countryBasicNeeds, basicNeeds] );
+  const combinedBasicNeeds = combineItems( [countryBasicNeeds, basicNeeds], excludeList );
   const basicNeedsSection = buildBasicNeedsSection( combinedBasicNeeds );
   pageContent += basicNeedsSection;
 
-  const combinedResources = combineItems( [countryResources, resources] );
+  const combinedResources = combineItems( [countryResources, resources], excludeList );
   const resourcesSection = buildResourcesSection( combinedResources );
   pageContent += resourcesSection;
 

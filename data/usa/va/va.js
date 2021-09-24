@@ -12,8 +12,13 @@ data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
 data[keys.CITIES] = [richmond];
 
+data[keys.EXCLUDE_LIST] = [
+  '211-usa',
+];
+
 data[keys.ACCESS_POINTS] = [
   {
+    [keys.ID]: '211-va',
     [keys.NAME]: '2-1-1 Virginia',
     [keys.DESCRIPTION]: '24/7 phone line to help you find local resources you need.',
     [keys.PHONE]: '211',

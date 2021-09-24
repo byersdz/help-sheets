@@ -8,6 +8,10 @@ data[keys.URL_NAME] = 'richmond';
 data[keys.DEFAULT_LANGUAGE] = languageCodes.ENGLISH;
 data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
+data[keys.EXCLUDE_LIST] = [
+  'usa-shelter-directory',
+];
+
 data[keys.ACCESS_POINTS] = [
   {
     [keys.NAME]: 'The Homeless Connection Line',

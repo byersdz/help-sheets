@@ -12,15 +12,24 @@ data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
 data[keys.STATES] = [virginia];
 
-data[keys.RESOURCES] = [
+data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: 'Free Mobile Phone Service',
-    [keys.DESCRIPTION]: "The FCC's Lifeline program provides free mobile phone service"
-      + ' for qualifying low income individuals.',
-    [keys.URL]: 'https://www.safelinkwireless.com',
-    [keys.ALT_URL]: 'https://www.assurancewireless.com',
+    [keys.ID]: '211-usa',
+    [keys.NAME]: '211',
+    [keys.DESCRIPTION]: 'Phone line to connect to local resources.',
+    [keys.URL]: 'https://www.211.org',
+    [keys.PHONE]: '211',
+  },
+  {
+    [keys.ID]: 'usa-shelter-directory',
+    [keys.NAME]: 'Homeless Shelter Directory',
+    [keys.DESCRIPTION]: 'A directory to find homeless shelters and free food resources near you.',
+    [keys.URL]: 'https://www.HomelessShelterDirectory.org',
     [keys.PRIORITY]: priorities.LOW,
   },
+];
+
+data[keys.RESOURCES] = [
   {
     [keys.NAME]: 'US Department of Veterans Affairs',
     [keys.DESCRIPTION]: '24/7 Homeless Call Center Hotline',
@@ -30,7 +39,7 @@ data[keys.RESOURCES] = [
   },
   {
     [keys.NAME]: 'National Suicide Prevention Lifeline',
-    [keys.DESCRIPTION]: 'The Lifeline provides 24/7, free and confidential support for people in distress',
+    [keys.DESCRIPTION]: 'Provides 24/7, free and confidential support for people in distress',
     [keys.PHONE]: '18002738255',
     [keys.URL]: 'https://suicidepreventionlifeline.org',
     [keys.PRIORITY]: priorities.LOW,
@@ -47,6 +56,14 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: 'Call if you or someone you know is a victim of human trafficking',
     [keys.PHONE]: '18883737888',
     [keys.URL]: 'https://humantraffickinghotline.org',
+    [keys.PRIORITY]: priorities.LOW,
+  },
+  {
+    [keys.NAME]: 'Free Mobile Phone Service',
+    [keys.DESCRIPTION]: "The FCC's Lifeline program provides free mobile phone service"
+      + ' for qualifying low income individuals.',
+    [keys.URL]: 'https://www.safelinkwireless.com',
+    [keys.ALT_URL]: 'https://www.assurancewireless.com',
     [keys.PRIORITY]: priorities.LOW,
   },
 ];

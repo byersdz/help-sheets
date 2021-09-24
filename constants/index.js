@@ -27,6 +27,7 @@ keys.CITIES = 'cities';
 keys.STATES = 'states';
 keys.COUNTRIES = 'countries';
 keys.PRIORITY = 'priority';
+keys.EXCLUDE_LIST = 'excludeList';
 
 const languageCodes = {};
 
