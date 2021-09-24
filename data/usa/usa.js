@@ -45,6 +45,13 @@ data[keys.RESOURCES] = [
     [keys.PRIORITY]: priorities.LOW,
   },
   {
+    [keys.NAME]: 'National Domestic Violence Hotline',
+    [keys.DESCRIPTION]: '24-hour confidential service for survivors, victims and those affected by domestic violence',
+    [keys.PHONE]: '18007997233',
+    [keys.URL]: 'https://www.thehotline.org',
+    [keys.PRIORITY]: priorities.LOW,
+  },
+  {
     [keys.NAME]: 'National Runaway Safeline',
     [keys.DESCRIPTION]: '24/7 crisis line for runaway and homeless youth',
     [keys.PHONE]: '18007862929',
@@ -64,6 +71,21 @@ data[keys.RESOURCES] = [
       + ' for qualifying low income individuals.',
     [keys.URL]: 'https://www.safelinkwireless.com',
     [keys.ALT_URL]: 'https://www.assurancewireless.com',
+    [keys.PRIORITY]: priorities.LOW,
+  },
+  {
+    [keys.ID]: 'find-treatment-gov',
+    [keys.NAME]: 'FindTreatment.gov',
+    [keys.DESCRIPTION]: 'Directory of providers treating substance use disorders, addiction, and mental illness',
+    [keys.URL]: 'https://FindTreatment.gov/',
+    [keys.PHONE]: '18006624357',
+    [keys.PRIORITY]: priorities.LOW,
+  },
+  {
+    [keys.ID]: 'free-dental-us',
+    [keys.NAME]: 'FreeDentalCare.us',
+    [keys.DESCRIPTION]: 'Directory of free and low cost dental clinics',
+    [keys.URL]: 'https://www.FreeDentalCare.us/',
     [keys.PRIORITY]: priorities.LOW,
   },
 ];
