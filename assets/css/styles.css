@@ -259,7 +259,6 @@ h1 {
     break-inside: avoid;
     padding: 2px;
     padding-left: 4px;
-    justify-content: space-evenly;
   }
 
   .section .item .field {
