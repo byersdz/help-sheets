@@ -310,6 +310,10 @@ h1 {
     padding-right: 0;
   }
 
+  .section .item:nth-child(even) {
+    border-left: none;
+  }
+
   .do-not-print {
     display: none !important;
   }
