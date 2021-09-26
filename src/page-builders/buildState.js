@@ -89,7 +89,7 @@ function buildState( state, country ) {
 
   let pageHTML = `${ pageTemplate }`;
 
-  pageHTML = addAssetsToTemplate( build.ASSETS_STATE_PREFIX, pageHTML );
+  pageHTML = addAssetsToTemplate( build.STATE_HOME_DIRECTORY, build.ASSETS_STATE_PREFIX, pageHTML );
 
   pageHTML = pageHTML.replace( templates.PAGE_TITLE, pageTitle );
   pageHTML = pageHTML.replace( templates.PAGE_CONTENT, pageContent );

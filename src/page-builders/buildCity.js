@@ -89,7 +89,7 @@ function buildCity( city, state, country ) {
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 
   let pageHTML = `${ pageTemplate }`;
-  pageHTML = addAssetsToTemplate( build.ASSETS_CITY_PREFIX, pageHTML );
+  pageHTML = addAssetsToTemplate( build.CITY_HOME_DIRECTORY, build.ASSETS_CITY_PREFIX, pageHTML );
   pageHTML = pageHTML.replace( templates.PAGE_TITLE, pageTitle );
   pageHTML = pageHTML.replace( templates.PAGE_CONTENT, pageContent );
 

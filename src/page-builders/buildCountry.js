@@ -68,7 +68,7 @@ function buildCountry( country ) {
 
   let pageHTML = `${ pageTemplate }`;
 
-  pageHTML = addAssetsToTemplate( build.ASSETS_COUNTRY_PREFIX, pageHTML );
+  pageHTML = addAssetsToTemplate( build.COUNTRY_HOME_DIRECTORY, build.ASSETS_COUNTRY_PREFIX, pageHTML );
 
   pageHTML = pageHTML.replace( templates.PAGE_TITLE, pageTitle );
   pageHTML = pageHTML.replace( templates.PAGE_CONTENT, pageContent );

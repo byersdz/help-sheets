@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 a {
   color: #187e20;
   font-weight: bold;
@@ -29,6 +33,29 @@ p {
 h1 {
   margin: 4px;
   margin-bottom: 0;
+  font-size: 18px;
+}
+
+.page-header-bar {
+  background-color: #187e20;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 4px;
+  box-shadow: 0 0 3px 3px #aaa
+}
+
+.page-header-bar .nav-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 4px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.page-header-bar .nav-container .home-link {
+  color: #fff;
+  font-weight: bold;
   font-size: 18px;
 }
 
@@ -141,6 +168,10 @@ h1 {
 }
 
 @media screen and (min-width: 760px) {
+  .page-header-bar .nav-container {
+    padding: 0 12px;
+  }
+
   .content-wrapper {
     padding: 0 8px;
     box-sizing: border-box;

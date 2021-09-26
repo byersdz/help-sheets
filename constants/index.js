@@ -41,6 +41,10 @@ build.ASSETS_DESTINTAION_PATH = './dist/assets';
 build.ASSETS_COUNTRY_PREFIX = '../assets/';
 build.ASSETS_STATE_PREFIX = '../../assets/';
 build.ASSETS_CITY_PREFIX = '../../../assets/';
+build.CITY_HOME_DIRECTORY = '../../../';
+build.STATE_HOME_DIRECTORY = '../../';
+build.COUNTRY_HOME_DIRECTORY = '../';
+
 build.NORMALIZE_CSS_PATH = 'css/normalize.css';
 build.STYLES_CSS_PATH = 'css/styles.css';
 
@@ -51,6 +55,7 @@ templates.PAGE_TITLE = '{{pageTitle}}';
 templates.PAGE_CONTENT = '{{pageContent}}';
 templates.NORMALIZE_CSS = '{{normalizeCss}}';
 templates.STYLES_CSS = '{{stylesCss}}';
+templates.HOME_LINK = '{{homeLink}}';
 
 const priorities = {};
 
