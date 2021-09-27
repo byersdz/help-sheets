@@ -9,6 +9,9 @@
   font-weight: bold;
 }
 
+:root {
+  --primary-color: #127748;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -19,7 +22,7 @@ div {
 }
 
 a {
-  color: #187e20;
+  color: var(--primary-color);
   font-weight: bold;
   text-decoration: none;
   overflow-wrap: break-word;
@@ -49,7 +52,7 @@ h1 {
 }
 
 .page-header-bar {
-  background-color: #187e20;
+  background-color: var(--primary-color);
   color: #fff;
   width: 100%;
   margin-bottom: 4px;

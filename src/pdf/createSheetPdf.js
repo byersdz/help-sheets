@@ -41,7 +41,7 @@ function createSheetPdf( options ) {
     description: '',
   } );
 
-  const linkColor = '#187e20';
+  const linkColor = '#127748';
 
   const docDefinition = {
     content: [
