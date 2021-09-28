@@ -25,6 +25,7 @@ function buildCountry( country ) {
   const countryPagePath = `${ countryDirectoryPath }/index.html`;
 
   const pdfFileName = `${ urlName }-help-sheet.pdf`;
+  const largePdfFileName = `${ urlName }-help-sheet-large.pdf`;
 
   fs.mkdirSync( countryDirectoryPath );
 
@@ -55,7 +56,7 @@ function buildCountry( country ) {
     `;
   }
 
-  pageContent += buildPdfLinks( `./${ pdfFileName }` );
+  pageContent += buildPdfLinks( `./${ pdfFileName }`, `./${ largePdfFileName }` );
 
   const accessPointsSection = buildAccessPointSection( accessPoints );
   pageContent += accessPointsSection;
@@ -83,6 +84,17 @@ function buildCountry( country ) {
     directory: countryDirectoryPath,
     fileName: pdfFileName,
     placeName: name,
+    isLargePrint: false,
+    accessPoints,
+    basicNeeds,
+    resources,
+  } );
+
+  createSheetPdf( {
+    directory: countryDirectoryPath,
+    fileName: largePdfFileName,
+    placeName: name,
+    isLargePrint: true,
     accessPoints,
     basicNeeds,
     resources,

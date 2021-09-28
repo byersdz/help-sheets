@@ -38,6 +38,7 @@ function buildCity( city, state, country ) {
   const cityPagePath = `${ cityDirectoryPath }/index.html`;
 
   const pdfFileName = `${ urlName }-help-sheet.pdf`;
+  const largePdfFileName = `${ urlName }-help-sheet-large.pdf`;
 
   fs.mkdirSync( cityDirectoryPath );
 
@@ -64,7 +65,7 @@ function buildCity( city, state, country ) {
 
   pageContent += buildPageDescription();
 
-  pageContent += buildPdfLinks( `./${ pdfFileName }` );
+  pageContent += buildPdfLinks( `./${ pdfFileName }`, `./${ largePdfFileName }` );
 
   const combinedAccessPoints = combineItems(
     [countryAccessPoints, stateAccessPoints, accessPoints],
@@ -102,6 +103,17 @@ function buildCity( city, state, country ) {
     directory: cityDirectoryPath,
     fileName: pdfFileName,
     placeName,
+    isLargePrint: false,
+    accessPoints: combinedAccessPoints,
+    basicNeeds: combinedBasicNeeds,
+    resources: combinedResources,
+  } );
+
+  createSheetPdf( {
+    directory: cityDirectoryPath,
+    fileName: largePdfFileName,
+    placeName,
+    isLargePrint: true,
     accessPoints: combinedAccessPoints,
     basicNeeds: combinedBasicNeeds,
     resources: combinedResources,

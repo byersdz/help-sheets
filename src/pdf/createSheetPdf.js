@@ -18,6 +18,7 @@ function createSheetPdf( options ) {
     directory,
     fileName,
     placeName,
+    isLargePrint,
     accessPoints,
     basicNeeds,
     resources,
@@ -77,7 +78,7 @@ function createSheetPdf( options ) {
       },
     ],
     defaultStyle: {
-      fontSize: 10,
+      fontSize: isLargePrint ? 18 : 10,
     },
     styles: {
       headerPlace: {
