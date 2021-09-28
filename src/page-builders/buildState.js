@@ -64,7 +64,7 @@ function buildState( state, country ) {
     pageContent += `
     <div class="toc state-toc do-not-print">
       <div class="toc-header">
-      ${ name } city sheets:
+      ${ name } - City Sheets:
       </div>
       ${ cityList }
     </div>

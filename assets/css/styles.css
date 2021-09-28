@@ -99,6 +99,14 @@ h1 {
   font-weight: bold;
 }
 
+.country-list {
+  margin: 0 4px;
+}
+
+.country-list .state-list {
+  margin-left: 16px;
+}
+
 .state-list .city-list {
   margin-left: 16px;
 }
