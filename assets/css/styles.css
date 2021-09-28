@@ -85,9 +85,17 @@ h1 {
   margin: 4px;
 }
 
-.page-description {
+.page-description, .page-footer {
   margin: 0 4px;
   font-size: 14px;
+}
+
+.page-footer {
+  margin-bottom: 16px;
+}
+
+.page-footer p:first-child {
+  margin-top: 0;
 }
 
 .toc {
@@ -100,7 +108,7 @@ h1 {
 }
 
 .country-list {
-  margin: 0 4px;
+  margin: 0 4px 8px 4px;
 }
 
 .country-list .state-list {
@@ -252,8 +260,17 @@ h1 {
     -webkit-print-color-adjust: exact;
   }
 
-  .section {
+  .section, .page-footer {
     font-size: 12px;
+  }
+
+  .page-footer {
+    margin-bottom: 0;
+  }
+
+  .page-footer p {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .section .section-header {

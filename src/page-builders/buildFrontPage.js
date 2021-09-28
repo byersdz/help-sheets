@@ -3,6 +3,7 @@ const fs = require( 'fs' );
 const get = require( 'lodash/get' );
 const addAssetsToTemplate = require( './addAssetsToTemplate' );
 const buildPageDescription = require( '../component-builders/buildPageDescription' );
+const buildPageFooter = require( '../component-builders/buildPageFooter' );
 const buildCountryList = require( '../component-builders/buildCountryList' );
 
 function buildFrontPage( data ) {
@@ -22,6 +23,8 @@ function buildFrontPage( data ) {
     countries,
     linkPrefix: './',
   } );
+
+  pageContent += buildPageFooter();
 
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
   let pageHTML = `${ pageTemplate }`;

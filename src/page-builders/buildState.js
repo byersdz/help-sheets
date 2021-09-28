@@ -5,6 +5,7 @@ const forEach = require( 'lodash/forEach' );
 const buildCity = require( './buildCity' );
 const addAssetsToTemplate = require( './addAssetsToTemplate' );
 const buildPageDescription = require( '../component-builders/buildPageDescription' );
+const buildPageFooter = require( '../component-builders/buildPageFooter' );
 const buildCityList = require( '../component-builders/buildCityList' );
 const buildPdfLinks = require( '../component-builders/buildPdfLinks' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
@@ -84,6 +85,8 @@ function buildState( state, country ) {
   const combinedResources = combineItems( [countryResources, resources], excludeList );
   const resourcesSection = buildResourcesSection( combinedResources );
   pageContent += resourcesSection;
+
+  pageContent += buildPageFooter();
 
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 

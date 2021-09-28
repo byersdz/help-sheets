@@ -2,6 +2,7 @@ const { keys, build, templates } = require( '../../constants' );
 const fs = require( 'fs' );
 const get = require( 'lodash/get' );
 const buildPageDescription = require( '../component-builders/buildPageDescription' );
+const buildPageFooter = require( '../component-builders/buildPageFooter' );
 const buildPdfLinks = require( '../component-builders/buildPdfLinks' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
@@ -85,6 +86,8 @@ function buildCity( city, state, country ) {
   );
   const resourcesSection = buildResourcesSection( combinedResources );
   pageContent += resourcesSection;
+
+  pageContent += buildPageFooter();
 
   const pageTemplate = fs.readFileSync( templates.PAGE_PATH );
 
