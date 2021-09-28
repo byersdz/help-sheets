@@ -91,6 +91,7 @@ h1 {
 }
 
 .page-footer {
+  margin-top: 8px;
   margin-bottom: 16px;
 }
 
@@ -125,6 +126,9 @@ h1 {
 
 .pdf-link {
   margin: 4px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .section {
@@ -265,6 +269,7 @@ h1 {
   }
 
   .page-footer {
+    margin-top: 0;
     margin-bottom: 0;
   }
 

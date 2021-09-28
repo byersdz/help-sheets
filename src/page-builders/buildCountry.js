@@ -7,7 +7,8 @@ const addAssetsToTemplate = require( './addAssetsToTemplate' );
 const buildPageDescription = require( '../component-builders/buildPageDescription' );
 const buildPageFooter = require( '../component-builders/buildPageFooter' );
 const buildStateList = require( '../component-builders/buildStateList' );
-const buildPdfLinks = require( '../component-builders/buildPdfLinks' );
+const buildPdfLink = require( '../component-builders/buildPdfLink' );
+const buildPdfLinkLargeFormat = require( '../component-builders/buildPdfLinkLargeFormat' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
 const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
@@ -56,7 +57,7 @@ function buildCountry( country ) {
     `;
   }
 
-  pageContent += buildPdfLinks( `./${ pdfFileName }`, `./${ largePdfFileName }` );
+  pageContent += buildPdfLink( `./${ pdfFileName }`, build.ASSETS_COUNTRY_PREFIX );
 
   const accessPointsSection = buildAccessPointSection( accessPoints );
   pageContent += accessPointsSection;
@@ -66,6 +67,8 @@ function buildCountry( country ) {
 
   const resourcesSection = buildResourcesSection( resources );
   pageContent += resourcesSection;
+
+  pageContent += buildPdfLinkLargeFormat( `./${ largePdfFileName }`, build.ASSETS_COUNTRY_PREFIX );
 
   pageContent += buildPageFooter();
 

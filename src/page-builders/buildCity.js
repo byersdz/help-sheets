@@ -3,7 +3,8 @@ const fs = require( 'fs' );
 const get = require( 'lodash/get' );
 const buildPageDescription = require( '../component-builders/buildPageDescription' );
 const buildPageFooter = require( '../component-builders/buildPageFooter' );
-const buildPdfLinks = require( '../component-builders/buildPdfLinks' );
+const buildPdfLink = require( '../component-builders/buildPdfLink' );
+const buildPdfLinkLargeFormat = require( '../component-builders/buildPdfLinkLargeFormat' );
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
 const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
@@ -65,7 +66,7 @@ function buildCity( city, state, country ) {
 
   pageContent += buildPageDescription();
 
-  pageContent += buildPdfLinks( `./${ pdfFileName }`, `./${ largePdfFileName }` );
+  pageContent += buildPdfLink( `./${ pdfFileName }`, build.ASSETS_CITY_PREFIX );
 
   const combinedAccessPoints = combineItems(
     [countryAccessPoints, stateAccessPoints, accessPoints],
@@ -87,6 +88,8 @@ function buildCity( city, state, country ) {
   );
   const resourcesSection = buildResourcesSection( combinedResources );
   pageContent += resourcesSection;
+
+  pageContent += buildPdfLinkLargeFormat( `./${ largePdfFileName }`, build.ASSETS_CITY_PREFIX );
 
   pageContent += buildPageFooter();
 
