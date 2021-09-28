@@ -28,18 +28,21 @@ function createSheetPdf( options ) {
     items: accessPoints,
     header: 'Access Points',
     description: ' - Entry points to find and access local resources.',
+    isLargePrint,
   } );
 
   const basicNeedsSection = buildSection( {
     items: basicNeeds,
     header: 'Basic Needs',
     description: ' - Basic needs such as food pantries, meals, showers, or clothing.',
+    isLargePrint,
   } );
 
   const resourcesSection = buildSection( {
     items: resources,
     header: 'Resources',
     description: '',
+    isLargePrint,
   } );
 
   const linkColor = '#127748';
@@ -82,16 +85,16 @@ function createSheetPdf( options ) {
     },
     styles: {
       headerPlace: {
-        fontSize: 12,
+        fontSize: isLargePrint ? 18 : 12,
         bold: true,
       },
       headerLink: {
-        fontSize: 12,
+        fontSize: isLargePrint ? 18 : 12,
         alignment: 'right',
         color: linkColor,
       },
       sectionHeader: {
-        fontSize: 12,
+        fontSize: isLargePrint ? 18 : 12,
         bold: true,
       },
       itemName: {
@@ -111,7 +114,7 @@ function createSheetPdf( options ) {
         alignment: 'center',
       },
       footer: {
-        fontSize: 9,
+        fontSize: isLargePrint ? 18 : 9,
       },
     },
     pageMargins: [20, 20, 20, 20],
