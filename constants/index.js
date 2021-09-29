@@ -28,6 +28,7 @@ keys.STATES = 'states';
 keys.COUNTRIES = 'countries';
 keys.PRIORITY = 'priority';
 keys.EXCLUDE_LIST = 'excludeList';
+keys.SERVES = 'serves';
 
 const languageCodes = {};
 
@@ -62,10 +63,17 @@ const priorities = {};
 priorities.NORMAL = 'normal';
 priorities.LOW = 'low';
 
+const serves = {};
+
+serves.MEN = 'men';
+serves.WOMEN = 'women';
+serves.WOMEN_WITH_CHILDREN = 'womenWithChildren';
+
 constants.keys = keys;
 constants.languageCodes = languageCodes;
 constants.build = build;
 constants.templates = templates;
 constants.priorities = priorities;
+constants.serves = serves;
 
 module.exports = constants;

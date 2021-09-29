@@ -12,6 +12,7 @@ const buildPdfLinkLargeFormat = require( '../component-builders/buildPdfLinkLarg
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
 const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
+const buildEmergencySheltersSection = require( '../component-builders/buildEmergencySheltersSection' );
 const createSheetPdf = require( '../pdf/createSheetPdf' );
 
 function buildCountry( country ) {
@@ -21,6 +22,7 @@ function buildCountry( country ) {
   const accessPoints = get( country, keys.ACCESS_POINTS, [] );
   const resources = get( country, keys.RESOURCES, [] );
   const basicNeeds = get( country, keys.BASIC_NEEDS, [] );
+  const emergencyShelters = get( country, keys.EMERGENCY_SHELTERS );
 
   const countryDirectoryPath = `${ build.DIST_PATH }/${ urlName }`;
   const countryPagePath = `${ countryDirectoryPath }/index.html`;
@@ -65,6 +67,9 @@ function buildCountry( country ) {
   const basicNeedsSection = buildBasicNeedsSection( basicNeeds );
   pageContent += basicNeedsSection;
 
+  const emergencySheltersSection = buildEmergencySheltersSection( emergencyShelters );
+  pageContent += emergencySheltersSection;
+
   const resourcesSection = buildResourcesSection( resources );
   pageContent += resourcesSection;
 
@@ -100,6 +105,7 @@ function buildCountry( country ) {
     isLargePrint: true,
     accessPoints,
     basicNeeds,
+    emergencyShelters,
     resources,
   } );
 

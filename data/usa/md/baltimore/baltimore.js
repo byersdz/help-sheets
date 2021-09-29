@@ -62,6 +62,15 @@ data[keys.BASIC_NEEDS] = [
   },
 ];
 
+data[keys.EMERGENCY_SHELTERS] = [
+  {
+    [keys.NAME]: 'Helping Up Mission',
+    [keys.PHONE]: '4106757500',
+    [keys.PHONE_EXTENSION]: '1196',
+    [keys.URL]: 'https://HelpingUpMission.org/get-help',
+  },
+];
+
 data[keys.RESOURCES] = [];
 
 module.exports = data;

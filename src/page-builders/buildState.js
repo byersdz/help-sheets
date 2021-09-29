@@ -12,6 +12,7 @@ const buildPdfLinkLargeFormat = require( '../component-builders/buildPdfLinkLarg
 const buildAccessPointSection = require( '../component-builders/buildAccessPointSection' );
 const buildResourcesSection = require( '../component-builders/buildResourcesSection' );
 const buildBasicNeedsSection = require( '../component-builders/buildBasicNeedsSection' );
+const buildEmergencySheltersSection = require( '../component-builders/buildEmergencySheltersSection' );
 const combineItems = require( './combineItems' );
 const createSheetPdf = require( '../pdf/createSheetPdf' );
 
@@ -21,6 +22,7 @@ function buildState( state, country ) {
   const countryAccessPoints = get( country, keys.ACCESS_POINTS, [] );
   const countryResources = get( country, keys.RESOURCES, [] );
   const countryBasicNeeds = get( country, keys.BASIC_NEEDS, [] );
+  const countryEmergencyShelters = get( country, keys.EMERGENCY_SHELTERS, [] );
 
   const urlName = get( state, keys.URL_NAME );
   const name = get( state, keys.NAME );
@@ -28,6 +30,7 @@ function buildState( state, country ) {
   const accessPoints = get( state, keys.ACCESS_POINTS, [] );
   const resources = get( state, keys.RESOURCES, [] );
   const basicNeeds = get( state, keys.BASIC_NEEDS );
+  const emergencyShelters = get( state, keys.EMERGENCY_SHELTERS, [] );
   const excludeList = get( state, keys.EXCLUDE_LIST );
 
   const stateDirectoryPath = `${ build.DIST_PATH }/${ countryUrlName }/${ urlName }`;
@@ -84,6 +87,13 @@ function buildState( state, country ) {
   const basicNeedsSection = buildBasicNeedsSection( combinedBasicNeeds );
   pageContent += basicNeedsSection;
 
+  const combinedEmergencyShelters = combineItems(
+    [countryEmergencyShelters, emergencyShelters],
+    excludeList,
+  );
+  const emergencySheltersSection = buildEmergencySheltersSection( combinedEmergencyShelters );
+  pageContent += emergencySheltersSection;
+
   const combinedResources = combineItems( [countryResources, resources], excludeList );
   const resourcesSection = buildResourcesSection( combinedResources );
   pageContent += resourcesSection;
@@ -120,6 +130,7 @@ function buildState( state, country ) {
     isLargePrint: true,
     accessPoints: combinedAccessPoints,
     basicNeeds: combinedBasicNeeds,
+    emergencyShelters: combinedEmergencyShelters,
     resources: combinedResources,
   } );
 
