@@ -3,7 +3,6 @@ const { keys, languageCodes } = require( '../../../../constants' );
 const data = {};
 
 data[keys.NAME] = 'Richmond';
-data[keys.ID] = 'richmond-va';
 data[keys.URL_NAME] = 'richmond';
 data[keys.DEFAULT_LANGUAGE] = languageCodes.ENGLISH;
 data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
