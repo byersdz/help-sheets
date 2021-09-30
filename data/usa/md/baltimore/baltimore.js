@@ -104,7 +104,37 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: '21202',
     [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
   },
-
+  {
+    [keys.NAME]: 'MCVET',
+    [keys.PHONE]: '4105769626',
+    [keys.URL]: 'https://www.mcvet.org/',
+    [keys.ADDRESS_1]: '301 N. High Street',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+    [keys.SERVES]: [serves.VETERANS],
+  },
+  {
+    [keys.NAME]: 'Project PLASE',
+    [keys.PHONE]: '4108371400',
+    [keys.PHONE_EXTENSION]: '221',
+    [keys.URL]: 'https://projectplase.org/need-housing',
+    [keys.ADDRESS_1]: '1814 Maryland Avenue',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21201',
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+  },
+  {
+    [keys.NAME]: 'Weinberg Housing and Resource Center',
+    [keys.PHONE]: '6676003230',
+    [keys.URL]: 'https://www.CatholicCharities-md.org/services/weinberg-housing-resource-center',
+    [keys.ADDRESS_1]: '620 Fallsway',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [];
