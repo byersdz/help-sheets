@@ -322,6 +322,10 @@ h1 {
     content: "- ";
   }
 
+  .section .item .item-top .serves::before {
+    content: "- ";
+  }
+
   .section .item .item-top .phone::before {
     content: "- ";
   }

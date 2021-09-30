@@ -1,4 +1,4 @@
-const { keys, languageCodes } = require( '../../../../constants' );
+const { keys, languageCodes, serves } = require( '../../../../constants' );
 
 const data = {};
 
@@ -68,7 +68,43 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.PHONE]: '4106757500',
     [keys.PHONE_EXTENSION]: '1196',
     [keys.URL]: 'https://HelpingUpMission.org/get-help',
+    [keys.ADDRESS_1]: '1029 E Baltimore St',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+    [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: 'Baltimore Rescue Mission',
+    [keys.PHONE]: '4103422533',
+    [keys.URL]: 'https://BaltimoreRescueMission.org',
+    [keys.ADDRESS_1]: '4 N Central Ave',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
+    [keys.NAME]: 'Baltimore Outreach Services',
+    [keys.PHONE]: '4107521285',
+    [keys.URL]: 'https://www.BaltimoreOutreach.org',
+    [keys.ADDRESS_1]: '701 S. Charles Street',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21230',
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+  },
+  {
+    [keys.NAME]: 'Karis Home',
+    [keys.PHONE]: '4103421323',
+    [keys.URL]: 'https://BaltimoreRescueMission.org/ministries/karis-home',
+    [keys.ADDRESS_1]: '1228 E Baltimore St',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+  },
+
 ];
 
 data[keys.RESOURCES] = [];

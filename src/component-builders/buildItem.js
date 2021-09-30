@@ -2,12 +2,14 @@ const { keys } = require( '../../constants' );
 const get = require( 'lodash/get' );
 const formatPhone = require( '../formatters/formatPhone' );
 const formatUrl = require( '../formatters/formatUrl' );
+const formatServes = require( '../formatters/formatServes' );
 const buildAddress = require( './buildAddress' );
 const buildProvidesSection = require( './buildProvidesSection' );
 
 function buildItem( item, className ) {
   const name = get( item, keys.NAME );
   const description = get( item, keys.DESCRIPTION );
+  const serves = get( item, keys.SERVES );
   const phone = get( item, keys.PHONE );
   const phoneExtension = get( item, keys.PHONE_EXTENSION, '' );
   const url = get( item, keys.URL, '' );
@@ -24,6 +26,12 @@ function buildItem( item, className ) {
   const descriptionRender = description ? `
   <div class="field description">
   ${ description }
+  </div>
+  ` : '';
+
+  const servesRender = serves ? `
+  <div class="field serves">
+  ${ formatServes( serves ) }
   </div>
   ` : '';
 
@@ -60,6 +68,7 @@ function buildItem( item, className ) {
     <div class="item-top">
       ${ nameRender }
       ${ descriptionRender }
+      ${ servesRender }
       ${ phoneRender }
     </div>
     ${ addressRender }
