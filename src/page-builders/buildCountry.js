@@ -95,6 +95,7 @@ function buildCountry( country ) {
     isLargePrint: false,
     accessPoints,
     basicNeeds,
+    emergencyShelters,
     resources,
   } );
 

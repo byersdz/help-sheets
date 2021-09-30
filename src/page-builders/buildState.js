@@ -120,6 +120,7 @@ function buildState( state, country ) {
     isLargePrint: false,
     accessPoints: combinedAccessPoints,
     basicNeeds: combinedBasicNeeds,
+    emergencyShelters: combinedEmergencyShelters,
     resources: combinedResources,
   } );
 

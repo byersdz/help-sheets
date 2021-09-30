@@ -21,6 +21,7 @@ function createSheetPdf( options ) {
     isLargePrint,
     accessPoints,
     basicNeeds,
+    emergencyShelters,
     resources,
   } = options;
 
@@ -35,6 +36,13 @@ function createSheetPdf( options ) {
     items: basicNeeds,
     header: 'Basic Needs',
     description: ' - Basic needs such as food pantries, meals, showers, or clothing.',
+    isLargePrint,
+  } );
+
+  const emergencySheltersSection = buildSection( {
+    items: emergencyShelters,
+    header: 'Emergency Shelters',
+    description: '',
     isLargePrint,
   } );
 
@@ -69,6 +77,7 @@ function createSheetPdf( options ) {
       },
       [...accessPointSection],
       [...basicNeedsSection],
+      [...emergencySheltersSection],
       [...resourcesSection],
       {
         text: 'Available services can change often.'
