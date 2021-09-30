@@ -60,6 +60,92 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Our Daily Bread',
+    [keys.PHONE]: '6676003400',
+    [keys.URL]: 'https://www.catholiccharities-md.org/services/our-daily-bread-hot-meal-program',
+    [keys.ADDRESS_1]: '725 Fallsway',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Breakfast',
+        [keys.HOURS]: 'Monday - Friday 7:45am - 8:15am',
+      },
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Every day 10:30am - 12:30pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Paul's Place",
+    [keys.PHONE]: '4106250775',
+    [keys.URL]: 'https://PaulsPlaceOutreach.org/services/support-services',
+    [keys.DESCRIPTION]: 'Also provides laundry service and clothing marketplace',
+    [keys.ADDRESS_1]: '1118 Ward Street',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21230',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Hot Lunch',
+        [keys.HOURS]: 'M-F 11am - 12:30pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Emergency Food Pantry',
+        [keys.HOURS]: 'M-F 8am - 11am',
+      },
+      {
+        [keys.DESCRIPTION]: 'Showers',
+        [keys.HOURS]: 'M-F 8am - 10am, 12:45pm - 2pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Manna House',
+    [keys.PHONE]: '4108893001',
+    [keys.URL]: 'https://MannaHouseInc.org/',
+    [keys.ADDRESS_1]: '435 East 25th Street',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21218',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Breakfast',
+        [keys.HOURS]: 'Every day 8am - 10:15am',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Generosity Global',
+    [keys.URL]: 'https://GenerosityGlobal.org/selfless-saturday',
+    [keys.ADDRESS_1]: '407 E Saratoga Street',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Hot Lunch, Clothing Closet',
+        [keys.HOURS]: 'Second Saturday of month: 11am - noon',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Generosity Shower',
+    [keys.URL]: 'https://GenerosityGlobal.org/generosity-shower',
+    [keys.ADDRESS_1]: '450 N Front Street',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Showers',
+        [keys.HOURS]: 'M-F: 9am - 1pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
