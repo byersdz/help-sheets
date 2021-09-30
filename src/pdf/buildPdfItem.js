@@ -3,11 +3,13 @@ const { keys } = require( '../../constants' );
 const formatPhone = require( '../formatters/formatPhone' );
 const formatAddress = require( '../formatters/formatAddress' );
 const formatUrl = require( '../formatters/formatUrl' );
+const formatServes = require( '../formatters/formatServes' );
 const buildPdfProvidesSection = require( './buildPdfProvidesSection' );
 
 function buildPdfItem( item ) {
   const name = get( item, keys.NAME, '' );
   const description = get( item, keys.DESCRIPTION, '' );
+  const serves = get( item, keys.SERVES, '' );
   const phone = get( item, keys.PHONE );
   const phoneExtension = get( item, keys.PHONE_EXTENSION );
   const url = get( item, keys.URL );
@@ -27,6 +29,13 @@ function buildPdfItem( item ) {
     topText.push( {
       text: ` - ${ description }`,
       style: 'itemDescription',
+    } );
+  }
+
+  if ( serves ) {
+    topText.push( {
+      text: ` - ${ formatServes( serves ) }`,
+      style: 'itemServes',
     } );
   }
 
