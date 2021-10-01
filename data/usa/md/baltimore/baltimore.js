@@ -223,6 +223,17 @@ data[keys.EMERGENCY_SHELTERS] = [
   },
 ];
 
-data[keys.RESOURCES] = [];
+data[keys.RESOURCES] = [
+  {
+    [keys.NAME]: 'Health Care for the Homeless',
+    [keys.PHONE]: '4108375533',
+    [keys.URL]: 'https://www.hchmd.org',
+    [keys.DESCRIPTION]: 'Provides health care and supportive services for people experiencing homelessness.',
+    [keys.ADDRESS_1]: '421 Fallsway',
+    [keys.CITY]: 'Baltimore',
+    [keys.STATE]: 'MD',
+    [keys.ZIP_CODE]: '21202',
+  },
+];
 
 module.exports = data;
