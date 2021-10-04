@@ -22,6 +22,7 @@ data[keys.ACCESS_POINTS] = [
     [keys.DESCRIPTION]: '24/7 phone line to help you find local resources you need.',
     [keys.PHONE]: '211',
     [keys.URL]: 'https://www.211virginia.org',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
@@ -33,6 +34,7 @@ data[keys.RESOURCES] = [
     [keys.PHONE]: '18772851299',
     [keys.URL]: 'https://www.dvs.virginia.gov/virginia-veteran-and-family-support-2',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
