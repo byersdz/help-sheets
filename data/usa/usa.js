@@ -19,6 +19,7 @@ data[keys.ACCESS_POINTS] = [
     [keys.DESCRIPTION]: 'Phone line to connect to local resources.',
     [keys.URL]: 'https://www.211.org',
     [keys.PHONE]: '211',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.ID]: 'usa-shelter-directory',
@@ -26,6 +27,7 @@ data[keys.ACCESS_POINTS] = [
     [keys.DESCRIPTION]: 'A directory to find homeless shelters and free food resources near you.',
     [keys.URL]: 'https://www.HomelessShelterDirectory.org',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
@@ -36,20 +38,23 @@ data[keys.RESOURCES] = [
     [keys.PHONE]: '18774243838',
     [keys.URL]: 'https://www.va.gov/homeless',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'National Suicide Prevention Lifeline',
     [keys.DESCRIPTION]: 'Provides 24/7, free and confidential support for people in distress',
     [keys.PHONE]: '18002738255',
-    [keys.URL]: 'https://suicidepreventionlifeline.org',
+    [keys.URL]: 'https://SuicidePreventionLifeline.org',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'National Domestic Violence Hotline',
     [keys.DESCRIPTION]: '24-hour confidential service for survivors, victims and those affected by domestic violence',
     [keys.PHONE]: '18007997233',
-    [keys.URL]: 'https://www.thehotline.org',
+    [keys.URL]: 'https://www.TheHotline.org',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'National Runaway Safeline',
@@ -57,21 +62,24 @@ data[keys.RESOURCES] = [
     [keys.PHONE]: '18007862929',
     [keys.URL]: 'https://www.1800runaway.org',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'National Human Trafficking Hotline',
     [keys.DESCRIPTION]: 'Call if you or someone you know is a victim of human trafficking',
     [keys.PHONE]: '18883737888',
-    [keys.URL]: 'https://humantraffickinghotline.org',
+    [keys.URL]: 'https://HumanTraffickingHotline.org',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Free Mobile Phone Service',
     [keys.DESCRIPTION]: "The FCC's Lifeline program provides free mobile phone service"
       + ' for qualifying low income individuals.',
-    [keys.URL]: 'https://www.safelinkwireless.com',
-    [keys.ALT_URL]: 'https://www.assurancewireless.com',
+    [keys.URL]: 'https://www.SafeLinkWireless.com',
+    [keys.ALT_URL]: 'https://www.AssuranceWireless.com',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.ID]: 'find-treatment-gov',
@@ -80,6 +88,7 @@ data[keys.RESOURCES] = [
     [keys.URL]: 'https://FindTreatment.gov/',
     [keys.PHONE]: '18006624357',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.ID]: 'free-dental-us',
@@ -87,6 +96,7 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: 'Directory of free and low cost dental clinics',
     [keys.URL]: 'https://www.FreeDentalCare.us/',
     [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 

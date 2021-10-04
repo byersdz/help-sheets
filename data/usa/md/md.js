@@ -22,6 +22,7 @@ data[keys.ACCESS_POINTS] = [
     [keys.DESCRIPTION]: '24/7 phone line to help you find local resources you need.',
     [keys.PHONE]: '211',
     [keys.URL]: 'https://211md.org',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
