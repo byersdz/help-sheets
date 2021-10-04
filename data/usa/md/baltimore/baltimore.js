@@ -18,6 +18,13 @@ data[keys.ACCESS_POINTS] = [
     [keys.PHONE]: '4439849540',
     [keys.URL]: 'https://homeless.baltimorecity.gov/get-help-now',
   },
+  {
+    [keys.NAME]: 'Domestic Violence Hotline',
+    [keys.DESCRIPTION]: 'House of Ruth Maryland’s 24/7 hotline is a confidential lifeline to survivors'
+    + ' of domestic violence in need of help',
+    [keys.PHONE]: '4108897884',
+    [keys.URL]: 'https://hruth.org/get-help/',
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
@@ -233,6 +240,13 @@ data[keys.RESOURCES] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
+  },
+  {
+    [keys.NAME]: 'Here2Help Hotline',
+    [keys.PHONE]: '4104335175',
+    [keys.URL]: 'https://www.bhsbaltimore.org/find-help/here2help-hotline',
+    [keys.DESCRIPTION]: 'Call to get connected to mental health services, '
+    + 'talk to a supportive listener or have a mental health specialist come to you.',
   },
 ];
 
