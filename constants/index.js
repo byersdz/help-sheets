@@ -29,6 +29,7 @@ keys.COUNTRIES = 'countries';
 keys.PRIORITY = 'priority';
 keys.EXCLUDE_LIST = 'excludeList';
 keys.SERVES = 'serves';
+keys.DATE_CHECKED = 'dateChecked';
 
 const languageCodes = {};
 

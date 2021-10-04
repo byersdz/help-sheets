@@ -17,6 +17,7 @@ data[keys.ACCESS_POINTS] = [
     [keys.DESCRIPTION]: 'Call to connect with an emergency shelter for the night. Open 9:30am - 9pm M-F',
     [keys.PHONE]: '4439849540',
     [keys.URL]: 'https://homeless.baltimorecity.gov/get-help-now',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Domestic Violence Hotline',
@@ -24,6 +25,7 @@ data[keys.ACCESS_POINTS] = [
     + ' of domestic violence in need of help',
     [keys.PHONE]: '4108897884',
     [keys.URL]: 'https://hruth.org/get-help/',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
@@ -36,6 +38,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21231',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Breakfast',
@@ -56,6 +59,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21218',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Lunch',
@@ -75,6 +79,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Breakfast',
@@ -95,6 +100,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21230',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Hot Lunch',
@@ -118,6 +124,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21218',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Breakfast',
@@ -132,6 +139,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Hot Lunch, Clothing Closet',
@@ -146,6 +154,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Showers',
@@ -166,6 +175,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
     [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Baltimore Rescue Mission',
@@ -176,6 +186,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
     [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Baltimore Outreach Services',
@@ -186,6 +197,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21230',
     [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Karis Home',
@@ -196,6 +208,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
     [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'MCVET',
@@ -206,6 +219,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
     [keys.SERVES]: [serves.VETERANS],
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Project PLASE',
@@ -217,6 +231,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21201',
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Weinberg Housing and Resource Center',
@@ -227,6 +242,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
@@ -240,6 +256,7 @@ data[keys.RESOURCES] = [
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
     [keys.ZIP_CODE]: '21202',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Here2Help Hotline',
@@ -247,6 +264,7 @@ data[keys.RESOURCES] = [
     [keys.URL]: 'https://www.bhsbaltimore.org/find-help/here2help-hotline',
     [keys.DESCRIPTION]: 'Call to get connected to mental health services, '
     + 'talk to a supportive listener or have a mental health specialist come to you.',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
