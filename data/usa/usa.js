@@ -1,5 +1,6 @@
 const { keys, languageCodes, priorities } = require( '../../constants' );
 const maryland = require( './md/md' );
+const pennsylvania = require( './pa/pa' );
 const virginia = require( './va/va' );
 
 const data = {};
@@ -10,7 +11,7 @@ data[keys.URL_NAME] = 'usa';
 data[keys.DEFAULT_LANGUAGE] = languageCodes.ENGLISH;
 data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
-data[keys.STATES] = [maryland, virginia];
+data[keys.STATES] = [maryland, pennsylvania, virginia];
 
 data[keys.ACCESS_POINTS] = [
   {
