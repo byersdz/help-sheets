@@ -17,12 +17,14 @@ data[keys.ACCESS_POINTS] = [
     [keys.DESCRIPTION]: 'Call if you are currently homeless or are within 3 days of losing your housing',
     [keys.PHONE]: '8049720813',
     [keys.URL]: 'https://www.homewardva.org/homeless-connection-line',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Empowernet Hotline',
     [keys.DESCRIPTION]: '24/7 assistance line for victims of domestic violence',
     [keys.PHONE]: '8046126126',
     [keys.URL]: 'https://empowernetva.org',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
@@ -33,6 +35,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.PHONE]: '8045212500',
     [keys.PHONE_EXTENSION]: '631',
     [keys.URL]: 'https://feedmore.org/agency-network/agency-locator',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Second Presbyterian Church',
@@ -42,6 +45,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23219',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Lunch',
@@ -56,6 +60,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Hot Meals',
@@ -79,6 +84,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23229',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.DESCRIPTION]: 'housing/financial counseling; immigration services',
     [keys.PROVIDES]: [
       {
@@ -99,6 +105,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23218',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Hot Meals',
@@ -118,6 +125,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Bagged Lunch',
@@ -133,6 +141,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23219',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Bagged Lunch',
@@ -148,6 +157,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23219',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Bagged Lunch',
@@ -163,6 +173,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'To Go Lunch',
@@ -178,6 +189,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Food Pantry',
@@ -193,6 +205,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23219',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Meals, Food Pantry, Clothes, Toiletries',
@@ -208,6 +221,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23235',
+    [keys.DATE_CHECKED]: '2021-10-03',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Drive thru food pantry',
@@ -224,6 +238,7 @@ data[keys.RESOURCES] = [
       + 'Vision, medical, and dental. Call for intake appointments.',
     [keys.URL]: 'https://dailyplanetva.org/',
     [keys.PHONE]: '8047832505',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'CARITAS The Healing Place for Men',
@@ -234,6 +249,7 @@ data[keys.RESOURCES] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23224',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'CARITAS The Healing Place for Women',
@@ -244,12 +260,14 @@ data[keys.RESOURCES] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23224',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Richmond Behavioral Health Authority',
     [keys.DESCRIPTION]: '24/7 crisis intervention services.',
     [keys.URL]: 'https://www.rbha.org',
     [keys.PHONE]: '8048194100',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'OAR of Richmond',
@@ -260,12 +278,14 @@ data[keys.RESOURCES] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23230',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'REAL LIFE',
     [keys.DESCRIPTION]: 'Services for people impacted by incarceration, homelessness, or substance use disorder',
     [keys.URL]: 'https://reallifeprogram.org',
     [keys.PHONE]: '8043223311',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'RVA Light',
@@ -276,18 +296,21 @@ data[keys.RESOURCES] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Housing Resource Line',
     [keys.DESCRIPTION]: 'Connect to programs and services to help with housing',
     [keys.URL]: 'https://pharva.com/housing-hotline',
     [keys.PHONE]: '8044225061',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
   {
     [keys.NAME]: 'Warm Line',
     [keys.DESCRIPTION]: 'Peer-to-peer mental health support',
     [keys.URL]: 'https://mhav.org/support/warm-line',
     [keys.PHONE]: '18664006428',
+    [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];
 
