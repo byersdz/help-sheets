@@ -13,6 +13,12 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
+    [keys.NAME]: 'Homelessness Prevention Hotline',
+    [keys.PHONE]: '2156867177',
+    [keys.URL]: 'https://www.phila.gov/departments/office-of-homeless-services',
+    [keys.DATE_CHECKED]: '2021-10-04',
+  },
+  {
     [keys.NAME]: 'Philadelphia Domestic Violence Hotline',
     [keys.DESCRIPTION]: 'Crisis intervention, safety planning, resources and referrals',
     [keys.PHONE]: '18667233014',
@@ -60,6 +66,27 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.CITY]: 'Philadelphia',
     [keys.STATE]: 'PA',
     [keys.ZIP_CODE]: '19107',
+    [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: '2021-10-04',
+  },
+  {
+    [keys.NAME]: 'Appletree Family Central Intake Center',
+    [keys.DESCRIPTION]: 'Intake Mon-Fri 7am to 5pm',
+    [keys.PHONE]: '2156867150',
+    [keys.ADDRESS_1]: '1430 Cherry St',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19102',
+    [keys.DATE_CHECKED]: '2021-10-04',
+  },
+  {
+    [keys.NAME]: 'Roosevelt Darby Center',
+    [keys.DESCRIPTION]: 'Intake Mon-Fri 7am to 5pm',
+    [keys.PHONE]: '2156853700',
+    [keys.ADDRESS_1]: '802 N Broad St',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19130',
     [keys.SERVES]: [serves.MEN],
     [keys.DATE_CHECKED]: '2021-10-04',
   },
