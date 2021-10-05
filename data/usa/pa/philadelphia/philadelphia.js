@@ -53,6 +53,59 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Old Pine Community Center',
+    [keys.PHONE]: '2156272493',
+    [keys.URL]: 'https://oldpinecommunitycenter.org/programs-services',
+    [keys.ADDRESS_1]: '401 Lombard Street',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19147',
+    [keys.DATE_CHECKED]: '2021-10-05',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Brown Bag Breakfast and Lunch',
+        [keys.HOURS]: 'Monday - Friday 7am',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'St. Francis Inn',
+    [keys.PHONE]: '2154235845',
+    [keys.URL]: 'http://StFrancisInn.org',
+    [keys.ADDRESS_1]: '2441 Kensington Ave',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19125',
+    [keys.DATE_CHECKED]: '2021-10-05',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Takeaway Breakfast',
+        [keys.HOURS]: 'Tuesday, Wednesday, Thursday 10am - 11am',
+      },
+      {
+        [keys.DESCRIPTION]: 'Sit down meal',
+        [keys.HOURS]: 'Monday-Thursday 4:30pm - 6pm, Friday-Sunday 11:30am - 1pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Marie's Closet",
+    [keys.PHONE]: '2156341510',
+    [keys.URL]: 'http://StFrancisInn.org',
+    [keys.ADDRESS_1]: '2439 Kensington Ave',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19125',
+    [keys.DATE_CHECKED]: '2021-10-05',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Clothing Closet',
+        [keys.HOURS]: 'Wednesday and Thursday 9:30am - 11:30am',
+      },
+    ],
+  },
+
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
@@ -89,6 +142,30 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: '19130',
     [keys.SERVES]: [serves.MEN],
     [keys.DATE_CHECKED]: '2021-10-04',
+  },
+  {
+    [keys.NAME]: 'Station House',
+    [keys.DESCRIPTION]: 'Intake 5pm - 7am weekdays, all day weekends and holidays',
+    [keys.PHONE]: '2152259230',
+    [keys.ADDRESS_1]: '2601 N. Broad Street',
+    [keys.ADDRESS_2]: 'Rear Entrance',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19132',
+    [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: '2021-10-05',
+  },
+  {
+    [keys.NAME]: 'Gaudenzia’s House of Passage',
+    [keys.DESCRIPTION]: 'Intake 5pm - 7am weekdays, all day weekends and holidays',
+    [keys.PHONE]: '2677137778',
+    [keys.ADDRESS_1]: '111 N. 49th St.',
+    [keys.ADDRESS_2]: 'at the corner of 48th St. and Haverford Ave., entrance on 48th Street',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19139',
+    [keys.SERVES]: [serves.WOMEN],
+    [keys.DATE_CHECKED]: '2021-10-05',
   },
 ];
 
