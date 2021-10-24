@@ -105,7 +105,48 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
-
+  {
+    [keys.NAME]: 'Hub of Hope',
+    [keys.PHONE]: '2153095225',
+    [keys.URL]: 'https://www.projecthome.org/hub-hope',
+    [keys.DESCRIPTION]: 'Provides case management and peer support',
+    [keys.ADDRESS_1]: '1400 Arch Street',
+    [keys.ADDRESS_2]: 'Sub Concourse Level, Municipal Services Building',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19102',
+    [keys.DATE_CHECKED]: '2021-10-23',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Coffee',
+        [keys.HOURS]: 'M - F 8am - noon',
+      },
+      {
+        [keys.DESCRIPTION]: 'Showers',
+        [keys.HOURS]: 'M - F 8am - 3:15pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Laundry',
+        [keys.HOURS]: 'M - F 8am - 2:15pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Chosen 300',
+    [keys.PHONE]: '2157659807',
+    [keys.URL]: 'http://chosen300.org',
+    [keys.ADDRESS_1]: '1116 Spring Garden Street',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19123',
+    [keys.DATE_CHECKED]: '2021-10-23',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Dinner',
+        [keys.HOURS]: 'M/W/F: 6pm, Sat: 5pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
