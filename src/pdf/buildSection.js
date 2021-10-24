@@ -17,7 +17,7 @@ function buildSection( {
   const headerRow = [];
 
   headerRow.push( {
-    fillColor: '#eeeeee',
+    border: [false, false, false, false],
     text: [
       {
         text: header,
@@ -60,7 +60,7 @@ function buildSection( {
   } );
 
   result.push( {
-    margin: [0, 0, 0, 5],
+    margin: [0, 0, 0, 7],
     table: {
       widths: isLargePrint ? ['*'] : ['*', '*'],
       headerRows: 1,
