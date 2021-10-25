@@ -147,6 +147,100 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Broad St. Ministry',
+    [keys.PHONE]: '2157354847',
+    [keys.URL]: 'https://www.BroadStreetMinistry.org/radical_hospitality-detail/social-services',
+    [keys.ADDRESS_1]: '315 South Broad street',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19107',
+    [keys.DATE_CHECKED]: '2021-10-25',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Monday - Friday 11:30am - 1pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Mail',
+        [keys.HOURS]: 'Monday - Friday 11:30am - 3pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Clothing Closet',
+        [keys.HOURS]: 'Tuesdays and Thursdays 11:30am - 1pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "St. John's Hospice",
+    [keys.PHONE]: '2155637763',
+    [keys.URL]: 'https://SaintJohnsHospice.org/all-programs',
+    [keys.ADDRESS_1]: '1221 Race St',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19107',
+    [keys.DATE_CHECKED]: '2021-10-25',
+    [keys.DESCRIPTION]: 'Also provides showers and mail service',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Monday - Friday noon - 1pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Dinner',
+        [keys.HOURS]: 'Friday and Monday 4pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Church of the Advocate',
+    [keys.PHONE]: '2159788000',
+    [keys.URL]: 'http://www.ChurchOfTheAdvocate.org/hours-and-services.html',
+    [keys.ADDRESS_1]: '1801 West Diamond Street',
+    [keys.ADDRESS_2]: 'Main entrance: 2121 Gratz Street',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19121',
+    [keys.DATE_CHECKED]: '2021-10-25',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Monday - Friday noon - 1pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Kensington Meal Site',
+    [keys.URL]: 'https://www.StepUpPhilly.org/meals',
+    [keys.ADDRESS_1]: '1829 E Clearfield Street',
+    [keys.ADDRESS_2]: '(Corner of Clearfield + Ruth Streets)',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19134',
+    [keys.DATE_CHECKED]: '2021-10-25',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Monday - Friday 12:30pm - 3pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'South Philly Meal Site',
+    [keys.URL]: 'https://www.StepUpPhilly.org/meals',
+    [keys.ADDRESS_1]: '2230 S. 8th Street',
+    [keys.ADDRESS_2]: '(Francis Scott Key School, 8th and Wolf Streets)',
+    [keys.CITY]: 'Philadelphia',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '19148',
+    [keys.DATE_CHECKED]: '2021-10-25',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Monday Tuesdays Wednesdays Fridays 11:30am - 2pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
