@@ -1,5 +1,6 @@
 const { keys, languageCodes, priorities } = require( '../../../constants' );
 const richmond = require( './richmond/richmond' );
+const virginiaBeachNorfolk = require( './virginia-beach-norfolk/virginia-beach-norfolk' );
 
 const data = {};
 
@@ -9,7 +10,7 @@ data[keys.URL_NAME] = 'va';
 data[keys.DEFAULT_LANGUAGE] = languageCodes.ENGLISH;
 data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
-data[keys.CITIES] = [richmond];
+data[keys.CITIES] = [richmond, virginiaBeachNorfolk];
 
 data[keys.EXCLUDE_LIST] = [
   '211-usa',
