@@ -29,6 +29,13 @@ data[keys.ACCESS_POINTS] = [
     [keys.URL]: 'https://www.theplanningcouncil.org/homeless-solutions/housing-crisis-hotline/',
     [keys.DATE_CHECKED]: '2021-11-08',
   },
+  {
+    [keys.NAME]: 'Samaritan House Domestic Violence Hotline',
+    [keys.DESCRIPTION]: 'Housing and services for individuals, children and families experiencing domestic violence',
+    [keys.PHONE]: '7574302120',
+    [keys.URL]: 'https://SamaritanHouseVA.org',
+    [keys.DATE_CHECKED]: '2021-11-11',
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
@@ -138,14 +145,39 @@ data[keys.BASIC_NEEDS] = [
   },
 ];
 
+data[keys.EMERGENCY_SHELTERS] = [
+  {
+    [keys.NAME]: 'Union Mission',
+    [keys.PHONE]: '7576278686',
+    [keys.URL]: 'https://www.UnionMissionMinistries.org/get-help',
+    [keys.ADDRESS_1]: '5100 E. Virginia Beach Blvd',
+    [keys.CITY]: 'Norfolk',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23502',
+    [keys.DATE_CHECKED]: '2021-11-11',
+    [keys.DESCRIPTION]: 'Men: ext. 200, Women: ext 354, Women w/ children: ext. 351',
+  },
+];
+
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: 'The Daily Planet',
-    [keys.DESCRIPTION]: 'Mental Health. in/out-patient substance abuse services. '
-      + 'Vision, medical, and dental. Call for intake appointments.',
-    [keys.URL]: 'https://dailyplanetva.org/',
-    [keys.PHONE]: '8047832505',
-    [keys.DATE_CHECKED]: '2021-10-03',
+    [keys.NAME]: 'Step Up inc.',
+    [keys.DESCRIPTION]: 'Life skills and employment assistance for ex-offenders',
+    [keys.URL]: 'http://stepupincorporated.org/index.html',
+    [keys.PHONE]: '7575883151',
+    [keys.DATE_CHECKED]: '2021-11-11',
+    [keys.ADDRESS_1]: '5900 East Va. Beach Blvd',
+    [keys.ADDRESS_2]: 'Suite 102',
+    [keys.CITY]: 'Norfolk',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23502',
+  },
+  {
+    [keys.NAME]: 'Vets House',
+    [keys.DESCRIPTION]: '12 month program providing vets with transitional housing and job assistance',
+    [keys.URL]: 'http://www.VetsHouseInc.org/',
+    [keys.PHONE]: '7577248614',
+    [keys.DATE_CHECKED]: '2021-11-11',
   },
 ];
 
