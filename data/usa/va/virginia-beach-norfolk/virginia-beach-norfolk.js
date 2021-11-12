@@ -157,6 +157,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: '2021-11-11',
     [keys.DESCRIPTION]: 'Men: ext. 200, Women: ext 354, Women w/ children: ext. 351',
   },
+  {
+    [keys.NAME]: 'Seton Youth Shelter',
+    [keys.PHONE]: '7574984357',
+    [keys.URL]: 'http://SetonYouthShelters.org/help-me',
+    [keys.ADDRESS_1]: '101 N Lynnhaven Rd',
+    [keys.ADDRESS_2]: 'Ste 101',
+    [keys.CITY]: 'Virginia Beach',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23452',
+    [keys.DATE_CHECKED]: '2021-11-11',
+    [keys.DESCRIPTION]: 'Serves youth aged 9 - 18',
+  },
 ];
 
 data[keys.RESOURCES] = [
