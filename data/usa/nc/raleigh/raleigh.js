@@ -24,27 +24,23 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: 'Sunday Breakfast Rescue Mission',
-    [keys.PHONE]: '2159226400',
-    [keys.PHONE_EXTENSION]: '1050',
-    [keys.URL]: 'https://sundaybreakfast.org/get-help-now',
-    [keys.ADDRESS_1]: '302 N. 13th Street',
-    [keys.CITY]: 'Philadelphia',
-    [keys.STATE]: 'PA',
-    [keys.ZIP_CODE]: '19107',
-    [keys.DATE_CHECKED]: '2021-10-04',
+    [keys.NAME]: 'Oak City Cares',
+    [keys.PHONE]: '9843449599',
+    [keys.URL]: 'https://OakCityCares.org/',
+    [keys.ADDRESS_1]: '1430 South Wilmington Street',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27603',
+    [keys.DATE_CHECKED]: '2021-11-15',
+    [keys.DESCRIPTION]: 'Provides coordinated care for the homeless',
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: 'Breakfast',
-        [keys.HOURS]: 'Everyday, arrive before 7am',
+        [keys.DESCRIPTION]: 'Showers and Laundry',
+        [keys.HOURS]: 'Monday - Friday 9am - 5pm',
       },
       {
-        [keys.DESCRIPTION]: 'Lunch',
-        [keys.HOURS]: 'Everyday, arrive before noon',
-      },
-      {
-        [keys.DESCRIPTION]: 'Dinner',
-        [keys.HOURS]: 'Everyday, arrive before 6:30pm',
+        [keys.DESCRIPTION]: 'Meals',
+        [keys.HOURS]: 'Saturday and Sunday: 9am, 12:30pm, 3pm',
       },
     ],
   },
