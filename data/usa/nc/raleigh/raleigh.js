@@ -44,6 +44,56 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'A Place at the Table Cafe',
+    [keys.PHONE]: '9193078914',
+    [keys.URL]: 'https://TableRaleigh.org',
+    [keys.ADDRESS_1]: '300 W. Hargett St',
+    [keys.ADDRESS_2]: 'Suite 50',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27601',
+    [keys.DATE_CHECKED]: '2021-11-15',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Pay what you can meals',
+        [keys.HOURS]: 'Tuesday - Sunday 8am - 2pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Shepherd's Table Soup Kitchen",
+    [keys.PHONE]: '9198312010',
+    [keys.URL]: 'http://www.shepherds-table.org/',
+    [keys.ADDRESS_1]: '121 Hillsborough St.',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27603',
+    [keys.DATE_CHECKED]: '2021-11-15',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Monday - Friday 11am - noon',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Salvation Army',
+    [keys.PHONE]: '9198346733',
+    // eslint-disable-next-line max-len
+    [keys.URL]: 'https://www.salvationarmycarolinas.org/wakecounty/programs/social-ministries/soup-line/soup-line-assistance',
+    [keys.ADDRESS_1]: '1863 Capital Blvd',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27601',
+    [keys.DATE_CHECKED]: '2021-11-15',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Dinner',
+        [keys.HOURS]: 'Monday - Friday 5pm - 6pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
