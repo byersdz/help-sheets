@@ -13,10 +13,12 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: 'Homelessness Prevention Hotline',
-    [keys.PHONE]: '2156867177',
-    [keys.URL]: 'https://www.phila.gov/departments/office-of-homeless-services',
-    [keys.DATE_CHECKED]: '2021-10-04',
+    [keys.NAME]: 'Homeless Access Hub',
+    [keys.PHONE]: '9194430096',
+    [keys.URL]: 'https://PartnershipWake.org/access-hub/',
+    [keys.DESCRIPTION]: 'Helpline for our neighbors experiencing homelessness or about to become homeless. '
+      + 'Provides referals to emergency shelters. M-F 8am - 5pm',
+    [keys.DATE_CHECKED]: '2021-11-15',
   },
 ];
 
