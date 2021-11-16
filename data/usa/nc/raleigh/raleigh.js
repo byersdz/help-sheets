@@ -94,6 +94,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Women's Center of Wake County",
+    [keys.PHONE]: '9198293711',
+    [keys.URL]: 'https://www.wcwc.org/get-help',
+    [keys.ADDRESS_1]: '400 S. West St',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27601',
+    [keys.DATE_CHECKED]: '2021-11-16',
+    [keys.DESCRIPTION]: 'Provides meals, clothng, and services for homeless women',
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
