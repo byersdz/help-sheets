@@ -105,6 +105,31 @@ data[keys.BASIC_NEEDS] = [
     [keys.DATE_CHECKED]: '2021-11-16',
     [keys.DESCRIPTION]: 'Provides meals, clothng, and services for homeless women',
   },
+  // {
+  //   [keys.NAME]: 'Love Wins Community Engagement Center',
+  //   [keys.PHONE]: '9192632907',
+  //   [keys.URL]: 'https://LoveWinscCEC.org/',
+  //   [keys.ADDRESS_1]: '622 Maywood Ave',
+  //   [keys.CITY]: 'Raleigh',
+  //   [keys.STATE]: 'NC',
+  //   [keys.ZIP_CODE]: '27631',
+  //   [keys.DATE_CHECKED]: '2021-11-16',
+  //   [keys.DESCRIPTION]: 'Also provides food pantry and hygiene packs.',
+  //   [keys.PROVIDES]: [
+  //     {
+  //       [keys.DESCRIPTION]: 'to go breakfast',
+  //       [keys.HOURS]: 'Monday - Friday 9:15am - 10:15am',
+  //     },
+  //     {
+  //       [keys.DESCRIPTION]: 'to go lunch',
+  //       [keys.HOURS]: 'Monday - Friday 11:45am - 12:45pm',
+  //     },
+  //     {
+  //       [keys.DESCRIPTION]: 'to go dinner',
+  //       [keys.HOURS]: 'Tuesday - Thursday 5:45pm - 6:45pm',
+  //     },
+  //   ],
+  // },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
