@@ -1,0 +1,75 @@
+{
+  "name": "help-sheets-admin-tool",
+  "version": "2.4.0",
+  "description": "",
+  "private": true,
+  "main": "electron/electronMain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --config config/webpack.config.dev.js",
+    "build": "webpack --config config/webpack.config.prod.js",
+    "start-electron-dev": "webpack-dev-server --config config/webpack.config.electrondev.js",
+    "electron-start": "electron .",
+    "electron-dev": "concurrently \"cross-env BROWSER=none npm run start-electron-dev\" \"wait-on http://localhost:9001 && electron .\"",
+    "electron-build-react": "webpack --config config/webpack.config.electron.js",
+    "electron-build": "electron-builder",
+    "build-all": "npm run build && npm run electron-build-react && npm run electron-build"
+  },
+  "build": {
+    "directories": {
+      "output": "./electron/dist"
+    },
+    "win": {
+      "target": "portable"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "concurrently": "^4.1.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "electron": "^11.5.0",
+    "electron-builder": "^22.9.1",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-webpack": "^0.11.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "file-loader": "^4.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^3.0.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "wait-on": "^3.3.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "electron-is-dev": "^1.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.25.3",
+    "normalize.css": "^8.0.1",
+    "react-click-outside": "^3.0.1",
+    "redux-thunk": "^2.3.0",
+    "redux-undo": "^1.0.0-beta9-9-7"
+  }
+}
