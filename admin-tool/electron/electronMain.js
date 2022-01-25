@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 /* eslint-disable dot-notation */
 
 const {
@@ -5,14 +6,23 @@ const {
   BrowserWindow,
   shell,
   Menu,
+  ipcMain,
+  dialog,
 } = require( 'electron' );
 const isDev = require( 'electron-is-dev' );
+const path = require( 'path' );
+const fs = require( 'fs' );
+
 
 function createWindow() {
   const win = new BrowserWindow( {
     width: 1360,
     height: 720,
     show: false,
+    webPreferences: {
+      preload: path.join( __dirname, 'preload.js' ),
+      enableRemoteModule: true,
+    },
   } );
 
   // eslint-disable-next-line new-cap
@@ -50,5 +60,20 @@ function createWindow() {
     shell.openExternal( url );
   } );
 }
+
+function getLocationData( directory ) {
+  console.log( fs.readdirSync( directory ) );
+}
+
+ipcMain.on( 'pickDataDirectory', ( event ) => {
+  const directory = dialog.showOpenDialogSync( { properties: ['openDirectory'] } );
+  if ( directory ) {
+    getLocationData( directory[0] );
+    event.returnValue = directory[0];
+  }
+  else {
+    event.returnValue = '';
+  }
+} );
 
 app.on( 'ready', createWindow );
