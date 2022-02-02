@@ -17,10 +17,15 @@ class DataSelector extends React.Component {
     _setDataDirectory( newDirectory );
   }
 
-  render() {
+  handleLoadData() {
     const { dataDirectory } = this.props;
 
-    console.log( dataDirectory );
+    const data = window.api.sendSync( 'loadData', dataDirectory );
+    console.log( 'load data', data );
+  }
+
+  render() {
+    const { dataDirectory } = this.props;
 
     return (
       <div className="data-selector-page">
@@ -36,7 +41,7 @@ class DataSelector extends React.Component {
         </Button>
         <Button
           variant="contained"
-          onClick={ () => console.log( 'load data' ) }
+          onClick={ () => this.handleLoadData() }
           disabled={ !dataDirectory }
         >
           Load Data

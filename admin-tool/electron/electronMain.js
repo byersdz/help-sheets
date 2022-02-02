@@ -62,14 +62,75 @@ function createWindow() {
 }
 
 function getLocationData( directory ) {
-  console.log( fs.readdirSync( directory ) );
+  try {
+    const data = {};
+    data.countries = [];
+
+    const countries = fs.readdirSync( `${ directory }` );
+    countries.forEach( country => {
+      const countryDirectory = path.join( directory, country );
+      const countryDataPath = path.join( countryDirectory, `${ country }.json` );
+
+      let countryData = fs.readFileSync( countryDataPath );
+      countryData = JSON.parse( `${ countryData }` );
+      countryData.states = [];
+      data.countries.push( countryData );
+
+      const states = fs.readdirSync( countryDirectory );
+      states.forEach( state => {
+        const extension = path.extname( state );
+        if ( extension ) {
+          return;
+        }
+
+        const stateDirectory = path.join( countryDirectory, state );
+        const stateDataPath = path.join( stateDirectory, `${ state }.json` );
+
+        let stateData = fs.readFileSync( stateDataPath );
+        stateData = JSON.parse( `${ stateData }` );
+        countryData.states.push( stateData );
+        stateData.cities = [];
+
+        const cities = fs.readdirSync( stateDirectory );
+        cities.forEach( city => {
+          const cityExtension = path.extname( city );
+          if ( cityExtension ) {
+            return;
+          }
+
+          const cityDirectory = path.join( stateDirectory, city );
+          const cityDataPath = path.join( cityDirectory, `${ city }.json` );
+
+          let cityData = fs.readFileSync( cityDataPath );
+          cityData = JSON.parse( `${ cityData }` );
+          stateData.cities.push( cityData );
+        } );
+      } );
+    } );
+
+    return data;
+  }
+  catch ( err ) {
+    console.error( 'error loading data', err );
+    return '';
+  }
 }
 
 ipcMain.on( 'pickDataDirectory', ( event ) => {
   const directory = dialog.showOpenDialogSync( { properties: ['openDirectory'] } );
   if ( directory ) {
-    getLocationData( directory[0] );
     event.returnValue = directory[0];
+  }
+  else {
+    event.returnValue = '';
+  }
+} );
+
+ipcMain.on( 'loadData', ( event, directory ) => {
+  if ( directory ) {
+    const data = getLocationData( directory );
+    console.log( data );
+    event.returnValue = data;
   }
   else {
     event.returnValue = '';
