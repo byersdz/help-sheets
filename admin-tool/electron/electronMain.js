@@ -129,7 +129,6 @@ ipcMain.on( 'pickDataDirectory', ( event ) => {
 ipcMain.on( 'loadData', ( event, directory ) => {
   if ( directory ) {
     const data = getLocationData( directory );
-    console.log( data );
     event.returnValue = data;
   }
   else {

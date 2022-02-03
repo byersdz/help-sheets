@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import { bindActionCreators } from 'redux';
 
 import { setDataDirectory } from '../../state/Data/dataDirectory';
+import { setLocationData } from '../../state/Data/locationData';
 
 import './DataSelector.scss';
 
@@ -18,10 +19,13 @@ class DataSelector extends React.Component {
   }
 
   handleLoadData() {
-    const { dataDirectory } = this.props;
+    const { dataDirectory, _setLocationData } = this.props;
 
     const data = window.api.sendSync( 'loadData', dataDirectory );
-    console.log( 'load data', data );
+
+    if ( data ) {
+      _setLocationData( data );
+    }
   }
 
   render() {
@@ -54,6 +58,7 @@ class DataSelector extends React.Component {
 DataSelector.propTypes = {
   dataDirectory: PropTypes.string.isRequired,
   _setDataDirectory: PropTypes.func.isRequired,
+  _setLocationData: PropTypes.func.isRequired,
 };
 
 function mapStateToProps( state ) {
@@ -65,6 +70,7 @@ function mapStateToProps( state ) {
 function mapDispatchToProps( dispatch ) {
   return bindActionCreators( {
     _setDataDirectory: setDataDirectory,
+    _setLocationData: setLocationData,
   }, dispatch );
 }
 
