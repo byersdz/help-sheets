@@ -2,15 +2,39 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
 import DataSelector from '../../pages/DataSelector/DataSelector';
 import DataEditor from '../../pages/DataEditor/DataEditor';
 
+import { setDataDirectory } from '../../state/Data/dataDirectory';
+import { setLocationData } from '../../state/Data/locationData';
+
+import { loadDataDirectory } from '../../utils/localStorage';
+
 import './App.scss';
 
 class App extends React.Component {
+  componentDidMount() {
+    const { _setDataDirectory, _setLocationData } = this.props;
+
+    const dataDirectory = loadDataDirectory();
+
+    if ( dataDirectory ) {
+      _setDataDirectory( dataDirectory );
+
+      const data = window.api.sendSync( 'loadData', dataDirectory );
+
+      if ( data ) {
+        _setLocationData( data );
+      }
+    }
+  }
+
   render() {
     const { locationData } = this.props;
+
+    console.log( locationData );
 
     let appRender = null;
 
@@ -20,14 +44,19 @@ class App extends React.Component {
     else {
       appRender = <DataSelector />;
     }
-    console.log( locationData );
 
     return appRender;
   }
 }
 
 App.propTypes = {
-  locationData: PropTypes.object.isRequired,
+  locationData: PropTypes.object,
+  _setDataDirectory: PropTypes.func.isRequired,
+  _setLocationData: PropTypes.func.isRequired,
+};
+
+App.defaultProps = {
+  locationData: null,
 };
 
 function mapStateToProps( state ) {
@@ -36,4 +65,11 @@ function mapStateToProps( state ) {
   };
 }
 
-export default connect( mapStateToProps )( App );
+function mapDispatchToProps( dispatch ) {
+  return bindActionCreators( {
+    _setDataDirectory: setDataDirectory,
+    _setLocationData: setLocationData,
+  }, dispatch );
+}
+
+export default connect( mapStateToProps, mapDispatchToProps )( App );

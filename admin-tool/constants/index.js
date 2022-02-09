@@ -30,6 +30,8 @@ keys.PRIORITY = 'priority';
 keys.EXCLUDE_LIST = 'excludeList';
 keys.SERVES = 'serves';
 keys.DATE_CHECKED = 'dateChecked';
+keys.CHILDREN = 'children';
+keys.PARENT = 'parent';
 
 const languageCodes = {};
 

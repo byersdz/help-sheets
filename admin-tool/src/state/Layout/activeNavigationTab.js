@@ -1,13 +1,13 @@
 
 // Constants
-export const TAB_1 = 'tab1';
-export const TAB_2 = 'tab2';
+export const SELECT_DATA = 'SELECT_DATA';
+export const LOCATION_DATA = 'LOCATION_DATA';
 
 // Actions
 export const SELECT_NAVIGATION_TAB = 'SELECT_NAVIGATION_TAB';
 
 // Reducer
-export default function reducer( state = TAB_1, action ) {
+export default function reducer( state = LOCATION_DATA, action ) {
   switch ( action.type ) {
     case SELECT_NAVIGATION_TAB: {
       return action.payload;

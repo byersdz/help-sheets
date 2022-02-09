@@ -73,7 +73,7 @@ function getLocationData( directory ) {
 
       let countryData = fs.readFileSync( countryDataPath );
       countryData = JSON.parse( `${ countryData }` );
-      countryData.states = [];
+      countryData.children = [];
       data.countries.push( countryData );
 
       const states = fs.readdirSync( countryDirectory );
@@ -88,8 +88,9 @@ function getLocationData( directory ) {
 
         let stateData = fs.readFileSync( stateDataPath );
         stateData = JSON.parse( `${ stateData }` );
-        countryData.states.push( stateData );
-        stateData.cities = [];
+        stateData.parent = countryData;
+        countryData.children.push( stateData );
+        stateData.children = [];
 
         const cities = fs.readdirSync( stateDirectory );
         cities.forEach( city => {
@@ -103,7 +104,8 @@ function getLocationData( directory ) {
 
           let cityData = fs.readFileSync( cityDataPath );
           cityData = JSON.parse( `${ cityData }` );
-          stateData.cities.push( cityData );
+          cityData.parent = stateData;
+          stateData.children.push( cityData );
         } );
       } );
     } );
