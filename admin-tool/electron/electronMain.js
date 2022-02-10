@@ -64,7 +64,7 @@ function createWindow() {
 function getLocationData( directory ) {
   try {
     const data = {};
-    data.countries = [];
+    data.children = [];
 
     const countries = fs.readdirSync( `${ directory }` );
     countries.forEach( country => {
@@ -74,7 +74,7 @@ function getLocationData( directory ) {
       let countryData = fs.readFileSync( countryDataPath );
       countryData = JSON.parse( `${ countryData }` );
       countryData.children = [];
-      data.countries.push( countryData );
+      data.children.push( countryData );
 
       const states = fs.readdirSync( countryDirectory );
       states.forEach( state => {
