@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import Box from '@mui/material/Box';
 
 import TopBar from './TopBar/TopBar';
 import NavigationDrawer from './NavigationDrawer/NavigationDrawer';
@@ -31,13 +32,13 @@ class DataEditor extends React.Component {
     }
 
     return (
-      <div className="data-editor-page">
+      <Box>
         <TopBar />
         <NavigationDrawer />
-        <div className="main-content">
+        <Box sx={ { ml: '240px', mt: '48px' } }>
           { tabRender }
-        </div>
-      </div>
+        </Box>
+      </Box>
     );
   }
 }
