@@ -35,7 +35,7 @@ class DataEditor extends React.Component {
       <Box>
         <TopBar />
         <NavigationDrawer />
-        <Box sx={ { ml: '240px', mt: '48px' } }>
+        <Box sx={ { ml: '240px', pt: '48px' } }>
           { tabRender }
         </Box>
       </Box>

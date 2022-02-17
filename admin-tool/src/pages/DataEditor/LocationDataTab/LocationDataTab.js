@@ -6,6 +6,8 @@ import Box from '@mui/material/Box';
 
 import LocationDisplay from '../../../components/LocationDisplay/LocationDisplay';
 
+import getLocationFromPath from '../../../utils/getLocationFromPath';
+
 class LocationDataTab extends React.Component {
   render() {
     const { locationData } = this.props;
@@ -25,8 +27,9 @@ LocationDataTab.propTypes = {
 };
 
 function mapStateToProps( state ) {
+  const locationData = getLocationFromPath( state.data.locationData, state.data.selectedLocation );
   return {
-    locationData: state.data.locationData,
+    locationData,
   };
 }
 

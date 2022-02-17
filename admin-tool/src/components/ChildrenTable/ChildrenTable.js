@@ -19,7 +19,7 @@ class ChildrenTable extends React.Component {
     const urlName = get( location, keys.URL_NAME, '' );
 
     return (
-      <TableRow>
+      <TableRow key={ urlName }>
         <TableCell>
           { name }
         </TableCell>
@@ -43,7 +43,7 @@ class ChildrenTable extends React.Component {
         sx={
           {
             maxWidth: 800,
-            ml: 4,
+            m: 4,
           }
         }
       >
