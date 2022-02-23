@@ -7,12 +7,48 @@ import cloneDeep from 'lodash/cloneDeep';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
+import TextField from '@mui/material/TextField';
+import Grid from '@mui/material/Grid';
 
 import ChildrenTable from '../ChildrenTable/ChildrenTable';
+
+import { keys } from '../../../constants';
 
 import './LocationDisplay.scss';
 
 class LocationDisplay extends React.Component {
+  constructor( props ) {
+    super( props );
+
+    this.state = {
+      tempData: {},
+    };
+
+    this.setTempData = this.setTempData.bind( this );
+  }
+
+  componentDidMount() {
+    this.setTempData();
+  }
+
+  componentDidUpdate( prevProps ) {
+    const { selectedLocation } = this.props;
+    const { selectedLocation: prevLocation } = prevProps;
+
+    if ( selectedLocation !== prevLocation ) {
+      this.setTempData();
+    }
+  }
+
+  setTempData() {
+    const { locationData } = this.props;
+    const tempData = {};
+
+    tempData[keys.NAME] = get( locationData, keys.NAME, 'Name' );
+
+    this.setState( { tempData } );
+  }
+
   render() {
     const {
       locationData,
@@ -20,6 +56,8 @@ class LocationDisplay extends React.Component {
       onChildSelected,
       onLocationChange,
     } = this.props;
+
+    const { tempData } = this.state;
 
     const childrenData = get( locationData, 'children', [] );
 
@@ -51,6 +89,28 @@ class LocationDisplay extends React.Component {
         ) );
       }
     }
+
+    let locationDataRender = null;
+
+    if ( selectedLocation.length > 0 ) {
+      locationDataRender = (
+        <Grid sx={ { mt: '16px' } } container>
+          <Grid item xs={ 6 }>
+            <TextField
+              label="Name"
+              fullWidth
+              value={ tempData[keys.NAME] }
+              onChange={ e => {
+                this.setState( {
+                  tempData: { ...tempData, [keys.NAME]: e.target.value },
+                } );
+              } }
+            />
+          </Grid>
+        </Grid>
+      );
+    }
+
     return (
       <div className="location-display">
         <Breadcrumbs>
@@ -62,6 +122,7 @@ class LocationDisplay extends React.Component {
           </Link>
           { breadCrumbLinks }
         </Breadcrumbs>
+        { locationDataRender }
         <ChildrenTable
           childrenData={ childrenData }
           onItemSelected={ v => onChildSelected( v ) }
