@@ -12,7 +12,7 @@ import Grid from '@mui/material/Grid';
 
 import ChildrenTable from '../ChildrenTable/ChildrenTable';
 
-import { keys } from '../../../constants';
+import { keys, languageCodes } from '../../../constants';
 
 import './LocationDisplay.scss';
 
@@ -45,6 +45,8 @@ class LocationDisplay extends React.Component {
     const tempData = {};
 
     tempData[keys.NAME] = get( locationData, keys.NAME, 'Name' );
+    tempData[keys.DEFAULT_LANGUAGE] = get( locationData, keys.DEFAULT_LANGUAGE, languageCodes.ENGLISH );
+    tempData[keys.SUPPORTED_LANGUAGES] = get( locationData, keys.SUPPORTED_LANGUAGES, [languageCodes.ENGLISH] );
 
     this.setState( { tempData } );
   }
