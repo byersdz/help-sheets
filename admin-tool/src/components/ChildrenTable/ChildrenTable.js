@@ -51,8 +51,7 @@ class ChildrenTable extends React.Component {
         component={ Paper }
         sx={
           {
-            maxWidth: 800,
-            m: 4,
+            mt: '16px',
           }
         }
       >

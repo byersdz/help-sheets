@@ -9,17 +9,24 @@ import LocationDisplay from '../../../components/LocationDisplay/LocationDisplay
 
 import getLocationFromPath from '../../../utils/getLocationFromPath';
 
-import { pushLocationToSelection } from '../../../state/Data/selectedLocation';
+import { pushLocationToSelection, selectLocation } from '../../../state/Data/selectedLocation';
 
 class LocationDataTab extends React.Component {
   render() {
-    const { locationData, _pushLocationToSelection } = this.props;
+    const {
+      locationData,
+      selectedLocation,
+      _pushLocationToSelection,
+      _selectLocation,
+    } = this.props;
 
     return (
       <Box>
         <LocationDisplay
           locationData={ locationData }
+          selectedLocation={ selectedLocation }
           onChildSelected={ v => _pushLocationToSelection( v ) }
+          onLocationChange={ v => _selectLocation( v ) }
         />
       </Box>
     );
@@ -28,19 +35,23 @@ class LocationDataTab extends React.Component {
 
 LocationDataTab.propTypes = {
   locationData: PropTypes.object.isRequired,
+  selectedLocation: PropTypes.array.isRequired,
   _pushLocationToSelection: PropTypes.func.isRequired,
+  _selectLocation: PropTypes.func.isRequired,
 };
 
 function mapStateToProps( state ) {
   const locationData = getLocationFromPath( state.data.locationData, state.data.selectedLocation );
   return {
     locationData,
+    selectedLocation: state.data.selectedLocation,
   };
 }
 
 function mapDispatchToProps( dispatch ) {
   return bindActionCreators( {
     _pushLocationToSelection: pushLocationToSelection,
+    _selectLocation: selectLocation,
   }, dispatch );
 }
 
