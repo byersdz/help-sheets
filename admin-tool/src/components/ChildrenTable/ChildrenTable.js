@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -8,6 +9,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import Link from '@mui/material/Link';
 import get from 'lodash/get';
 import map from 'lodash/map';
 
@@ -15,13 +17,20 @@ import { keys } from '../../../constants';
 
 class ChildrenTable extends React.Component {
   renderRow( location ) {
+    const { onItemSelected } = this.props;
+
     const name = get( location, keys.NAME, '' );
     const urlName = get( location, keys.URL_NAME, '' );
 
     return (
       <TableRow key={ urlName }>
         <TableCell>
-          { name }
+          <Link
+            component="button"
+            onClick={ () => onItemSelected( urlName ) }
+          >
+            { name }
+          </Link>
         </TableCell>
         <TableCell>
           { urlName }
@@ -69,6 +78,7 @@ class ChildrenTable extends React.Component {
 
 ChildrenTable.propTypes = {
   childrenData: PropTypes.array.isRequired,
+  onItemSelected: PropTypes.func.isRequired,
 };
 
 export default ChildrenTable;

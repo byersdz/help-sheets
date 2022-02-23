@@ -34,8 +34,6 @@ class App extends React.Component {
   render() {
     const { locationData } = this.props;
 
-    console.log( locationData );
-
     let appRender = null;
 
     if ( locationData ) {

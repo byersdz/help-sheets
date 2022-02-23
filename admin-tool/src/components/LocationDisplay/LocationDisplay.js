@@ -7,7 +7,7 @@ import ChildrenTable from '../ChildrenTable/ChildrenTable';
 
 class LocationDisplay extends React.Component {
   render() {
-    const { locationData } = this.props;
+    const { locationData, onChildSelected } = this.props;
 
     const childrenData = get( locationData, 'children', [] );
 
@@ -15,6 +15,7 @@ class LocationDisplay extends React.Component {
       <div className="location-display">
         <ChildrenTable
           childrenData={ childrenData }
+          onItemSelected={ v => onChildSelected( v ) }
         />
       </div>
     );
@@ -23,6 +24,7 @@ class LocationDisplay extends React.Component {
 
 LocationDisplay.propTypes = {
   locationData: PropTypes.object.isRequired,
+  onChildSelected: PropTypes.func.isRequired,
 };
 
 export default LocationDisplay;

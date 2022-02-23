@@ -1,4 +1,6 @@
 
+import get from 'lodash/get';
+
 import { keys } from '../../constants';
 
 function getLocationFromPath( locationData, path ) {
@@ -10,8 +12,11 @@ function getLocationFromPath( locationData, path ) {
 
   for ( let i = 0; i < path.length; i += 1 ) {
     const currentPath = path[i];
-    for ( let j = 0; j < currentLocation.children.length; j += 1 ) {
-      if ( currentLocation[keys.CHILDREN][j][keys.URL_NAME] === currentPath ) {
+
+    const currentChildren = get( currentLocation, keys.CHILDREN, [] );
+
+    for ( let j = 0; j < currentChildren.length; j += 1 ) {
+      if ( currentChildren[j][keys.URL_NAME] === currentPath ) {
         currentLocation = currentLocation.children[j];
       }
     }
