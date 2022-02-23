@@ -44,9 +44,17 @@ class LocationDisplay extends React.Component {
     const { locationData } = this.props;
     const tempData = {};
 
+    tempData[keys.URL_NAME] = get( locationData, keys.URL_NAME, 'url-name' );
     tempData[keys.NAME] = get( locationData, keys.NAME, 'Name' );
     tempData[keys.DEFAULT_LANGUAGE] = get( locationData, keys.DEFAULT_LANGUAGE, languageCodes.ENGLISH );
-    tempData[keys.SUPPORTED_LANGUAGES] = get( locationData, keys.SUPPORTED_LANGUAGES, [languageCodes.ENGLISH] );
+    tempData[keys.SUPPORTED_LANGUAGES] = cloneDeep(
+      get( locationData, keys.SUPPORTED_LANGUAGES, [languageCodes.ENGLISH] ),
+    );
+    tempData[keys.EXCLUDE_LIST] = cloneDeep( get( locationData, keys.EXCLUDE_LIST, [] ) );
+    tempData[keys.ACCESS_POINTS] = cloneDeep( get( locationData, keys.ACCESS_POINTS, [] ) );
+    tempData[keys.BASIC_NEEDS] = cloneDeep( get( locationData, keys.BASIC_NEEDS, [] ) );
+    tempData[keys.EMERGENCY_SHELTERS] = cloneDeep( get( locationData, keys.EMERGENCY_SHELTERS, [] ) );
+    tempData[keys.RESOURCES] = cloneDeep( get( locationData, keys.RESOURCES, [] ) );
 
     this.setState( { tempData } );
   }
@@ -60,6 +68,8 @@ class LocationDisplay extends React.Component {
     } = this.props;
 
     const { tempData } = this.state;
+
+    console.log( tempData );
 
     const childrenData = get( locationData, 'children', [] );
 
