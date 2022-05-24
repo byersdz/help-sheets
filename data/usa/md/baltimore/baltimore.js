@@ -150,6 +150,7 @@ data[keys.BASIC_NEEDS] = [
   {
     [keys.NAME]: 'Generosity Shower',
     [keys.URL]: 'https://GenerosityGlobal.org/generosity-shower',
+    [keys.DESCRIPTION]: 'Only open during warm months',
     [keys.ADDRESS_1]: '450 N Front Street',
     [keys.CITY]: 'Baltimore',
     [keys.STATE]: 'MD',
