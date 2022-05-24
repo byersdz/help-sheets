@@ -11,6 +11,7 @@ import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
 
 import ChildrenTable from '../ChildrenTable/ChildrenTable';
+import ItemTable from '../ItemTable/ItemTable';
 
 import { keys, languageCodes } from '../../../constants';
 
@@ -138,6 +139,22 @@ class LocationDisplay extends React.Component {
         <ChildrenTable
           childrenData={ childrenData }
           onItemSelected={ v => onChildSelected( v ) }
+        />
+        <ItemTable
+          title="Access Points"
+          items={ tempData[keys.ACCESS_POINTS] }
+        />
+        <ItemTable
+          title="Basic Needs"
+          items={ tempData[keys.BASIC_NEEDS] }
+        />
+        <ItemTable
+          title="Emergency Shelters"
+          items={ tempData[keys.EMERGENCY_SHELTERS] }
+        />
+        <ItemTable
+          title="Resources"
+          items={ tempData[keys.RESOURCES] }
         />
       </div>
     );

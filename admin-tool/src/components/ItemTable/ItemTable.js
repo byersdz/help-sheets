@@ -16,39 +16,45 @@ import Typography from '@mui/material/Typography';
 
 import { keys } from '../../../constants';
 
-class ChildrenTable extends React.Component {
-  renderRow( location ) {
+class ItemTable extends React.Component {
+  renderRow( item ) {
     const { onItemSelected } = this.props;
 
-    const name = get( location, keys.NAME, '' );
-    const urlName = get( location, keys.URL_NAME, '' );
+    const id = get( item, keys.ID, '' );
+    const name = get( item, keys.NAME, '' );
+    const description = get( item, keys.DESCRIPTION, '' );
 
     return (
-      <TableRow key={ urlName }>
+      <TableRow key={ id }>
         <TableCell>
           <Link
             component="button"
-            onClick={ () => onItemSelected( urlName ) }
+            onClick={ () => onItemSelected( id ) }
           >
-            { name }
+            { id }
           </Link>
         </TableCell>
         <TableCell>
-          { urlName }
+          { name }
+        </TableCell>
+        <TableCell>
+          { description }
         </TableCell>
       </TableRow>
     );
   }
 
   render() {
-    const { childrenData } = this.props;
+    const { title, items } = this.props;
 
-    const rows = map( childrenData, location => {
-      return ( this.renderRow( location ) );
+    console.log( items );
+
+    const rows = map( items, item => {
+      return ( this.renderRow( item ) );
     } );
 
     return (
-      <div className="children-table">
+      <div className="item-table">
         <Typography
           variant="h6"
           sx={
@@ -57,24 +63,27 @@ class ChildrenTable extends React.Component {
             }
           }
         >
-          Children
+          { title }
         </Typography>
         <TableContainer
           component={ Paper }
           sx={
-            {
-              mt: '16px',
-            }
+          {
+            mt: '8px',
           }
+        }
         >
           <Table>
             <TableHead>
               <TableRow>
                 <TableCell>
-                  Name
+                ID
                 </TableCell>
                 <TableCell>
-                  URL Name
+                Name
+                </TableCell>
+                <TableCell>
+                Description
                 </TableCell>
               </TableRow>
             </TableHead>
@@ -88,9 +97,10 @@ class ChildrenTable extends React.Component {
   }
 }
 
-ChildrenTable.propTypes = {
-  childrenData: PropTypes.array.isRequired,
+ItemTable.propTypes = {
+  title: PropTypes.string.isRequired,
+  items: PropTypes.array.isRequired,
   onItemSelected: PropTypes.func.isRequired,
 };
 
-export default ChildrenTable;
+export default ItemTable;
