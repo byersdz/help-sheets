@@ -1,16 +1,18 @@
-function formatPhone( phone, extension = '' ) {
-  let result = phone;
+function formatPhone( phone, extension = '', countryCode = '' ) {
+  let result = '';
 
-  if ( phone.length === 11 ) {
-    result = `${ phone.slice( 0, 1 ) } `;
-    result += `(${ phone.slice( 1, 4 ) }) `;
-    result += `${ phone.slice( 4, 7 ) }-${ phone.slice( 7 ) }`;
+  if ( countryCode ) {
+    result = `${ countryCode } `;
   }
-  else if ( phone.length === 10 ) {
-    result = `(${ phone.slice( 0, 3 ) }) ${ phone.slice( 3, 6 ) }-${ phone.slice( 6 ) }`;
+
+  if ( phone.length === 10 ) {
+    result += `(${ phone.slice( 0, 3 ) }) ${ phone.slice( 3, 6 ) }-${ phone.slice( 6 ) }`;
   }
   else if ( phone.length === 3 ) {
     result = `call ${ phone }`;
+  }
+  else {
+    result += phone;
   }
 
   if ( extension ) {

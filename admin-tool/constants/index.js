@@ -14,6 +14,7 @@ keys.NAME = 'name';
 keys.DESCRIPTION = 'description';
 keys.PHONE = 'phone';
 keys.PHONE_EXTENSION = 'phoneExtension';
+keys.COUNTRY_CODE = 'countryCode';
 keys.URL = 'url';
 keys.ALT_URL = 'altUrl';
 keys.ADDRESS_1 = 'address1';

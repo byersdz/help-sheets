@@ -12,6 +12,7 @@ function buildItem( item, className ) {
   const serves = get( item, keys.SERVES );
   const phone = get( item, keys.PHONE );
   const phoneExtension = get( item, keys.PHONE_EXTENSION, '' );
+  const countryCode = get( item, keys.COUNTRY_CODE, '' );
   const url = get( item, keys.URL, '' );
   const displayUrl = formatUrl( url );
   const altUrl = get( item, keys.ALT_URL, '' );
@@ -37,8 +38,8 @@ function buildItem( item, className ) {
 
   const phoneRender = phone ? `
   <div class="field phone">
-  <a href="tel:${ phone }" class="phone-link">
-    ${ formatPhone( phone, phoneExtension ) }
+  <a href="tel:${ countryCode }${ phone }" class="phone-link">
+    ${ formatPhone( phone, phoneExtension, countryCode ) }
   </a>
   </div>
   ` : '';

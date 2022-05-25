@@ -309,7 +309,8 @@ data[keys.RESOURCES] = [
     [keys.NAME]: 'Warm Line',
     [keys.DESCRIPTION]: 'Peer-to-peer mental health support',
     [keys.URL]: 'https://mhav.org/support/warm-line',
-    [keys.PHONE]: '18664006428',
+    [keys.PHONE]: '8664006428',
+    [keys.COUNTRY_CODE]: '1',
     [keys.DATE_CHECKED]: '2021-10-03',
   },
 ];

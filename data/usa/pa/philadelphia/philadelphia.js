@@ -21,7 +21,8 @@ data[keys.ACCESS_POINTS] = [
   {
     [keys.NAME]: 'Philadelphia Domestic Violence Hotline',
     [keys.DESCRIPTION]: 'Crisis intervention, safety planning, resources and referrals',
-    [keys.PHONE]: '18667233014',
+    [keys.PHONE]: '8667233014',
+    [keys.COUNTRY_CODE]: '1',
     [keys.URL]: 'https://www.WomenAgainstAbuse.org/get-help/pdvh',
     [keys.DATE_CHECKED]: '2021-10-04',
   },

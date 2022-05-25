@@ -32,7 +32,8 @@ data[keys.RESOURCES] = [
     [keys.NAME]: 'Virginia Veteran and Family Support',
     [keys.DESCRIPTION]: 'Information/referrals to resources for homeless veterans in Virginia; '
       + 'Care/Health/PTSD services',
-    [keys.PHONE]: '18772851299',
+    [keys.PHONE]: '8772851299',
+    [keys.COUNTRY_CODE]: '1',
     [keys.URL]: 'https://www.dvs.virginia.gov/virginia-veteran-and-family-support-2',
     [keys.PRIORITY]: priorities.LOW,
     [keys.DATE_CHECKED]: '2021-10-03',
