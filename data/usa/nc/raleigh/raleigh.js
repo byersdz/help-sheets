@@ -67,6 +67,46 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: 'First Baptist Church',
+    [keys.PHONE]: '9198324485',
+    [keys.URL]: 'https://fbcraleigh.org/serve/serve-locally',
+    [keys.ADDRESS_1]: '99 N. Salisbury Street',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27604',
+    [keys.DATE_CHECKED]: '2022-06-07',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Clothing Closet',
+        [keys.HOURS]: 'Monday 10am - noon',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Community Helpers Service Center',
+    [keys.PHONE]: '9192664050',
+    [keys.URL]: 'https://communityhelpersservicesc.com/our-work',
+    [keys.ADDRESS_1]: '111-B N. First Avenue',
+    [keys.CITY]: 'Knightdale',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27545',
+    [keys.DATE_CHECKED]: '2022-06-07',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Emergency Food Pantry',
+        [keys.HOURS]: 'Mon Tues Fri 10am - 1pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry last name A-K',
+        [keys.HOURS]: 'Wed 10am - 1pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry last name L-Z',
+        [keys.HOURS]: 'Thur 10am - 1pm',
+      },
+    ],
+  },
+  {
     [keys.NAME]: 'A Place at the Table Cafe',
     [keys.PHONE]: '9193078914',
     [keys.URL]: 'https://TableRaleigh.org',
@@ -154,21 +194,7 @@ data[keys.BASIC_NEEDS] = [
   // },
 ];
 
-data[keys.EMERGENCY_SHELTERS] = [
-  {
-    [keys.NAME]: 'Sunday Breakfast Rescue Mission',
-    [keys.DESCRIPTION]: 'Arrive before 7pm for a bed',
-    [keys.PHONE]: '2159226400',
-    [keys.PHONE_EXTENSION]: '1050',
-    [keys.URL]: 'https://sundaybreakfast.org/get-help-now',
-    [keys.ADDRESS_1]: '302 N. 13th Street',
-    [keys.CITY]: 'Philadelphia',
-    [keys.STATE]: 'PA',
-    [keys.ZIP_CODE]: '19107',
-    [keys.SERVES]: [serves.MEN],
-    [keys.DATE_CHECKED]: '2021-10-04',
-  },
-];
+data[keys.EMERGENCY_SHELTERS] = [];
 
 data[keys.RESOURCES] = [
   {
