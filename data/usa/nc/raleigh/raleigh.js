@@ -45,6 +45,28 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: 'Dorcas Ministries',
+    [keys.PHONE]: '9194699861',
+    [keys.PHONE_EXTENSION]: '203',
+    [keys.URL]: 'https://dorcascary.org/services',
+    [keys.ADDRESS_1]: '187 High House Road',
+    [keys.CITY]: 'Cary',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27511',
+    [keys.DATE_CHECKED]: '2022-06-07',
+    [keys.DESCRIPTION]: 'Also provides financial assistance and career training',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Monday - Friday 9am - 3pm. Sat 10am - 2pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Mobile Health Clinic',
+        [keys.HOURS]: 'Tuesday 10am - 2pm, 1st and 3rd Sat 10am - 2pm',
+      },
+    ],
+  },
+  {
     [keys.NAME]: 'A Place at the Table Cafe',
     [keys.PHONE]: '9193078914',
     [keys.URL]: 'https://TableRaleigh.org',
