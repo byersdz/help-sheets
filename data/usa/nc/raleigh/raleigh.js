@@ -1,4 +1,4 @@
-const { keys, languageCodes, serves } = require( '../../../../constants' );
+const { keys, languageCodes } = require( '../../../../constants' );
 
 const data = {};
 
@@ -194,7 +194,18 @@ data[keys.BASIC_NEEDS] = [
   // },
 ];
 
-data[keys.EMERGENCY_SHELTERS] = [];
+data[keys.EMERGENCY_SHELTERS] = [
+  {
+    [keys.NAME]: 'Raleigh Rescue Mission',
+    [keys.PHONE]: '9198289014',
+    [keys.URL]: 'https://www.raleighrescue.org/our-solution/get-help-today',
+    [keys.ADDRESS_1]: '314 E. Hargett St.',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27601',
+    [keys.DATE_CHECKED]: '2022-06-09',
+  },
+];
 
 data[keys.RESOURCES] = [
   {
