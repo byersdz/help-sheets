@@ -205,6 +205,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: '27601',
     [keys.DATE_CHECKED]: '2022-06-09',
   },
+  {
+    [keys.NAME]: 'The Carying Place',
+    [keys.DESCRIPTION]: 'Provides transitional housing for working homeless families',
+    [keys.PHONE]: '9194621800',
+    [keys.URL]: 'https://www.thecaryingplace.org/programs/transitional-housing',
+    [keys.ADDRESS_1]: '491 James Jackson Ave',
+    [keys.CITY]: 'Cary',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27513',
+    [keys.DATE_CHECKED]: '2022-06-09',
+  },
 ];
 
 data[keys.RESOURCES] = [
