@@ -216,6 +216,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: '27513',
     [keys.DATE_CHECKED]: '2022-06-09',
   },
+  {
+    [keys.NAME]: 'Wrenn House',
+    [keys.DESCRIPTION]: 'Homeless shelter for youth ages 10 - 17',
+    [keys.PHONE]: '9198333312',
+    [keys.URL]: 'https://www.havenhousenc.org/wrennhouse',
+    [keys.ADDRESS_1]: '908 W. Morgan Street',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27603',
+    [keys.DATE_CHECKED]: '2022-06-22',
+  },
 ];
 
 data[keys.RESOURCES] = [
