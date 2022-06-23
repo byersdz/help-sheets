@@ -199,6 +199,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Urban Ministries',
+    [keys.PHONE]: '9198361642',
+    [keys.URL]: 'https://urbanmin.org/services/food-pantry',
+    [keys.ADDRESS_1]: '1390 Capital Blvd',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27603',
+    [keys.DATE_CHECKED]: '2022-06-22',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Monday - Thursday 9am - 11am',
+      },
+    ],
+  },
   // {
   //   [keys.NAME]: 'Love Wins Community Engagement Center',
   //   [keys.PHONE]: '9192632907',
