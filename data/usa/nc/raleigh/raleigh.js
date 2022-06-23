@@ -167,6 +167,22 @@ data[keys.BASIC_NEEDS] = [
     [keys.DATE_CHECKED]: '2021-11-16',
     [keys.DESCRIPTION]: 'Provides meals, clothng, and services for homeless women',
   },
+  {
+    [keys.NAME]: 'White Oak Foundation',
+    [keys.PHONE]: '9193626799',
+    [keys.URL]: 'https://www.wofnc.org/food_pantry',
+    [keys.ADDRESS_1]: '1624 White Oak Church Road',
+    [keys.CITY]: 'Apex',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27523',
+    [keys.DATE_CHECKED]: '2022-06-22',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Wednesday and Friday noon - 2pm',
+      },
+    ],
+  },
   // {
   //   [keys.NAME]: 'Love Wins Community Engagement Center',
   //   [keys.PHONE]: '9192632907',
