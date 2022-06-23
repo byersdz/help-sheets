@@ -215,6 +215,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'With Love From Jesus',
+    [keys.PHONE]: '9192338010',
+    [keys.URL]: 'https://www.withlovefromjesus.org/to-receive-help',
+    [keys.ADDRESS_1]: '421 Chapanoke Road',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27603',
+    [keys.DATE_CHECKED]: '2022-06-22',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food, Clothing, Household Essentials',
+        [keys.HOURS]: 'Tues / Wed / Fri / Sat: 10am - 11:30am',
+      },
+    ],
+  },
   // {
   //   [keys.NAME]: 'Love Wins Community Engagement Center',
   //   [keys.PHONE]: '9192632907',
