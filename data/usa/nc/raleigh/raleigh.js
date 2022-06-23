@@ -183,6 +183,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Catholic Parish Outreach',
+    [keys.PHONE]: '9198730245',
+    [keys.URL]: 'https://www.catholiccharitiesraleigh.org/cpo',
+    [keys.ADDRESS_1]: '2013 Raleigh Blvd',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27604',
+    [keys.DATE_CHECKED]: '2022-06-22',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Mon / Wed / Thur / Fri 8:30am - 11:30am',
+      },
+    ],
+  },
   // {
   //   [keys.NAME]: 'Love Wins Community Engagement Center',
   //   [keys.PHONE]: '9192632907',
