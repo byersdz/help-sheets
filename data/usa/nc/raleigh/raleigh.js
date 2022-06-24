@@ -295,11 +295,11 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: 'Philadelphia Eviction Prevention Project',
-    [keys.DESCRIPTION]: 'Get help if you are facing eviction',
-    [keys.PHONE]: '2674432500',
-    [keys.URL]: 'http://www.phillytenant.org/',
-    [keys.DATE_CHECKED]: '2021-10-04',
+    [keys.NAME]: 'InterAct',
+    [keys.DESCRIPTION]: 'Provices domestic violence and sexual assault services in Wake County',
+    [keys.PHONE]: '8662910855',
+    [keys.URL]: 'https://interactofwake.org',
+    [keys.DATE_CHECKED]: '2022-06-23',
   },
 ];
 
