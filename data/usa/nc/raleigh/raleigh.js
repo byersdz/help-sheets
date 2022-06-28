@@ -302,6 +302,20 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: '2022-06-23',
   },
   {
+    [keys.NAME]: 'UNC Health Care Crisis and Assessment Services',
+    [keys.DESCRIPTION]: 'Emergency psychiatric evaluations for individuals experiencing'
+      + ' acute mental health and/or substance abuse crises',
+    [keys.PHONE]: '9849744800',
+    [keys.URL]:
+      // eslint-disable-next-line max-len
+      'https://www.uncmedicalcenter.org/uncmc/hospitals-locations/profile/unc-health-care-crisis-and-assessment-services-at-wakebrook',
+    [keys.ADDRESS_1]: '107 Sunnybrook Road',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27610',
+    [keys.DATE_CHECKED]: '2022-06-27',
+  },
+  {
     [keys.NAME]: 'Alliance Medical Ministry',
     [keys.DESCRIPTION]: 'Provices affordable healthcare for working uninsured adults',
     [keys.PHONE]: '9192503320',
