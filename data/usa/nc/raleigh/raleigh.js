@@ -20,6 +20,13 @@ data[keys.ACCESS_POINTS] = [
       + 'Provides referals to emergency shelters. M-F 8am - 5pm',
     [keys.DATE_CHECKED]: '2021-11-15',
   },
+  {
+    [keys.NAME]: 'InterAct',
+    [keys.DESCRIPTION]: 'Provices domestic violence and sexual assault services in Wake County',
+    [keys.PHONE]: '8662910855',
+    [keys.URL]: 'https://interactofwake.org',
+    [keys.DATE_CHECKED]: '2022-06-23',
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
@@ -294,13 +301,6 @@ data[keys.EMERGENCY_SHELTERS] = [
 ];
 
 data[keys.RESOURCES] = [
-  {
-    [keys.NAME]: 'InterAct',
-    [keys.DESCRIPTION]: 'Provices domestic violence and sexual assault services in Wake County',
-    [keys.PHONE]: '8662910855',
-    [keys.URL]: 'https://interactofwake.org',
-    [keys.DATE_CHECKED]: '2022-06-23',
-  },
   {
     [keys.NAME]: 'UNC Health Care Crisis and Assessment Services',
     [keys.DESCRIPTION]: 'Emergency psychiatric evaluations for individuals experiencing'
