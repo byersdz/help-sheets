@@ -301,6 +301,17 @@ data[keys.RESOURCES] = [
     [keys.URL]: 'https://interactofwake.org',
     [keys.DATE_CHECKED]: '2022-06-23',
   },
+  {
+    [keys.NAME]: 'Alliance Medical Ministry',
+    [keys.DESCRIPTION]: 'Provices affordable healthcare for working uninsured adults',
+    [keys.PHONE]: '9192503320',
+    [keys.URL]: 'https://www.alliancemedicalministry.org',
+    [keys.ADDRESS_1]: '101 Donald Ross Drive',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27610',
+    [keys.DATE_CHECKED]: '2022-06-27',
+  },
 ];
 
 module.exports = data;
