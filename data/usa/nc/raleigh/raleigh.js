@@ -312,6 +312,18 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: '27610',
     [keys.DATE_CHECKED]: '2022-06-27',
   },
+  {
+    [keys.NAME]: 'NeighborHealth',
+    [keys.DESCRIPTION]: 'Affordable primary healthcare',
+    [keys.PHONE]: '9842228000',
+    [keys.URL]: 'https://neighborhealthcenter.org/',
+    [keys.ADDRESS_1]: '4201 Lake Boone Trail',
+    [keys.ADDRESS_2]: 'Suite 005',
+    [keys.CITY]: 'Raleigh',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27607',
+    [keys.DATE_CHECKED]: '2022-06-27',
+  },
 ];
 
 module.exports = data;
