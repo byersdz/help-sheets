@@ -356,6 +356,17 @@ data[keys.RESOURCES] = [
     [keys.URL]: 'https://www.southlight.org',
     [keys.DATE_CHECKED]: '2022-06-28',
   },
+  {
+    [keys.NAME]: 'TROSA',
+    [keys.DESCRIPTION]: 'Long term residential program for people with substance use disorders',
+    [keys.PHONE]: '9194191059',
+    [keys.URL]: 'https://trosainc.org',
+    [keys.ADDRESS_1]: '1820 James Street',
+    [keys.CITY]: 'Durham',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '27707',
+    [keys.DATE_CHECKED]: '2022-06-28',
+  },
 ];
 
 module.exports = data;
