@@ -349,6 +349,13 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: '27603',
     [keys.DATE_CHECKED]: '2022-06-28',
   },
+  {
+    [keys.NAME]: 'SouthLight',
+    [keys.DESCRIPTION]: 'Substance abuse and mental health services',
+    [keys.PHONE]: '9197876131',
+    [keys.URL]: 'https://www.southlight.org',
+    [keys.DATE_CHECKED]: '2022-06-28',
+  },
 ];
 
 module.exports = data;
