@@ -225,6 +225,31 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Eastern Henrico FISH',
+    [keys.DESCRIPTION]: 'Provides residents of eastern Henrico County food, '
+      + 'clothing and financial assistance for rent/utilities.',
+    [keys.URL]: 'https://www.facebook.com/EasternHenricoFISHInc',
+    [keys.PHONE]: '8042577730',
+    [keys.DATE_CHECKED]: '2022-07-06',
+  },
+  {
+    [keys.NAME]: 'Welborne United Methodist',
+    [keys.DESCRIPTION]: 'Serves western Henrico County.',
+    [keys.URL]: 'http://welbornechurch.org/programs/missions/food-box/',
+    [keys.PHONE]: '8047407128',
+    [keys.ADDRESS_1]: '920 Maybeury Dr',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23229',
+    [keys.DATE_CHECKED]: '2022-07-06',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Monday 5pm - 6:30pm',
+      },
+    ],
+  },
 ];
 
 data[keys.RESOURCES] = [
