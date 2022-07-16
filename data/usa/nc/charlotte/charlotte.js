@@ -86,6 +86,14 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.RESOURCES] = [
   {
+    [keys.NAME]: 'Crisis Assistance Ministry',
+    [keys.DESCRIPTION]:
+      'Emergency rent and utility assistance, clothing, household goods, furniture, beds, and appliances',
+    [keys.URL]: 'https://www.crisisassistance.org/programs/basic-needs',
+    [keys.PHONE]: '7043713001',
+    [keys.DATE_CHECKED]: '2022-07-16',
+  },
+  {
     [keys.NAME]: 'DIGLIT at Charlotte Mecklenburg Library',
     [keys.DESCRIPTION]: 'Technology training and skills development courses',
     [keys.URL]: 'https://www.cmlibrary.org/digilit',
