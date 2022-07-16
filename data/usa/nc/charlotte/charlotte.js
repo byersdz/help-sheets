@@ -24,23 +24,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: 'Oak City Cares',
-    [keys.PHONE]: '9843449599',
-    [keys.URL]: 'https://OakCityCares.org/',
-    [keys.ADDRESS_1]: '1430 South Wilmington Street',
-    [keys.CITY]: 'Raleigh',
+    [keys.NAME]: 'Homeless Resource Center',
+    [keys.URL]: 'https://www.mecknc.gov/CommunitySupportServices/HomelessServices/Pages/HomelessResourceCenter.aspx',
+    [keys.ADDRESS_1]: '618 N. College Street',
+    [keys.CITY]: 'Charlotte',
     [keys.STATE]: 'NC',
-    [keys.ZIP_CODE]: '27603',
-    [keys.DATE_CHECKED]: '2021-11-15',
-    [keys.DESCRIPTION]: 'Provides coordinated care for the homeless',
+    [keys.ZIP_CODE]: '28202',
+    [keys.DATE_CHECKED]: '2021-07-15',
+    [keys.DESCRIPTION]: 'Outreach, referral and case management services',
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: 'Showers and Laundry',
-        [keys.HOURS]: 'Monday - Friday 9am - 5pm',
+        [keys.DESCRIPTION]: 'Dinner',
+        [keys.HOURS]: 'Mon / Thur / Fri 5pm - 6:30pm',
       },
       {
-        [keys.DESCRIPTION]: 'Meals',
-        [keys.HOURS]: 'Saturday and Sunday: 9am, 12:30pm, 3pm',
+        [keys.DESCRIPTION]: 'Breakfast',
+        [keys.HOURS]: 'Saturday 8:30am - 10am',
       },
     ],
   },
