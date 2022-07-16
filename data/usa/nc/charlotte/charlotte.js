@@ -75,6 +75,13 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Loaves and Fishes',
+    [keys.URL]: 'https://loavesandfishes.org/need-food-were-here-to-help',
+    [keys.PHONE]: '7045234333',
+    [keys.DATE_CHECKED]: '2021-07-16',
+    [keys.DESCRIPTION]: 'Food Pantry, referral required',
+  },
 ];
 
 data[keys.RESOURCES] = [
