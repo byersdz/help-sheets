@@ -108,6 +108,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: 'Hope Street Food Pantry',
+    [keys.URL]: 'https://hopestreetfoodpantry.com/get-help',
+    [keys.PHONE]: '7045849073',
+    [keys.ADDRESS_1]: '4100 Johnston Oehler Road',
+    [keys.CITY]: 'Charlotte',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '28269',
+    [keys.DATE_CHECKED]: '2021-07-16',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Thursday 4pm - 7pm, 2nd and 4th Tuesday 9:30am - 11:30am',
+      },
+    ],
+  },
+  {
     [keys.NAME]: 'Loaves and Fishes',
     [keys.URL]: 'https://loavesandfishes.org/need-food-were-here-to-help',
     [keys.PHONE]: '7045234333',
