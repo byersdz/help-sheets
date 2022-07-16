@@ -60,18 +60,10 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: 'UNC Health Care Crisis and Assessment Services',
-    [keys.DESCRIPTION]: 'Emergency psychiatric evaluations for individuals experiencing'
-      + ' acute mental health and/or substance abuse crises',
-    [keys.PHONE]: '9849744800',
-    [keys.URL]:
-      // eslint-disable-next-line max-len
-      'https://www.uncmedicalcenter.org/uncmc/hospitals-locations/profile/unc-health-care-crisis-and-assessment-services-at-wakebrook',
-    [keys.ADDRESS_1]: '107 Sunnybrook Road',
-    [keys.CITY]: 'Raleigh',
-    [keys.STATE]: 'NC',
-    [keys.ZIP_CODE]: '27610',
-    [keys.DATE_CHECKED]: '2022-06-27',
+    [keys.NAME]: 'DIGLIT at Charlotte Mecklenburg Library',
+    [keys.DESCRIPTION]: 'Technology training and skills development courses',
+    [keys.URL]: 'https://www.cmlibrary.org/digilit',
+    [keys.DATE_CHECKED]: '2022-07-16',
   },
 ];
 
