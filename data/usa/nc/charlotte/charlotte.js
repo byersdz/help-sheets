@@ -92,6 +92,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: 'Christ the King Church',
+    [keys.URL]: 'https://ctkcharlotte.org/foodpantry',
+    [keys.PHONE]: '7045870073',
+    [keys.ADDRESS_1]: '13501 S Tryon Street',
+    [keys.CITY]: 'Charlotte',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '28278',
+    [keys.DATE_CHECKED]: '2021-07-16',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Wednesdays 5pm - 6pm. Closed 3rd Wednesday of month',
+      },
+    ],
+  },
+  {
     [keys.NAME]: 'Loaves and Fishes',
     [keys.URL]: 'https://loavesandfishes.org/need-food-were-here-to-help',
     [keys.PHONE]: '7045234333',
