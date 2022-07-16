@@ -94,6 +94,13 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: '2022-07-16',
   },
   {
+    [keys.NAME]: 'Carolinas Care Partnership',
+    [keys.DESCRIPTION]: 'Connecting those at risk for and living with HIV with the resources and education they need',
+    [keys.URL]: 'https://www.carolinascare.org',
+    [keys.PHONE]: '7045312467',
+    [keys.DATE_CHECKED]: '2022-07-16',
+  },
+  {
     [keys.NAME]: 'DIGLIT at Charlotte Mecklenburg Library',
     [keys.DESCRIPTION]: 'Technology training and skills development courses',
     [keys.URL]: 'https://www.cmlibrary.org/digilit',
