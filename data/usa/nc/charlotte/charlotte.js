@@ -76,6 +76,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: 'St. Paul Baptist',
+    [keys.URL]: 'https://www.stpaulbaptist.church/about-us/community-outreach/23-about-us/outreach/170-food-pantry',
+    [keys.PHONE]: '7043345309',
+    [keys.ADDRESS_1]: '1401 Allen St',
+    [keys.CITY]: 'Charlotte',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '28205',
+    [keys.DATE_CHECKED]: '2021-07-16',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Second Wednesday of month, 8am - noon',
+      },
+    ],
+  },
+  {
     [keys.NAME]: 'Loaves and Fishes',
     [keys.URL]: 'https://loavesandfishes.org/need-food-were-here-to-help',
     [keys.PHONE]: '7045234333',
