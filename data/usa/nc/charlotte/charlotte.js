@@ -43,18 +43,37 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
-];
-
-data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: 'Raleigh Rescue Mission',
-    [keys.PHONE]: '9198289014',
-    [keys.URL]: 'https://www.raleighrescue.org/our-solution/get-help-today',
-    [keys.ADDRESS_1]: '314 E. Hargett St.',
-    [keys.CITY]: 'Raleigh',
+    [keys.NAME]: 'Roof Above Day Services Center',
+    [keys.URL]: 'https://www.roofabove.org/get-help',
+    [keys.ADDRESS_1]: '945 N College St',
+    [keys.CITY]: 'Charlotte',
     [keys.STATE]: 'NC',
-    [keys.ZIP_CODE]: '27601',
-    [keys.DATE_CHECKED]: '2022-06-09',
+    [keys.ZIP_CODE]: '282026',
+    [keys.DATE_CHECKED]: '2021-07-16',
+    [keys.DESCRIPTION]: 'Homeless resources, showers, laundry, restrooms',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Every day 11:15am - 12:15pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Mission City Church',
+    [keys.URL]: 'https://themissioncity.org/missions',
+    [keys.PHONE]: '7043926978',
+    [keys.ADDRESS_1]: '608 Valleydale Road',
+    [keys.CITY]: 'Charlotte',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '28214',
+    [keys.DATE_CHECKED]: '2021-07-16',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'First and third Thursday of month, noon - 2pm',
+      },
+    ],
   },
 ];
 
