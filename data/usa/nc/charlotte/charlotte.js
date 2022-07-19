@@ -140,6 +140,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: 'Reeder Memorial Baptist Churck',
+    [keys.URL]: 'https://reederministries.org/missions-place/food-pantry',
+    [keys.PHONE]: '7048029548',
+    [keys.DESCRIPTION]: 'Application required, call for appointment',
+    [keys.ADDRESS_1]: '3725 Beatties Ford Rd',
+    [keys.CITY]: 'Charlotte',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '28216',
+    [keys.DATE_CHECKED]: '2021-07-18',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Mon / Tue / Thur 10am - 1pm, Thur 3pm - 5:30pm',
+      },
+    ],
+  },
+  {
     [keys.NAME]: 'Loaves and Fishes',
     [keys.URL]: 'https://loavesandfishes.org/need-food-were-here-to-help',
     [keys.PHONE]: '7045234333',
