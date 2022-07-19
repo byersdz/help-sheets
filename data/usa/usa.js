@@ -33,6 +33,17 @@ data[keys.ACCESS_POINTS] = [
   },
 ];
 
+data[keys.BASIC_NEEDS] = [
+  {
+    [keys.ID]: 'food-pantries-org',
+    [keys.NAME]: 'FoodPantries.org',
+    [keys.DESCRIPTION]: 'A directory to find food pantries near you.',
+    [keys.URL]: 'https://www.foodpantries.org/',
+    [keys.PRIORITY]: priorities.LOW,
+    [keys.DATE_CHECKED]: '2022-07-18',
+  },
+];
+
 data[keys.RESOURCES] = [
   {
     [keys.NAME]: 'US Department of Veterans Affairs',
