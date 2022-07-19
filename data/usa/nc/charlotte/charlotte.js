@@ -124,6 +124,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: 'St Martin de Porres',
+    [keys.URL]: 'https://www.ourladyofconsolation.org',
+    [keys.PHONE]: '7048178813',
+    [keys.ADDRESS_1]: '1235 Badger Court',
+    [keys.CITY]: 'Charlotte',
+    [keys.STATE]: 'NC',
+    [keys.ZIP_CODE]: '28206',
+    [keys.DATE_CHECKED]: '2021-07-18',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Tuesday 10am - noon, Fridays 11:30am - 1pm. Call before arriving for appointment',
+      },
+    ],
+  },
+  {
     [keys.NAME]: 'Loaves and Fishes',
     [keys.URL]: 'https://loavesandfishes.org/need-food-were-here-to-help',
     [keys.PHONE]: '7045234333',
