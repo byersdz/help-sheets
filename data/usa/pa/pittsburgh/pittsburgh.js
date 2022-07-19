@@ -13,10 +13,12 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: 'Homelessness Prevention Hotline',
-    [keys.PHONE]: '2156867177',
-    [keys.URL]: 'https://www.phila.gov/departments/office-of-homeless-services',
-    [keys.DATE_CHECKED]: '2021-10-04',
+    [keys.NAME]: 'Allegheny Link',
+    [keys.PHONE]: '8667302368',
+    [keys.URL]: 'https://www.alleghenycounty.us/Human-Services/About/Contact/Allegheny-Link.aspx',
+    [keys.DATE_CHECKED]: '2022-07-19',
+    [keys.DESCRIPTION]:
+      'Assistance finding emergency shelters, rental assistance, and longer term homeless programs. M-F 8am-7pm',
   },
 ];
 
