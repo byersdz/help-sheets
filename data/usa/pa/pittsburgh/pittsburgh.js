@@ -24,27 +24,18 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: 'Sunday Breakfast Rescue Mission',
-    [keys.PHONE]: '2159226400',
-    [keys.PHONE_EXTENSION]: '1050',
-    [keys.URL]: 'https://sundaybreakfast.org/get-help-now',
-    [keys.ADDRESS_1]: '302 N. 13th Street',
-    [keys.CITY]: 'Philadelphia',
+    [keys.NAME]: 'Jubilee Soup Kitchen',
+    [keys.PHONE]: '4122615417',
+    [keys.URL]: 'https://www.jubileesoupkitchen.com',
+    [keys.ADDRESS_1]: '2005 Wyandotte St.    ',
+    [keys.CITY]: 'Pittsburgh',
     [keys.STATE]: 'PA',
-    [keys.ZIP_CODE]: '19107',
-    [keys.DATE_CHECKED]: '2021-10-04',
+    [keys.ZIP_CODE]: '15219',
+    [keys.DATE_CHECKED]: '2021-07-19',
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: 'Breakfast',
-        [keys.HOURS]: 'Everyday, arrive before 7am',
-      },
-      {
         [keys.DESCRIPTION]: 'Lunch',
-        [keys.HOURS]: 'Everyday, arrive before noon',
-      },
-      {
-        [keys.DESCRIPTION]: 'Dinner',
-        [keys.HOURS]: 'Everyday, arrive before 6:30pm',
+        [keys.HOURS]: 'Everyday 11am - noon',
       },
     ],
   },
