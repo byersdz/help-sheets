@@ -59,6 +59,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Shiloh Community Missionary Baptist Church',
+    [keys.PHONE]: '4124418710',
+    [keys.URL]: 'https://www.scmbcpgh.org/',
+    [keys.ADDRESS_1]: '6940 Frankstown Avenue',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15208',
+    [keys.DATE_CHECKED]: '2021-07-19',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Meals',
+        [keys.HOURS]: 'Tues / Thur noon - 2pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
