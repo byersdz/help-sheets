@@ -75,6 +75,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Rainbow Kitchen',
+    [keys.PHONE]: '4124641892',
+    [keys.URL]: 'https://www.rainbowkitchen.org/what-we-do/anti-hunger-program-areas',
+    [keys.ADDRESS_1]: '135 East 9th Avenue',
+    [keys.CITY]: 'Homestead',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15120',
+    [keys.DATE_CHECKED]: '2021-07-19',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Breakfast',
+        [keys.HOURS]: 'Mon - Fri: 9:30am - 10:30am',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
