@@ -27,7 +27,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.NAME]: 'Jubilee Soup Kitchen',
     [keys.PHONE]: '4122615417',
     [keys.URL]: 'https://www.jubileesoupkitchen.com',
-    [keys.ADDRESS_1]: '2005 Wyandotte St.    ',
+    [keys.ADDRESS_1]: '2005 Wyandotte St.',
     [keys.CITY]: 'Pittsburgh',
     [keys.STATE]: 'PA',
     [keys.ZIP_CODE]: '15219',
@@ -36,6 +36,26 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: 'Lunch',
         [keys.HOURS]: 'Everyday 11am - noon',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'East End Cooperative Ministry',
+    [keys.PHONE]: '4123615549',
+    [keys.URL]: 'https://www.eecm.org/communityfoodservices',
+    [keys.ADDRESS_1]: '6140 Station Street',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15206',
+    [keys.DATE_CHECKED]: '2021-07-19',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Mon - Fri: noon - 1:15pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Mon - Fri: 9:30am - 11:30am, 1pm - 3pm',
       },
     ],
   },
