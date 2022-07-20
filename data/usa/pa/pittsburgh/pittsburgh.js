@@ -43,15 +43,14 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: 'Sunday Breakfast Rescue Mission',
-    [keys.DESCRIPTION]: 'Arrive before 7pm for a bed',
-    [keys.PHONE]: '2159226400',
-    [keys.PHONE_EXTENSION]: '1050',
-    [keys.URL]: 'https://sundaybreakfast.org/get-help-now',
-    [keys.ADDRESS_1]: '302 N. 13th Street',
-    [keys.CITY]: 'Philadelphia',
+    [keys.NAME]: 'Light of Life Rescue Mission',
+    [keys.DESCRIPTION]: 'Also serves breakfast and dinner',
+    [keys.PHONE]: '4122586100',
+    [keys.URL]: 'https://www.lightoflife.org',
+    [keys.ADDRESS_1]: '913 Western Ave.',
+    [keys.CITY]: 'Pittsburgh',
     [keys.STATE]: 'PA',
-    [keys.ZIP_CODE]: '19107',
+    [keys.ZIP_CODE]: '15233',
     [keys.SERVES]: [serves.MEN],
     [keys.DATE_CHECKED]: '2021-10-04',
   },
