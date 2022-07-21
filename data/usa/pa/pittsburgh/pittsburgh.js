@@ -159,6 +159,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: '2022-07-20',
     [keys.SERVES]: [serves.PREGNANT_WOMEN],
   },
+  {
+    [keys.NAME]: 'Family Links',
+    [keys.PHONE]: '8665836003',
+    [keys.URL]: 'https://www.familylinks.org',
+    [keys.ADDRESS_1]: '1601 Fifth Avenue',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15219',
+    [keys.DATE_CHECKED]: '2022-07-20',
+    [keys.SERVES]: [serves.YOUTH],
+  },
 ];
 
 data[keys.RESOURCES] = [
