@@ -148,6 +148,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: '2022-07-20',
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: 'Genesis of Pittsburgh',
+    [keys.PHONE]: '4127662693',
+    [keys.URL]: 'https://genesispgh.org',
+    [keys.ADDRESS_1]: '185 Dakota Avenue',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15202',
+    [keys.DATE_CHECKED]: '2022-07-20',
+    [keys.SERVES]: [serves.PREGNANT_WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [

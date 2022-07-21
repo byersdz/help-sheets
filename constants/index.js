@@ -70,6 +70,8 @@ const serves = {};
 serves.MEN = 'men';
 serves.WOMEN = 'women';
 serves.WOMEN_WITH_CHILDREN = 'womenWithChildren';
+serves.PREGNANT_WOMEN = 'pregnantWomen';
+serves.YOUTH = 'youth';
 serves.VETERANS = 'veterans';
 
 constants.keys = keys;

@@ -5,7 +5,9 @@ const displayStrings = {};
 displayStrings[serves.MEN] = 'Men';
 displayStrings[serves.WOMEN] = 'Women';
 displayStrings[serves.WOMEN_WITH_CHILDREN] = 'Women w/ Children';
+displayStrings[serves.PREGNANT_WOMEN] = 'Pregnant Women';
 displayStrings[serves.VETERANS] = 'Veterans';
+displayStrings[serves.YOUTH] = 'Youth';
 
 function formatServes( servesData ) {
   let result = 'Serves:';
