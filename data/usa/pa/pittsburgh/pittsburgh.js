@@ -24,6 +24,14 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
+    [keys.NAME]: 'Greater Pittsburgh Community Food Bank',
+    [keys.PHONE]: '4124603663',
+    [keys.PHONE_EXTENSION]: '655',
+    [keys.URL]: 'https://pittsburghfoodbank.org/find-food/get-help',
+    [keys.DATE_CHECKED]: '2022-07-20',
+    [keys.DESCRIPTION]: 'Find local food resources',
+  },
+  {
     [keys.NAME]: 'Jubilee Soup Kitchen',
     [keys.PHONE]: '4122615417',
     [keys.URL]: 'https://www.jubileesoupkitchen.com',
