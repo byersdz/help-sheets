@@ -170,6 +170,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: '2022-07-20',
     [keys.SERVES]: [serves.YOUTH],
   },
+  {
+    [keys.NAME]: 'Veterans Leadership Program',
+    [keys.PHONE]: '4124818200',
+    [keys.URL]: 'https://www.veteransleadershipprogram.org',
+    [keys.ADDRESS_1]: '2934 Smallman St',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15201',
+    [keys.DATE_CHECKED]: '2022-07-20',
+    [keys.SERVES]: [serves.VETERANS],
+  },
 ];
 
 data[keys.RESOURCES] = [
