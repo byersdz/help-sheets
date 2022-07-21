@@ -136,6 +136,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: '2022-07-20',
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: 'Bethlehem Haven',
+    [keys.PHONE]: '4123911348',
+    [keys.PHONE_EXTENSION]: '250',
+    [keys.URL]: 'https://bethlehemhaven.org',
+    [keys.ADDRESS_1]: '905 Watson Street',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15219',
+    [keys.DATE_CHECKED]: '2022-07-20',
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
