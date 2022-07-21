@@ -117,6 +117,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.MEN],
     [keys.DATE_CHECKED]: '2022-07-20',
   },
+  {
+    [keys.NAME]: 'East End Cooperative Ministry',
+    [keys.PHONE]: '4123457135',
+    [keys.URL]: 'https://www.eecm.org/housingandemployment',
+    [keys.ADDRESS_1]: '6140 Station Street',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15206',
+    [keys.DATE_CHECKED]: '2022-07-20',
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
