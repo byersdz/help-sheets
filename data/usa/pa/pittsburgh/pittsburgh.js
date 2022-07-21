@@ -134,7 +134,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'PA',
     [keys.ZIP_CODE]: '15206',
     [keys.DATE_CHECKED]: '2022-07-20',
-    [keys.SERVES]: [serves.MEN],
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
   {
     [keys.NAME]: 'Bethlehem Haven',
