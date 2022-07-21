@@ -31,7 +31,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Pittsburgh',
     [keys.STATE]: 'PA',
     [keys.ZIP_CODE]: '15219',
-    [keys.DATE_CHECKED]: '2021-07-19',
+    [keys.DATE_CHECKED]: '2022-07-19',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Lunch',
@@ -47,7 +47,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Pittsburgh',
     [keys.STATE]: 'PA',
     [keys.ZIP_CODE]: '15206',
-    [keys.DATE_CHECKED]: '2021-07-19',
+    [keys.DATE_CHECKED]: '2022-07-19',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Lunch',
@@ -67,7 +67,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Pittsburgh',
     [keys.STATE]: 'PA',
     [keys.ZIP_CODE]: '15208',
-    [keys.DATE_CHECKED]: '2021-07-19',
+    [keys.DATE_CHECKED]: '2022-07-19',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Meals',
@@ -83,7 +83,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Homestead',
     [keys.STATE]: 'PA',
     [keys.ZIP_CODE]: '15120',
-    [keys.DATE_CHECKED]: '2021-07-19',
+    [keys.DATE_CHECKED]: '2022-07-19',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Breakfast',
@@ -104,7 +104,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'PA',
     [keys.ZIP_CODE]: '15233',
     [keys.SERVES]: [serves.MEN],
-    [keys.DATE_CHECKED]: '2021-10-04',
+    [keys.DATE_CHECKED]: '2022-07-19',
+  },
+  {
+    [keys.NAME]: "Pleasant Valley Men's Shelter",
+    [keys.PHONE]: '4123214272',
+    [keys.URL]: 'http://ncmin.org/pleasant-valley-mens-shelter',
+    [keys.ADDRESS_1]: '1601 Brighton Road',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15212',
+    [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: '2022-07-20',
   },
 ];
 
