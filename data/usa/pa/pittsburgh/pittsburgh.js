@@ -185,11 +185,11 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: 'Philadelphia Eviction Prevention Project',
-    [keys.DESCRIPTION]: 'Get help if you are facing eviction',
-    [keys.PHONE]: '2674432500',
-    [keys.URL]: 'http://www.phillytenant.org/',
-    [keys.DATE_CHECKED]: '2021-10-04',
+    [keys.NAME]: 'Healthcare for the Homeless',
+    [keys.DESCRIPTION]: 'Provides healthcare and social services',
+    [keys.PHONE]: '4122444775',
+    [keys.URL]: 'https://pchspitt.org/healthcare-services/health-care-for-the-homeless/',
+    [keys.DATE_CHECKED]: '2022-07-21',
   },
 ];
 
