@@ -191,6 +191,17 @@ data[keys.RESOURCES] = [
     [keys.URL]: 'https://pchspitt.org/healthcare-services/health-care-for-the-homeless/',
     [keys.DATE_CHECKED]: '2022-07-21',
   },
+  {
+    [keys.NAME]: 'Pittsburgh Mercy',
+    [keys.DESCRIPTION]: 'Provides mental health services, day center, hot meals, winter shelter',
+    [keys.PHONE]: '8776372924',
+    [keys.URL]: 'https://www.pittsburghmercy.org/homeless-services/pittsburgh-mercys-operation-safety-net',
+    [keys.DATE_CHECKED]: '2022-07-21',
+    [keys.ADDRESS_1]: '1200 Reedsdale Street',
+    [keys.CITY]: 'Pittsburgh',
+    [keys.STATE]: 'PA',
+    [keys.ZIP_CODE]: '15233',
+  },
 ];
 
 module.exports = data;
