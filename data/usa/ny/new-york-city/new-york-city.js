@@ -13,12 +13,12 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: 'Allegheny Link',
-    [keys.PHONE]: '8667302368',
-    [keys.URL]: 'https://www.alleghenycounty.us/Human-Services/About/Contact/Allegheny-Link.aspx',
-    [keys.DATE_CHECKED]: '2022-07-19',
+    [keys.NAME]: 'Crisis Intervention Hotline',
+    [keys.PHONE]: '8883582384',
+    [keys.URL]: 'https://www.coalitionforthehomeless.org/',
+    [keys.DATE_CHECKED]: '2022-07-27',
     [keys.DESCRIPTION]:
-      'Assistance finding emergency shelters, rental assistance, and longer term homeless programs. M-F 8am-7pm',
+      'Call if you have questions about accessing shelter or other services, or if you have been denied shelter',
   },
 ];
 
