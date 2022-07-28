@@ -24,12 +24,10 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: 'Greater Pittsburgh Community Food Bank',
-    [keys.PHONE]: '4124603663',
-    [keys.PHONE_EXTENSION]: '655',
-    [keys.URL]: 'https://pittsburghfoodbank.org/find-food/get-help',
-    [keys.DATE_CHECKED]: '2022-07-20',
-    [keys.DESCRIPTION]: 'Find local food resources',
+    [keys.NAME]: 'Grand Central Food Program',
+    [keys.URL]: 'https://www.coalitionforthehomeless.org/our-programs/food/grand-central-food-program',
+    [keys.DATE_CHECKED]: '2022-07-27',
+    [keys.DESCRIPTION]: 'Every night vans deliver food. Visit website for route schedule',
   },
 ];
 

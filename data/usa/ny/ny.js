@@ -1,6 +1,6 @@
 const { keys, languageCodes } = require( '../../../constants' );
 
-const newYorkCity = require(  './new-york-city/new-york-city');
+const newYorkCity = require( './new-york-city/new-york-city' );
 
 const data = {};
 
