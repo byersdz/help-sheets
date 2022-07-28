@@ -54,6 +54,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Holy Apostles',
+    [keys.URL]: 'https://holyapostlesnyc.org',
+    [keys.PHONE]: '2129240167',
+    [keys.DATE_CHECKED]: '2022-07-28',
+    [keys.ADDRESS_1]: '296 9th Ave',
+    [keys.CITY]: 'New York',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10001',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Hot meals',
+        [keys.HOURS]: 'Mon - Fri 10:30am - 12:30pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Tue / Wed / Thur 1:30pm - 3:30pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
