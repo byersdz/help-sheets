@@ -74,6 +74,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'NY Common Pantry',
+    [keys.URL]: 'https://nycommonpantry.org',
+    [keys.PHONE]: '9177209700',
+    [keys.DATE_CHECKED]: '2022-07-28',
+    [keys.ADDRESS_1]: '8 East 109th Street',
+    [keys.CITY]: 'New York',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10029',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Hot meals',
+        [keys.HOURS]: 'Mon - Fri 2:30pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Brown Bag Lunch',
+        [keys.HOURS]: 'Sat / Sun 4pm - 5pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
