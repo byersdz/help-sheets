@@ -29,6 +29,31 @@ data[keys.BASIC_NEEDS] = [
     [keys.DATE_CHECKED]: '2022-07-27',
     [keys.DESCRIPTION]: 'Every night vans deliver food. Visit website for route schedule',
   },
+  {
+    [keys.NAME]: 'The Bowery Mission',
+    [keys.URL]: 'https://www.bowery.org/get-help',
+    [keys.PHONE]: '2122266214',
+    [keys.DATE_CHECKED]: '2022-07-28',
+    [keys.ADDRESS_1]: '227 Bowery',
+    [keys.CITY]: 'New York',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10002',
+    [keys.DESCRIPTION]: 'Also provides food pantry and  residential program',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Meals',
+        [keys.HOURS]: 'Every day: 8am, 1pm, 5pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Showers & Clothing',
+        [keys.HOURS]: 'Men: Mon-Fri 9:30am-noon, Women: Thur 9:30am-noon. Signup at 6:45am',
+      },
+      {
+        [keys.DESCRIPTION]: 'Medical Care',
+        [keys.HOURS]: 'Tues 9am-2pm, Thur 3pm-5pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
