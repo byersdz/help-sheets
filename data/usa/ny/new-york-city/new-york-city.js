@@ -94,6 +94,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Community Kitchen of West Harlem',
+    [keys.URL]: 'https://www.foodbanknyc.org/community-kitchen',
+    [keys.PHONE]: '2125667855',
+    [keys.DATE_CHECKED]: '2022-07-30',
+    [keys.ADDRESS_1]: '252 W 116th Street',
+    [keys.CITY]: 'New York',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10026',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Meals',
+        [keys.HOURS]: 'Mon - Fri 4pm - 6pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
