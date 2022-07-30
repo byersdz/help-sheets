@@ -114,16 +114,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: 'Light of Life Rescue Mission',
-    [keys.DESCRIPTION]: 'Also serves breakfast and dinner',
-    [keys.PHONE]: '4122586100',
-    [keys.URL]: 'https://www.lightoflife.org',
-    [keys.ADDRESS_1]: '913 Western Ave.',
-    [keys.CITY]: 'Pittsburgh',
-    [keys.STATE]: 'PA',
-    [keys.ZIP_CODE]: '15233',
+    [keys.NAME]: '30th Street Men’s Intake Shelter',
+    [keys.DESCRIPTION]: 'Intake, Assessment, and General Population shelter for homeless men',
+    [keys.PHONE]: '311',
+    [keys.ADDRESS_1]: '400 East 30th Street',
+    [keys.CITY]: 'New York',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10016',
     [keys.SERVES]: [serves.MEN],
-    [keys.DATE_CHECKED]: '2022-07-19',
+    [keys.DATE_CHECKED]: '2022-07-30',
   },
 ];
 
