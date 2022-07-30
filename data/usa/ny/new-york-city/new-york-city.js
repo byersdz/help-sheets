@@ -114,7 +114,7 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: '30th Street Men’s Intake Shelter',
+    [keys.NAME]: '30th Street Mens Intake Shelter',
     [keys.DESCRIPTION]: 'Intake, Assessment, and General Population shelter for homeless men',
     [keys.PHONE]: '311',
     [keys.ADDRESS_1]: '400 East 30th Street',
@@ -122,6 +122,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: 'NY',
     [keys.ZIP_CODE]: '10016',
     [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: '2022-07-30',
+  },
+  {
+    [keys.NAME]: 'Brooklyn Womens Intake Shelter',
+    [keys.DESCRIPTION]: 'Intake and assesment for homeless women',
+    [keys.PHONE]: '7184837700',
+    [keys.ADDRESS_1]: '116 Williams Avenue',
+    [keys.CITY]: 'Brooklyn',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '11207',
+    [keys.SERVES]: [serves.WOMEN],
     [keys.DATE_CHECKED]: '2022-07-30',
   },
 ];
