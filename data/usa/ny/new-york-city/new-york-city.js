@@ -149,6 +149,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.COUPLES, serves.FAMILIES_WITHOUT_CHILDREN],
     [keys.DATE_CHECKED]: '2022-07-31',
   },
+  {
+    [keys.NAME]: 'PATH',
+    [keys.DESCRIPTION]: 'Intake and assesment for families with children',
+    [keys.URL]: 'https://www1.nyc.gov/site/dhs/shelter/families/families-with-children-applying.page',
+    [keys.PHONE]: '7185036400',
+    [keys.ADDRESS_1]: '151 East 151st Street',
+    [keys.CITY]: 'The Bronx',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10451',
+    [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
+    [keys.DATE_CHECKED]: '2022-07-31',
+  },
 ];
 
 data[keys.RESOURCES] = [
