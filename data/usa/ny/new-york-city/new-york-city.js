@@ -116,6 +116,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. John's Bread & Life",
+    [keys.URL]: 'https://breadandlife.org',
+    [keys.PHONE]: '7185740058',
+    [keys.DATE_CHECKED]: '2022-07-31',
+    [keys.ADDRESS_1]: '795 Lexington Avenue',
+    [keys.CITY]: 'Brooklyn',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '11221',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Meals',
+        [keys.HOURS]: 'Mon - Thur 9:30am - noon',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Mon - Thur 8am - 3pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
