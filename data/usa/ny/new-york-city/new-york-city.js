@@ -24,6 +24,12 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
+    [keys.NAME]: 'Food Help NYC',
+    [keys.URL]: 'https://foodhelp.nyc.gov',
+    [keys.DESCRIPTION]: 'Web app to find food pantry and soup kitchen locations in NYC',
+    [keys.DATE_CHECKED]: '2022-07-31',
+  },
+  {
     [keys.NAME]: 'Grand Central Food Program',
     [keys.URL]: 'https://www.coalitionforthehomeless.org/our-programs/food/grand-central-food-program',
     [keys.DATE_CHECKED]: '2022-07-27',
