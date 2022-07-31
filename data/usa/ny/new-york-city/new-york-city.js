@@ -116,6 +116,7 @@ data[keys.EMERGENCY_SHELTERS] = [
   {
     [keys.NAME]: '30th Street Mens Intake Shelter',
     [keys.DESCRIPTION]: 'Intake, Assessment, and General Population shelter for homeless men',
+    [keys.URL]: 'https://www1.nyc.gov/site/dhs/shelter/singleadults/single-adults-applying.page',
     [keys.PHONE]: '311',
     [keys.ADDRESS_1]: '400 East 30th Street',
     [keys.CITY]: 'New York',
@@ -127,6 +128,7 @@ data[keys.EMERGENCY_SHELTERS] = [
   {
     [keys.NAME]: 'Brooklyn Womens Intake Shelter',
     [keys.DESCRIPTION]: 'Intake and assesment for homeless women',
+    [keys.URL]: 'https://www1.nyc.gov/site/dhs/shelter/singleadults/single-adults-applying.page',
     [keys.PHONE]: '7184837700',
     [keys.ADDRESS_1]: '116 Williams Avenue',
     [keys.CITY]: 'Brooklyn',
@@ -134,6 +136,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: '11207',
     [keys.SERVES]: [serves.WOMEN],
     [keys.DATE_CHECKED]: '2022-07-30',
+  },
+  {
+    [keys.NAME]: 'Adult Family Intake Center',
+    [keys.DESCRIPTION]: 'Intake and assesment for couples / families with adult children',
+    [keys.URL]: 'https://www1.nyc.gov/site/dhs/shelter/families/adult-families-applying.page',
+    [keys.PHONE]: '2124814704',
+    [keys.ADDRESS_1]: '400-430 East 30th Street',
+    [keys.CITY]: 'New York',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10016',
+    [keys.SERVES]: [serves.COUPLES, serves.FAMILIES_WITHOUT_CHILDREN],
+    [keys.DATE_CHECKED]: '2022-07-31',
   },
 ];
 

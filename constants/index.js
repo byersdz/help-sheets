@@ -73,6 +73,9 @@ serves.WOMEN_WITH_CHILDREN = 'womenWithChildren';
 serves.PREGNANT_WOMEN = 'pregnantWomen';
 serves.YOUTH = 'youth';
 serves.VETERANS = 'veterans';
+serves.COUPLES = 'couples';
+serves.FAMILIES_WITHOUT_CHILDREN = 'familiesWithoutChildren';
+serves.FAMILIES_WITH_CHILDREN = 'familiesWithChildren';
 
 constants.keys = keys;
 constants.languageCodes = languageCodes;
