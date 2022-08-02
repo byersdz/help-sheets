@@ -136,6 +136,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Masbia Boro Park',
+    [keys.URL]: 'https://www.masbia.org/masbia_boro_park',
+    [keys.PHONE]: '7189724446',
+    [keys.PHONE_EXTENSION]: '205',
+    [keys.DATE_CHECKED]: '2022-08-01',
+    [keys.ADDRESS_1]: '5402 New Utrecht Avenue',
+    [keys.CITY]: 'Brooklyn',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '11219',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Kosher Meals',
+        [keys.HOURS]: 'Mon - Thur 3pm - 8pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Mon/Tue 9am-8pm, Wed/Thur 11am-10pm, Fri 7am-2pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
