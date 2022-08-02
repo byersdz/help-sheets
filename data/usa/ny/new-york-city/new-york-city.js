@@ -157,6 +157,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Neighbors Together',
+    [keys.URL]: 'https://neighborstogether.org/community-cafe',
+    [keys.PHONE]: '7184987256',
+    [keys.DATE_CHECKED]: '2022-08-01',
+    [keys.ADDRESS_1]: ' 2094 Fulton St',
+    [keys.CITY]: 'Brooklyn',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '11233',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Mon - Fri: noon - 2pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Dinner',
+        [keys.HOURS]: 'Mon - Thur: 4pm - 6pm',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
