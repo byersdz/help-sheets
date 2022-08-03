@@ -162,7 +162,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.URL]: 'https://neighborstogether.org/community-cafe',
     [keys.PHONE]: '7184987256',
     [keys.DATE_CHECKED]: '2022-08-01',
-    [keys.ADDRESS_1]: ' 2094 Fulton St',
+    [keys.ADDRESS_1]: '2094 Fulton St',
     [keys.CITY]: 'Brooklyn',
     [keys.STATE]: 'NY',
     [keys.ZIP_CODE]: '11233',
@@ -174,6 +174,30 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: 'Dinner',
         [keys.HOURS]: 'Mon - Thur: 4pm - 6pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Part of the Solution',
+    [keys.URL]: 'https://potsbronx.org/english/programs',
+    [keys.PHONE]: '7182204892',
+    [keys.DATE_CHECKED]: '2022-08-02',
+    [keys.ADDRESS_1]: '2759 Webster Avenue',
+    [keys.CITY]: 'Bronx',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10458',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Lunch',
+        [keys.HOURS]: 'Mon - Sat: 12:30pm - 3pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Mon - Sat: 8:30am - 11am',
+      },
+      {
+        [keys.DESCRIPTION]: 'Showers',
+        [keys.HOURS]: 'Mon - Fri: 8:30am - 11am',
       },
     ],
   },
