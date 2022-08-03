@@ -201,6 +201,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Masbia of Queens',
+    [keys.URL]: 'https://www.masbiaqueens.org/getfood',
+    [keys.PHONE]: '7189724446',
+    [keys.PHONE_EXTENSION]: '207',
+    [keys.DATE_CHECKED]: '2022-08-02',
+    [keys.ADDRESS_1]: '105-47 64th Road',
+    [keys.CITY]: 'Queens',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '11375',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Meals',
+        [keys.HOURS]: 'Mon - Thur: 3pm - 8pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'by appointment',
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
