@@ -9,6 +9,7 @@ data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
 data[keys.EXCLUDE_LIST] = [
   'usa-shelter-directory',
+  'food-pantries-org',
 ];
 
 data[keys.ACCESS_POINTS] = [
