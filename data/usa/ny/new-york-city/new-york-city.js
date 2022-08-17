@@ -278,11 +278,11 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: 'Healthcare for the Homeless',
-    [keys.DESCRIPTION]: 'Provides healthcare and social services',
-    [keys.PHONE]: '4122444775',
-    [keys.URL]: 'https://pchspitt.org/healthcare-services/health-care-for-the-homeless/',
-    [keys.DATE_CHECKED]: '2022-07-21',
+    [keys.NAME]: 'NYC Well',
+    [keys.DESCRIPTION]: 'NYC Well is your connection to free, confidential mental health support.',
+    [keys.PHONE]: '8886929355',
+    [keys.URL]: 'https://nycwell.cityofnewyork.us/en',
+    [keys.DATE_CHECKED]: '2022-08-17',
   },
 ];
 
