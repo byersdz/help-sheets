@@ -31,10 +31,10 @@ data[keys.BASIC_NEEDS] = [
     [keys.DATE_CHECKED]: '2022-07-31',
   },
   {
-    [keys.NAME]: 'Grand Central Food Program',
-    [keys.URL]: 'https://www.coalitionforthehomeless.org/our-programs/food/grand-central-food-program',
-    [keys.DATE_CHECKED]: '2022-07-27',
-    [keys.DESCRIPTION]: 'Every night vans deliver food. Visit website for route schedule',
+    [keys.NAME]: 'NYC Hunger Hotline',
+    [keys.PHONE]: '8668888777',
+    [keys.DESCRIPTION]: 'Call to find food resources',
+    [keys.DATE_CHECKED]: '2022-08-18',
   },
   {
     [keys.NAME]: 'The Bowery Mission',
@@ -114,6 +114,55 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: 'Meals',
         [keys.HOURS]: 'Mon - Fri 4pm - 6pm',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'All Angels Church',
+    [keys.URL]: 'https://allangelschurch.com/community-ministries/get-services/#cm-pathways',
+    [keys.PHONE]: '2123629300',
+    [keys.DATE_CHECKED]: '2022-08-18',
+    [keys.ADDRESS_1]: '251 W 80th Street',
+    [keys.CITY]: 'New York',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10024',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Breakfast',
+        [keys.HOURS]: 'Tues / Thur 9am',
+      },
+      {
+        [keys.DESCRIPTION]: 'Showers',
+        [keys.HOURS]: 'Tues / Thur 8am - 2pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Medical Care',
+        [keys.HOURS]: 'Tues / Thur 8am - noon',
+      },
+    ],
+  },
+  {
+    [keys.NAME]: 'Broadway Community',
+    [keys.URL]: 'https://broadwaycommunity.org',
+    [keys.PHONE]: '2128646100',
+    [keys.PHONE_EXTENSION]: '120',
+    [keys.DATE_CHECKED]: '2022-08-18',
+    [keys.ADDRESS_1]: '601 W 114th Street',
+    [keys.CITY]: 'New York',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '10025',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Meals',
+        [keys.HOURS]: 'Mon / Wed / Fri 12:30pm - 1:30pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Showers',
+        [keys.HOURS]: 'Mon / Wed / Fri 10:30am - noon',
+      },
+      {
+        [keys.DESCRIPTION]: 'Medical Care',
+        [keys.HOURS]: 'Mon 1pm - 4pm, Wed 10am - 4pm',
       },
     ],
   },
@@ -222,6 +271,12 @@ data[keys.BASIC_NEEDS] = [
         [keys.HOURS]: 'by appointment',
       },
     ],
+  },
+  {
+    [keys.NAME]: 'Grand Central Food Program',
+    [keys.URL]: 'https://www.coalitionforthehomeless.org/our-programs/food/grand-central-food-program',
+    [keys.DATE_CHECKED]: '2022-07-27',
+    [keys.DESCRIPTION]: 'Every night vans deliver food. Visit website for route schedule',
   },
 ];
 
