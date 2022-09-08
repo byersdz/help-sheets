@@ -10,16 +10,17 @@ data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 data[keys.EXCLUDE_LIST] = [
   'usa-shelter-directory',
   'food-pantries-org',
+  '211-ny',
 ];
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: 'Crisis Intervention Hotline',
-    [keys.PHONE]: '8883582384',
-    [keys.URL]: 'https://www.coalitionforthehomeless.org/',
-    [keys.DATE_CHECKED]: '2022-07-27',
+    [keys.NAME]: '211 WNY',
+    [keys.PHONE]: '211',
+    [keys.URL]: 'http://www.211wny.org',
+    [keys.DATE_CHECKED]: '2022-09-07',
     [keys.DESCRIPTION]:
-      'Call if you have questions about accessing shelter or other services, or if you have been denied shelter',
+      "Call for referrals for homeless shelters, food, health, employment services, and more.",
   },
 ];
 

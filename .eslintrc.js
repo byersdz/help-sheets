@@ -26,6 +26,7 @@ module.exports = {
     "prefer-destructuring": "off",
     "import/order": "off",
     "linebreak-style": 'off',
+    "quotes": 'off',
   },
   "globals": {
     "bitmelo": "readonly"
