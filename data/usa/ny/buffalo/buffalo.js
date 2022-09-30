@@ -74,6 +74,18 @@ data[keys.EMERGENCY_SHELTERS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'Cornerstone Manor',
+    [keys.URL]: 'https://www.buffalocitymission.org/what-we-do/get-help-now',
+    [keys.PHONE]: '7168548181',
+    [keys.PHONE_EXTENSION]: '111',
+    [keys.ADDRESS_1]: '150 E North St',
+    [keys.CITY]: 'Buffalo',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '14203',
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+    [keys.DATE_CHECKED]: '2022-09-29',
+  },
 ];
 
 data[keys.RESOURCES] = [
