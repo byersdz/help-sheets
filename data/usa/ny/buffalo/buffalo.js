@@ -53,16 +53,26 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: '30th Street Mens Intake Shelter',
-    [keys.DESCRIPTION]: 'Intake, Assessment, and General Population shelter for homeless men',
-    [keys.URL]: 'https://www1.nyc.gov/site/dhs/shelter/singleadults/single-adults-applying.page',
-    [keys.PHONE]: '311',
-    [keys.ADDRESS_1]: '400 East 30th Street',
-    [keys.CITY]: 'New York',
+    [keys.NAME]: 'Buffalo City Mission',
+    [keys.URL]: 'https://www.buffalocitymission.org/what-we-do/get-help-now',
+    [keys.PHONE]: '7168548181',
+    [keys.PHONE_EXTENSION]: '432',
+    [keys.ADDRESS_1]: '100 E. Tupper St',
+    [keys.CITY]: 'Buffalo',
     [keys.STATE]: 'NY',
-    [keys.ZIP_CODE]: '10016',
+    [keys.ZIP_CODE]: '14203',
     [keys.SERVES]: [serves.MEN],
-    [keys.DATE_CHECKED]: '2022-07-30',
+    [keys.DATE_CHECKED]: '2022-09-29',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Meals',
+        [keys.HOURS]: 'every day, 8:30am, 11:30am, 4pm',
+      },
+      {
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Tues / Thur noon - 3pm',
+      },
+    ],
   },
 ];
 
