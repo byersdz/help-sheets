@@ -86,6 +86,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
     [keys.DATE_CHECKED]: '2022-09-29',
   },
+  {
+    [keys.NAME]: 'Little Portion Friary',
+    [keys.URL]: 'https://www.littleportionfriary.com',
+    [keys.PHONE]: '7168825705',
+    [keys.ADDRESS_1]: '1305 Main Street',
+    [keys.CITY]: 'Buffalo',
+    [keys.STATE]: 'NY',
+    [keys.ZIP_CODE]: '14209',
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.DATE_CHECKED]: '2022-09-29',
+  },
 ];
 
 data[keys.RESOURCES] = [
