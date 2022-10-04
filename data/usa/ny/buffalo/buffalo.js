@@ -56,6 +56,30 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "The Genesis Center",
+    [keys.URL]: "https://www.thegenesiscenter.us",
+    [keys.PHONE]: "7168221901",
+    [keys.DATE_CHECKED]: "2022-10-03",
+    [keys.ADDRESS_1]: "2161 Seneca Street",
+    [keys.CITY]: "Buffalo",
+    [keys.STATE]: "NY",
+    [keys.ZIP_CODE]: "14210",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon/Wed/Fri 4pm - 6pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Sat 10:30am - 12:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Thurs 9:30am - 12:30pm, 5pm - 6pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
