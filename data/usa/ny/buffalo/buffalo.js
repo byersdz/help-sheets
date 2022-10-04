@@ -80,6 +80,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Big Big Table",
+    [keys.URL]: "https://www.bigbigtable.org",
+    [keys.PHONE]: "7163818954",
+    [keys.DATE_CHECKED]: "2022-10-03",
+    [keys.ADDRESS_1]: "272 Hudson Street",
+    [keys.CITY]: "Buffalo",
+    [keys.STATE]: "NY",
+    [keys.ZIP_CODE]: "14201",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Pay as you can lunch",
+        [keys.HOURS]: "Mon-Fri 11am - 2:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
