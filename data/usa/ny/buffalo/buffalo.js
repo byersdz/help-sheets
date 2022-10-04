@@ -40,6 +40,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Matt Urban Center",
+    [keys.URL]: "http://urbanctr.org",
+    [keys.PHONE]: "7168937222",
+    [keys.DATE_CHECKED]: "2022-10-03",
+    [keys.ADDRESS_1]: "385 Paderewski Drive",
+    [keys.CITY]: "Buffalo",
+    [keys.STATE]: "NY",
+    [keys.ZIP_CODE]: "14212",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon - Fri 2pm - 5pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
