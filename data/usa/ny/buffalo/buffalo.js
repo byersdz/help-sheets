@@ -96,6 +96,30 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Friends of Night People",
+    [keys.URL]: "https://friendsofnightpeople.com",
+    [keys.PHONE]: "7168845375",
+    [keys.DATE_CHECKED]: "2022-10-04",
+    [keys.ADDRESS_1]: "394 Hudson Street",
+    [keys.CITY]: "Buffalo",
+    [keys.STATE]: "NY",
+    [keys.ZIP_CODE]: "14201",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Fri 9am - 11am",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Every Day 5pm - 7pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Medical Care",
+        [keys.HOURS]: "1st and 3rd Tues, 5pm - 7pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
