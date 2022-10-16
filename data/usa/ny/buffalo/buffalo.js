@@ -229,14 +229,6 @@ data[keys.EMERGENCY_SHELTERS] = [
   },
 ];
 
-data[keys.RESOURCES] = [
-  {
-    [keys.NAME]: "NYC Well",
-    [keys.DESCRIPTION]: "NYC Well is your connection to free, confidential mental health support.",
-    [keys.PHONE]: "8886929355",
-    [keys.URL]: "https://nycwell.cityofnewyork.us/en",
-    [keys.DATE_CHECKED]: "2022-08-17",
-  },
-];
+data[keys.RESOURCES] = [];
 
 module.exports = data;
