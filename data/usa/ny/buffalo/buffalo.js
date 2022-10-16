@@ -205,6 +205,28 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
     [keys.DATE_CHECKED]: "2022-09-29",
   },
+  {
+    [keys.NAME]: "Niagra Gospel Mission",
+    [keys.URL]: "https://niagaragospelmission.org",
+    [keys.PHONE]: "7162058805",
+    [keys.ADDRESS_1]: "1317 Portage Rd",
+    [keys.CITY]: "Niagara Falls",
+    [keys.STATE]: "NY",
+    [keys.ZIP_CODE]: "14302",
+    [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: "2022-10-16",
+  },
+  {
+    [keys.NAME]: "Lockport Cares",
+    [keys.URL]: "https://www.lockportcares.org",
+    [keys.PHONE]: "7169390926",
+    [keys.ADDRESS_1]: "188-192 Genesee Street",
+    [keys.CITY]: "Lockport",
+    [keys.STATE]: "NY",
+    [keys.ZIP_CODE]: "14094",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES_WITH_CHILDREN],
+    [keys.DATE_CHECKED]: "2022-10-16",
+  },
 ];
 
 data[keys.RESOURCES] = [
