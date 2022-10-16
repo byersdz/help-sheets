@@ -120,6 +120,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Gerard Place",
+    [keys.URL]: "https://gerardplace.org/services/food-distribution",
+    [keys.PHONE]: "7168979948",
+    [keys.DATE_CHECKED]: "2022-10-16",
+    [keys.ADDRESS_1]: "2515 Bailey Avenue",
+    [keys.CITY]: "Buffalo",
+    [keys.STATE]: "NY",
+    [keys.ZIP_CODE]: "14215",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon / Wed 3:30pm - 5:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mon / Wed 3:30pm - 5:30pm, Fri 10am - 11:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
