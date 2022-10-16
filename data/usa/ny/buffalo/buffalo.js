@@ -140,6 +140,23 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Society of St. Vincent de Paul",
+    [keys.URL]: "http://svdpwny.org/dining-room",
+    [keys.PHONE]: "7168823360",
+    [keys.PHONE_EXTENSION]: '5',
+    [keys.DATE_CHECKED]: "2022-10-16",
+    [keys.ADDRESS_1]: "1298 Main Street",
+    [keys.CITY]: "Buffalo",
+    [keys.STATE]: "NY",
+    [keys.ZIP_CODE]: "14209",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "M/T/W/F/Sa 11am - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
