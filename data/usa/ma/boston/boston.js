@@ -43,13 +43,26 @@ data[keys.BASIC_NEEDS] = [
 data[keys.EMERGENCY_SHELTERS] = [
   {
     [keys.NAME]: "Southampton Shelter",
-    [keys.URL]: "https://www.bhchp.org/about/locations/southampton-street-shelter",
+    [keys.URL]:
+      "https://www.boston.gov/government/cabinets/boston-public-health-commission/homeless-services/emergency-shelter",
     [keys.PHONE]: "6175345395",
     [keys.ADDRESS_1]: "112 Southampton Street",
     [keys.CITY]: "Boston",
     [keys.STATE]: "MA",
     [keys.ZIP_CODE]: "02118",
     [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: "2022-10-18",
+  },
+  {
+    [keys.NAME]: "Woods Mullen Shelter",
+    [keys.URL]:
+      "https://www.boston.gov/government/cabinets/boston-public-health-commission/homeless-services/emergency-shelter",
+    [keys.PHONE]: "6175347100",
+    [keys.ADDRESS_1]: "794 Massachusetts Ave",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02118",
+    [keys.SERVES]: [serves.WOMEN],
     [keys.DATE_CHECKED]: "2022-10-18",
   },
 ];
