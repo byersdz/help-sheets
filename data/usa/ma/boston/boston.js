@@ -65,6 +65,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.WOMEN],
     [keys.DATE_CHECKED]: "2022-10-18",
   },
+  {
+    [keys.NAME]: "Pine Street Inn",
+    [keys.URL]: "https://www.pinestreetinn.org/about-us/find-help-guest",
+    [keys.PHONE]: "6178929228",
+    [keys.DESCRIPTION]: "Call for triage",
+    [keys.ADDRESS_1]: "444 Harrison Ave",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02118",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.DATE_CHECKED]: "2022-10-18",
+  },
 ];
 
 data[keys.RESOURCES] = [];
