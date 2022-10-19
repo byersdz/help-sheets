@@ -42,26 +42,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Buffalo City Mission",
-    [keys.URL]: "https://www.buffalocitymission.org/what-we-do/get-help-now",
-    [keys.PHONE]: "7168548181",
-    [keys.PHONE_EXTENSION]: "432",
-    [keys.ADDRESS_1]: "100 E. Tupper St",
-    [keys.CITY]: "Buffalo",
-    [keys.STATE]: "NY",
-    [keys.ZIP_CODE]: "14203",
+    [keys.NAME]: "Southampton Shelter",
+    [keys.URL]: "https://www.bhchp.org/about/locations/southampton-street-shelter",
+    [keys.PHONE]: "6175345395",
+    [keys.ADDRESS_1]: "112 Southampton Street",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02118",
     [keys.SERVES]: [serves.MEN],
-    [keys.DATE_CHECKED]: "2022-09-29",
-    [keys.PROVIDES]: [
-      {
-        [keys.DESCRIPTION]: "Meals",
-        [keys.HOURS]: "every day, 8:30am, 11:30am, 4pm",
-      },
-      {
-        [keys.DESCRIPTION]: "Food Pantry",
-        [keys.HOURS]: "Tues / Thur noon - 3pm",
-      },
-    ],
+    [keys.DATE_CHECKED]: "2022-10-18",
   },
 ];
 
