@@ -11,7 +11,15 @@ data[keys.EXCLUDE_LIST] = [
   "usa-shelter-directory",
 ];
 
-data[keys.ACCESS_POINTS] = [];
+data[keys.ACCESS_POINTS] = [
+  {
+    [keys.NAME]: "Office of Housing Stability",
+    [keys.URL]: "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
+    [keys.PHONE]: "6176354200",
+    [keys.DATE_CHECKED]: "2022-10-18",
+    [keys.DESCRIPTION]: "Call if you are at immediate risk of becoming homeless. Mon - Fri 9am - 5pm",
+  },
+];
 
 data[keys.BASIC_NEEDS] = [
   {
