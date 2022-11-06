@@ -77,6 +77,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
     [keys.DATE_CHECKED]: "2022-10-18",
   },
+  {
+    [keys.NAME]: "New England Center and Home for Veterans",
+    [keys.URL]: "https://nechv.org",
+    [keys.PHONE]: "6173711800",
+    [keys.ADDRESS_1]: "17 Court St",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02108",
+    [keys.SERVES]: [serves.VETERANS],
+    [keys.DATE_CHECKED]: "2022-11-05",
+  },
 ];
 
 data[keys.RESOURCES] = [
