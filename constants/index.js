@@ -76,6 +76,8 @@ serves.VETERANS = 'veterans';
 serves.COUPLES = 'couples';
 serves.FAMILIES_WITHOUT_CHILDREN = 'familiesWithoutChildren';
 serves.FAMILIES_WITH_CHILDREN = 'familiesWithChildren';
+serves.AGE_14_TO_24 = 'age14To24';
+serves.AGE_18_TO_24 = 'age18To24';
 
 constants.keys = keys;
 constants.languageCodes = languageCodes;

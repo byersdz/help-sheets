@@ -88,6 +88,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.VETERANS],
     [keys.DATE_CHECKED]: "2022-11-05",
   },
+  {
+    [keys.NAME]: "Bridge Over Troubled Waters",
+    [keys.URL]: "https://www.bridgeotw.org/gethelp",
+    [keys.PHONE]: "6174239575",
+    [keys.ADDRESS_1]: "47 West Street",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02111",
+    [keys.SERVES]: [serves.AGE_14_TO_24],
+    [keys.DATE_CHECKED]: "2022-11-05",
+  },
 ];
 
 data[keys.RESOURCES] = [
