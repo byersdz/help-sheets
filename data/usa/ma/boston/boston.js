@@ -79,6 +79,19 @@ data[keys.EMERGENCY_SHELTERS] = [
   },
 ];
 
-data[keys.RESOURCES] = [];
+data[keys.RESOURCES] = [
+  {
+    [keys.NAME]: "Boston Night Center",
+    [keys.URL]: "https://www.baycovehumanservices.org/homeless-services",
+    [keys.PHONE]: "8572960322",
+    [keys.DESCRIPTION]: "Overnight drop-in shelter. No beds. 8:30pm - 6:30 am",
+    [keys.ADDRESS_1]: "31 Bowker St.",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02114",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.DATE_CHECKED]: "2022-11-05",
+  },
+];
 
 module.exports = data;
