@@ -23,18 +23,27 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "South Buffalo Community Table",
-    [keys.URL]: "https://www.sbcommunitytable.com",
-    [keys.PHONE]: "7168223193",
-    [keys.DATE_CHECKED]: "2022-10-03",
-    [keys.ADDRESS_1]: "187 Southside Pkwy",
-    [keys.CITY]: "Buffalo",
-    [keys.STATE]: "NY",
-    [keys.ZIP_CODE]: "14220",
+    [keys.NAME]: "St. Francis House",
+    [keys.URL]: "https://stfrancishouse.org",
+    [keys.PHONE]: "6175424211",
+    [keys.DESCRIPTION]: 'Also provides clothing, medical care, mailroom, art therapy',
+    [keys.DATE_CHECKED]: "2022-11-13",
+    [keys.ADDRESS_1]: "39 Boylston Street",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02116",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Meals",
-        [keys.HOURS]: "Mon - Thur 4pm - 5pm",
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "every day 7:30am - 9am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "every day 11:30am - 1pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Showers",
+        [keys.HOURS]: "Mon-Fri 7am-10:40am, Sat/Sun 8am-2pm",
       },
     ],
   },
@@ -98,6 +107,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "02111",
     [keys.SERVES]: [serves.AGE_14_TO_24],
     [keys.DATE_CHECKED]: "2022-11-05",
+  },
+  {
+    [keys.NAME]: "Massachusetts Emergency Family Shelter",
+    [keys.URL]: "https://www.mass.gov/how-to/find-emergency-family-shelter",
+    [keys.PHONE]: "8665840653",
+    [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
+    [keys.DATE_CHECKED]: "2022-11-13",
   },
 ];
 
