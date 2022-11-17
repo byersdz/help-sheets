@@ -47,6 +47,31 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Haley House",
+    [keys.URL]: "https://haleyhouse.org",
+    [keys.PHONE]: "6172368132",
+    [keys.DESCRIPTION]: 'Also provides food pantry',
+    [keys.DATE_CHECKED]: "2022-11-16",
+    [keys.ADDRESS_1]: "23 Dartmouth Street",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02116 ",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Tue-Fri 8am-9:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Sunday 2pm-3pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Tue 6am-9:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
