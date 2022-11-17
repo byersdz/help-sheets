@@ -115,6 +115,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
     [keys.DATE_CHECKED]: "2022-11-13",
   },
+  {
+    [keys.NAME]: "Boston Rescue Mission",
+    [keys.URL]: "https://www.brm.org",
+    [keys.PHONE]: "6173389000",
+    [keys.ADDRESS_1]: "39 Kingston St",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02111",
+    [keys.SERVES]: [serves.MEN],
+    [keys.DATE_CHECKED]: "2022-11-16",
+  },
 ];
 
 data[keys.RESOURCES] = [
