@@ -72,6 +72,21 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "East Boston Community Soup Kitchen",
+    [keys.URL]: "https://ebcsk.org",
+    [keys.DATE_CHECKED]: "2022-11-16",
+    [keys.ADDRESS_1]: "28 Paris St",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02128 ",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Bags",
+        [keys.HOURS]: "Tue 9am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
