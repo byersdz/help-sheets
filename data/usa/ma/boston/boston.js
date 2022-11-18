@@ -81,7 +81,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.ADDRESS_1]: "889 Harrison Avenue",
     [keys.CITY]: "Boston",
     [keys.STATE]: "MA",
-    [keys.ZIP_CODE]: "02128 ",
+    [keys.ZIP_CODE]: "02128",
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: "Weekday Meals",
@@ -94,6 +94,23 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: "Food Pantry",
         [keys.HOURS]: "Mon-Fri 9am-4pm",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Women's Lunch Place",
+    [keys.URL]: "https://womenslunchplace.org",
+    [keys.DATE_CHECKED]: "2022-11-17",
+    [keys.PHONE]: '6172670200',
+    [keys.SERVES]: [serves.WOMEN],
+    [keys.ADDRESS_1]: "67 Newbury Street",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02116",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Sat 7am-2pm",
       },
     ],
   },
