@@ -129,6 +129,13 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "ABCD",
+    [keys.URL]: "https://bostonabcd.org/service/food-accesscenters",
+    [keys.DATE_CHECKED]: "2022-11-17",
+    [keys.PHONE]: "6173486000",
+    [keys.DESCRIPTION]: "Operates 5 local food pantries",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
