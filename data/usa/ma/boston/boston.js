@@ -115,6 +115,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Friday Night Supper",
+    [keys.URL]: "https://www.fridaynightsupper.org/be-our-guest",
+    [keys.DATE_CHECKED]: "2022-11-17",
+    [keys.PHONE]: '6172216402',
+    [keys.ADDRESS_1]: "351 Boylston Street",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02116",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Hot Meal",
+        [keys.HOURS]: "Fri 5pm-7pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing Closet",
+        [keys.HOURS]: "2nd and 4th Fri",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "East Boston Community Soup Kitchen",
     [keys.URL]: "https://ebcsk.org",
     [keys.DATE_CHECKED]: "2022-11-16",
