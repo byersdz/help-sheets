@@ -212,6 +212,16 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
+    [keys.NAME]: "Boston Health Care for the Homeless",
+    [keys.URL]: "https://www.bhchp.org/patients",
+    [keys.PHONE]: "8576541600",
+    [keys.ADDRESS_1]: "780 Albany Street",
+    [keys.CITY]: "Boston",
+    [keys.STATE]: "MA",
+    [keys.ZIP_CODE]: "02118",
+    [keys.DATE_CHECKED]: "2022-11-17",
+  },
+  {
     [keys.NAME]: "Boston Night Center",
     [keys.URL]: "https://www.baycovehumanservices.org/homeless-services",
     [keys.PHONE]: "8572960322",
