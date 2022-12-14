@@ -51,16 +51,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Southampton Shelter",
-    [keys.URL]:
-      "https://www.boston.gov/government/cabinets/boston-public-health-commission/homeless-services/emergency-shelter",
-    [keys.PHONE]: "6175345395",
-    [keys.ADDRESS_1]: "112 Southampton Street",
-    [keys.CITY]: "Boston",
-    [keys.STATE]: "MA",
-    [keys.ZIP_CODE]: "02118",
+    [keys.NAME]: "Men's Public Shelter",
+    [keys.URL]: "https://www.lutheranmetro.org/what-we-do/programs/housing-and-shelter/",
+    [keys.PHONE]: "2165660047",
+    [keys.ADDRESS_1]: "2100 Lakeside Avenue",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44114",
     [keys.SERVES]: [serves.MEN],
-    [keys.DATE_CHECKED]: "2022-10-18",
+    [keys.DATE_CHECKED]: "2022-12-13",
   },
 ];
 
