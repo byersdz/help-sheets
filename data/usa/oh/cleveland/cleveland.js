@@ -13,11 +13,11 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: "Office of Housing Stability",
-    [keys.URL]: "https://www.boston.gov/departments/housing/services-those-experiencing-homeless",
-    [keys.PHONE]: "6176354200",
-    [keys.DATE_CHECKED]: "2022-10-18",
-    [keys.DESCRIPTION]: "Call if you are at immediate risk of becoming homeless. Mon - Fri 9am - 5pm",
+    [keys.NAME]: "Shelter Coordinated Intake",
+    [keys.URL]: "https://hhs.cuyahogacounty.us/programs/detail/if-you-need-shelter",
+    [keys.PHONE]: "2166746700",
+    [keys.DATE_CHECKED]: "2022-12-13",
+    [keys.DESCRIPTION]: "Call if you are homeless and in need of emergency shelter. M-F 8am-8pm",
   },
 ];
 
