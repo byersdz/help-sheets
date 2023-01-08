@@ -23,27 +23,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "St. Francis House",
-    [keys.URL]: "https://stfrancishouse.org",
-    [keys.PHONE]: "6175424211",
-    [keys.DESCRIPTION]: 'Also provides clothing, medical care, mailroom, art therapy',
-    [keys.DATE_CHECKED]: "2022-11-13",
-    [keys.ADDRESS_1]: "39 Boylston Street",
-    [keys.CITY]: "Boston",
-    [keys.STATE]: "MA",
-    [keys.ZIP_CODE]: "02116",
+    [keys.NAME]: "St. Augustine Hunger Center",
+    [keys.URL]: "https://www.ccdocle.org/locations/st-augustine-hunger-center",
+    [keys.PHONE]: "2163773725",
+    [keys.DATE_CHECKED]: "2023-01-08",
+    [keys.ADDRESS_1]: "2486 W 14th St",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44113",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "every day 7:30am - 9am",
-      },
-      {
         [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "every day 11:30am - 1pm",
+        [keys.HOURS]: "every day 11am - 12:30pm",
       },
       {
-        [keys.DESCRIPTION]: "Showers",
-        [keys.HOURS]: "Mon-Fri 7am-10:40am, Sat/Sun 8am-2pm",
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon-Fri 4pm - 5pm",
       },
     ],
   },
