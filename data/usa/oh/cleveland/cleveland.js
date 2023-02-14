@@ -67,6 +67,31 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. Herman House",
+    [keys.URL]: "https://sainthermans.org/our-work/",
+    [keys.PHONE]: "2169613806",
+    [keys.DATE_CHECKED]: "2023-02-13",
+    [keys.ADDRESS_1]: "4410 Franklin Blvd",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "441143",
+    [keys.DESCRIPTION]: 'Also provides food pantry, toilets, and emergency shelter',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Everyday 7:30am-8am, 11:30am-noon, 5:30pm-6pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Mon and Fri 1pm - 2pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Hygiene Items",
+        [keys.HOURS]: "Everyday noon-12:30pm, 6pm-6:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
@@ -80,6 +105,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "44114",
     [keys.SERVES]: [serves.MEN],
     [keys.DATE_CHECKED]: "2022-12-13",
+  },
+  {
+    [keys.NAME]: "St. Herman House",
+    [keys.URL]: "https://sainthermans.org/our-work/",
+    [keys.PHONE]: "2169613806",
+    [keys.DATE_CHECKED]: "2023-02-13",
+    [keys.ADDRESS_1]: "4410 Franklin Blvd",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "441143",
+    [keys.SERVES]: [serves.MEN],
   },
 ];
 
