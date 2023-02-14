@@ -42,6 +42,31 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Cosgrove Center",
+    [keys.URL]: "https://www.ccdocle.org/locations/bishop-william-m-cosgrove-center",
+    [keys.PHONE]: "2167818262",
+    [keys.DATE_CHECKED]: "2023-02-13",
+    [keys.ADDRESS_1]: "1736 Superior Ave",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44114",
+    [keys.DESCRIPTION]: 'Also provides food pantry, clothing closet, and emergency financial assistance',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Fri 8am - 9am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri noon - 1:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Showers",
+        [keys.HOURS]: "Mon-Fri 9:30am - 11:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
