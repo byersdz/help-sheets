@@ -108,6 +108,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. Patrick Parish",
+    [keys.URL]: "https://stpatrickbridge.org/saint-vincent-de-paul-society",
+    [keys.PHONE]: "2166316872",
+    [keys.PHONE_EXTENSION]: '1',
+    [keys.DATE_CHECKED]: "2023-02-14",
+    [keys.ADDRESS_1]: "3602 Bridge Avenue",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44113",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Hot Meals",
+        [keys.HOURS]: "Tuesday and Thursday 5pm - 6pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "1st 3rd and 5th Wednesdays, 9:30am - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
