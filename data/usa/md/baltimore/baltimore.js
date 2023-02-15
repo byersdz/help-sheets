@@ -133,21 +133,6 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
-    [keys.NAME]: 'Generosity Global',
-    [keys.URL]: 'https://GenerosityGlobal.org/selfless-saturday',
-    [keys.ADDRESS_1]: '407 E Saratoga Street',
-    [keys.CITY]: 'Baltimore',
-    [keys.STATE]: 'MD',
-    [keys.ZIP_CODE]: '21202',
-    [keys.DATE_CHECKED]: '2021-10-03',
-    [keys.PROVIDES]: [
-      {
-        [keys.DESCRIPTION]: 'Hot Lunch, Clothing Closet',
-        [keys.HOURS]: 'Second Saturday of month: 11am - noon',
-      },
-    ],
-  },
-  {
     [keys.NAME]: 'Generosity Shower',
     [keys.URL]: 'https://GenerosityGlobal.org/generosity-shower',
     [keys.DESCRIPTION]: 'Only open during warm months',
