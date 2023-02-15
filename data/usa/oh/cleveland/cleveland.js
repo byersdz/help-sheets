@@ -129,6 +129,31 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "West Side Catholic Center",
+    [keys.URL]: "https://www.wsccenter.org/resource-center",
+    [keys.PHONE]: "2166314741",
+    [keys.DATE_CHECKED]: "2023-02-14",
+    [keys.ADDRESS_1]: "3135 Lorain Avenue",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44113",
+    [keys.DESCRIPTION]: "Provides a variety of other services including showers, food pantry, mail, and clothing",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Sat 9am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri noon",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Saturday 4:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
