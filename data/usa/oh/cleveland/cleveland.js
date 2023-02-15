@@ -75,7 +75,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.ADDRESS_1]: "4410 Franklin Blvd",
     [keys.CITY]: "Cleveland",
     [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "441143",
+    [keys.ZIP_CODE]: "44113",
     [keys.DESCRIPTION]: 'Also provides food pantry, toilets, and emergency shelter',
     [keys.PROVIDES]: [
       {
@@ -89,6 +89,22 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: "Hygiene Items",
         [keys.HOURS]: "Everyday noon-12:30pm, 6pm-6:30pm",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "St. Malachi Parish",
+    [keys.URL]: "https://www.stmalachi.org/ministries/back-door-ministry",
+    [keys.PHONE]: "2168615343",
+    [keys.DATE_CHECKED]: "2023-02-14",
+    [keys.ADDRESS_1]: "2459 Washington Ave.",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44113",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Fri 10am - 1pm, Sat 9am - noon",
       },
     ],
   },
@@ -114,7 +130,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ADDRESS_1]: "4410 Franklin Blvd",
     [keys.CITY]: "Cleveland",
     [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "441143",
+    [keys.ZIP_CODE]: "44113",
     [keys.SERVES]: [serves.MEN],
   },
 ];
