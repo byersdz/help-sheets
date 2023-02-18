@@ -178,6 +178,13 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Hunger Network",
+    [keys.URL]: "https://hungernetwork.org",
+    [keys.PHONE]: "2166198155",
+    [keys.DESCRIPTION]: 'Find local food resources',
+    [keys.DATE_CHECKED]: "2023-02-17",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
