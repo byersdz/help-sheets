@@ -154,6 +154,30 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Faith Baptist Community Center",
+    [keys.URL]: "http://freehope.org/services",
+    [keys.PHONE]: "2168818816",
+    [keys.DATE_CHECKED]: "2023-02-17",
+    [keys.ADDRESS_1]: "2355 East 55th Street",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Wednesday following 11:30am service",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing Store",
+        [keys.HOURS]: "Wednesday after lunch",
+      },
+      {
+        [keys.DESCRIPTION]: "Medical Services",
+        [keys.HOURS]: "Thursday 9:30am - 4pm, Saturday 9:30am - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
