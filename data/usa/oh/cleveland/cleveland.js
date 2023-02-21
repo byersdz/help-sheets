@@ -190,14 +190,27 @@ data[keys.BASIC_NEEDS] = [
 data[keys.EMERGENCY_SHELTERS] = [
   {
     [keys.NAME]: "Men's Public Shelter",
-    [keys.URL]: "https://www.lutheranmetro.org/what-we-do/programs/housing-and-shelter/",
+    [keys.URL]: "https://www.lutheranmetro.org/what-we-do/programs/housing-and-shelter",
     [keys.PHONE]: "2165660047",
     [keys.ADDRESS_1]: "2100 Lakeside Avenue",
     [keys.CITY]: "Cleveland",
     [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "44114",
     [keys.SERVES]: [serves.MEN],
+    [keys.DESCRIPTION]: "Use Coordinated Intake",
     [keys.DATE_CHECKED]: "2022-12-13",
+  },
+  {
+    [keys.NAME]: "Norma Herr Women's Center",
+    [keys.URL]: "https://www.ywcaofcleveland.org/end-homelessness/norma-herr-womens-center",
+    [keys.PHONE]: "2164790020",
+    [keys.ADDRESS_1]: "2227 Payne Ave",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44114",
+    [keys.SERVES]: [serves.WOMEN],
+    [keys.DESCRIPTION]: "Use Coordinated Intake",
+    [keys.DATE_CHECKED]: "2023-02-20",
   },
   {
     [keys.NAME]: "St. Herman House",
