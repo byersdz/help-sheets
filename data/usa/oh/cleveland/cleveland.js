@@ -223,6 +223,20 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "44113",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Crossroads Mens Crisis Center",
+    [keys.URL]: "https://www.thecitymission.org/get-help",
+    [keys.PHONE]: "2164313515",
+    [keys.DATE_CHECKED]: "2023-02-13",
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
+    [keys.NAME]: "Laura's Home Women's Crisis Center",
+    [keys.URL]: "https://www.thecitymission.org/get-help",
+    [keys.PHONE]: "2164725500",
+    [keys.DATE_CHECKED]: "2023-02-13",
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
