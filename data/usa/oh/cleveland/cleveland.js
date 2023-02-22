@@ -241,14 +241,16 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Boston Health Care for the Homeless",
-    [keys.URL]: "https://www.bhchp.org/patients",
-    [keys.PHONE]: "8576541600",
-    [keys.ADDRESS_1]: "780 Albany Street",
-    [keys.CITY]: "Boston",
-    [keys.STATE]: "MA",
+    [keys.NAME]: "Step Forward",
+    [keys.URL]: "https://www.stepforwardtoday.org",
+    [keys.PHONE]: "2166969077",
+    [keys.ADDRESS_1]: "1801 Superior Avenue",
+    [keys.ADDRESS_2]: "Suite 400",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "02118",
-    [keys.DATE_CHECKED]: "2022-11-17",
+    [keys.DESCRIPTION]: "Emergency Assistance, Energy assistance, Proffesional Development, Personal Development",
+    [keys.DATE_CHECKED]: "2023-02-21",
   },
 ];
 
