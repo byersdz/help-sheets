@@ -273,9 +273,20 @@ data[keys.RESOURCES] = [
     [keys.ADDRESS_2]: "Suite 400",
     [keys.CITY]: "Cleveland",
     [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "02118",
+    [keys.ZIP_CODE]: "44114",
     [keys.DESCRIPTION]: "Emergency Assistance, Energy assistance, Proffesional Development, Personal Development",
     [keys.DATE_CHECKED]: "2023-02-21",
+  },
+  {
+    [keys.NAME]: "Legal Aid Society of Cleveland",
+    [keys.URL]: "https://lasclev.org",
+    [keys.PHONE]: "8888173777",
+    [keys.ADDRESS_1]: "1223 West Sixth St.",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44113",
+    [keys.DESCRIPTION]: "Legal assistance for low income individuals",
+    [keys.DATE_CHECKED]: "2023-02-23",
   },
 ];
 
