@@ -299,6 +299,13 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Peer support, health and wellness services",
     [keys.DATE_CHECKED]: "2023-02-23",
   },
+  {
+    [keys.NAME]: "Seasons of Hope",
+    [keys.URL]: "https://www.ccdocle.org/programs/seasons-of-hope",
+    [keys.PHONE]: "2164210536",
+    [keys.DESCRIPTION]: "Evening and overnight drop in center for women in crisis or struggling with addiction",
+    [keys.DATE_CHECKED]: "2023-02-23",
+  },
 ];
 
 module.exports = data;
