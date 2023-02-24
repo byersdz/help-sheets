@@ -288,6 +288,17 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Legal assistance for low income individuals",
     [keys.DATE_CHECKED]: "2023-02-23",
   },
+  {
+    [keys.NAME]: "LGBT Community Center",
+    [keys.URL]: "https://lgbtcleveland.org",
+    [keys.PHONE]: "2166515428",
+    [keys.ADDRESS_1]: "6705 Detroit Avenue",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44102",
+    [keys.DESCRIPTION]: "Peer support, health and wellness services",
+    [keys.DATE_CHECKED]: "2023-02-23",
+  },
 ];
 
 module.exports = data;
