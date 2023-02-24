@@ -250,6 +250,12 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: 'RVA Community Fridges',
+    [keys.DESCRIPTION]: 'Community run fridges and food pantries.',
+    [keys.URL]: 'https://www.rvacommunityfridges.com',
+    [keys.DATE_CHECKED]: '2023-02-23',
+  },
 ];
 
 data[keys.RESOURCES] = [
