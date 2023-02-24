@@ -179,6 +179,31 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "May Dugan Center",
+    [keys.URL]: "https://www.maydugancenter.org/food",
+    [keys.PHONE]: "2166315800",
+    [keys.DATE_CHECKED]: "2023-02-23",
+    [keys.ADDRESS_1]: "4115 Bridge Ave",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44113",
+    [keys.DESCRIPTION]: "Also provides behavioral health, education, pregnancy, and trauma recovery services",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Drive Thru Food Pantry",
+        [keys.HOURS]: "2nd and 4th Wednesday",
+      },
+      {
+        [keys.DESCRIPTION]: "Walk In Food Pantry",
+        [keys.HOURS]: "2nd and 4th Thursday",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Monday - Friday 1pm - 4pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Hunger Network",
     [keys.URL]: "https://hungernetwork.org",
     [keys.PHONE]: "2166198155",
