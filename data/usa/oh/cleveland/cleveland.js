@@ -204,6 +204,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "St. Paul's Outreach Center",
+    [keys.URL]: "https://www.stpaulscommunityucc.org/outreach-center",
+    [keys.PHONE]: "2166516250",
+    [keys.DATE_CHECKED]: "2023-02-23",
+    [keys.ADDRESS_1]: "4427 Franklin Boulevard",
+    [keys.CITY]: "Cleveland",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "44113",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Drop in center, food pantry, clothing",
+        [keys.HOURS]: "Tuesday and Thursday 9am - noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Hunger Network",
     [keys.URL]: "https://hungernetwork.org",
     [keys.PHONE]: "2166198155",
