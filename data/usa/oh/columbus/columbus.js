@@ -13,11 +13,18 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: "Shelter Coordinated Intake",
-    [keys.URL]: "https://hhs.cuyahogacounty.us/programs/detail/if-you-need-shelter",
-    [keys.PHONE]: "2166746700",
-    [keys.DATE_CHECKED]: "2022-12-13",
-    [keys.DESCRIPTION]: "Call if you are homeless and in need of emergency shelter. M-F 8am-8pm",
+    [keys.NAME]: "Homeless Hotline",
+    [keys.URL]: "https://www.columbus.gov/COVID19resources/humanservices",
+    [keys.PHONE]: "6142747000",
+    [keys.DATE_CHECKED]: "2022-03-04",
+    [keys.DESCRIPTION]: "Call if you are homeless and in need of emergency shelter.",
+  },
+  {
+    [keys.NAME]: "LSS Choices",
+    [keys.URL]: "https://lssnetworkofhope.org/choices",
+    [keys.PHONE]: "6142244663",
+    [keys.DATE_CHECKED]: "2022-03-04",
+    [keys.DESCRIPTION]: "Call if you seeking shelter from an abusive intimate partner.",
   },
 ];
 
