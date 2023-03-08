@@ -30,22 +30,23 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "St. Augustine Hunger Center",
-    [keys.URL]: "https://www.ccdocle.org/locations/st-augustine-hunger-center",
-    [keys.PHONE]: "2163773725",
-    [keys.DATE_CHECKED]: "2023-01-08",
-    [keys.ADDRESS_1]: "2486 W 14th St",
-    [keys.CITY]: "Cleveland",
+    [keys.NAME]: "The Open Shelter",
+    [keys.URL]: "https://theopenshelter.org/programming",
+    [keys.PHONE]: "6142222885",
+    [keys.DATE_CHECKED]: "2023-03-08",
+    [keys.ADDRESS_1]: "1037 Parsons Ave",
+    [keys.CITY]: "Columbus",
     [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "44113",
+    [keys.ZIP_CODE]: "43206",
+    [keys.DESCRIPTION]: "Day shelter and advocacy center",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "every day 11am - 12:30pm",
+        [keys.DESCRIPTION]: "Sack Lunch",
+        [keys.HOURS]: "Mon - Fri 10am",
       },
       {
-        [keys.DESCRIPTION]: "Dinner",
-        [keys.HOURS]: "Mon-Fri 4pm - 5pm",
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Tuesday",
       },
     ],
   },
