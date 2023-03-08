@@ -50,6 +50,23 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Stowe Mission",
+    [keys.URL]: "https://stowemission.org",
+    [keys.PHONE]: "6144458400",
+    [keys.DATE_CHECKED]: "2023-03-08",
+    [keys.ADDRESS_1]: "888 Parsons Avenue",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43206",
+    [keys.DESCRIPTION]: "Also provides dental and vision clinic",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 11am - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
