@@ -87,6 +87,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Holy Family Soup Kitchen",
+    [keys.URL]: "https://holyfamilycolumbus.org/hfsk",
+    [keys.PHONE]: "6142214323",
+    [keys.DATE_CHECKED]: "2023-03-10",
+    [keys.ADDRESS_1]: "588 W. Gay Street",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43215",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Sack Lunch",
+        [keys.HOURS]: "Mon-Fri 9am - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
