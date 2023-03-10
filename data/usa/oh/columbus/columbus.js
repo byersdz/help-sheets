@@ -103,6 +103,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. Lawrence Haven",
+    [keys.URL]: "https://www.svdpcolumbus.org/st_lawrence_haven",
+    [keys.PHONE]: "6142412569",
+    [keys.DATE_CHECKED]: "2023-03-10",
+    [keys.ADDRESS_1]: "244 E. Rich Street",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43215",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Thur 1:30pm - 3:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
