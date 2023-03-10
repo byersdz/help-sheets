@@ -119,6 +119,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Bethany Presbyterian",
+    [keys.URL]: "https://www.bethanycolumbus.com",
+    [keys.PHONE]: "6142537489",
+    [keys.DATE_CHECKED]: "2023-03-10",
+    [keys.ADDRESS_1]: "206 N. Garfield Avenue",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43203",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Saturday 11:30am - 1:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
