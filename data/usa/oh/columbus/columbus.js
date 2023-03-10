@@ -67,6 +67,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Dream Center",
+    [keys.URL]: "https://www.columbusdreamcenter.org/services",
+    [keys.PHONE]: "6145473138",
+    [keys.DATE_CHECKED]: "2023-03-10",
+    [keys.ADDRESS_1]: "38 W Greenwood Ave",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43201",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon/Tue/Wed/Fri 9:30am - 10am",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon/Tue/Thu/Fri 7pm - 7:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
