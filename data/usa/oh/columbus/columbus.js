@@ -171,7 +171,7 @@ data[keys.BASIC_NEEDS] = [
       },
       {
         [keys.DESCRIPTION]: "Dinner, clothing, basic necessities",
-        [keys.HOURS]: "Tuesday 6:300pm",
+        [keys.HOURS]: "Tuesday 6:30pm",
       },
     ],
   },
