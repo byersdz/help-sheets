@@ -135,6 +135,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Victory Ministries",
+    [keys.URL]: "https://www.victorycoh.org/essential-services",
+    [keys.PHONE]: "6142527996",
+    [keys.DATE_CHECKED]: "2023-03-14",
+    [keys.ADDRESS_1]: "3964 East Main Street",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43213",
+    [keys.DESCRIPTION]: "Food pantry and clothing by appointment.",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
