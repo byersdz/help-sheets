@@ -136,6 +136,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "First English Lutheran",
+    [keys.URL]: "https://felccolumbus.com/community",
+    [keys.PHONE]: "6142523191",
+    [keys.DATE_CHECKED]: "2023-03-14",
+    [keys.ADDRESS_1]: "1015 E Main Street",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43205",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Sunday 9am",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Thursday 5:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Victory Ministries",
     [keys.URL]: "https://www.victorycoh.org/essential-services",
     [keys.PHONE]: "6142527996",
