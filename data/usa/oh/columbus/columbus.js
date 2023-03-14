@@ -156,6 +156,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Feed My Sheep Ministries",
+    [keys.URL]: "https://feedmysheepministry.com/",
+    [keys.PHONE]: "6147215414",
+    [keys.DATE_CHECKED]: "2023-03-14",
+    [keys.ADDRESS_1]: "2364 W Broad St",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43204",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Saturday 9am",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner, clothing, basic necessities",
+        [keys.HOURS]: "Tuesday 6:300pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Victory Ministries",
     [keys.URL]: "https://www.victorycoh.org/essential-services",
     [keys.PHONE]: "6142527996",
