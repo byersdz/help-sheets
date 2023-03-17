@@ -176,6 +176,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Columbus Relief",
+    [keys.URL]: "https://www.cbusrelief.org/ministries",
+    [keys.PHONE]: "6145172038",
+    [keys.DATE_CHECKED]: "2023-03-16",
+    [keys.ADDRESS_1]: "800 Frebis Ave",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43206",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Saturday 11:30am - 1:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Victory Ministries",
     [keys.URL]: "https://www.victorycoh.org/essential-services",
     [keys.PHONE]: "6142527996",
