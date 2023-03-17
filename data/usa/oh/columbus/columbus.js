@@ -192,6 +192,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Clintonville CRC",
+    [keys.URL]: "https://www.clintonvillecrc.org/family-services",
+    [keys.PHONE]: "6142688118",
+    [keys.DATE_CHECKED]: "2023-03-16",
+    [keys.ADDRESS_1]: "14 W. Lakeview Ave.",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43202",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mo/Tu/Th/Fr noon - 4:15pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Fresh Produce",
+        [keys.HOURS]: "Wednesday noon - 4:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Victory Ministries",
     [keys.URL]: "https://www.victorycoh.org/essential-services",
     [keys.PHONE]: "6142527996",
