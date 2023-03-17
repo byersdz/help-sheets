@@ -104,6 +104,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Jordan's Crossing",
+    [keys.URL]: "https://jordanscrossingcolumbus.org",
+    [keys.PHONE]: "6145073246",
+    [keys.DATE_CHECKED]: "2023-03-16",
+    [keys.ADDRESS_1]: "342 N Hague Ave",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43204",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Everyday 11am - 1pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Thursday and Friday after lunch",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "St. Lawrence Haven",
     [keys.URL]: "https://www.svdpcolumbus.org/st_lawrence_haven",
     [keys.PHONE]: "6142412569",
