@@ -261,16 +261,14 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Step Forward",
-    [keys.URL]: "https://www.stepforwardtoday.org",
-    [keys.PHONE]: "2166969077",
-    [keys.ADDRESS_1]: "1801 Superior Avenue",
-    [keys.ADDRESS_2]: "Suite 400",
-    [keys.CITY]: "Cleveland",
+    [keys.NAME]: "Columbus Free Clinic",
+    [keys.URL]: "https://columbusfreeclinic.com",
+    [keys.PHONE]: "6144048417",
+    [keys.DATE_CHECKED]: "2023-03-17",
+    [keys.ADDRESS_1]: "2231 North High Street",
+    [keys.CITY]: "Columbus",
     [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "44114",
-    [keys.DESCRIPTION]: "Emergency Assistance, Energy assistance, Proffesional Development, Personal Development",
-    [keys.DATE_CHECKED]: "2023-02-21",
+    [keys.ZIP_CODE]: "43201",
   },
 ];
 
