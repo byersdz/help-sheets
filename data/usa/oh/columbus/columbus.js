@@ -258,6 +258,16 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "43201",
   },
+  {
+    [keys.NAME]: "Helping Hands Free Clinic",
+    [keys.URL]: "https://www.helpinghandsfreeclinic.org",
+    [keys.PHONE]: "6142625094",
+    [keys.DATE_CHECKED]: "2023-03-17",
+    [keys.ADDRESS_1]: "5100 Karl Road",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43229",
+  },
 ];
 
 module.exports = data;
