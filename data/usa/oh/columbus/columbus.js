@@ -245,18 +245,6 @@ data[keys.BASIC_NEEDS] = [
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
-  {
-    [keys.NAME]: "Men's Public Shelter",
-    [keys.URL]: "https://www.lutheranmetro.org/what-we-do/programs/housing-and-shelter",
-    [keys.PHONE]: "2165660047",
-    [keys.ADDRESS_1]: "2100 Lakeside Avenue",
-    [keys.CITY]: "Cleveland",
-    [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "44114",
-    [keys.SERVES]: [serves.MEN],
-    [keys.DESCRIPTION]: "Use Coordinated Intake",
-    [keys.DATE_CHECKED]: "2022-12-13",
-  },
 ];
 
 data[keys.RESOURCES] = [
