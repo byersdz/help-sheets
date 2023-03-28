@@ -268,6 +268,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "43229",
   },
+  {
+    [keys.NAME]: "Vineyard Community Center",
+    [keys.URL]: "https://www.vineyardcommunitycenter.org/our-services",
+    [keys.PHONE]: "6142595238",
+    [keys.DESCRIPTION]: "Free health clinic, optometry, immigration legal assistance",
+    [keys.DATE_CHECKED]: "2023-03-27",
+    [keys.ADDRESS_1]: "6000 Cooper Rd",
+    [keys.CITY]: "Westerville",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43081",
+  },
 ];
 
 module.exports = data;
