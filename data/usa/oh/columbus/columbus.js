@@ -279,6 +279,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "43081",
   },
+  {
+    [keys.NAME]: "Ohio Means Jobs",
+    [keys.URL]: "https://www.omjcfc.org",
+    [keys.PHONE]: "6145595052",
+    [keys.DESCRIPTION]: "Employment assistance",
+    [keys.DATE_CHECKED]: "2023-04-01",
+    [keys.ADDRESS_1]: "1111 E Broad St",
+    [keys.CITY]: "Columbus",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "43205",
+  },
 ];
 
 module.exports = data;
