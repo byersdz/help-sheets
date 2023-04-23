@@ -13,10 +13,10 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: "Homeless Hotline",
-    [keys.URL]: "https://www.columbus.gov/COVID19resources/humanservices",
-    [keys.PHONE]: "6142747000",
-    [keys.DATE_CHECKED]: "2022-03-04",
+    [keys.NAME]: "Central Access Point Line",
+    [keys.URL]: "https://www.strategiestoendhomelessness.org/what-we-do/prevention-and-shelter-diversion/",
+    [keys.PHONE]: "5133817233",
+    [keys.DATE_CHECKED]: "2022-04-23",
     [keys.DESCRIPTION]: "Call if you are homeless and in need of emergency shelter.",
   },
 ];
