@@ -23,29 +23,34 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "The Open Shelter",
-    [keys.URL]: "https://theopenshelter.org/programming",
-    [keys.PHONE]: "6142222885",
-    [keys.DATE_CHECKED]: "2023-03-08",
-    [keys.ADDRESS_1]: "1037 Parsons Ave",
-    [keys.CITY]: "Columbus",
+    [keys.NAME]: "City Gospel Mission",
+    [keys.URL]: "https://www.citygospelmission.org/get-help",
+    [keys.PHONE]: "5132415525",
+    [keys.DATE_CHECKED]: "2023-04-23",
+    [keys.ADDRESS_1]: "1805 Dalton Avenue",
+    [keys.CITY]: "Cincinnati",
     [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "43206",
-    [keys.DESCRIPTION]: "Day shelter and advocacy center",
+    [keys.ZIP_CODE]: "45214",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Sack Lunch",
-        [keys.HOURS]: "Mon - Fri 10am",
-      },
-      {
-        [keys.DESCRIPTION]: "Clothing",
-        [keys.HOURS]: "Tuesday",
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Every day 7pm",
       },
     ],
   },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
+  {
+    [keys.NAME]: "City Gospel Mission",
+    [keys.URL]: "https://www.citygospelmission.org/get-help",
+    [keys.PHONE]: "5132415525",
+    [keys.DATE_CHECKED]: "2023-04-23",
+    [keys.ADDRESS_1]: "1805 Dalton Avenue",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45214",
+  },
 ];
 
 data[keys.RESOURCES] = [
