@@ -39,6 +39,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Our Daily Bread",
+    [keys.URL]: "https://www.ourdailybread.us",
+    [keys.PHONE]: "5136216364",
+    [keys.DATE_CHECKED]: "2023-04-27",
+    [keys.ADDRESS_1]: "1730 Race St.",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45202",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Fri 8:30am-11:45am",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Queen City Kitchen",
     [keys.URL]: "https://www.queencitykitchen.org",
     [keys.PHONE]: "5139611983",
