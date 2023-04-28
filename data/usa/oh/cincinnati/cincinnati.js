@@ -39,6 +39,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Queen City Kitchen",
+    [keys.URL]: "https://www.queencitykitchen.org",
+    [keys.PHONE]: "5139611983",
+    [keys.DATE_CHECKED]: "2023-04-27",
+    [keys.ADDRESS_1]: "2631 Gilbert Avenue",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45206",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Tue/Thur 10am, Sat 9:30am & 3pm, Sun noon & 5pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Thur 10am",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "First Lutheran Church",
     [keys.URL]: "https://www.firstlutherancincy.org/service-1",
     [keys.PHONE]: "5134210065",
