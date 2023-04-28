@@ -38,6 +38,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "First Lutheran Church",
+    [keys.URL]: "https://www.firstlutherancincy.org/service-1",
+    [keys.PHONE]: "5134210065",
+    [keys.DATE_CHECKED]: "2023-04-27",
+    [keys.ADDRESS_1]: "1208 Race Street",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45202",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Community Meal",
+        [keys.HOURS]: "Last Monday of month - noon",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing Closet",
+        [keys.HOURS]: "2nd Monday of month - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
