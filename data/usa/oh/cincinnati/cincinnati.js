@@ -58,6 +58,11 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Freestore Foodbank",
+    [keys.URL]: "https://freestorefoodbank.org",
+    [keys.DATE_CHECKED]: "2023-04-27",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
