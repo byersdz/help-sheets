@@ -95,6 +95,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Churches Active in Northside",
+    [keys.URL]: "https://www.cainministry.org",
+    [keys.PHONE]: "5135912246",
+    [keys.DATE_CHECKED]: "2023-06-02",
+    [keys.ADDRESS_1]: "4230 Hamilton Avenue",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45223",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Community Meal",
+        [keys.HOURS]: "Monday 4pm - 6pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Monday 5pm - 7pm, Tue/Thur 10am - 1pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Freestore Foodbank",
     [keys.URL]: "https://freestorefoodbank.org",
     [keys.DATE_CHECKED]: "2023-04-27",
