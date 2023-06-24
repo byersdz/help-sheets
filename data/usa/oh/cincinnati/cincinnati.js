@@ -135,6 +135,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Mary Magdalen House",
+    [keys.URL]: "https://www.marymagdalenhouse.org",
+    [keys.PHONE]: "5137214811",
+    [keys.DATE_CHECKED]: "2023-06-24",
+    [keys.ADDRESS_1]: "1629 Republic Street",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45202",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Showers",
+        [keys.HOURS]: "Mon-Fri 8:30am - 4pm, Sat 8:30am - noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "St. Vincent de Paul",
     [keys.URL]: "https://www.svdpcincinnati.org/get-help",
     [keys.PHONE]: "5134210602",
