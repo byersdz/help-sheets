@@ -135,6 +135,12 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "St. Vincent de Paul",
+    [keys.URL]: "https://www.svdpcincinnati.org/get-help",
+    [keys.PHONE]: "5134210602",
+    [keys.DATE_CHECKED]: "2023-06-24",
+  },
+  {
     [keys.NAME]: "Freestore Foodbank",
     [keys.URL]: "https://freestorefoodbank.org",
     [keys.DATE_CHECKED]: "2023-04-27",
