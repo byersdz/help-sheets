@@ -115,6 +115,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Madisonville Education & Assistance Center",
+    [keys.URL]: "https://meaccincinnati.org/gethelp",
+    [keys.PHONE]: "5132715501",
+    [keys.DATE_CHECKED]: "2023-06-24",
+    [keys.ADDRESS_1]: "4600 Erie Avenue",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45227",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Free Food Marketplace",
+        [keys.HOURS]: "Tuesdays",
+      },
+      {
+        [keys.DESCRIPTION]: "Haircuts",
+        [keys.HOURS]: "First Wednesday of Month",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Freestore Foodbank",
     [keys.URL]: "https://freestorefoodbank.org",
     [keys.DATE_CHECKED]: "2023-04-27",
