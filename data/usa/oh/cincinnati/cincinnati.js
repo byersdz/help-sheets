@@ -197,6 +197,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "45202",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Lighthouse Mecum House",
+    [keys.DESCRIPTION]: "The Mecum House provides a safe haven for youth ages 10-17",
+    [keys.URL]: "https://www.lys.org/services/safeshelter/",
+    [keys.PHONE]: "5139614080",
+    [keys.DATE_CHECKED]: "2023-06-26",
+    [keys.ADDRESS_1]: "2522 Highland Avenue",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45219",
+    [keys.SERVES]: [serves.YOUTH],
+  },
 ];
 
 data[keys.RESOURCES] = [
