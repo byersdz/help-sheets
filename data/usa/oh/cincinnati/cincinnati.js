@@ -209,6 +209,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "45219",
     [keys.SERVES]: [serves.YOUTH],
   },
+  {
+    [keys.NAME]: "Lighthouse Sheakley Center",
+    [keys.URL]: "https://www.lys.org/services/shelter-and-resources-for-homeless-young-adults-18-24/",
+    [keys.PHONE]: "5135699500",
+    [keys.DATE_CHECKED]: "2023-06-26",
+    [keys.ADDRESS_1]: "2314 Iowa Avenue",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45206",
+    [keys.SERVES]: [serves.AGE_18_TO_24],
+  },
 ];
 
 data[keys.RESOURCES] = [
