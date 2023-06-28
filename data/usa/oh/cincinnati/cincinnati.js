@@ -220,6 +220,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "45206",
     [keys.SERVES]: [serves.AGE_18_TO_24],
   },
+  {
+    [keys.NAME]: "Off the Streets",
+    [keys.DESCRIPTION]: "Services and shelter for women with histories of sex trafficking and exploitation",
+    [keys.URL]: "https://hercincinnati.org/pages/off-the-streets",
+    [keys.PHONE]: "5137686928",
+    [keys.DATE_CHECKED]: "2023-06-27",
+    [keys.ADDRESS_1]: "2401 Reading Rd.",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45202",
+  },
 ];
 
 data[keys.RESOURCES] = [
