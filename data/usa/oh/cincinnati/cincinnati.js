@@ -235,14 +235,11 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Columbus Free Clinic",
-    [keys.URL]: "https://columbusfreeclinic.com",
-    [keys.PHONE]: "6144048417",
-    [keys.DATE_CHECKED]: "2023-03-17",
-    [keys.ADDRESS_1]: "2231 North High Street",
-    [keys.CITY]: "Columbus",
-    [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "43201",
+    [keys.NAME]: "Warmline",
+    [keys.URL]: "https://www.cincywarmline.org/",
+    [keys.PHONE]: "5139319276",
+    [keys.DATE_CHECKED]: "2023-07-02",
+    [keys.DESCRIPTION]: "Peer operated call in service for assistance in recovery from mental health issues",
   },
 ];
 
