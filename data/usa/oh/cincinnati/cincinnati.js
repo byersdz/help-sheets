@@ -241,6 +241,17 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2023-07-02",
     [keys.DESCRIPTION]: "Peer operated call in service for assistance in recovery from mental health issues",
   },
+  {
+    [keys.NAME]: "Health Resource Center",
+    [keys.DESCRIPTION]: "Provides affordable health care for low-income, indigent, and homeless adults",
+    [keys.URL]: "https://www.hrcci.org",
+    [keys.PHONE]: "5133574602",
+    [keys.DATE_CHECKED]: "2023-07-05",
+    [keys.ADDRESS_1]: "2347 Vine Street",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45221",
+  },
 ];
 
 module.exports = data;
