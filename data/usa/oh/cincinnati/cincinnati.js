@@ -235,6 +235,18 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
+    [keys.NAME]: "Cincinnati Health Network / McMicken Integrated Care Clinic",
+    [keys.DESCRIPTION]: "Healthcare for the homeless",
+    [keys.URL]: "https://cincinnatihealthnetwork.org/index.php?page=programs-services",
+    [keys.PHONE]: "5133867899",
+    [keys.DATE_CHECKED]: "2023-07-06",
+    [keys.ADDRESS_1]: "40 E McMicken Ave",
+    [keys.ADDRESS_2]: "2nd floor",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45202",
+  },
+  {
     [keys.NAME]: "Warmline",
     [keys.URL]: "https://www.cincywarmline.org/",
     [keys.PHONE]: "5139319276",
