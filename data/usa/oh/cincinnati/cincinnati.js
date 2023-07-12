@@ -286,6 +286,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "45202",
   },
+  {
+    [keys.NAME]: "Prospect House",
+    [keys.DESCRIPTION]: "Addiction treatment center",
+    [keys.URL]: "https://theprospecthouse.org",
+    [keys.PHONE]: "5139211613",
+    [keys.DATE_CHECKED]: "2023-07-11",
+    [keys.ADDRESS_1]: "682 Hawthorne Avenue",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45205",
+  },
 ];
 
 module.exports = data;
