@@ -275,6 +275,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "45206",
   },
+  {
+    [keys.NAME]: "Charlie's 3/4 House",
+    [keys.DESCRIPTION]: "Affordable transitional housing for alcoholics",
+    [keys.URL]: "https://www.charlies3-4.org",
+    [keys.PHONE]: "5137841853",
+    [keys.DATE_CHECKED]: "2023-07-11",
+    [keys.ADDRESS_1]: "2121 Vine St.",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45202",
+  },
 ];
 
 module.exports = data;
