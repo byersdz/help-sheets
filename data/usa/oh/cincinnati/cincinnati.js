@@ -264,6 +264,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "45221",
   },
+  {
+    [keys.NAME]: "First Step Home",
+    [keys.DESCRIPTION]: "Addiction recovery for women",
+    [keys.URL]: "https://firststephome.org/get-help-now",
+    [keys.PHONE]: "5139614663",
+    [keys.DATE_CHECKED]: "2023-07-11",
+    [keys.ADDRESS_1]: "2203 Fulton Ave",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45206",
+  },
 ];
 
 module.exports = data;
