@@ -297,6 +297,18 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "OH",
     [keys.ZIP_CODE]: "45205",
   },
+  {
+    [keys.NAME]: "Cincy Smiles",
+    [keys.DESCRIPTION]: "Discounted dental care",
+    [keys.URL]: "http://www.cincysmiles.org",
+    [keys.PHONE]: "5137632200",
+    [keys.DATE_CHECKED]: "2023-07-12",
+    [keys.ADDRESS_1]: "5310 Rapid Run Rd",
+    [keys.ADDRESS_2]: "Suite 101",
+    [keys.CITY]: "Cincinnati",
+    [keys.STATE]: "OH",
+    [keys.ZIP_CODE]: "45238",
+  },
 ];
 
 module.exports = data;
