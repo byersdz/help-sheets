@@ -13,11 +13,16 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: "Central Access Point Line",
-    [keys.URL]: "https://www.strategiestoendhomelessness.org/what-we-do/prevention-and-shelter-diversion/",
-    [keys.PHONE]: "5133817233",
-    [keys.DATE_CHECKED]: "2022-04-23",
+    [keys.NAME]: "Coordinated Shelter Access",
+    [keys.URL]: "https://louhomeless.org/news/gethelp",
+    [keys.PHONE]: "5026372337",
+    [keys.DATE_CHECKED]: "2022-07-19",
     [keys.DESCRIPTION]: "Call if you are homeless and in need of emergency shelter.",
+    [keys.ADDRESS_1]: "1300 S. 4th Street",
+    [keys.ADDRESS_2]: "#250",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40208",
   },
 ];
 
