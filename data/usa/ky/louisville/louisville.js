@@ -47,6 +47,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Cathedral of the Assumption",
+    [keys.URL]: "https://www.cathedraloftheassumption.org/social-concerns/daily-lunch-program/",
+    [keys.PHONE]: "5025822971",
+    [keys.DATE_CHECKED]: "2023-08-11",
+    [keys.ADDRESS_1]: "433 S. Fifth Street",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40202",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every day 12:15pm - 1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
