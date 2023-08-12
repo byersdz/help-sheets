@@ -28,18 +28,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "City Gospel Mission",
-    [keys.URL]: "https://www.citygospelmission.org/get-help",
-    [keys.PHONE]: "5132415525",
-    [keys.DATE_CHECKED]: "2023-04-23",
-    [keys.ADDRESS_1]: "1805 Dalton Avenue",
-    [keys.CITY]: "Cincinnati",
-    [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "45214",
+    [keys.NAME]: "Salvation Army Center of Hope",
+    [keys.URL]: "https://southernusa.salvationarmy.org/louisville/center-of-hope",
+    [keys.PHONE]: "5026714900",
+    [keys.DATE_CHECKED]: "2023-08-11",
+    [keys.ADDRESS_1]: "911 S. Brook Street",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40203",
     [keys.PROVIDES]: [
       {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Every day 6:45am - 7:30am",
+      },
+      {
         [keys.DESCRIPTION]: "Dinner",
-        [keys.HOURS]: "Every day 7pm",
+        [keys.HOURS]: "Every day: Women 4:45pm, Men 5:15pm",
       },
     ],
   },
