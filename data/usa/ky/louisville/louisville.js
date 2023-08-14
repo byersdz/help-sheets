@@ -63,6 +63,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Fourth Avenue United Methodist Church",
+    [keys.URL]: "https://www.fourthavenue.us/ministries",
+    [keys.PHONE]: "5025852176",
+    [keys.DATE_CHECKED]: "2023-08-13",
+    [keys.ADDRESS_1]: "318 West Saint Catherine Street",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40203",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon/Tue/Thur/Fri/Sat noon - 12:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Medical Clinic",
+        [keys.HOURS]: "4th Thursday 11am - 1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
