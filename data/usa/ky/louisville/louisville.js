@@ -99,6 +99,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Lord's Kitchen",
+    [keys.URL]: "https://www.thelordskitchen.com",
+    [keys.PHONE]: "5024130198",
+    [keys.DATE_CHECKED]: "2023-08-13",
+    [keys.ADDRESS_1]: "1811 Standard Ave",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40210",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon/Tue/Thur/Fri/Sat 12:15pm - 1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
