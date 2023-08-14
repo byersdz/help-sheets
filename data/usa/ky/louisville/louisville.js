@@ -83,6 +83,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Franciscan Kitchen",
+    [keys.URL]: "https://franciscankitchen.org/",
+    [keys.PHONE]: "5025890140",
+    [keys.DATE_CHECKED]: "2023-08-13",
+    [keys.ADDRESS_1]: "748 S Preston St",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40203",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon - Fri 10:30am - 12:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
