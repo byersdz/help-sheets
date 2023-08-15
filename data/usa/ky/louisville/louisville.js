@@ -139,6 +139,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Feed the City",
+    [keys.URL]: "http://www.feedthecityky.com",
+    [keys.PHONE]: "5027725384",
+    [keys.DATE_CHECKED]: "2023-08-14",
+    [keys.ADDRESS_1]: "1100 South 26th Street",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40210",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon - Sat 1pm - 4pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
