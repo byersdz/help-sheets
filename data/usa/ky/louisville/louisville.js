@@ -115,6 +115,30 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Open Hand Kitchen",
+    [keys.URL]: "https://www.svdplou.org/feeding/",
+    [keys.PHONE]: "5025842480",
+    [keys.DATE_CHECKED]: "2023-08-14",
+    [keys.ADDRESS_1]: "1026 South Jackson St",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40203",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every Day: noon",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Every Day: 5pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Thur 9am - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
