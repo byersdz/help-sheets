@@ -159,15 +159,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "City Gospel Mission",
-    [keys.URL]: "https://www.citygospelmission.org/get-help",
-    [keys.PHONE]: "5132415525",
-    [keys.DATE_CHECKED]: "2023-04-23",
-    [keys.ADDRESS_1]: "1805 Dalton Avenue",
-    [keys.CITY]: "Cincinnati",
-    [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "45214",
-    [keys.SERVES]: [serves.MEN],
+    [keys.NAME]: "Wayside Christian Mission",
+    [keys.URL]: "https://www.waysidechristianmission.org/ways-to-get-help",
+    [keys.PHONE]: "5025843711",
+    [keys.DATE_CHECKED]: "2023-08-15",
+    [keys.ADDRESS_1]: "432 East Jefferson Street St",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40202",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
 
