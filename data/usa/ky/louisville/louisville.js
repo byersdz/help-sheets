@@ -173,16 +173,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Cincinnati Health Network / McMicken Integrated Care Clinic",
-    [keys.DESCRIPTION]: "Healthcare for the homeless",
-    [keys.URL]: "https://cincinnatihealthnetwork.org/index.php?page=programs-services",
-    [keys.PHONE]: "5133867899",
-    [keys.DATE_CHECKED]: "2023-07-06",
-    [keys.ADDRESS_1]: "40 E McMicken Ave",
-    [keys.ADDRESS_2]: "2nd floor",
-    [keys.CITY]: "Cincinnati",
-    [keys.STATE]: "OH",
-    [keys.ZIP_CODE]: "45202",
+    [keys.NAME]: "Re:Center Ministries",
+    [keys.DESCRIPTION]: "Womens day shelter, Mens emergency shelter, residential recovery program",
+    [keys.URL]: "https://recenterministries.org",
+    [keys.PHONE]: "5025846543",
+    [keys.DATE_CHECKED]: "2023-08-16",
+    [keys.ADDRESS_1]: "733 East Jefferson Street",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40202",
   },
 ];
 
