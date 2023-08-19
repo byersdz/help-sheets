@@ -169,6 +169,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "40202",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Ozanam Inn",
+    [keys.URL]: "https://www.svdplou.org/housing-shelter/",
+    [keys.PHONE]: "5025842480",
+    [keys.PHONE_EXTENSION]: '241',
+    [keys.DATE_CHECKED]: "2023-08-18",
+    [keys.ADDRESS_1]: "1034 S. Jackson St",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40203",
+    [keys.SERVES]: [serves.MEN, serves.VETERANS],
+  },
 ];
 
 data[keys.RESOURCES] = [
