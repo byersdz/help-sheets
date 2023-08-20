@@ -195,6 +195,28 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "KY",
     [keys.ZIP_CODE]: "40202",
   },
+  {
+    [keys.NAME]: "The Healing Place, Men's Campus",
+    [keys.DESCRIPTION]: "Provides food, shelter, clothing, and recovery services to those seeking help for addiction",
+    [keys.URL]: "https://thehealingplace.org/get-help-now",
+    [keys.PHONE]: "5025854848",
+    [keys.DATE_CHECKED]: "2023-08-19",
+    [keys.ADDRESS_1]: "1020 W. Market",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40202",
+  },
+  {
+    [keys.NAME]: "The Healing Place, Women's Campus",
+    [keys.DESCRIPTION]: "Provides food, shelter, clothing, and recovery services to those seeking help for addiction",
+    [keys.URL]: "https://thehealingplace.org/get-help-now",
+    [keys.PHONE]: "5025854848",
+    [keys.DATE_CHECKED]: "2023-08-19",
+    [keys.ADDRESS_1]: "1503 S. 15th",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40210",
+  },
 ];
 
 module.exports = data;
