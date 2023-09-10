@@ -181,6 +181,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "40203",
     [keys.SERVES]: [serves.MEN, serves.VETERANS],
   },
+  {
+    [keys.NAME]: "Center for Women and Families",
+    [keys.URL]: "https://www.thecenteronline.org",
+    [keys.PHONE]: "5025817222",
+    [keys.DESCRIPTION]: "Services for survivors of domestic violence / sexual assault",
+    [keys.DATE_CHECKED]: "2023-09-10",
+    [keys.ADDRESS_1]: "927 S. 2nd Street",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40203",
+  },
 ];
 
 data[keys.RESOURCES] = [
