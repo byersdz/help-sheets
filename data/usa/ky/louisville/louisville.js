@@ -228,6 +228,18 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "KY",
     [keys.ZIP_CODE]: "40210",
   },
+  {
+    [keys.NAME]: "St. John Center",
+    [keys.DESCRIPTION]: "Day Shelter; Social Services Center",
+    [keys.URL]: "https://www.stjohncenter.org/seeking-help/",
+    [keys.PHONE]: "5025686758",
+    [keys.DATE_CHECKED]: "2023-09-12",
+    [keys.ADDRESS_1]: "700 E. Muhammad Ali Blvd",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40202",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 module.exports = data;
