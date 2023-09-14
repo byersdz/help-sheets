@@ -155,6 +155,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Beulah Presbyterian",
+    [keys.URL]: "http://www.beulahpres.org/open-table.html",
+    [keys.PHONE]: "5022393231",
+    [keys.DATE_CHECKED]: "2023-09-14",
+    [keys.ADDRESS_1]: "6704 Bardstown Road",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40291",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Tue 5:30pm - 6:15pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
