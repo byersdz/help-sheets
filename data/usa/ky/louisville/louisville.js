@@ -171,6 +171,19 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Hip Hop Cares Outreach",
+    [keys.URL]: "https://www.hiphopcares.org/weekly-outreach-events",
+    [keys.PHONE]: "5024575317",
+    [keys.DATE_CHECKED]: "2023-09-14",
+    [keys.DESCRIPTION]: "Overpass between Brook & First on Broadway",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meal",
+        [keys.HOURS]: "Sunday 11am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
