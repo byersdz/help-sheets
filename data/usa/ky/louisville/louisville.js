@@ -275,6 +275,16 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "40202",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "FHC Phoenix Health Care for the Homeless",
+    [keys.URL]: "https://www.fhclouisville.org/locations/phoenix-health-care-for-the-homeless/",
+    [keys.PHONE]: "5025686972",
+    [keys.DATE_CHECKED]: "2023-09-21",
+    [keys.ADDRESS_1]: "712 E. Muhammad Ali Blvd",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40202",
+  },
 ];
 
 module.exports = data;
