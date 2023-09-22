@@ -184,6 +184,12 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Dare to Care Food Bank",
+    [keys.URL]: "https://daretocare.org/need-food/",
+    [keys.PHONE]: "5029663821",
+    [keys.DATE_CHECKED]: "2023-09-21",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
