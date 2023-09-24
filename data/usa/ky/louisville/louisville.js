@@ -296,6 +296,13 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "KY",
     [keys.ZIP_CODE]: "40206",
   },
+  {
+    [keys.NAME]: "Kentucky Health Justice Network",
+    [keys.URL]: "https://www.kentuckyhealthjusticenetwork.org",
+    [keys.PHONE]: "8555764576",
+    [keys.DESCRIPTION]: 'Free inclusive help with reproductive health',
+    [keys.DATE_CHECKED]: "2023-09-24",
+  },
 ];
 
 module.exports = data;
