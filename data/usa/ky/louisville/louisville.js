@@ -285,6 +285,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "KY",
     [keys.ZIP_CODE]: "40202",
   },
+  {
+    [keys.NAME]: "Family Community Clinic",
+    [keys.URL]: "https://famcomclinic.org",
+    [keys.PHONE]: "5023848444",
+    [keys.DESCRIPTION]: 'Health care for the uninsured',
+    [keys.DATE_CHECKED]: "2023-09-24",
+    [keys.ADDRESS_1]: "1420 E Washington Street",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40206",
+  },
 ];
 
 module.exports = data;
