@@ -314,6 +314,18 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "KY",
     [keys.ZIP_CODE]: "40203",
   },
+  {
+    [keys.NAME]: "Legal Aid Society",
+    [keys.URL]: "https://yourlegalaid.org",
+    [keys.PHONE]: "5025841254",
+    [keys.DESCRIPTION]: 'Free legal help for low income individuals',
+    [keys.DATE_CHECKED]: "2023-09-27",
+    [keys.ADDRESS_1]: "416 W. Muhammad Ali Blvd",
+    [keys.ADDRESS_2]: "Suite 300",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40202",
+  },
 ];
 
 module.exports = data;
