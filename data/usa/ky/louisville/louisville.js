@@ -303,6 +303,17 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: 'Free inclusive help with reproductive health',
     [keys.DATE_CHECKED]: "2023-09-24",
   },
+  {
+    [keys.NAME]: "Bside U for life",
+    [keys.URL]: "https://www.bsideu.org/",
+    [keys.PHONE]: "5025899400",
+    [keys.DESCRIPTION]: 'Pro life services for unplanned pregnancies',
+    [keys.DATE_CHECKED]: "2023-09-27",
+    [keys.ADDRESS_1]: "701 W. Muhammad Ali Blvd",
+    [keys.CITY]: "Louisville",
+    [keys.STATE]: "KY",
+    [keys.ZIP_CODE]: "40203",
+  },
 ];
 
 module.exports = data;
