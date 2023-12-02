@@ -312,6 +312,18 @@ data[keys.RESOURCES] = [
     [keys.PHONE]: '8048194100',
     [keys.DATE_CHECKED]: '2022-06-29',
   },
+  // moving in early 2024
+  {
+    [keys.NAME]: 'New Season Treatment Center',
+    [keys.DESCRIPTION]: 'Opiod Addiction Treatment Center',
+    [keys.URL]: 'https://www.newseason.com/treatment-center-locations/virginia/richmond-treatment-center/',
+    [keys.PHONE]: '8772847074',
+    [keys.ADDRESS_1]: '2217 East Franklin Street',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23223',
+    [keys.DATE_CHECKED]: '2023-12-02',
+  },
   {
     [keys.NAME]: 'OAR of Richmond',
     [keys.DESCRIPTION]: 'Re-entry services for adults post-incarceration',
