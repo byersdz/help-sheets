@@ -226,6 +226,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: 'Meadowbridge Community Market',
+    [keys.DESCRIPTION]: 'Also provides community mini grants',
+    [keys.URL]: 'https://www.madrva.org/',
+    [keys.ADDRESS_1]: '3613 Meadowbridge Rd',
+    [keys.CITY]: 'Richmond',
+    [keys.STATE]: 'VA',
+    [keys.ZIP_CODE]: '23222',
+    [keys.DATE_CHECKED]: '2023-12-02',
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: 'Free Groceries',
+        [keys.HOURS]: 'Saturday 10am - 4pm',
+      },
+    ],
+  },
+  {
     [keys.NAME]: 'Eastern Henrico FISH',
     [keys.DESCRIPTION]: 'Provides residents of eastern Henrico County food, '
       + 'clothing and financial assistance for rent/utilities.',
