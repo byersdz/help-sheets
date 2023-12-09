@@ -49,6 +49,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "37203",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Room in the Inn",
+    [keys.URL]: "https://www.roomintheinn.org",
+    [keys.DESCRIPTION]: "Winter Shelter, Transitional Housing",
+    [keys.PHONE]: "6152519791",
+    [keys.DATE_CHECKED]: "2023-12-08",
+    [keys.ADDRESS_1]: "705 Drexel Street",
+    [keys.CITY]: "Nashville",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37203",
+  },
 ];
 
 data[keys.RESOURCES] = [
