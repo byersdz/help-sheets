@@ -60,6 +60,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "37203",
   },
+  {
+    [keys.NAME]: "Cold weather overflow shelter",
+    [keys.URL]:
+      "https://www.nashville.gov/departments/office-homeless-services/initiatives-and-programs/extreme-weather",
+    [keys.PHONE]: "6158626391",
+    [keys.DATE_CHECKED]: "2023-12-15",
+    [keys.ADDRESS_1]: "3230 Brink Church Pike",
+    [keys.CITY]: "Nashville",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37207",
+  },
 ];
 
 data[keys.RESOURCES] = [
