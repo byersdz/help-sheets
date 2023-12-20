@@ -3,14 +3,14 @@ const { keys, build } = require( '../constants' );
 const get = require( 'lodash/get' );
 const forEach = require( 'lodash/forEach' );
 const fs = require( 'fs' );
-const rimraf = require( 'rimraf' );
+const { rimrafSync } = require( 'rimraf' );
 const ncp = require( 'ncp' );
 const buildFrontPage = require( './page-builders/buildFrontPage' );
 const buildCountry = require( './page-builders/buildCountry' );
 
 const countries = get( data, keys.COUNTRIES );
 
-rimraf.sync( build.DIST_PATH );
+rimrafSync( build.DIST_PATH );
 
 if ( !fs.existsSync( build.DIST_PATH ) ) {
   fs.mkdirSync( build.DIST_PATH );

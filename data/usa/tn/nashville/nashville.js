@@ -16,22 +16,18 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Salvation Army Center of Hope",
-    [keys.URL]: "https://southernusa.salvationarmy.org/louisville/center-of-hope",
-    [keys.PHONE]: "5026714900",
-    [keys.DATE_CHECKED]: "2023-08-11",
-    [keys.ADDRESS_1]: "911 S. Brook Street",
-    [keys.CITY]: "Louisville",
-    [keys.STATE]: "KY",
-    [keys.ZIP_CODE]: "40203",
+    [keys.NAME]: "Harvest Sound",
+    [keys.URL]: "https://harvestsoundinternational.com",
+    [keys.PHONE]: "6153271200",
+    [keys.DATE_CHECKED]: "2023-12-19",
+    [keys.ADDRESS_1]: "1419 Clinton St.",
+    [keys.CITY]: "Nashville",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37203",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "Every day 6:45am - 7:30am",
-      },
-      {
-        [keys.DESCRIPTION]: "Dinner",
-        [keys.HOURS]: "Every day: Women 4:45pm, Men 5:15pm",
+        [keys.DESCRIPTION]: "Meal",
+        [keys.HOURS]: "Thursday 5pm-7pm",
       },
     ],
   },
