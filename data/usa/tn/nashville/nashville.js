@@ -73,6 +73,12 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "37207",
   },
+  {
+    [keys.NAME]: "Nashville Launch Pad",
+    [keys.URL]: "https://www.nashvillelaunchpad.com",
+    [keys.DATE_CHECKED]: "2023-01-06",
+    [keys.SERVES]: [serves.AGE_18_TO_24],
+  },
 ];
 
 data[keys.RESOURCES] = [
