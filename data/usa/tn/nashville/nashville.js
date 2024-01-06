@@ -76,22 +76,22 @@ data[keys.EMERGENCY_SHELTERS] = [
   {
     [keys.NAME]: "Nashville Launch Pad",
     [keys.URL]: "https://www.nashvillelaunchpad.com",
-    [keys.DATE_CHECKED]: "2023-01-06",
+    [keys.DATE_CHECKED]: "2024-01-06",
     [keys.SERVES]: [serves.AGE_18_TO_24],
   },
 ];
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Re:Center Ministries",
-    [keys.DESCRIPTION]: "Womens day shelter, Mens emergency shelter, residential recovery program",
-    [keys.URL]: "https://recenterministries.org",
-    [keys.PHONE]: "5025846543",
-    [keys.DATE_CHECKED]: "2023-08-16",
-    [keys.ADDRESS_1]: "733 East Jefferson Street",
-    [keys.CITY]: "Louisville",
-    [keys.STATE]: "KY",
-    [keys.ZIP_CODE]: "40202",
+    [keys.NAME]: "The Next Door",
+    [keys.DESCRIPTION]: "Treatment program for women struggling with addiction",
+    [keys.URL]: "https://thenextdoor.org",
+    [keys.PHONE]: "6152518805",
+    [keys.DATE_CHECKED]: "2024-01-06",
+    [keys.ADDRESS_1]: "402 22nd Avenue N.",
+    [keys.CITY]: "Nashville",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37203",
   },
 ];
 
