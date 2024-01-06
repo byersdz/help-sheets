@@ -31,6 +31,12 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Second Harvest Food Bank",
+    [keys.URL]: "https://www.secondharvestmidtn.org",
+    [keys.PHONE]: "6153293491",
+    [keys.DATE_CHECKED]: "2024-01-06",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
