@@ -32,6 +32,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "City Road Chapel",
+    [keys.URL]: "https://cityroadchapel.org",
+    [keys.PHONE]: "6158681673",
+    [keys.DATE_CHECKED]: "2024-01-10",
+    [keys.ADDRESS_1]: "701 Gallatin Pike S",
+    [keys.CITY]: "Nashville",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37115",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meal",
+        [keys.HOURS]: "4th Sunday 5pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Showers",
+        [keys.HOURS]: "Mon / Wed 9am - 1pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Second Harvest Food Bank",
     [keys.URL]: "https://www.secondharvestmidtn.org",
     [keys.PHONE]: "6153293491",
