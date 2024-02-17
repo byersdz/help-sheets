@@ -130,6 +130,14 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.PHONE]: "6155995777",
     [keys.DATE_CHECKED]: "2024-02-16",
   },
+  {
+    [keys.NAME]: "The Mary Parrish Center",
+    [keys.URL]: "https://www.maryparrish.org",
+    [keys.PHONE]: "6159550620",
+    [keys.DATE_CHECKED]: "2024-02-16",
+    [keys.DESCRIPTION]:
+      "Providing survivors of interpersonal violence and their children safe, accessible and compassionate housing",
+  },
 ];
 
 data[keys.RESOURCES] = [
