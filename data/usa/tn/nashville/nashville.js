@@ -124,6 +124,12 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2024-01-06",
     [keys.SERVES]: [serves.AGE_18_TO_24],
   },
+  {
+    [keys.NAME]: "Bridges Domestic Violence Shelter",
+    [keys.URL]: "https://www.bridgesdvc.org",
+    [keys.PHONE]: "6155995777",
+    [keys.DATE_CHECKED]: "2024-02-16",
+  },
 ];
 
 data[keys.RESOURCES] = [
