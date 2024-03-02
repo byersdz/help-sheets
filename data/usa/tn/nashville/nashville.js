@@ -91,6 +91,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "37208",
   },
+  {
+    [keys.NAME]: "The Store",
+    [keys.URL]: "https://www.thestore.org/need-assistance.html",
+    [keys.DESCRIPTION]: "Free grocery store",
+    [keys.PHONE]: "6154608331",
+    [keys.DATE_CHECKED]: "2024-03-01",
+    [keys.ADDRESS_1]: "2009 12th Avenue South",
+    [keys.CITY]: "Nashville",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37204",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
