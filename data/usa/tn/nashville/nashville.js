@@ -82,6 +82,15 @@ data[keys.BASIC_NEEDS] = [
     [keys.PHONE]: "6153293491",
     [keys.DATE_CHECKED]: "2024-01-06",
   },
+  {
+    [keys.NAME]: "Nashville Community Fridge",
+    [keys.URL]: "https://linktr.ee/nashvillecommunityfridge",
+    [keys.DATE_CHECKED]: "2024-03-01",
+    [keys.ADDRESS_1]: "1411 Buchanan Street",
+    [keys.CITY]: "Nashville",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37208",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
