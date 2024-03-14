@@ -103,6 +103,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "37204",
   },
   {
+    [keys.NAME]: "Adventist Community Services",
+    [keys.URL]: "https://www.acsgreaternashville.com",
+    [keys.DESCRIPTION]: "Food Pantry, Clothing, Hygiene Kits",
+    [keys.PHONE]: "6158606001",
+    [keys.DATE_CHECKED]: "2024-03-13",
+    [keys.ADDRESS_1]: "403 Gallatin Pike S. ",
+    [keys.CITY]: "Madison",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37115",
+  },
+  {
     [keys.NAME]: "Madison Church of Christ Benevolence Center",
     [keys.URL]: "https://madisonchurchtn.org/benevolence/",
     [keys.DESCRIPTION]: "Food Pantry, Clothing, Meals on Wheels",
