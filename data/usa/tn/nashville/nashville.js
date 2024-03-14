@@ -102,6 +102,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "37204",
   },
+  {
+    [keys.NAME]: "Madison Church of Christ Benevolence Center",
+    [keys.URL]: "https://madisonchurchtn.org/benevolence/",
+    [keys.DESCRIPTION]: "Food Pantry, Clothing, Meals on Wheels",
+    [keys.PHONE]: "6158683360",
+    [keys.DATE_CHECKED]: "2024-03-13",
+    [keys.ADDRESS_1]: "106 Gallatin Pike North",
+    [keys.CITY]: "Madison",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37115",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
