@@ -113,6 +113,13 @@ data[keys.BASIC_NEEDS] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "37115",
   },
+  {
+    [keys.NAME]: "One Generation Away",
+    [keys.URL]: "https://onegenaway.com/mobile-pantry/",
+    [keys.DESCRIPTION]: "Mobile Pantry",
+    [keys.PHONE]: "8446424673",
+    [keys.DATE_CHECKED]: "2024-03-13",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
