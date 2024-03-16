@@ -192,8 +192,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.URL]: "https://agapenashville.org/domestic-violence-care/get-help/",
     [keys.PHONE]: "6158600003",
     [keys.DATE_CHECKED]: "2024-03-15",
-    [keys.DESCRIPTION]:
-      "Domestic violence helpline, emergency shelter",
+    [keys.DESCRIPTION]: "Domestic violence helpline, emergency shelter",
+  },
+  {
+    [keys.NAME]: "YWCA Domestic Violence Center",
+    [keys.URL]: "https://www.ywcanashville.com/domestic-violence",
+    [keys.PHONE]: "8003344628",
+    [keys.DATE_CHECKED]: "2024-03-15",
   },
 ];
 
