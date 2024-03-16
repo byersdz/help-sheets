@@ -214,6 +214,13 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "37203",
   },
+  {
+    [keys.NAME]: "Hope Station",
+    [keys.URL]: "https://www.hopestationtn.org/",
+    [keys.PHONE]: "6154802765",
+    [keys.DATE_CHECKED]: "2024-03-15",
+    [keys.DESCRIPTION]: "Temporary rent and utility assistance for single mothers",
+  },
 ];
 
 module.exports = data;
