@@ -187,6 +187,14 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DESCRIPTION]:
       "Providing survivors of interpersonal violence and their children safe, accessible and compassionate housing",
   },
+  {
+    [keys.NAME]: "AGAPE",
+    [keys.URL]: "https://agapenashville.org/domestic-violence-care/get-help/",
+    [keys.PHONE]: "6158600003",
+    [keys.DATE_CHECKED]: "2024-03-15",
+    [keys.DESCRIPTION]:
+      "Domestic violence helpline, emergency shelter",
+  },
 ];
 
 data[keys.RESOURCES] = [
