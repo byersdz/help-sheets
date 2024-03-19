@@ -215,6 +215,13 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "37203",
   },
   {
+    [keys.NAME]: "Neighborhood Health",
+    [keys.DESCRIPTION]: "serving as a healthcare home without regard to the ability to pay.",
+    [keys.URL]: "https://www.neighborhoodhealthtn.org",
+    [keys.PHONE]: "6152273000",
+    [keys.DATE_CHECKED]: "2024-03-18",
+  },
+  {
     [keys.NAME]: "Hope Station",
     [keys.URL]: "https://www.hopestationtn.org/",
     [keys.PHONE]: "6154802765",
