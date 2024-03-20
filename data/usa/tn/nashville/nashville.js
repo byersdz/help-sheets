@@ -222,6 +222,13 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2024-03-18",
   },
   {
+    [keys.NAME]: "Primary Care & Hope Clinic",
+    [keys.DESCRIPTION]: "medical home for patients in Middle Tennessee, regardless of their ability to pay",
+    [keys.URL]: "https://hopeclnc.org",
+    [keys.PHONE]: "6158939390",
+    [keys.DATE_CHECKED]: "2024-03-19",
+  },
+  {
     [keys.NAME]: "Hope Station",
     [keys.URL]: "https://www.hopestationtn.org/",
     [keys.PHONE]: "6154802765",
