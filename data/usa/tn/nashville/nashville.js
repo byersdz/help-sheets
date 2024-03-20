@@ -228,6 +228,12 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2024-03-15",
     [keys.DESCRIPTION]: "Temporary rent and utility assistance for single mothers",
   },
+  {
+    [keys.NAME]: "Where to turn in Nashville",
+    [keys.URL]: "https://www.wttin.org",
+    [keys.DATE_CHECKED]: "2024-03-15",
+    [keys.DESCRIPTION]: "Directory of resources",
+  },
 ];
 
 module.exports = data;
