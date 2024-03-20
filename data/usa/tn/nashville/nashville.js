@@ -231,7 +231,7 @@ data[keys.RESOURCES] = [
   {
     [keys.NAME]: "Where to turn in Nashville",
     [keys.URL]: "https://www.wttin.org",
-    [keys.DATE_CHECKED]: "2024-03-15",
+    [keys.DATE_CHECKED]: "2024-03-19",
     [keys.DESCRIPTION]: "Directory of resources",
   },
 ];
