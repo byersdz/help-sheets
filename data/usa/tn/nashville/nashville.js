@@ -236,6 +236,13 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Temporary rent and utility assistance for single mothers",
   },
   {
+    [keys.NAME]: "Interfaith Dental",
+    [keys.URL]: "https://interfaithdental.com",
+    [keys.PHONE]: "6153294790",
+    [keys.DATE_CHECKED]: "2024-03-29",
+    [keys.DESCRIPTION]: "Provides comprehensive and emergency dental services for low-income, uninsured individuals.",
+  },
+  {
     [keys.NAME]: "Where to turn in Nashville",
     [keys.URL]: "https://www.wttin.org",
     [keys.DATE_CHECKED]: "2024-03-19",
