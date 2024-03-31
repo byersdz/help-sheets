@@ -243,6 +243,17 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Provides comprehensive and emergency dental services for low-income, uninsured individuals.",
   },
   {
+    [keys.NAME]: "Legal Aid Society",
+    [keys.URL]: "https://las.org",
+    [keys.PHONE]: "6152446610",
+    [keys.DATE_CHECKED]: "2024-03-30",
+    [keys.ADDRESS_1]: "1321 Murfreesboro Pike",
+    [keys.ADDRESS_2]: "Suite 400",
+    [keys.CITY]: "Nashville",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "37217",
+  },
+  {
     [keys.NAME]: "Where to turn in Nashville",
     [keys.URL]: "https://www.wttin.org",
     [keys.DATE_CHECKED]: "2024-03-19",
