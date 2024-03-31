@@ -131,6 +131,13 @@ data[keys.BASIC_NEEDS] = [
     [keys.PHONE]: "8446424673",
     [keys.DATE_CHECKED]: "2024-03-13",
   },
+  {
+    [keys.NAME]: "Shower Up",
+    [keys.URL]: "https://showerup.org",
+    [keys.DESCRIPTION]: "Mobile shower truck",
+    [keys.PHONE]: "8882100777",
+    [keys.DATE_CHECKED]: "2024-03-30",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
