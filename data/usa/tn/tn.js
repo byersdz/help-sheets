@@ -1,4 +1,5 @@
 const { keys, languageCodes } = require( "../../../constants" );
+const memphis = require( "./memphis/memphis" );
 const nashville = require( "./nashville/nashville" );
 
 const data = {};
@@ -9,7 +10,7 @@ data[keys.URL_NAME] = "tn";
 data[keys.DEFAULT_LANGUAGE] = languageCodes.ENGLISH;
 data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
-data[keys.CITIES] = [nashville];
+data[keys.CITIES] = [memphis, nashville];
 
 data[keys.EXCLUDE_LIST] = [];
 
