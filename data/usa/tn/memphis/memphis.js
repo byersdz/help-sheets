@@ -58,15 +58,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "The Next Door",
-    [keys.DESCRIPTION]: "Treatment program for women struggling with addiction",
-    [keys.URL]: "https://thenextdoor.org",
-    [keys.PHONE]: "6152518805",
-    [keys.DATE_CHECKED]: "2024-01-06",
-    [keys.ADDRESS_1]: "402 22nd Avenue N.",
-    [keys.CITY]: "Nashville",
+    [keys.NAME]: "Hospitality Hub",
+    [keys.DESCRIPTION]: "A centralized hub of information and services for homeless persons.",
+    [keys.URL]: "https://www.hospitalityhub.org",
+    [keys.PHONE]: "9017301736",
+    [keys.DATE_CHECKED]: "2024-04-30",
+    [keys.ADDRESS_1]: "590 Washington Ave",
+    [keys.CITY]: "Memphis",
     [keys.STATE]: "TN",
-    [keys.ZIP_CODE]: "37203",
+    [keys.ZIP_CODE]: "38105",
   },
 ];
 
