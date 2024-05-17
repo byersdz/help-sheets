@@ -74,6 +74,7 @@ serves.PREGNANT_WOMEN = 'pregnantWomen';
 serves.YOUTH = 'youth';
 serves.VETERANS = 'veterans';
 serves.COUPLES = 'couples';
+serves.FAMILIES = 'families';
 serves.FAMILIES_WITHOUT_CHILDREN = 'familiesWithoutChildren';
 serves.FAMILIES_WITH_CHILDREN = 'familiesWithChildren';
 serves.AGE_14_TO_24 = 'age14To24';

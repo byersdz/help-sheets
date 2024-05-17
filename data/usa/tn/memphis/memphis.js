@@ -54,6 +54,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "38105",
     [keys.DESCRIPTION]: "Emergency Congregational Winter Shelter, Nov 1 - Mar 31",
   },
+  {
+    [keys.NAME]: "Dorothy Day House",
+    [keys.URL]: "https://www.dorothydaymemphis.org",
+    [keys.PHONE]: "9017266760",
+    [keys.DATE_CHECKED]: "2024-05-16",
+    [keys.SERVES]: [serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [

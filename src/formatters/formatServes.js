@@ -9,6 +9,7 @@ displayStrings[serves.PREGNANT_WOMEN] = 'Pregnant Women';
 displayStrings[serves.VETERANS] = 'Veterans';
 displayStrings[serves.YOUTH] = 'Youth';
 displayStrings[serves.COUPLES] = 'Couples';
+displayStrings[serves.FAMILIES] = 'Families';
 displayStrings[serves.FAMILIES_WITHOUT_CHILDREN] = 'Families without Children';
 displayStrings[serves.FAMILIES_WITH_CHILDREN] = 'Families with Children';
 displayStrings[serves.AGE_14_TO_24] = 'Ages 14 to 24';
