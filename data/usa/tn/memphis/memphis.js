@@ -44,15 +44,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Nashville Rescue Mission",
-    [keys.URL]: "https://nashvillerescuemission.org",
-    [keys.PHONE]: "6152552475",
-    [keys.DATE_CHECKED]: "2023-12-08",
-    [keys.ADDRESS_1]: "639 Lafayette Street",
-    [keys.CITY]: "Nashville",
+    [keys.NAME]: "Room in the Inn",
+    [keys.URL]: "https://ritimemphis.org",
+    [keys.PHONE]: "9014670122",
+    [keys.DATE_CHECKED]: "2024-05-16",
+    [keys.ADDRESS_1]: "409 Ayers Street",
+    [keys.CITY]: "Memphis",
     [keys.STATE]: "TN",
-    [keys.ZIP_CODE]: "37203",
-    [keys.SERVES]: [serves.MEN],
+    [keys.ZIP_CODE]: "38105",
+    [keys.DESCRIPTION]: "Emergency Congregational Winter Shelter, Nov 1 - Mar 31",
   },
 ];
 
