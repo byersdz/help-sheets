@@ -61,6 +61,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2024-05-16",
     [keys.SERVES]: [serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Living for Christ Restoration House",
+    [keys.DESCRIPTION]: "$13 nightly",
+    [keys.URL]: "https://lfcrestorationhouse.wixsite.com/shelter",
+    [keys.PHONE]: "9017914022",
+    [keys.ADDRESS_1]: "3095 Thomas Street",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38127",
+    [keys.DATE_CHECKED]: "2024-06-27",
+  },
 ];
 
 data[keys.RESOURCES] = [
