@@ -44,6 +44,17 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
+    [keys.NAME]: "Calvary Rescue Mission",
+    [keys.URL]: "https://calvaryrescuemission.org",
+    [keys.PHONE]: "9017752570",
+    [keys.ADDRESS_1]: "960 S. Third St.",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38106",
+    [keys.DATE_CHECKED]: "2024-06-27",
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
     [keys.NAME]: "Room in the Inn",
     [keys.URL]: "https://ritimemphis.org",
     [keys.PHONE]: "9014670122",
