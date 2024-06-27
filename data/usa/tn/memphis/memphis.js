@@ -72,6 +72,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "38127",
     [keys.DATE_CHECKED]: "2024-06-27",
   },
+  {
+    [keys.NAME]: "Youth Emergency Center",
+    [keys.DESCRIPTION]: "Wrap-around support for LGBTQ+ young adults ages 16-24 in crisis.",
+    [keys.URL]: "https://www.outmemphis.org/metamorphosis-2",
+    [keys.PHONE]: "9012786422",
+    [keys.ADDRESS_1]: "2055 Southern Ave",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38114",
+    [keys.DATE_CHECKED]: "2024-06-27",
+  },
 ];
 
 data[keys.RESOURCES] = [
