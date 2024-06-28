@@ -44,6 +44,17 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
+    [keys.NAME]: "Memphis Union Mission",
+    [keys.URL]: "https://memphisunionmission.org",
+    [keys.PHONE]: "9015268403",
+    [keys.ADDRESS_1]: "383 Poplar Ave",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38105",
+    [keys.DATE_CHECKED]: "2024-06-27",
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
     [keys.NAME]: "Calvary Rescue Mission",
     [keys.URL]: "https://calvaryrescuemission.org",
     [keys.PHONE]: "9017752570",
