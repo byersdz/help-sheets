@@ -66,6 +66,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.MEN],
   },
   {
+    [keys.NAME]: "Agape Child and Family Services",
+    [keys.URL]: "https://agapemeanslove.org/how-we-love/homeless",
+    [keys.PHONE]: "9013233600",
+    [keys.DATE_CHECKED]: "2024-05-16",
+    [keys.ADDRESS_1]: "3160 Directors Row",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38131",
+    [keys.DESCRIPTION]: "Serves homeless women, pregnant women, and mothers with up to 3 children with transitional housing and support.",
+  },
+  {
     [keys.NAME]: "Room in the Inn",
     [keys.URL]: "https://ritimemphis.org",
     [keys.PHONE]: "9014670122",
