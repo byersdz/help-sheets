@@ -141,6 +141,18 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "38105",
   },
+  {
+    [keys.NAME]: "Her Faith Ministries",
+    [keys.URL]: "https://herfaithministries.org",
+    [keys.PHONE]: "9013243705",
+    [keys.DATE_CHECKED]: "2024-07-04",
+    [keys.ADDRESS_1]: "3396 Park Avenue",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38111",
+    [keys.DESCRIPTION]: "Provides rent assistance, clothing, emergency food, support, and transportation.",
+    [keys.SERVES]: [serves.WOMEN_WITH_CHILDREN],
+  },
 ];
 
 module.exports = data;
