@@ -16,27 +16,23 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Community Care Fellowship",
-    [keys.URL]: "https://www.ccfnashville.org/get-help",
-    [keys.PHONE]: "6152271953",
-    [keys.DATE_CHECKED]: "2024-02-03",
-    [keys.ADDRESS_1]: "511 South 8th Street",
-    [keys.CITY]: "Nashville",
+    [keys.NAME]: "St. Lukes UMC",
+    [keys.URL]: "https://stlukesumc.org/hunger-ministries",
+    [keys.PHONE]: "9014526262",
+    [keys.DATE_CHECKED]: "2024-07-05",
+    [keys.ADDRESS_1]: "480 S. Highland",
+    [keys.CITY]: "Memphis",
     [keys.STATE]: "TN",
-    [keys.ZIP_CODE]: "37206",
-    [keys.DESCRIPTION]: "Also provides showers, laundry, mail, phone, wifi",
+    [keys.ZIP_CODE]: "38111",
+    [keys.DESCRIPTION]: "Also provides food pantry",
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "Mon-Fri 9am - 9:30am",
+        [keys.HOURS]: "Sun 8am - 9am",
       },
       {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Tue/Thur/Fri 11:30am - 12:30pm",
-      },
-      {
-        [keys.DESCRIPTION]: "Clothing",
-        [keys.HOURS]: "Mon-Fri 1pm - 3pm",
+        [keys.DESCRIPTION]: "Supper",
+        [keys.HOURS]: "Sat 4:30pm - 5:30pm",
       },
     ],
   },
