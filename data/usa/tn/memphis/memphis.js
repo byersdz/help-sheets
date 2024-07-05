@@ -36,6 +36,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "First Presbyterian Church",
+    [keys.URL]: "http://www.firstpresmemphis.org",
+    [keys.PHONE]: "9015255619",
+    [keys.DATE_CHECKED]: "2024-07-05",
+    [keys.ADDRESS_1]: "166 Poplar Ave",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38103",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Hot Lunch",
+        [keys.HOURS]: "Sun 1:15pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
