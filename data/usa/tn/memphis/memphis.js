@@ -52,6 +52,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Idlewild Presbyterian Church",
+    [keys.URL]: "https://idlewildchurch.org/outreach-2",
+    [keys.PHONE]: "9017264681",
+    [keys.DATE_CHECKED]: "2024-07-07",
+    [keys.ADDRESS_1]: "1750 Union Avenue",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Thur 4pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
