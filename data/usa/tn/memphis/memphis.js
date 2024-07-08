@@ -88,6 +88,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Grace-St. Luke's",
+    [keys.URL]: "https://www.gracestlukes.org/more-than-a-meal",
+    [keys.PHONE]: "9012727425",
+    [keys.DATE_CHECKED]: "2024-07-07",
+    [keys.ADDRESS_1]: "1720 Peabody Ave.",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Sun 4pm - 5pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
