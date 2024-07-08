@@ -68,6 +68,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. John's UMC",
+    [keys.URL]: "https://www.stjohnsmidtown.org",
+    [keys.PHONE]: "9017264104",
+    [keys.DATE_CHECKED]: "2024-07-07",
+    [keys.ADDRESS_1]: "1207 Peabody Ave.",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Tue, Sat 3:30pm - 5:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Pantry",
+        [keys.HOURS]: "1st and 3rd Thur 10am - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
