@@ -104,6 +104,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Catholic Charities Midtown Outreach",
+    [keys.URL]: "https://ccwtn.org/our-services/hungry",
+    [keys.PHONE]: "9017224700",
+    [keys.DATE_CHECKED]: "2024-07-12",
+    [keys.ADDRESS_1]: "85 N Cleveland Avenue",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meal Bags",
+        [keys.HOURS]: "Mon - Fri 8am - 10am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
