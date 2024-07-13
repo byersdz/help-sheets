@@ -157,6 +157,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "OUTMemphis",
+    [keys.URL]: "https://www.outmemphis.org",
+    [keys.PHONE]: "9012786422",
+    [keys.DATE_CHECKED]: "2024-07-12",
+    [keys.ADDRESS_1]: "892 S Cooper St.",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Community Meal",
+        [keys.HOURS]: "Thu 4pm - 6pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
