@@ -136,6 +136,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Memphis Rox",
+    [keys.URL]: "https://www.memphisrox.org/programs",
+    [keys.PHONE]: "9014016104",
+    [keys.DATE_CHECKED]: "2024-07-12",
+    [keys.ADDRESS_1]: "879 E McLemore Ave",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38106",
+    [keys.DESCRIPTION]: "Also provides after school program, free menstrual products",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon - Fri 11am - 1pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Community Closet",
+        [keys.HOURS]: "Tue 10am - 1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
