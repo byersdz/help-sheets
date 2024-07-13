@@ -120,6 +120,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. Patrick Catholic Church",
+    [keys.URL]: "http://stpatsmemphis.org",
+    [keys.PHONE]: "9015272542",
+    [keys.DATE_CHECKED]: "2024-07-12",
+    [keys.ADDRESS_1]: "277 S 4th St.",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38126",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Wed/Thur 1pm - 2:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
