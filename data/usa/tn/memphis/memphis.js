@@ -286,6 +286,18 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Provides rent assistance, clothing, emergency food, support, and transportation.",
     [keys.SERVES]: [serves.WOMEN_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Mission Possible",
+    [keys.URL]: "https://www.missionpossiblecosm.com",
+    [keys.PHONE]: "9014584357",
+    [keys.DATE_CHECKED]: "2024-07-19",
+    [keys.ADDRESS_1]: "2400 Poplar Avenue",
+    [keys.ADDRESS_2]: "#428",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38112",
+    [keys.DESCRIPTION]: "Clothing, non perishable food, counseling",
+  },
 ];
 
 module.exports = data;
