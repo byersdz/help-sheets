@@ -302,7 +302,7 @@ data[keys.RESOURCES] = [
     [keys.NAME]: "Asha's Refuge",
     [keys.URL]: "https://ashasrefuge.org",
     [keys.PHONE]: "9015009200",
-    [keys.DATE_CHECKED]: "2024-07-19",
+    [keys.DATE_CHECKED]: "2024-07-26",
     [keys.ADDRESS_1]: "200 East Parkway North",
     [keys.ADDRESS_2]: "3rd floor",
     [keys.CITY]: "Memphis",
@@ -310,6 +310,19 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "38112",
     [keys.DESCRIPTION]: "Support for the rights of refugees from other countries, community and client education, "
       + "assistance learning English",
+  },
+  {
+    [keys.NAME]: "Latino Memphis",
+    [keys.URL]: "https://latinomemphis.org",
+    [keys.PHONE]: "9013665882",
+    [keys.DATE_CHECKED]: "2024-07-26",
+    [keys.ADDRESS_1]: "6041 Mt Moriah Ext.",
+    [keys.ADDRESS_2]: "Suite #16",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38115",
+    [keys.DESCRIPTION]: "Education, justice, health services, and advocacy for the betterment "
+      + "of the Memphis Hispanic Community.",
   },
 ];
 
