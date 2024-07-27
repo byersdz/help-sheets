@@ -298,6 +298,19 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "38112",
     [keys.DESCRIPTION]: "Clothing, non perishable food, counseling",
   },
+  {
+    [keys.NAME]: "Asha's Refuge",
+    [keys.URL]: "https://ashasrefuge.org",
+    [keys.PHONE]: "9015009200",
+    [keys.DATE_CHECKED]: "2024-07-19",
+    [keys.ADDRESS_1]: "200 East Parkway North",
+    [keys.ADDRESS_2]: "3rd floor",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38112",
+    [keys.DESCRIPTION]: "Support for the rights of refugees from other countries, community and client education, "
+      + "assistance learning English",
+  },
 ];
 
 module.exports = data;
