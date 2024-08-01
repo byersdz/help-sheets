@@ -324,6 +324,18 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Education, justice, health services, and advocacy for the betterment "
       + "of the Memphis Hispanic Community.",
   },
+  {
+    [keys.NAME]: "Livitup",
+    [keys.URL]: "https://www.livitupinc.org",
+    [keys.PHONE]: "9017614277",
+    [keys.DATE_CHECKED]: "2024-08-01",
+    [keys.ADDRESS_1]: "6949 Appling Farms Parkway",
+    [keys.ADDRESS_2]: "Suite 112",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38133",
+    [keys.DESCRIPTION]: "Personal assistance for adults with disabilities",
+  },
 ];
 
 module.exports = data;
