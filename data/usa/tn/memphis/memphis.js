@@ -173,6 +173,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Manna House",
+    [keys.URL]: "https://www.mannahousememphis.org",
+    [keys.PHONE]: "901-334-5832",
+    [keys.DATE_CHECKED]: "2024-08-01",
+    [keys.ADDRESS_1]: "1268 Jefferson Avenue",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Showers",
+        [keys.HOURS]: "Mon, Thur 8am - 10:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Meal",
+        [keys.HOURS]: "Mon 5pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
