@@ -356,6 +356,12 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "38133",
     [keys.DESCRIPTION]: "Personal assistance for adults with disabilities",
   },
+  {
+    [keys.NAME]: "Memphis Addiction Help",
+    [keys.URL]: "https://memphisaddictionhelp.org",
+    [keys.PHONE]: "9012720003",
+    [keys.DATE_CHECKED]: "2024-08-01",
+  },
 ];
 
 module.exports = data;
