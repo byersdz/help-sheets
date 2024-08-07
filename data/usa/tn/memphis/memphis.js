@@ -382,6 +382,16 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "38118",
   },
+  {
+    [keys.NAME]: "Memphis Health Center",
+    [keys.URL]: "https://memphishealthcenter.org",
+    [keys.PHONE]: "9012612000",
+    [keys.DATE_CHECKED]: "2024-08-06",
+    [keys.ADDRESS_1]: "360 E E.H. Crump Blvd",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38126",
+  },
 ];
 
 module.exports = data;
