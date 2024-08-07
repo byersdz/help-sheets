@@ -362,6 +362,16 @@ data[keys.RESOURCES] = [
     [keys.PHONE]: "9012720003",
     [keys.DATE_CHECKED]: "2024-08-01",
   },
+  {
+    [keys.NAME]: "Christ Community Health Services",
+    [keys.URL]: "https://www.christcommunityhealth.org/services/operation-outreach",
+    [keys.PHONE]: "9018423167",
+    [keys.DATE_CHECKED]: "2024-08-06",
+    [keys.ADDRESS_1]: "1325 Jefferson Ave",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38104",
+  },
 ];
 
 module.exports = data;
