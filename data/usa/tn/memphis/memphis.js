@@ -372,6 +372,16 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "TN",
     [keys.ZIP_CODE]: "38104",
   },
+  {
+    [keys.NAME]: "Wellness and Stress Clinic",
+    [keys.URL]: "https://wellness901.org",
+    [keys.PHONE]: "9013065433",
+    [keys.DATE_CHECKED]: "2024-08-06",
+    [keys.ADDRESS_1]: "3915 Tchulahoma Road",
+    [keys.CITY]: "Memphis",
+    [keys.STATE]: "TN",
+    [keys.ZIP_CODE]: "38118",
+  },
 ];
 
 module.exports = data;
