@@ -12,6 +12,17 @@ data[keys.EXCLUDE_LIST] = [
 ];
 
 data[keys.ACCESS_POINTS] = [
+  {
+    [keys.NAME]: "Coordinated Entry",
+    [keys.URL]: "https://www.oneroofonline.org/coordinated-entry-for-clients",
+    [keys.PHONE]: "2052548833",
+    [keys.ADDRESS_1]: "1515 6th Ave South",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35233",
+    [keys.DATE_CHECKED]: "2024-08-20",
+    [keys.DESCRIPTION]: "Talk to Coordinated Entry staff to determine your eligibility for local housing assistance programs",
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
