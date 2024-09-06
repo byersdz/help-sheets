@@ -72,6 +72,17 @@ data[keys.EMERGENCY_SHELTERS] = [
       },
     ]
   },
+  {
+    [keys.NAME]: "First Light",
+    [keys.URL]: "https://www.firstlightshelter.org",
+    [keys.PHONE]: "2053234277",
+    [keys.ADDRESS_1]: "2230 Fourth Avenue North",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
+    [keys.DATE_CHECKED]: "2024-09-05",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
