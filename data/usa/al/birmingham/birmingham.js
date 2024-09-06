@@ -51,15 +51,26 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Memphis Union Mission",
-    [keys.URL]: "https://memphisunionmission.org",
-    [keys.PHONE]: "9015268403",
-    [keys.ADDRESS_1]: "383 Poplar Ave",
-    [keys.CITY]: "Memphis",
-    [keys.STATE]: "TN",
-    [keys.ZIP_CODE]: "38105",
-    [keys.DATE_CHECKED]: "2024-06-27",
+    [keys.NAME]: "Firehouse Ministries",
+    [keys.URL]: "https://firehouseshelter.com",
+    [keys.PHONE]: "2052529571",
+    [keys.ADDRESS_1]: "626 2nd Ave N",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
+    [keys.DATE_CHECKED]: "2024-09-05",
+    [keys.DESCRIPTION]: "Emergency shelter, day shelter, case management",
     [keys.SERVES]: [serves.MEN],
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every day 11:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothes Closet",
+        [keys.HOURS]: "Mon/Wed/Fri 1pm - 3pm",
+      },
+    ]
   },
 ];
 
