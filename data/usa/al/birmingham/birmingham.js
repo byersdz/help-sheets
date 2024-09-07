@@ -83,6 +83,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2024-09-05",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://southernusa.salvationarmy.org/birmingham-al",
+    [keys.PHONE]: "2053282420",
+    [keys.ADDRESS_1]: "2015 26th Avenue North",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35234",
+    [keys.DATE_CHECKED]: "2024-09-05",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
