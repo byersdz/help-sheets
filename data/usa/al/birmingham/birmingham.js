@@ -94,6 +94,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2024-09-05",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Family Connection Youth Shelter",
+    [keys.URL]: "http://www.familyconnection-inc.org",
+    [keys.PHONE]: "2056636301",
+    [keys.ADDRESS_1]: "2 Walker Run",
+    [keys.CITY]: "Alabaster",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35007",
+    [keys.DATE_CHECKED]: "2024-09-09",
+    [keys.SERVES]: [serves.AGE_12_TO_27],
+  },
 ];
 
 data[keys.RESOURCES] = [

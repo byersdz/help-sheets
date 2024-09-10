@@ -14,6 +14,7 @@ displayStrings[serves.FAMILIES_WITHOUT_CHILDREN] = 'Families without Children';
 displayStrings[serves.FAMILIES_WITH_CHILDREN] = 'Families with Children';
 displayStrings[serves.AGE_14_TO_24] = 'Ages 14 to 24';
 displayStrings[serves.AGE_18_TO_24] = 'Ages 18 to 24';
+displayStrings[serves.AGE_12_TO_27] = 'Ages 12 to 17';
 
 function formatServes( servesData ) {
   let result = 'Serves:';
