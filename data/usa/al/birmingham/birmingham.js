@@ -105,6 +105,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2024-09-09",
     [keys.SERVES]: [serves.AGE_12_TO_27],
   },
+  {
+    [keys.NAME]: "Family Promise",
+    [keys.URL]: "https://www.familypromisebham.org",
+    [keys.PHONE]: "2059180246",
+    [keys.ADDRESS_1]: "1016 19th St South",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35205",
+    [keys.DATE_CHECKED]: "2024-09-09",
+    [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
