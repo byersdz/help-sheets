@@ -120,15 +120,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Hospitality Hub",
-    [keys.DESCRIPTION]: "A centralized hub of information and services for homeless persons.",
-    [keys.URL]: "https://www.hospitalityhub.org",
-    [keys.PHONE]: "9017301736",
-    [keys.DATE_CHECKED]: "2024-04-30",
-    [keys.ADDRESS_1]: "590 Washington Ave",
-    [keys.CITY]: "Memphis",
-    [keys.STATE]: "TN",
-    [keys.ZIP_CODE]: "38105",
+    [keys.NAME]: "Pathways",
+    [keys.DESCRIPTION]: "Day Shelter for women and children.",
+    [keys.URL]: "https://pathwayshome.org",
+    [keys.PHONE]: "2053226854",
+    [keys.DATE_CHECKED]: "2024-09-15",
+    [keys.ADDRESS_1]: "409 Richard Arrington Jr Blvd N",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
   },
 ];
 
