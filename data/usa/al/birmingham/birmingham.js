@@ -117,6 +117,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
   },
   {
+    [keys.NAME]: "The Way Station",
+    [keys.URL]: "https://www.aidsalabama.org/thewaystation",
+    [keys.PHONE]: "2053249822",
+    [keys.SERVES]: [serves.AGE_18_TO_24],
+    [keys.DATE_CHECKED]: "2024-09-16",
+  },
+  {
     [keys.NAME]: "Safe House",
     [keys.URL]: "https://safehouse.org/get-help",
     [keys.PHONE]: "2056697233",
