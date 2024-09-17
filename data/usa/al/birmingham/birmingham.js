@@ -116,6 +116,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2024-09-09",
     [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Safe House",
+    [keys.URL]: "https://safehouse.org/get-help",
+    [keys.PHONE]: "2056697233",
+    [keys.DESCRIPTION]: "Emergency shelter for individuals and their dependent family members who are fleeing domestic violence",
+    [keys.DATE_CHECKED]: "2024-09-16",
+  },
 ];
 
 data[keys.RESOURCES] = [
