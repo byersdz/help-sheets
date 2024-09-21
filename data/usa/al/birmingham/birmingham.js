@@ -124,6 +124,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2024-09-16",
   },
   {
+    [keys.NAME]: "YWCA Interfaith Hospitality House Shelter",
+    [keys.URL]: "https://ywcabham.org/community-housing/interfaith-hospitality-house-ihh",
+    [keys.PHONE]: "2055914302",
+    [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
+    [keys.DATE_CHECKED]: "2024-09-21",
+  },
+  {
     [keys.NAME]: "Safe House",
     [keys.URL]: "https://safehouse.org/get-help",
     [keys.PHONE]: "2056697233",
