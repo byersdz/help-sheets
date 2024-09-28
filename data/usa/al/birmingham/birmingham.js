@@ -27,23 +27,26 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "St. Lukes UMC",
-    [keys.URL]: "https://stlukesumc.org/hunger-ministries",
-    [keys.PHONE]: "9014526262",
-    [keys.DATE_CHECKED]: "2024-07-05",
-    [keys.ADDRESS_1]: "480 S. Highland",
-    [keys.CITY]: "Memphis",
-    [keys.STATE]: "TN",
-    [keys.ZIP_CODE]: "38111",
-    [keys.DESCRIPTION]: "Also provides food pantry",
+    [keys.NAME]: "Church of the Reconciler",
+    [keys.URL]: "http://www.churchofthereconciler.com",
+    [keys.PHONE]: "2053246402",
+    [keys.DATE_CHECKED]: "2024-09-27",
+    [keys.ADDRESS_1]: "112 14th Street North",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "Sun 8am - 9am",
+        [keys.DESCRIPTION]: "Sack Lunch",
+        [keys.HOURS]: "Mon - Thur 9am to 2pm",
       },
       {
-        [keys.DESCRIPTION]: "Supper",
-        [keys.HOURS]: "Sat 4:30pm - 5:30pm",
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "3rd Sunday 9:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "1st, 2nd, 4th Sunday 11am",
       },
     ],
   },
