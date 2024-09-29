@@ -74,6 +74,31 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Highlands United Methodist Church",
+    [keys.URL]: "http://www.highlandsumc.net/community-ministries",
+    [keys.PHONE]: "2059338751",
+    [keys.DATE_CHECKED]: "2024-09-29",
+    [keys.ADDRESS_1]: "1045 20th St S",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35205",
+    [keys.DESCRIPTION]: "Refreshments, mail and phone service, needed toiletries",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Hospitality Hour",
+        [keys.HOURS]: "Tue / Thur / Fri / Sat 8:30am - 10am",
+      },
+      {
+        [keys.DESCRIPTION]: "Laundry",
+        [keys.HOURS]: "Tue / Fri 8:30am - 10am",
+      },
+      {
+        [keys.DESCRIPTION]: "Medical Aid",
+        [keys.HOURS]: "Thur 8am - noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
