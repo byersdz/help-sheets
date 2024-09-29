@@ -50,6 +50,30 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Grace Episcopal Church",
+    [keys.URL]: "https://gracechurchwoodlawn.org",
+    [keys.PHONE]: "2055954636",
+    [keys.DATE_CHECKED]: "2024-09-29",
+    [keys.ADDRESS_1]: "5712 1st Ave. North",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35212",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Fri 8am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri noon, Sat 12:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "2nd, 3rd, 4th, 5th Tue 8:30am-10am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
