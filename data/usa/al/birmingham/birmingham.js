@@ -99,6 +99,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. Andrews Episcopal Church",
+    [keys.URL]: "https://www.standrewsbham.org",
+    [keys.PHONE]: "2052517898",
+    [keys.DATE_CHECKED]: "2024-10-04",
+    [keys.ADDRESS_1]: "1024 12th St S",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35205",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Sat noon",
+      },
+      {
+        [keys.DESCRIPTION]: "Sack Lunch",
+        [keys.HOURS]: "Sunday noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
