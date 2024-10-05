@@ -119,6 +119,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Urban Ministry",
+    [keys.URL]: "https://www.urban-ministry.org",
+    [keys.PHONE]: "2057810517",
+    [keys.DATE_CHECKED]: "2024-10-04",
+    [keys.ADDRESS_1]: "1229 Cotton Ave SW",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35211",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Pay as you can Cafe",
+        [keys.HOURS]: "Mon-Fri 11:30am - 1:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
