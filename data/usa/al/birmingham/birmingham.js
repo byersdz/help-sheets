@@ -135,6 +135,12 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Community Food Bank of Central Alabama",
+    [keys.URL]: "https://feedingal.org",
+    [keys.PHONE]: "2059428911",
+    [keys.DATE_CHECKED]: "2024-10-06",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
