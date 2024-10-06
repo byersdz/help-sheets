@@ -136,6 +136,13 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Food for our Journey",
+    [keys.URL]: "https://www.foodforourjourney.org",
+    [keys.PHONE]: "2052837151",
+    [keys.DATE_CHECKED]: "2024-10-06",
+    [keys.DESCRIPTION]: "Mobile food truck"
+  },
+  {
     [keys.NAME]: "Community Food Bank of Central Alabama",
     [keys.URL]: "https://feedingal.org",
     [keys.PHONE]: "2059428911",
