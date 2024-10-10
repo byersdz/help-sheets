@@ -136,6 +136,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Faith Chapel",
+    [keys.URL]: "https://www.faithchapel.net/carecenter",
+    [keys.PHONE]: "2057859673",
+    [keys.DATE_CHECKED]: "2024-10-09",
+    [keys.ADDRESS_1]: "921 2nd Ave N",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
+    [keys.DESCRIPTION]: "Day Shelter",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Showers / Laundry",
+        [keys.HOURS]: "Tue/Thur/Sat 8:30am - 12:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Food for our Journey",
     [keys.URL]: "https://www.foodforourjourney.org",
     [keys.PHONE]: "2052837151",
