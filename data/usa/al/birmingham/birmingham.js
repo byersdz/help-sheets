@@ -269,6 +269,16 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "AL",
     [keys.ZIP_CODE]: "35203",
   },
+  {
+    [keys.NAME]: "Alabama Regional Medical Services (ARMS)",
+    [keys.URL]: "https://alabamaarms.org/behavioral-health-services",
+    [keys.PHONE]: "2054076900",
+    [keys.DATE_CHECKED]: "2024-10-11",
+    [keys.ADDRESS_1]: "712 25th Street North",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
+  },
 ];
 
 module.exports = data;
