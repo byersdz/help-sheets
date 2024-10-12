@@ -279,6 +279,16 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "AL",
     [keys.ZIP_CODE]: "35203",
   },
+  {
+    [keys.NAME]: "Christ Health Center",
+    [keys.URL]: "https://christhealthcenter.org",
+    [keys.PHONE]: "2053809455",
+    [keys.DATE_CHECKED]: "2024-10-11",
+    [keys.ADDRESS_1]: "5720 1st Ave S",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35212",
+  },
 ];
 
 module.exports = data;
