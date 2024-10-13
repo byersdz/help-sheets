@@ -270,6 +270,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "35203",
   },
   {
+    [keys.NAME]: "Community of Hope Health Clinic",
+    [keys.DESCRIPTION]: "Free health clinic, call for appointment",
+    [keys.URL]: "https://www.communityofhopeclinic.com",
+    [keys.PHONE]: "2056448640",
+    [keys.DATE_CHECKED]: "2024-10-13",
+    [keys.ADDRESS_1]: "1970 Chandalar Office Park Circle",
+    [keys.CITY]: "Pelham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35124",
+  },
+  {
     [keys.NAME]: "Alabama Regional Medical Services (ARMS)",
     [keys.URL]: "https://alabamaarms.org/behavioral-health-services",
     [keys.PHONE]: "2054076900",
