@@ -311,6 +311,16 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "AL",
     [keys.ZIP_CODE]: "35203",
   },
+  {
+    [keys.NAME]: "Brother Bryan Mission",
+    [keys.URL]: "https://bbmission.com",
+    [keys.PHONE]: "2053220092",
+    [keys.DATE_CHECKED]: "2024-10-18",
+    [keys.ADDRESS_1]: "1616 2nd Avenue North",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
+  },
 ];
 
 module.exports = data;
