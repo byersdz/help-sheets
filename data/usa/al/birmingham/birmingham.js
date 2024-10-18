@@ -300,6 +300,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "AL",
     [keys.ZIP_CODE]: "35212",
   },
+  {
+    [keys.NAME]: "Birmingham VA Medical Center",
+    [keys.URL]: "https://www.va.gov/birmingham-health-care/health-services/homeless-veteran-care",
+    [keys.DESCRIPTION]: "Homeless Veteran Care",
+    [keys.PHONE]: "2059338101",
+    [keys.DATE_CHECKED]: "2024-10-18",
+    [keys.ADDRESS_1]: "2121 Rev Abraham Woods Jr Blvd",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
+  },
 ];
 
 module.exports = data;
