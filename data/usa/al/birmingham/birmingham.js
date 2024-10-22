@@ -321,6 +321,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "AL",
     [keys.ZIP_CODE]: "35203",
   },
+  {
+    [keys.NAME]: "Changed Lives Christian Center",
+    [keys.URL]: "https://cl-cc.org",
+    [keys.PHONE]: "2055216421",
+    [keys.DATE_CHECKED]: "2024-10-21",
+    [keys.DESCRIPTION]: "Transitional housing",
+    [keys.ADDRESS_1]: "1308 26th Ave N",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35204",
+  },
 ];
 
 module.exports = data;
