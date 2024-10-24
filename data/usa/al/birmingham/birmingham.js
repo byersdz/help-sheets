@@ -332,6 +332,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "AL",
     [keys.ZIP_CODE]: "35204",
   },
+  {
+    [keys.NAME]: "Fellowship House",
+    [keys.URL]: "https://fshbhm.org",
+    [keys.PHONE]: "2059332430",
+    [keys.DATE_CHECKED]: "2024-10-23",
+    [keys.DESCRIPTION]: "Substance use recovery program",
+    [keys.ADDRESS_1]: "1625 12th Ave South",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35205",
+  },
 ];
 
 module.exports = data;
