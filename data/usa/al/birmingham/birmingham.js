@@ -355,6 +355,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "35203",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Jimmie Hale Mission",
+    [keys.URL]: "https://jimmiehalemission.com",
+    [keys.PHONE]: "2053235878",
+    [keys.DATE_CHECKED]: "2024-10-27",
+    [keys.DESCRIPTION]: "Active recovery program, education",
+    [keys.ADDRESS_1]: "3420 2nd Avenue North",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35222",
+  },
 ];
 
 module.exports = data;
