@@ -343,6 +343,18 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "AL",
     [keys.ZIP_CODE]: "35205",
   },
+  {
+    [keys.NAME]: "Jessie's Place",
+    [keys.URL]: "https://jimmiehalemission.com/jessies-place/",
+    [keys.PHONE]: "2053230170",
+    [keys.DATE_CHECKED]: "2024-10-27",
+    [keys.DESCRIPTION]: "Residential recovery program",
+    [keys.ADDRESS_1]: "2305 5th Ave North",
+    [keys.CITY]: "Birmingham",
+    [keys.STATE]: "AL",
+    [keys.ZIP_CODE]: "35203",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 module.exports = data;
