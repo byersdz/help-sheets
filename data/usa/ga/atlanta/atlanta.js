@@ -13,15 +13,15 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: "Coordinated Entry",
-    [keys.URL]: "https://www.oneroofonline.org/coordinated-entry-for-clients",
-    [keys.PHONE]: "2052548833",
-    [keys.ADDRESS_1]: "1515 6th Ave South",
-    [keys.CITY]: "Birmingham",
-    [keys.STATE]: "AL",
-    [keys.ZIP_CODE]: "35233",
-    [keys.DATE_CHECKED]: "2024-08-20",
-    [keys.DESCRIPTION]: "Talk to Coordinated Entry staff to determine your eligibility for local housing assistance programs",
+    [keys.NAME]: "Gateway Center Coordinated Entry",
+    [keys.URL]: "http://www.gatewayctr.org/coordinated-entry-services",
+    [keys.PHONE]: "4042156600",
+    [keys.ADDRESS_1]: "275 Pryor Street SW",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30303",
+    [keys.DATE_CHECKED]: "2024-11-06",
+    [keys.DESCRIPTION]: "Mon - Fri 9am - 4pm, signup begins at 7am",
   },
 ];
 
