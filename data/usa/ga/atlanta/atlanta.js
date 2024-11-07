@@ -23,6 +23,16 @@ data[keys.ACCESS_POINTS] = [
     [keys.DATE_CHECKED]: "2024-11-06",
     [keys.DESCRIPTION]: "Mon - Fri 9am - 4pm, signup begins at 7am",
   },
+  {
+    [keys.NAME]: "Salvation Army Red Shield Services",
+    [keys.URL]: "https://southernusa.salvationarmy.org/metro-atlanta/red-shield-services",
+    [keys.PHONE]: "4044862700",
+    [keys.ADDRESS_1]: "469 Marietta Street",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30313",
+    [keys.DATE_CHECKED]: "2024-11-06",
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
