@@ -33,6 +33,17 @@ data[keys.ACCESS_POINTS] = [
     [keys.ZIP_CODE]: "30313",
     [keys.DATE_CHECKED]: "2024-11-06",
   },
+  {
+    [keys.NAME]: "Crossroads",
+    [keys.URL]: "https://crossroadsatlanta.org/need-help",
+    [keys.PHONE]: "4702251995",
+    [keys.ADDRESS_1]: "420 Courtland Street",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30308",
+    [keys.DATE_CHECKED]: "2024-11-18",
+    [keys.DESCRIPTION]: "Mon - Fri 9:30am - 1:30pm",
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
