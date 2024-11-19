@@ -48,26 +48,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Church of the Reconciler",
-    [keys.URL]: "http://www.churchofthereconciler.com",
-    [keys.PHONE]: "2053246402",
-    [keys.DATE_CHECKED]: "2024-09-27",
-    [keys.ADDRESS_1]: "112 14th Street North",
-    [keys.CITY]: "Birmingham",
-    [keys.STATE]: "AL",
-    [keys.ZIP_CODE]: "35203",
+    [keys.NAME]: "First Presbyterian Chirch",
+    [keys.URL]: "https://www.firstpresatl.org/community-ministries",
+    [keys.PHONE]: "4048928461",
+    [keys.DATE_CHECKED]: "2024-11-18",
+    [keys.ADDRESS_1]: "1328 Peachtree St. NE",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30309",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Sack Lunch",
-        [keys.HOURS]: "Mon - Thur 9am to 2pm",
+        [keys.DESCRIPTION]: "Sack Lunch / Toiletries",
+        [keys.HOURS]: "Tue/Thur 1pm - 3pm",
       },
       {
-        [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "3rd Sunday 9:30am",
-      },
-      {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "1st, 2nd, 4th Sunday 11am",
+        [keys.DESCRIPTION]: "Clothing Corner",
+        [keys.HOURS]: "Mon/Thur 1pm - 3pm",
       },
     ],
   },
