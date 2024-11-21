@@ -81,6 +81,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2024-11-20",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Atlanta Mission Restoration House",
+    [keys.URL]: "https://atlantamission.org/restoration-house",
+    [keys.PHONE]: "4045884007",
+    [keys.ADDRESS_1]: "655 Ethel St. NW",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30318",
+    [keys.DATE_CHECKED]: "2024-11-20",
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
