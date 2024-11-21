@@ -96,15 +96,16 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Pathways",
-    [keys.DESCRIPTION]: "Day Shelter for women and children.",
-    [keys.URL]: "https://pathwayshome.org",
-    [keys.PHONE]: "2053226854",
-    [keys.DATE_CHECKED]: "2024-09-15",
-    [keys.ADDRESS_1]: "409 Richard Arrington Jr Blvd N",
-    [keys.CITY]: "Birmingham",
-    [keys.STATE]: "AL",
-    [keys.ZIP_CODE]: "35203",
+    [keys.NAME]: "Atlanta Mission Potter's House",
+    [keys.URL]: "https://atlantamission.org/potters-house/",
+    [keys.PHONE]: "7065438338",
+    [keys.ADDRESS_1]: "655 Potter House Rd",
+    [keys.CITY]: "Jefferson",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30549",
+    [keys.DATE_CHECKED]: "2024-11-20",
+    [keys.SERVES]: [serves.MEN],
+    [keys.DESCRIPTION]: "Residential recovery program"
   },
 ];
 
