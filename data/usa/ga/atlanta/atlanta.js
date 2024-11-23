@@ -48,7 +48,7 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "First Presbyterian Chirch",
+    [keys.NAME]: "First Presbyterian Church",
     [keys.URL]: "https://www.firstpresatl.org/community-ministries",
     [keys.PHONE]: "4048928461",
     [keys.DATE_CHECKED]: "2024-11-18",
@@ -64,6 +64,22 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: "Clothing Corner",
         [keys.HOURS]: "Mon/Thur 1pm - 3pm",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Trinity Table",
+    [keys.URL]: "https://www.atlantatrinity.org/trinitytable",
+    [keys.PHONE]: "4046596236",
+    [keys.DATE_CHECKED]: "2024-11-22",
+    [keys.ADDRESS_1]: "265 Washington St. SW",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30303",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meal / Clothing",
+        [keys.HOURS]: "Sunday noon",
       },
     ],
   },
