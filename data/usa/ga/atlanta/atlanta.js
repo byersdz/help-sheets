@@ -83,6 +83,12 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Atlanta Community Food Bank",
+    [keys.URL]: "https://www.acfb.org",
+    [keys.PHONE]: "4048923333",
+    [keys.DATE_CHECKED]: "2024-11-25",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
