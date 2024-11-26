@@ -84,6 +84,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "St. Francis Table",
+    [keys.URL]: "https://www.catholicshrineatlanta.org/saint-francis-table",
+    [keys.PHONE]: "4045211866",
+    [keys.DATE_CHECKED]: "2024-11-25",
+    [keys.ADDRESS_1]: "48 Martin Luther King Jr. Dr. SW",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30303",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meal",
+        [keys.HOURS]: "Saturday 10am - noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
