@@ -100,6 +100,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Hosea Helps: The Care Center",
+    [keys.URL]: "https://4hosea.org/programs/care-center",
+    [keys.PHONE]: "4047553353",
+    [keys.DATE_CHECKED]: "2024-11-27",
+    [keys.ADDRESS_1]: "2545 Forrest Hills Dr. SW",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30315",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Emergency Groceries",
+        [keys.HOURS]: "Tue-Thur 11am - 5pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
