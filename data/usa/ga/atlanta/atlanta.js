@@ -116,6 +116,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Intown Cares",
+    [keys.URL]: "https://intowncares.org/what-we-do/foodprograms",
+    [keys.PHONE]: "4045906956",
+    [keys.DATE_CHECKED]: "2024-12-01",
+    [keys.ADDRESS_1]: "1026 Ponce de Leon Ave NE",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30306",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Sat 10am - noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
