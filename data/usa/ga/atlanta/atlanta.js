@@ -132,6 +132,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Central United Methodist Church",
+    [keys.URL]: "https://www.centralumcatl.org/cumc-food-pantry",
+    [keys.PHONE]: "4045244263",
+    [keys.DATE_CHECKED]: "2024-12-03",
+    [keys.ADDRESS_1]: "501 M.L.K. Jr Dr SW",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30314",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "2nd and last Wed, 9am-1pm",
+      },
+    ],
+    [keys.DESCRIPTION]: "Pantry only open one Wednesday in Nov/Dec"
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
