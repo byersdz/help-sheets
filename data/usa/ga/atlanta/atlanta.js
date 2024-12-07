@@ -149,6 +149,23 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Pantry only open one Wednesday in Nov/Dec"
   },
   {
+    [keys.NAME]: "Shallowford Presbyterian Church",
+    [keys.URL]: "https://www.shallowford.org/food-pantry",
+    [keys.PHONE]: "4043211844",
+    [keys.DATE_CHECKED]: "2024-12-06",
+    [keys.ADDRESS_1]: "2375 Shallowford Road",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30345",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Wed/Thur 1pm - 3pm",
+      },
+    ],
+    [keys.DESCRIPTION]: "Reservation recommended"
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
