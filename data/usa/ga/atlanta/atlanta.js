@@ -166,6 +166,22 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Reservation recommended"
   },
   {
+    [keys.NAME]: "Greater Piney Grove Baptist Church",
+    [keys.URL]: "https://greaterpineygrove.church",
+    [keys.PHONE]: "4043770561",
+    [keys.DATE_CHECKED]: "2024-12-13",
+    [keys.ADDRESS_1]: "1879 Glenwood Avenue, S.E",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30316",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Thursday 11am-2pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
