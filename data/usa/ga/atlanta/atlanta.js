@@ -182,6 +182,28 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Hope Atlanta Women's Community Kitchen",
+    [keys.URL]: "https://hopeatlanta.org/outreach-center",
+    [keys.PHONE]: "4048177070",
+    [keys.DATE_CHECKED]: "2024-12-13",
+    [keys.ADDRESS_1]: "458 Ponce de Leon Ave. NE",
+    [keys.ADDRESS_2]: "Building B, Terrace Level",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30308",
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Tue/Wed/Thur 10am-11am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Tue/Wed/Thur 11am-noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
