@@ -215,6 +215,18 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Food Pantry, Job Assistance, Emergency Rent and Utility Assistance. Appointment required."
   },
   {
+    [keys.NAME]: "Urban Recipe",
+    [keys.URL]: "https://urbanrecipe.org",
+    [keys.PHONE]: "4046880871",
+    [keys.DATE_CHECKED]: "2024-12-24",
+    [keys.ADDRESS_1]: "970 Jefferson St. NW",
+    [keys.ADDRESS_2]: "Suite 7",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30307",
+    [keys.DESCRIPTION]: "Food Co-op, Mobile Pantry"
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
