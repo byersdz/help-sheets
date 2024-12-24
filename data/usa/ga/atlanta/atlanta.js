@@ -204,6 +204,17 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Midtown Assistance Center",
+    [keys.URL]: "https://midtownassistancecenter.org",
+    [keys.PHONE]: "4046815777",
+    [keys.DATE_CHECKED]: "2024-12-24",
+    [keys.ADDRESS_1]: "613 Spring St NW",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30308",
+    [keys.DESCRIPTION]: "Food Pantry, Job Assistance, Emergency Rent and Utility Assistance. Appointment required."
+  },
+  {
     [keys.NAME]: "Atlanta Community Food Bank",
     [keys.URL]: "https://www.acfb.org",
     [keys.PHONE]: "4048923333",
