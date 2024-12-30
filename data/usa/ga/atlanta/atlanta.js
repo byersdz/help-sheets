@@ -204,6 +204,31 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "FOCUS Atlanta",
+    [keys.URL]: "https://focusatlanta.org/where-we-work",
+    [keys.PHONE]: "8662673083",
+    [keys.PHONE_EXTENSION]: "709",
+    [keys.DATE_CHECKED]: "2024-12-29",
+    [keys.ADDRESS_1]: "543 Cherokee Ave SE",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30312",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Continental Breakfast",
+        [keys.HOURS]: "Mon-Fri 7:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Hot Breakfast",
+        [keys.HOURS]: "Mon-Fri 9am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri after service",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Midtown Assistance Center",
     [keys.URL]: "https://midtownassistancecenter.org",
     [keys.PHONE]: "4046815777",
