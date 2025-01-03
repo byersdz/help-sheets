@@ -286,6 +286,13 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
+    [keys.NAME]: "Women's Resource Center",
+    [keys.URL]: "https://www.wrcdv.org/get-help",
+    [keys.PHONE]: "4046889436",
+    [keys.DATE_CHECKED]: "2025-01-02",
+    [keys.DESCRIPTION]: "Resources for people experiencing domestic violence",
+  },
+  {
     [keys.NAME]: "Atlanta Mission Potter's House",
     [keys.URL]: "https://atlantamission.org/potters-house/",
     [keys.PHONE]: "7065438338",
