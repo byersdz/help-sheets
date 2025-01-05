@@ -229,6 +229,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Malachi's Storehouse",
+    [keys.URL]: "https://malachis.org",
+    [keys.PHONE]: "7704556523",
+    [keys.DATE_CHECKED]: "2025-01-05",
+    [keys.ADDRESS_1]: "4755 N Peachtree Rd",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30338",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Panty, Clothing",
+        [keys.HOURS]: "Wednseday 9am-12:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Midtown Assistance Center",
     [keys.URL]: "https://midtownassistancecenter.org",
     [keys.PHONE]: "4046815777",
