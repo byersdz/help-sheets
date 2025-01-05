@@ -304,6 +304,12 @@ data[keys.RESOURCES] = [
     [keys.SERVES]: [serves.MEN],
     [keys.DESCRIPTION]: "Residential recovery program"
   },
+  {
+    [keys.NAME]: "BCM Georgia",
+    [keys.URL]: "https://bcmgeorgia.org/",
+    [keys.DATE_CHECKED]: "2025-01-05",
+    [keys.DESCRIPTION]: "Rent and utility assistance"
+  },
 ];
 
 module.exports = data;
