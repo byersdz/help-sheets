@@ -326,6 +326,17 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-01-05",
     [keys.DESCRIPTION]: "Rent and utility assistance"
   },
+  {
+    [keys.NAME]: "Atlanta Legal Aid",
+    [keys.URL]: "https://atlantalegalaid.org/get-help",
+    [keys.PHONE]: "4045245811",
+    [keys.ADDRESS_1]: "54 Ellis St. NE",
+    [keys.CITY]: "Atlanta",
+    [keys.STATE]: "GA",
+    [keys.ZIP_CODE]: "30303",
+    [keys.DATE_CHECKED]: "2025-01-14",
+    [keys.DESCRIPTION]: "Free civil legal help to individuals who cannot afford a private attorney"
+  },
 ];
 
 module.exports = data;
