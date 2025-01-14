@@ -337,6 +337,13 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-01-14",
     [keys.DESCRIPTION]: "Free civil legal help to individuals who cannot afford a private attorney"
   },
+  {
+    [keys.NAME]: "Georgia Crisis and Access Line",
+    [keys.URL]: "https://www.georgiacollaborative.com/providers/georgia-crisis-and-access-line-gcal/",
+    [keys.PHONE]: "8007154225",
+    [keys.DATE_CHECKED]: "2025-01-14",
+    [keys.DESCRIPTION]: "Provides telephonic crisis intervention, clinical triage, and referral for Georgians in need"
+  },
 ];
 
 module.exports = data;
