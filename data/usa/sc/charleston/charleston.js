@@ -13,15 +13,11 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: "Gateway Center Coordinated Entry",
-    [keys.URL]: "http://www.gatewayctr.org/coordinated-entry-services",
-    [keys.PHONE]: "4042156600",
-    [keys.ADDRESS_1]: "275 Pryor Street SW",
-    [keys.CITY]: "Atlanta",
-    [keys.STATE]: "GA",
-    [keys.ZIP_CODE]: "30303",
-    [keys.DATE_CHECKED]: "2024-11-06",
-    [keys.DESCRIPTION]: "Mon - Fri 9am - 4pm, signup begins at 7am",
+    [keys.NAME]: "Homeless Connection Line",
+    [keys.URL]: "https://lowcountrycoc.org/gethelp",
+    [keys.PHONE]: "8437378357",
+    [keys.DATE_CHECKED]: "2025-01-20",
+    [keys.DESCRIPTION]: "Helps with connecting to homeless assistance",
   },
 ];
 
