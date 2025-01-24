@@ -60,11 +60,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Women's Resource Center",
-    [keys.URL]: "https://www.wrcdv.org/get-help",
-    [keys.PHONE]: "4046889436",
-    [keys.DATE_CHECKED]: "2025-01-02",
-    [keys.DESCRIPTION]: "Resources for people experiencing domestic violence",
+    [keys.NAME]: "The Navigation Center",
+    [keys.URL]: "https://thenavigationcenter.org",
+    [keys.PHONE]: "8553551200",
+    [keys.ADDRESS_1]: "18 Hanover Street",
+    [keys.CITY]: "Charleston",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29403",
+    [keys.DATE_CHECKED]: "2025-01-23",
+    [keys.DESCRIPTION]: "Helps homeless and those at-risk to connect with service providers and enroll in programs"
   },
 ];
 
