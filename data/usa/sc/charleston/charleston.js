@@ -23,22 +23,19 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "First Presbyterian Church",
-    [keys.URL]: "https://www.firstpresatl.org/community-ministries",
-    [keys.PHONE]: "4048928461",
-    [keys.DATE_CHECKED]: "2024-11-18",
-    [keys.ADDRESS_1]: "1328 Peachtree St. NE",
-    [keys.CITY]: "Atlanta",
-    [keys.STATE]: "GA",
-    [keys.ZIP_CODE]: "30309",
+    [keys.NAME]: "Neighbors Together",
+    [keys.URL]: "https://neighborstogethersc.org",
+    [keys.PHONE]: "8437471788",
+    [keys.DATE_CHECKED]: "2025-01-23",
+    [keys.ADDRESS_1]: "2105 Cosgrove Ave",
+    [keys.CITY]: "North Charleston",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29405",
+    [keys.DESCRIPTION]: "Food, clothing, medical care, counseling, shelter, financial",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Sack Lunch / Toiletries",
-        [keys.HOURS]: "Tue/Thur 1pm - 3pm",
-      },
-      {
-        [keys.DESCRIPTION]: "Clothing Corner",
-        [keys.HOURS]: "Mon/Thur 1pm - 3pm",
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Thur 10:30am-12:30pm",
       },
     ],
   },
