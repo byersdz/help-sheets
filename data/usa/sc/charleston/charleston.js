@@ -39,6 +39,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "One 80 Place",
+    [keys.URL]: "https://www.one80place.org",
+    [keys.PHONE]: "8437239477",
+    [keys.DATE_CHECKED]: "2025-01-24",
+    [keys.ADDRESS_1]: "35 Walnut Street",
+    [keys.CITY]: "Charleston",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29403",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 1pm-1:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
