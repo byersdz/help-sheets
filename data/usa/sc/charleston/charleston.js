@@ -55,6 +55,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Our Lady of Mercy Neighborhood House",
+    [keys.URL]: "https://www.olmoutreach.org",
+    [keys.PHONE]: "8438058064",
+    [keys.DATE_CHECKED]: "2025-01-24",
+    [keys.ADDRESS_1]: "77 America St.",
+    [keys.CITY]: "Charleston",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29403",
+    [keys.DESCRIPTION]: "Also provides dental, women's clinic, financial assistance",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri noon-1pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food & Clothing Assistance",
+        [keys.HOURS]: "Mon-Thur 8:30am-11am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
