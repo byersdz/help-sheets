@@ -77,6 +77,17 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "East Cooper Community Outreach",
+    [keys.URL]: "https://eccocharleston.org",
+    [keys.PHONE]: "8438499220",
+    [keys.DATE_CHECKED]: "2025-01-26",
+    [keys.ADDRESS_1]: "1145 Six Mile Road",
+    [keys.CITY]: "Mount Pleasant",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29466",
+    [keys.DESCRIPTION]: "Food assistance, medical, dental, clothing, financial assistance",
+  },
+  {
     [keys.NAME]: "Lowcountry Food Bank",
     [keys.URL]: "https://lowcountryfoodbank.org",
     [keys.PHONE]: "8437478146",
