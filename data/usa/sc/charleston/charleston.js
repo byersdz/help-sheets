@@ -76,6 +76,13 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Lowcountry Food Bank",
+    [keys.URL]: "https://lowcountryfoodbank.org",
+    [keys.PHONE]: "8437478146",
+    [keys.PHONE_EXTENSION]: "100",
+    [keys.DATE_CHECKED]: "2025-01-26",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
