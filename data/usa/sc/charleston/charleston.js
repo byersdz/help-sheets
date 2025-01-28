@@ -77,6 +77,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "North Charleston Dream Center",
+    [keys.URL]: "https://seacoastdreamcenter.org",
+    [keys.PHONE]: "8433751099",
+    [keys.DATE_CHECKED]: "2025-01-27",
+    [keys.ADDRESS_1]: "5505 N Rhett Ave",
+    [keys.CITY]: "North Charleston",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29406",
+    [keys.DESCRIPTION]: "Also provides medical clinic",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Pantry",
+        [keys.HOURS]: "Thursday 8:30am",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "East Cooper Community Outreach",
     [keys.URL]: "https://eccocharleston.org",
     [keys.PHONE]: "8438499220",
