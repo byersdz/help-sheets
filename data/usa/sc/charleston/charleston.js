@@ -124,6 +124,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "29403",
     [keys.DATE_CHECKED]: "2025-01-28",
   },
+  {
+    [keys.NAME]: "One 80 Place",
+    [keys.URL]: "https://www.one80place.org",
+    [keys.PHONE]: "8437239477",
+    [keys.DATE_CHECKED]: "2025-01-28",
+    [keys.ADDRESS_1]: "35 Walnut Street",
+    [keys.CITY]: "Charleston",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29403",
+  },
 ];
 
 data[keys.RESOURCES] = [
