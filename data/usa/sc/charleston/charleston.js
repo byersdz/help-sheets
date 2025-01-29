@@ -148,6 +148,16 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-01-23",
     [keys.DESCRIPTION]: "Helps homeless and those at-risk to connect with service providers and enroll in programs"
   },
+  {
+    [keys.NAME]: "Charleston County Housing Authority",
+    [keys.URL]: "https://www.cchra.net",
+    [keys.PHONE]: "8437221942",
+    [keys.ADDRESS_1]: "2106 Mount Pleasant Street",
+    [keys.CITY]: "Charleston",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29403",
+    [keys.DATE_CHECKED]: "2025-01-28",
+  },
 ];
 
 module.exports = data;
