@@ -115,15 +115,14 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Atlanta Mission Shepherd's Inn",
-    [keys.URL]: "https://atlantamission.org/shepherds-inn",
-    [keys.PHONE]: "4043672493",
-    [keys.ADDRESS_1]: "165 Ivan Allen Blvd. NW",
-    [keys.CITY]: "Atlanta",
-    [keys.STATE]: "GA",
-    [keys.ZIP_CODE]: "30313",
-    [keys.DATE_CHECKED]: "2024-11-20",
-    [keys.SERVES]: [serves.MEN],
+    [keys.NAME]: "Star Gospel Mission",
+    [keys.URL]: "https://www.stargospelmission.org",
+    [keys.PHONE]: "8437222473",
+    [keys.ADDRESS_1]: "474 Meeting Street",
+    [keys.CITY]: "Charleston",
+    [keys.STATE]: "SC",
+    [keys.ZIP_CODE]: "29403",
+    [keys.DATE_CHECKED]: "2025-01-28",
   },
 ];
 
