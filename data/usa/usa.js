@@ -1,5 +1,6 @@
 const { keys, languageCodes, priorities } = require( '../../constants' );
 const alabama = require( './al/al' );
+const florida = require( './fl/fl' );
 const georgia = require( './ga/ga' );
 const kentucky = require( './ky/ky' );
 const maryland = require( './md/md' );
@@ -22,6 +23,7 @@ data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
 data[keys.STATES] = [
   alabama,
+  florida,
   georgia,
   kentucky,
   maryland,
