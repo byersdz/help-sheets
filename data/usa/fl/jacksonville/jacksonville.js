@@ -43,6 +43,16 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
+    [keys.NAME]: "City Rescue Mission",
+    [keys.URL]: "https://www.crmjax.org",
+    [keys.PHONE]: "9044215161",
+    [keys.ADDRESS_1]: "234 W. State St.",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32202",
+    [keys.DATE_CHECKED]: "2025-02-03",
+  },
+  {
     [keys.NAME]: "Trinity Rescue Mission",
     [keys.URL]: "https://trinityrescue.org",
     [keys.PHONE]: "9043551205",
