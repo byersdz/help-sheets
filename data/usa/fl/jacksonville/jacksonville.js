@@ -66,15 +66,14 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "The Navigation Center",
-    [keys.URL]: "https://thenavigationcenter.org",
-    [keys.PHONE]: "8553551200",
-    [keys.ADDRESS_1]: "18 Hanover Street",
-    [keys.CITY]: "Charleston",
-    [keys.STATE]: "SC",
-    [keys.ZIP_CODE]: "29403",
-    [keys.DATE_CHECKED]: "2025-01-23",
-    [keys.DESCRIPTION]: "Helps homeless and those at-risk to connect with service providers and enroll in programs"
+    [keys.NAME]: "City Rescue Mission Lifebuilders Addiction Recovery",
+    [keys.URL]: "https://www.crmjax.org/services/lifebuilders-program",
+    [keys.PHONE]: "9043874357",
+    [keys.ADDRESS_1]: "426 S. McDuff Ave.",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32254",
+    [keys.DATE_CHECKED]: "2025-02-03",
   },
 ];
 
