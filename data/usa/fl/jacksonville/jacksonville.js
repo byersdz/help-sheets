@@ -75,6 +75,16 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "32254",
     [keys.DATE_CHECKED]: "2025-02-03",
   },
+  {
+    [keys.NAME]: "Jacksonville Housing Authority",
+    [keys.URL]: "https://www.jaxha.org",
+    [keys.PHONE]: "9046303810",
+    [keys.ADDRESS_1]: "1300 N Broad Street",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32202",
+    [keys.DATE_CHECKED]: "2025-02-05",
+  },
 ];
 
 module.exports = data;
