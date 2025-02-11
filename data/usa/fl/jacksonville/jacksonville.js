@@ -72,6 +72,28 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "32204",
     [keys.DATE_CHECKED]: "2025-02-10",
   },
+  {
+    [keys.NAME]: "Sulzbacher Center",
+    [keys.URL]: "https://sulzbacherjax.org/get-help",
+    [keys.PHONE]: "9043941356",
+    [keys.ADDRESS_1]: "611 E. Adams Street",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32202",
+    [keys.DATE_CHECKED]: "2025-02-10",
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
+    [keys.NAME]: "Sulzbacher Villiage",
+    [keys.URL]: "https://sulzbacherjax.org/get-help",
+    [keys.PHONE]: "9043944950",
+    [keys.ADDRESS_1]: "5455 Springfield Blvd",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32208",
+    [keys.DATE_CHECKED]: "2025-02-10",
+    [keys.SERVES]: [serves.WOMEN, serves.FAMILIES_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
