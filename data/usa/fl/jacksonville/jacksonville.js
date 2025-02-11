@@ -62,6 +62,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "32202",
     [keys.DATE_CHECKED]: "2025-02-03",
   },
+  {
+    [keys.NAME]: "Salvation Army Towers Center of Hope",
+    [keys.URL]: "https://jacksonville.salvationarmyflorida.org/nefl/the-towers-center-of-hope",
+    [keys.PHONE]: "9043568641",
+    [keys.ADDRESS_1]: "900 West Adams St",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32204",
+    [keys.DATE_CHECKED]: "2025-02-10",
+  },
 ];
 
 data[keys.RESOURCES] = [
