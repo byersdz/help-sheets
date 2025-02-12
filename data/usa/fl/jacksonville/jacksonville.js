@@ -35,6 +35,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Gleaners Dispatch",
+    [keys.URL]: "https://www.gleanersdispatch.org/get-help",
+    [keys.PHONE]: "9047776344",
+    [keys.DATE_CHECKED]: "2025-02-11",
+    [keys.ADDRESS_1]: "4151 Old Middleburg Road N",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32210",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Distribution",
+        [keys.HOURS]: "Saturday 8:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
