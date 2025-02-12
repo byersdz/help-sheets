@@ -12,30 +12,26 @@ data[keys.EXCLUDE_LIST] = [
 ];
 
 data[keys.ACCESS_POINTS] = [
-  {
-    [keys.NAME]: "Homeless Connection Line",
-    [keys.URL]: "https://lowcountrycoc.org/gethelp",
-    [keys.PHONE]: "8437378357",
-    [keys.DATE_CHECKED]: "2025-01-20",
-    [keys.DESCRIPTION]: "Helps with connecting to homeless assistance",
-  },
 ];
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Neighbors Together",
-    [keys.URL]: "https://neighborstogethersc.org",
-    [keys.PHONE]: "8437471788",
-    [keys.DATE_CHECKED]: "2025-01-23",
-    [keys.ADDRESS_1]: "2105 Cosgrove Ave",
-    [keys.CITY]: "North Charleston",
-    [keys.STATE]: "SC",
-    [keys.ZIP_CODE]: "29405",
-    [keys.DESCRIPTION]: "Food, clothing, medical care, counseling, shelter, financial",
+    [keys.NAME]: "Clara White Mission",
+    [keys.URL]: "https://clarawhitemission.org",
+    [keys.PHONE]: "9043544162",
+    [keys.DATE_CHECKED]: "2025-02-11",
+    [keys.ADDRESS_1]: "613 West Ashley Street",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32202",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Mon-Thur 10:30am-12:30pm",
+        [keys.DESCRIPTION]: "To Go Lunch",
+        [keys.HOURS]: "Mon/Tue 10am-11:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Wed/Thur 9am-10:30am",
       },
     ],
   },
