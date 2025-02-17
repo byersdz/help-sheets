@@ -51,6 +51,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Downtown Ecumenical Services",
+    [keys.URL]: "https://descjax.org",
+    [keys.PHONE]: "9043587955",
+    [keys.DATE_CHECKED]: "2025-02-16",
+    [keys.ADDRESS_1]: "215 N. Ocean Street",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32202",
+    [keys.DESCRIPTION]: "Also provides financial assistance",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Groceries",
+        [keys.HOURS]: "Mon/Wed/Fri 9am-noon",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Mon/Wed/Fri 9am-noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
