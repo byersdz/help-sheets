@@ -72,6 +72,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Catholic Charities Food Pantry",
+    [keys.URL]: "https://www.ccbjax.org/food-assistance",
+    [keys.PHONE]: "9043544846",
+    [keys.DATE_CHECKED]: "2025-02-16",
+    [keys.ADDRESS_1]: "1430 Bernita Street",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32211",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Wed/Fri 8:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
