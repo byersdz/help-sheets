@@ -157,6 +157,18 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-02-03",
   },
   {
+    [keys.NAME]: "Volunteers in Medicine",
+    [keys.URL]: "https://www.vimjax.org/",
+    [keys.PHONE]: "9043992766",
+    [keys.ADDRESS_1]: "3728 Philips Highway",
+    [keys.ADDRESS_2]: "Suite #34",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32207",
+    [keys.DESCRIPTION]: "Free clinic for the working uninsured",
+    [keys.DATE_CHECKED]: "2025-02-17",
+  },
+  {
     [keys.NAME]: "Jacksonville Housing Authority",
     [keys.URL]: "https://www.jaxha.org",
     [keys.PHONE]: "9046303810",
