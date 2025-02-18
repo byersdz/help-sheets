@@ -166,6 +166,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "32202",
     [keys.DATE_CHECKED]: "2025-02-05",
   },
+  {
+    [keys.NAME]: "ElderSource",
+    [keys.URL]: "https://myeldersource.org",
+    [keys.PHONE]: "8882424464",
+    [keys.ADDRESS_1]: "10688 Old St. Augustine Road",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32257",
+    [keys.DATE_CHECKED]: "2025-02-17",
+    [keys.DESCRIPTION]: "Resources for elders and caregivers",
+  },
 ];
 
 module.exports = data;
