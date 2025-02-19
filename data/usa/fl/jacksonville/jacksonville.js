@@ -189,6 +189,18 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-02-17",
     [keys.DESCRIPTION]: "Resources for elders and caregivers",
   },
+  {
+    [keys.NAME]: "NFCAA",
+    [keys.URL]: "https://nfcaa.org",
+    [keys.PHONE]: "9043987472",
+    [keys.ADDRESS_1]: "2055 Reyko Road",
+    [keys.ADDRESS_2]: "St. Johns Building, Suite 200",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32207",
+    [keys.DATE_CHECKED]: "2025-02-19",
+    [keys.DESCRIPTION]: "Utility assistance. Job training assistance",
+  },
 ];
 
 module.exports = data;
