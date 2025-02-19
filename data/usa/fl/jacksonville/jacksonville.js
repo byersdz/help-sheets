@@ -143,6 +143,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2025-02-10",
     [keys.SERVES]: [serves.WOMEN, serves.FAMILIES_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Hubbard House",
+    [keys.URL]: "https://www.hubbardhouse.org",
+    [keys.PHONE]: "9043543114",
+    [keys.DESCRIPTION]: "Provides shelter for victims of domestic violence",
+    [keys.DATE_CHECKED]: "2025-02-10",
+  },
 ];
 
 data[keys.RESOURCES] = [
