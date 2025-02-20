@@ -219,6 +219,13 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-02-19",
     [keys.DESCRIPTION]: "Addiction treatment",
   },
+  {
+    [keys.NAME]: "Goodwill",
+    [keys.URL]: "https://goodwillnorthfl.org",
+    [keys.PHONE]: "9043841361",
+    [keys.DATE_CHECKED]: "2025-02-19",
+    [keys.DESCRIPTION]: "Employment services",
+  },
 ];
 
 module.exports = data;
