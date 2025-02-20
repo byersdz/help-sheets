@@ -36,6 +36,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "City Rescue Mission",
+    [keys.URL]: "https://www.crmjax.org",
+    [keys.PHONE]: "9044215161",
+    [keys.ADDRESS_1]: "234 W. State St.",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32202",
+    [keys.DATE_CHECKED]: "2025-02-20",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Everyday 4:30pm-5:30pm",
+      },
+    ],
+
+  },
+  {
     [keys.NAME]: "Gleaners Dispatch",
     [keys.URL]: "https://www.gleanersdispatch.org/get-help",
     [keys.PHONE]: "9047776344",
