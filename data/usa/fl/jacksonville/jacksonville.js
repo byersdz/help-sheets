@@ -208,6 +208,17 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-02-19",
     [keys.DESCRIPTION]: "Utility assistance. Job training assistance",
   },
+  {
+    [keys.NAME]: "Gateway Community Services",
+    [keys.URL]: "https://gatewaycommunity.com",
+    [keys.PHONE]: "8773899966",
+    [keys.ADDRESS_1]: "555 Stockton Street",
+    [keys.CITY]: "Jacksonville",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32204",
+    [keys.DATE_CHECKED]: "2025-02-19",
+    [keys.DESCRIPTION]: "Addiction treatment",
+  },
 ];
 
 module.exports = data;
