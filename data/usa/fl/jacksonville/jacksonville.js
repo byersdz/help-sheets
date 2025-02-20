@@ -105,6 +105,12 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Feeding Northeast Florida",
+    [keys.URL]: "https://feedingnefl.org/",
+    [keys.DATE_CHECKED]: "2025-02-20",
+    [keys.PHONE]: "9045131333",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
