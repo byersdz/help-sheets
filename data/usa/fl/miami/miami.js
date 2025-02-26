@@ -12,6 +12,17 @@ data[keys.EXCLUDE_LIST] = [
 ];
 
 data[keys.ACCESS_POINTS] = [
+  {
+    [keys.NAME]: "Homeless Assistance HELPLINE",
+    [keys.URL]: "https://www.miami.gov/My-Government/Departments/Human-Services/Homeless-Assistance",
+    [keys.PHONE]: "8779944357",
+    [keys.ADDRESS_1]: "111 NW 1st Street",
+    [keys.ADDRESS_2]: "1st Floor",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33128",
+    [keys.DATE_CHECKED]: "2025-02-25",
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
