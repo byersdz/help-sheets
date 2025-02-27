@@ -27,22 +27,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Clara White Mission",
-    [keys.URL]: "https://clarawhitemission.org",
-    [keys.PHONE]: "9043544162",
-    [keys.DATE_CHECKED]: "2025-02-11",
-    [keys.ADDRESS_1]: "613 West Ashley Street",
-    [keys.CITY]: "Jacksonville",
+    [keys.NAME]: "Camillus House Day Center",
+    [keys.URL]: "https://www.camillus.org/need-help",
+    [keys.PHONE]: "3053741065",
+    [keys.DATE_CHECKED]: "2025-02-26",
+    [keys.ADDRESS_1]: "1603 NW 7th Avenue",
+    [keys.CITY]: "Miami",
     [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "32202",
+    [keys.ZIP_CODE]: "33136",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "To Go Lunch",
-        [keys.HOURS]: "Mon/Tue 10am-11:30am",
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Fri 8:30am",
       },
       {
-        [keys.DESCRIPTION]: "Food Pantry",
-        [keys.HOURS]: "Tue/Wed/Thur 9am-10:30am",
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Tue/Thur 12:30pm",
       },
     ],
   },
