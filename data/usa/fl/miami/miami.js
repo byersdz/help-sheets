@@ -46,6 +46,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Miami Rescue Mission",
+    [keys.URL]: "https://caringplace.org",
+    [keys.PHONE]: "3055712211",
+    [keys.DATE_CHECKED]: "2025-02-28",
+    [keys.ADDRESS_1]: "2020 NW 1st Ave",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33127",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Fri 3pm-5pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
