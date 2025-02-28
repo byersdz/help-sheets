@@ -62,6 +62,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Central Christian Church",
+    [keys.URL]: "https://www.cccgables.org/en",
+    [keys.PHONE]: "3054466132",
+    [keys.DATE_CHECKED]: "2025-02-28",
+    [keys.ADDRESS_1]: "222 Menores Ave",
+    [keys.CITY]: "Coral Gables",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33134",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "2nd and 4th Sat 9am-10am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
