@@ -98,6 +98,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Curley's House Food Bank",
+    [keys.URL]: "https://curleyshousefoodbank.com",
+    [keys.PHONE]: "3057599805",
+    [keys.DATE_CHECKED]: "2025-03-02",
+    [keys.ADDRESS_1]: "6025 NW 6th Ct",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33127",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food",
+        [keys.HOURS]: "Tue-Fri 10am-3pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
