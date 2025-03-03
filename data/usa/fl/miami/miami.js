@@ -78,6 +78,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "City Reach Ministries",
+    [keys.URL]: "https://cityreachministries.com",
+    [keys.PHONE]: "3052597677",
+    [keys.DATE_CHECKED]: "2025-03-02",
+    [keys.ADDRESS_1]: "12236 SW 128th St",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33186",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Bread and Pastries",
+        [keys.HOURS]: "Mon/Tue/Wed/Fri 9:30am-4pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue 5:30pm-6:30pm, Wed 10am-noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
