@@ -130,6 +130,13 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "JCS Kosher Food Bank",
+    [keys.URL]: "https://jcsfl.org/programs/kosher-food-bank",
+    [keys.PHONE]: "3059478093",
+    [keys.DATE_CHECKED]: "2025-03-03",
+    [keys.DESCRIPTION]: "Appointment only, please call",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
