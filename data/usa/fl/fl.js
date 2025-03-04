@@ -1,4 +1,4 @@
-const { keys, languageCodes } = require( "../../../constants" );
+const { keys, languageCodes, priorities } = require( "../../../constants" );
 const jacksonville = require( "./jacksonville/jacksonville" );
 const miami = require( "./miami/miami" );
 const data = {};
@@ -14,5 +14,16 @@ data[keys.CITIES] = [jacksonville, miami];
 data[keys.EXCLUDE_LIST] = [];
 
 data[keys.ACCESS_POINTS] = [];
+
+data[keys.BASIC_NEEDS] = [
+  {
+    [keys.NAME]: "Farm Share",
+    [keys.URL]: "https://www.farmshare.org",
+    [keys.PHONE]: "3052463276",
+    [keys.DATE_CHECKED]: "2025-03-03",
+    [keys.DESCRIPTION]: "Food Bank",
+    [keys.PRIORITY]: priorities.LOW,
+  },
+]
 
 module.exports = data;
