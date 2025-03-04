@@ -63,6 +63,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Homestead Soup Kitchen",
+    [keys.URL]: "https://www.homesteadsoupkitchen.com",
+    [keys.PHONE]: "3052457448",
+    [keys.DATE_CHECKED]: "2025-03-03",
+    [keys.ADDRESS_1]: "105 S.W. 3rd Ave",
+    [keys.CITY]: "Homestead",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33030",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon/Wed/Fri noon-1:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Central Christian Church",
     [keys.URL]: "https://www.cccgables.org/en",
     [keys.PHONE]: "3054466132",
