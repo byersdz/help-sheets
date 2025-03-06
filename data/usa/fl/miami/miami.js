@@ -160,6 +160,13 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-03-05",
     [keys.DESCRIPTION]: "Mobile dental clinic"
   },
+  {
+    [keys.NAME]: "Miami-Dade County Community Action and Human Services",
+    [keys.URL]: "https://www.miamidade.gov/global/socialservices/home.page",
+    [keys.PHONE]: "7864694600",
+    [keys.DATE_CHECKED]: "2025-03-05",
+    [keys.DESCRIPTION]: "Provides one-time crisis assitance to pay utility bills, rent, mortgage or secure necessary food"
+  },
 ];
 
 module.exports = data;
