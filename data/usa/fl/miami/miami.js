@@ -154,14 +154,11 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "City Rescue Mission Lifebuilders Addiction Recovery",
-    [keys.URL]: "https://www.crmjax.org/services/lifebuilders-program",
-    [keys.PHONE]: "9043874357",
-    [keys.ADDRESS_1]: "426 S. McDuff Ave.",
-    [keys.CITY]: "Jacksonville",
-    [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "32254",
-    [keys.DATE_CHECKED]: "2025-02-03",
+    [keys.NAME]: "Caring for Miami",
+    [keys.URL]: "https://caringformiami.org/",
+    [keys.PHONE]: "7864301051",
+    [keys.DATE_CHECKED]: "2025-03-05",
+    [keys.DESCRIPTION]: "Mobile dental clinic"
   },
 ];
 
