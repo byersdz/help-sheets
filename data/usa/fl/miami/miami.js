@@ -131,6 +131,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Open Arms Community Center",
+    [keys.URL]: "https://openarmscommunitycenter.org",
+    [keys.PHONE]: "3052633259",
+    [keys.DATE_CHECKED]: "2025-03-09",
+    [keys.ADDRESS_1]: "5556 SW 8 th St.",
+    [keys.CITY]: "Coral Gables",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33134",
+    [keys.DESCRIPTION]: "SNAP, Medicaid, Temporary Cash Assistance",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Distribution",
+        [keys.HOURS]: "2nd and 4th Thursday 9am",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "JCS Kosher Food Bank",
     [keys.URL]: "https://jcsfl.org/programs/kosher-food-bank",
     [keys.PHONE]: "3059478093",
