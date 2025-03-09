@@ -13,7 +13,14 @@ data[keys.CITIES] = [jacksonville, miami];
 
 data[keys.EXCLUDE_LIST] = [];
 
-data[keys.ACCESS_POINTS] = [];
+data[keys.ACCESS_POINTS] = [
+  {
+    [keys.NAME]: "Florida Domestic Violence Hotline",
+    [keys.PHONE]: "8005001119",
+    [keys.DATE_CHECKED]: "2025-03-09",
+    [keys.PRIORITY]: priorities.LOW,
+  },
+];
 
 data[keys.BASIC_NEEDS] = [
   {
