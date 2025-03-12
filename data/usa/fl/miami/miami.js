@@ -158,14 +158,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "City Rescue Mission",
-    [keys.URL]: "https://www.crmjax.org",
-    [keys.PHONE]: "9044215161",
-    [keys.ADDRESS_1]: "234 W. State St.",
-    [keys.CITY]: "Jacksonville",
+    [keys.NAME]: "Miami Rescue Mission",
+    [keys.URL]: "https://caringplace.org",
+    [keys.PHONE]: "3055712211",
+    [keys.DATE_CHECKED]: "2025-03-11",
+    [keys.ADDRESS_1]: "2020 NW 1st Ave",
+    [keys.CITY]: "Miami",
     [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "32202",
-    [keys.DATE_CHECKED]: "2025-02-03",
+    [keys.ZIP_CODE]: "33127",
+    [keys.SERVES]: [serves.MEN],
   },
 ];
 
