@@ -168,6 +168,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "33127",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Camillus House",
+    [keys.URL]: "https://www.camillus.org/need-help",
+    [keys.PHONE]: "3053741065",
+    [keys.DATE_CHECKED]: "2025-03-11",
+    [keys.ADDRESS_1]: "1603 NW 7th Avenue",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33136",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
