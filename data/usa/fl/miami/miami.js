@@ -183,6 +183,17 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
+    [keys.NAME]: "Catholic Charities Homeless Prevention and Rapid Re-Housing",
+    [keys.URL]: "https://www.ccadm.org/sh_projects/homeless-prevention-and-rapid-re-housing-miami-dade-county",
+    [keys.PHONE]: "3055733333",
+    [keys.DATE_CHECKED]: "2025-03-14",
+    [keys.ADDRESS_1]: "3620 NW 1st Ave",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33127",
+    [keys.DESCRIPTION]: "Provides assistance and referrals to individuals and families to prevent homelessness",
+  },
+  {
     [keys.NAME]: "Caring for Miami",
     [keys.URL]: "https://caringformiami.org/",
     [keys.PHONE]: "7864301051",
