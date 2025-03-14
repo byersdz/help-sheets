@@ -179,6 +179,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "33136",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "The Missionaries of Charity of Mother Theresa Shelter",
+    [keys.URL]: "https://www.miamiarch.org/CatholicDiocese.php?op=Missionaries_of_Charity",
+    [keys.PHONE]: "305-545-5699",
+    [keys.DATE_CHECKED]: "2025-03-14",
+    [keys.ADDRESS_1]: "724 N.W. 17th St",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33136",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
