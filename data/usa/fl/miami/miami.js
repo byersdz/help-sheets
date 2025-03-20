@@ -182,13 +182,24 @@ data[keys.EMERGENCY_SHELTERS] = [
   {
     [keys.NAME]: "The Missionaries of Charity of Mother Theresa Shelter",
     [keys.URL]: "https://www.miamiarch.org/CatholicDiocese.php?op=Missionaries_of_Charity",
-    [keys.PHONE]: "305-545-5699",
+    [keys.PHONE]: "3055455699",
     [keys.DATE_CHECKED]: "2025-03-14",
     [keys.ADDRESS_1]: "724 N.W. 17th St",
     [keys.CITY]: "Miami",
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "33136",
     [keys.SERVES]: [serves.WOMEN],
+  },
+  {
+    [keys.NAME]: "Lotus House",
+    [keys.URL]: "https://lotushouse.org",
+    [keys.PHONE]: "3054380556",
+    [keys.DATE_CHECKED]: "2025-03-19",
+    [keys.ADDRESS_1]: "217 NW 15th Street",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33136",
+    [keys.SERVES]: [serves.WOMEN, serves.YOUTH],
   },
 ];
 
