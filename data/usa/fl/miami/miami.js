@@ -201,6 +201,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "33136",
     [keys.SERVES]: [serves.WOMEN, serves.YOUTH],
   },
+  {
+    [keys.NAME]: "New Life Family Center",
+    [keys.URL]: "https://www.ccadm.org/sh_projects/the-new-life-family-center",
+    [keys.PHONE]: "3055733333",
+    [keys.DATE_CHECKED]: "2025-03-27",
+    [keys.ADDRESS_1]: "3620 NW 1st Ave",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33127",
+    [keys.SERVES]: [serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
