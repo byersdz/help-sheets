@@ -240,6 +240,16 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-03-05",
     [keys.DESCRIPTION]: "Provides one-time crisis assitance to pay utility bills, rent, mortgage or secure necessary food"
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://miami.salvationarmyflorida.org/",
+    [keys.PHONE]: "3054565850",
+    [keys.DATE_CHECKED]: "2025-04-05",
+    [keys.ADDRESS_1]: "1907 NW 38th Street",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33142",
+  },
 ];
 
 module.exports = data;
