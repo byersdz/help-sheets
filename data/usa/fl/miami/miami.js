@@ -262,6 +262,18 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "33142",
   },
+  {
+    [keys.NAME]: "Concept House",
+    [keys.URL]: "https://www.concepthouse.org",
+    [keys.PHONE]: "3057516501",
+    [keys.PHONE_EXTENSION]: "6405",
+    [keys.DATE_CHECKED]: "2025-04-06",
+    [keys.ADDRESS_1]: "4850 NE 2nd Ave",
+    [keys.CITY]: "Miami",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33137",
+    [keys.DESCRIPTION]: "Substance Abuse Treatment",
+  },
 ];
 
 module.exports = data;
