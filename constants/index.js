@@ -80,6 +80,8 @@ serves.FAMILIES_WITH_CHILDREN = 'familiesWithChildren';
 serves.AGE_14_TO_24 = 'age14To24';
 serves.AGE_18_TO_24 = 'age18To24';
 serves.AGE_12_TO_27 = 'age12To17';
+serves.SINGLE_MOTHERS = 'singleMothers';
+serves.SINGLE_FATHERS = 'singleFathers';
 
 constants.keys = keys;
 constants.languageCodes = languageCodes;

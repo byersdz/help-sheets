@@ -60,6 +60,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "32808",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Orlando Rescue Mission Family Hope",
+    [keys.URL]: "https://www.ourm.org/need-help",
+    [keys.PHONE]: "4074232131",
+    [keys.DATE_CHECKED]: "2025-04-09",
+    [keys.ADDRESS_1]: "1525 W. Washington St.",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32805",
+    [keys.SERVES]: [serves.WOMEN, serves.FAMILIES, serves.SINGLE_MOTHERS, serves.SINGLE_FATHERS],
+  },
 ];
 
 data[keys.RESOURCES] = [
