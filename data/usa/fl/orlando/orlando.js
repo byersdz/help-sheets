@@ -50,14 +50,14 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Miami Rescue Mission",
-    [keys.URL]: "https://caringplace.org",
-    [keys.PHONE]: "3055712211",
-    [keys.DATE_CHECKED]: "2025-03-11",
-    [keys.ADDRESS_1]: "2020 NW 1st Ave",
-    [keys.CITY]: "Miami",
+    [keys.NAME]: "Orlando Rescue Mission Project Hope",
+    [keys.URL]: "https://www.ourm.org/need-help",
+    [keys.PHONE]: "4074233596",
+    [keys.DATE_CHECKED]: "2025-04-09",
+    [keys.ADDRESS_1]: "3300 W. Colonial Dr.",
+    [keys.CITY]: "Orlando",
     [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "33127",
+    [keys.ZIP_CODE]: "32808",
     [keys.SERVES]: [serves.MEN],
   },
 ];
