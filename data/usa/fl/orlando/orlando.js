@@ -71,6 +71,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "32805",
     [keys.SERVES]: [serves.WOMEN, serves.FAMILIES, serves.SINGLE_MOTHERS, serves.SINGLE_FATHERS],
   },
+  {
+    [keys.NAME]: "Coalition for the Homeless",
+    [keys.URL]: "https://www.centralfloridahomeless.org",
+    [keys.PHONE]: "4076525310",
+    [keys.DATE_CHECKED]: "2025-04-09",
+    [keys.ADDRESS_1]: "18 North Terry Avenue",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32801",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
