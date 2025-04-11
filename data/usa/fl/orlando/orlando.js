@@ -93,20 +93,22 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "32771",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://orlando.salvationarmyflorida.org",
+    [keys.PHONE]: "4074238581",
+    [keys.PHONE_EXTENSION]: "26480",
+    [keys.DATE_CHECKED]: "2025-04-10",
+    [keys.ADDRESS_1]: "624 Lexington Ave.",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32804",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
-  {
-    [keys.NAME]: "Catholic Charities Homeless Prevention and Rapid Re-Housing",
-    [keys.URL]: "https://www.ccadm.org/sh_projects/homeless-prevention-and-rapid-re-housing-miami-dade-county",
-    [keys.PHONE]: "3055733333",
-    [keys.DATE_CHECKED]: "2025-03-14",
-    [keys.ADDRESS_1]: "3620 NW 1st Ave",
-    [keys.CITY]: "Miami",
-    [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "33127",
-    [keys.DESCRIPTION]: "Provides assistance and referrals to individuals and families to prevent homelessness",
-  },
+
 ];
 
 module.exports = data;
