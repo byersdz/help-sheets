@@ -82,6 +82,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "32801",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Rescue Outreach Mission",
+    [keys.URL]: "https://romcfl.org",
+    [keys.PHONE]: "4073218224",
+    [keys.DATE_CHECKED]: "2025-04-10",
+    [keys.ADDRESS_1]: "1701 W 13th St.",
+    [keys.CITY]: "Sanford",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32771",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
