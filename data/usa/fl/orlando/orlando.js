@@ -116,6 +116,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "34741",
     [keys.SERVES]: [serves.WOMEN_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Covenant House",
+    [keys.URL]: "https://www.covenanthousefl.org",
+    [keys.PHONE]: "4074820404",
+    [keys.DATE_CHECKED]: "2025-04-11",
+    [keys.ADDRESS_1]: "711 N Magnolia Ave",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32803",
+    [keys.SERVES]: [serves.AGE_18_TO_22],
+  },
 ];
 
 data[keys.RESOURCES] = [
