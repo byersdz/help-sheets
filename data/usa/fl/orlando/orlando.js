@@ -105,6 +105,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "32804",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "H.O.M.E Orlando",
+    [keys.URL]: "https://aspirehealthpartners.com/program-details/?program=37",
+    [keys.PHONE]: "4079320413",
+    [keys.DATE_CHECKED]: "2025-04-11",
+    [keys.ADDRESS_1]: "924 Determination Way",
+    [keys.CITY]: "Kissimmee",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "34741",
+    [keys.SERVES]: [serves.WOMEN_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
