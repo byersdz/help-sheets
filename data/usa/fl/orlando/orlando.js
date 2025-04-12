@@ -75,12 +75,12 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.NAME]: "Coalition for the Homeless",
     [keys.URL]: "https://www.centralfloridahomeless.org",
     [keys.PHONE]: "4076525310",
-    [keys.DATE_CHECKED]: "2025-04-09",
+    [keys.DATE_CHECKED]: "2025-04-11",
     [keys.ADDRESS_1]: "18 North Terry Avenue",
     [keys.CITY]: "Orlando",
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "32801",
-    [keys.SERVES]: [serves.MEN],
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
   {
     [keys.NAME]: "Rescue Outreach Mission",
@@ -91,7 +91,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.CITY]: "Sanford",
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "32771",
-    [keys.SERVES]: [serves.MEN],
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
   {
     [keys.NAME]: "Salvation Army",
@@ -103,7 +103,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.CITY]: "Orlando",
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "32804",
-    [keys.SERVES]: [serves.MEN],
+    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
   },
   {
     [keys.NAME]: "H.O.M.E Orlando",
