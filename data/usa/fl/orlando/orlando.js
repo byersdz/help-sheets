@@ -27,24 +27,15 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Camillus House Day Center",
-    [keys.URL]: "https://www.camillus.org/need-help",
-    [keys.PHONE]: "3053741065",
-    [keys.DATE_CHECKED]: "2025-02-26",
-    [keys.ADDRESS_1]: "1603 NW 7th Avenue",
-    [keys.CITY]: "Miami",
+    [keys.NAME]: "Samaritan Resource Center",
+    [keys.URL]: "https://samaritanresourcecenter.org",
+    [keys.PHONE]: "4074820600",
+    [keys.DATE_CHECKED]: "2025-04-12",
+    [keys.ADDRESS_1]: "9837 E Colonial Dr.",
+    [keys.CITY]: "Orlando",
     [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "33136",
-    [keys.PROVIDES]: [
-      {
-        [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "Mon-Fri 8:30am",
-      },
-      {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Tue/Thur 12:30pm",
-      },
-    ],
+    [keys.ZIP_CODE]: "32817",
+    [keys.DESCRIPTION]: "Showers, laundry, hygiene kits, employment help, help with benefits",
   },
 ];
 
