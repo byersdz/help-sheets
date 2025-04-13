@@ -37,6 +37,23 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "32817",
     [keys.DESCRIPTION]: "Showers, laundry, hygiene kits, employment help, help with benefits",
   },
+  {
+    [keys.NAME]: "Pathways Drop In Center",
+    [keys.URL]: "https://pathlighthome.org/pathways-drop-in",
+    [keys.PHONE]: "4078435530",
+    [keys.DATE_CHECKED]: "2025-04-13",
+    [keys.ADDRESS_1]: "1313 30th Street",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32805",
+    [keys.DESCRIPTION]: "Showers, laundry, case management, employment support",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Fri noon-3pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
