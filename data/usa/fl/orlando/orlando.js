@@ -12,17 +12,6 @@ data[keys.EXCLUDE_LIST] = [
 ];
 
 data[keys.ACCESS_POINTS] = [
-  {
-    [keys.NAME]: "Homeless Assistance HELPLINE",
-    [keys.URL]: "https://www.miami.gov/My-Government/Departments/Human-Services/Homeless-Assistance",
-    [keys.PHONE]: "8779944357",
-    [keys.ADDRESS_1]: "111 NW 1st Street",
-    [keys.ADDRESS_2]: "1st Floor",
-    [keys.CITY]: "Miami",
-    [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "33128",
-    [keys.DATE_CHECKED]: "2025-02-25",
-  },
 ];
 
 data[keys.BASIC_NEEDS] = [
@@ -51,6 +40,27 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: "Meals",
         [keys.HOURS]: "Mon-Fri noon-3pm",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "The Sharing Center",
+    [keys.URL]: "https://pathlighthome.org/pathways-drop-in",
+    [keys.PHONE]: "4072609155",
+    [keys.DATE_CHECKED]: "2025-04-15",
+    [keys.ADDRESS_1]: "600 North Highway 17-92",
+    [keys.ADDRESS_2]: "Suite 130",
+    [keys.CITY]: "Longwood",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32750",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Oasis: showers, laundry, hygiene",
+        [keys.HOURS]: "Mon-Fri 8am-noon",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mon-Fri 9am-noon",
       },
     ],
   },
