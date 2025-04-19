@@ -16,6 +16,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
+    [keys.NAME]: "Daily Bread - Downtown",
+    [keys.URL]: "https://www.christianservicecenter.org/dailybread",
+    [keys.PHONE]: "4074252523",
+    [keys.DATE_CHECKED]: "2025-04-19",
+    [keys.ADDRESS_1]: "808 W. Central Blvd.",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32805",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Fri noon-1pm, Sun 11am-noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Samaritan Resource Center",
     [keys.URL]: "https://samaritanresourcecenter.org",
     [keys.PHONE]: "4074820600",
