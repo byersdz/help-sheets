@@ -32,6 +32,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Daily Bread - West Orange",
+    [keys.URL]: "https://www.christianservicecenter.org/dailybread",
+    [keys.PHONE]: "4076566678",
+    [keys.DATE_CHECKED]: "2025-04-19",
+    [keys.ADDRESS_1]: "300 West Franklin Street",
+    [keys.CITY]: "Ocoee",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "34761",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Fri 11am-noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Samaritan Resource Center",
     [keys.URL]: "https://samaritanresourcecenter.org",
     [keys.PHONE]: "4074820600",
