@@ -120,6 +120,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Loaves & Fishes",
+    [keys.URL]: "https://loavesandfishesapopka.com/need-help",
+    [keys.PHONE]: "4078866005",
+    [keys.DATE_CHECKED]: "2025-04-24",
+    [keys.ADDRESS_1]: "206 East 8th St.",
+    [keys.CITY]: "Apopka",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32703",
+    [keys.DESCRIPTION]: "Food, Toiletries, Financial Assistance",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
