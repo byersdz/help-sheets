@@ -48,6 +48,30 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Coalition for the Homeless",
+    [keys.URL]: "https://www.centralfloridahomeless.org",
+    [keys.PHONE]: "4076525300",
+    [keys.DATE_CHECKED]: "2025-04-24",
+    [keys.ADDRESS_1]: "18 North Terry Avenue",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32801",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Every day 6:45pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Men's showers and laundry",
+        [keys.HOURS]: "Mon-Thu 9am-11:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Women's showers and laundry",
+        [keys.HOURS]: "Mon-Thu 1pm-3pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Samaritan Resource Center",
     [keys.URL]: "https://samaritanresourcecenter.org",
     [keys.PHONE]: "4074820600",
@@ -124,7 +148,7 @@ data[keys.EMERGENCY_SHELTERS] = [
   {
     [keys.NAME]: "Coalition for the Homeless",
     [keys.URL]: "https://www.centralfloridahomeless.org",
-    [keys.PHONE]: "4076525310",
+    [keys.PHONE]: "4076525300",
     [keys.DATE_CHECKED]: "2025-04-11",
     [keys.ADDRESS_1]: "18 North Terry Avenue",
     [keys.CITY]: "Orlando",
