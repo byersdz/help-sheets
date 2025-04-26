@@ -132,6 +132,25 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Food, Toiletries, Financial Assistance",
   },
   {
+    [keys.NAME]: "Straight Street",
+    [keys.URL]: "https://www.straightst.org",
+    [keys.DATE_CHECKED]: "2025-04-26",
+    [keys.ADDRESS_1]: "808 W. Central Blvd.",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32805",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 11:30am-1:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon-Fri 5:30pm-7pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Second Harvest Food Bank",
     [keys.URL]: "https://www.feedhopenow.org",
     [keys.PHONE]: "4072951066",
