@@ -131,6 +131,12 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "32703",
     [keys.DESCRIPTION]: "Food, Toiletries, Financial Assistance",
   },
+  {
+    [keys.NAME]: "Second Harvest Food Bank",
+    [keys.URL]: "https://www.feedhopenow.org",
+    [keys.PHONE]: "4072951066",
+    [keys.DATE_CHECKED]: "2025-04-26",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
