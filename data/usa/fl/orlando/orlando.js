@@ -151,6 +151,17 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Agape Mission Market",
+    [keys.URL]: "https://cflcc.org/mission-markets",
+    [keys.DATE_CHECKED]: "2025-04-28",
+    [keys.PHONE]: "4076581818",
+    [keys.ADDRESS_1]: "1771 N Semoran Blvd",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32807",
+    [keys.DESCRIPTION]: "Food Pantry, appointment only",
+  },
+  {
     [keys.NAME]: "Second Harvest Food Bank",
     [keys.URL]: "https://www.feedhopenow.org",
     [keys.PHONE]: "4072951066",
