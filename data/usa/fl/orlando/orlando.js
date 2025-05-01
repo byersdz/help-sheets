@@ -173,6 +173,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Food, Clothing, Household supplies. Application required",
   },
   {
+    [keys.NAME]: "Hope Helps",
+    [keys.URL]: "https://www.hopehelps.org/resource-center",
+    [keys.DATE_CHECKED]: "2025-04-30",
+    [keys.PHONE]: "4073663422",
+    [keys.ADDRESS_1]: "812 Eyrie Drive",
+    [keys.CITY]: "Oviedo",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32765",
+    [keys.DESCRIPTION]: "Food, Clothing, Household supplies. Application required",
+  },
+  {
     [keys.NAME]: "Second Harvest Food Bank",
     [keys.URL]: "https://www.feedhopenow.org",
     [keys.PHONE]: "4072951066",
