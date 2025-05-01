@@ -162,6 +162,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Food Pantry, appointment only",
   },
   {
+    [keys.NAME]: "Harvest Time International",
+    [keys.URL]: "https://www.harvesttime.org/assistance.html",
+    [keys.DATE_CHECKED]: "2025-04-30",
+    [keys.PHONE]: "4078785531",
+    [keys.ADDRESS_1]: "225 Harvest Time Drive",
+    [keys.CITY]: "Sanford",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32771",
+    [keys.DESCRIPTION]: "Food, Clothing, Household supplies. Application required",
+  },
+  {
     [keys.NAME]: "Second Harvest Food Bank",
     [keys.URL]: "https://www.feedhopenow.org",
     [keys.PHONE]: "4072951066",
