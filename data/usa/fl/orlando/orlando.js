@@ -151,6 +151,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Christian HELP",
+    [keys.URL]: "https://www.christianhelp.org",
+    [keys.DATE_CHECKED]: "2025-05-02",
+    [keys.PHONE]: "4078344022",
+    [keys.ADDRESS_1]: "450 Seminola Blvd",
+    [keys.CITY]: "Casselberry",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32707",
+    [keys.DESCRIPTION]: "Also provides employment services",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue-Fri 9:30am-1:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Agape Mission Market",
     [keys.URL]: "https://cflcc.org/mission-markets",
     [keys.DATE_CHECKED]: "2025-04-28",
