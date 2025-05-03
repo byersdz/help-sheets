@@ -201,6 +201,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Food, Clothing, Household supplies. Application required",
   },
   {
+    [keys.NAME]: "Pearlman Food Pantry",
+    [keys.URL]: "https://jfsorlando.org/services/pearlman-food-pantry",
+    [keys.DATE_CHECKED]: "2025-05-02",
+    [keys.PHONE]: "4076447593",
+    [keys.ADDRESS_1]: "2100 Lee Road",
+    [keys.CITY]: "Winter Park",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32789",
+    [keys.DESCRIPTION]: "Food pantry, appointment required",
+  },
+  {
     [keys.NAME]: "Second Harvest Food Bank",
     [keys.URL]: "https://www.feedhopenow.org",
     [keys.PHONE]: "4072951066",
