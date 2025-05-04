@@ -311,6 +311,16 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "32806",
   },
+  {
+    [keys.NAME]: "Osceola Human Services Emergency Rental Assistance Program",
+    [keys.URL]: "https://www.osceola.org/Services/Housing-Programs/Community-Development-Block-Grant/CDBG-Emergency-Rental-Assistance-Program",
+    [keys.DATE_CHECKED]: "2025-05-03",
+    [keys.PHONE]: "4077428414",
+    [keys.ADDRESS_1]: "1392 E Vine St.",
+    [keys.CITY]: "Kissimmee",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "34744",
+  },
 ];
 
 module.exports = data;
