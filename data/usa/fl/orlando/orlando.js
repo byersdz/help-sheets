@@ -301,7 +301,16 @@ data[keys.EMERGENCY_SHELTERS] = [
 ];
 
 data[keys.RESOURCES] = [
-
+  {
+    [keys.NAME]: "Orange County Energy Bill Assistance",
+    [keys.URL]: "https://www.orangecountyfl.net/FamiliesHealthSocialSvcs/EnergyBillAssistance.aspx",
+    [keys.DATE_CHECKED]: "2025-05-03",
+    [keys.PHONE]: "4078367429",
+    [keys.ADDRESS_1]: "2100 E Michigan Street",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32806",
+  },
 ];
 
 module.exports = data;
