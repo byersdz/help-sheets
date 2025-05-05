@@ -321,6 +321,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "34744",
   },
+  {
+    [keys.NAME]: "Orange County Crisis Assistance Program",
+    [keys.URL]: "https://www.ocfl.net/FamiliesHealthSocialSvcs/CrisisAssistanceProgram.aspx",
+    [keys.DATE_CHECKED]: "2025-05-04",
+    [keys.PHONE]: "4078366500",
+    [keys.ADDRESS_1]: "2100 E Michigan Street",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32806",
+    [keys.DESCRIPTION]: "Rent and utility assistance",
+  },
 ];
 
 module.exports = data;
