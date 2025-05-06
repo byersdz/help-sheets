@@ -332,6 +332,18 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "32806",
     [keys.DESCRIPTION]: "Rent and utility assistance",
   },
+  {
+    [keys.NAME]: "Seminole County Community Assistance",
+    [keys.URL]: "https://www.seminolecountyfl.gov/departments-services/community-services/community-assistance/",
+    [keys.DATE_CHECKED]: "2025-05-06",
+    [keys.PHONE]: "4076652300",
+    [keys.ADDRESS_1]: "520 W. Lake Mary Blvd",
+    [keys.ADDRESS_2]: "Suite 100 ",
+    [keys.CITY]: "Sanford",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32773",
+    [keys.DESCRIPTION]: "Rent and utility assistance",
+  },
 ];
 
 module.exports = data;
