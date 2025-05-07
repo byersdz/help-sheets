@@ -344,6 +344,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "32773",
     [keys.DESCRIPTION]: "Rent and utility assistance",
   },
+  {
+    [keys.NAME]: "Heart of Florida United Way",
+    [keys.URL]: "https://www.hfuw.org/get-help/financial-assistance",
+    [keys.DATE_CHECKED]: "2025-05-06",
+    [keys.PHONE]: "4078350900",
+    [keys.ADDRESS_1]: "1940 Cannery Way",
+    [keys.CITY]: "Orlando",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "32804",
+    [keys.DESCRIPTION]: "Utility assistance",
+  },
 ];
 
 module.exports = data;
