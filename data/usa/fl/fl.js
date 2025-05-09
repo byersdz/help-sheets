@@ -2,6 +2,7 @@ const { keys, languageCodes, priorities } = require( "../../../constants" );
 const jacksonville = require( "./jacksonville/jacksonville" );
 const miami = require( "./miami/miami" );
 const orlando = require( "./orlando/orlando" );
+const tampa = require( "./tampa/tampa" );
 
 const data = {};
 
@@ -11,7 +12,7 @@ data[keys.URL_NAME] = "fl";
 data[keys.DEFAULT_LANGUAGE] = languageCodes.ENGLISH;
 data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
-data[keys.CITIES] = [jacksonville, miami, orlando];
+data[keys.CITIES] = [jacksonville, miami, orlando, tampa];
 
 data[keys.EXCLUDE_LIST] = [];
 
