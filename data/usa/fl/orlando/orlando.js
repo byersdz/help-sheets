@@ -355,6 +355,12 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "32804",
     [keys.DESCRIPTION]: "Utility assistance",
   },
+  {
+    [keys.NAME]: "St. Vincent de Paul",
+    [keys.URL]: "https://svdporlando.org",
+    [keys.DATE_CHECKED]: "2025-05-08",
+    [keys.PHONE]: "4078894706",
+  },
 ];
 
 module.exports = data;
