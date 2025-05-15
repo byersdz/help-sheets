@@ -35,15 +35,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Orlando Rescue Mission Project Hope",
-    [keys.URL]: "https://www.ourm.org/need-help",
-    [keys.PHONE]: "4074233596",
-    [keys.DATE_CHECKED]: "2025-04-09",
-    [keys.ADDRESS_1]: "3300 W. Colonial Dr.",
-    [keys.CITY]: "Orlando",
+    [keys.NAME]: "Catholic Charities Tampa Hope",
+    [keys.URL]: "https://www.ccdosp.org/tampa-hope",
+    [keys.PHONE]: "8133942881",
+    [keys.DATE_CHECKED]: "2025-05-14",
+    [keys.ADDRESS_1]: "3704 E. 3rd Avenue",
+    [keys.CITY]: "Tampa",
     [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "32808",
-    [keys.SERVES]: [serves.MEN],
+    [keys.ZIP_CODE]: "33605",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
 
