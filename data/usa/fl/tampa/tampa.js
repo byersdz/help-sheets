@@ -45,6 +45,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "33605",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "The Spring",
+    [keys.URL]: "https://thespring.org/get-help/shelter",
+    [keys.PHONE]: "8132477233",
+    [keys.DATE_CHECKED]: "2025-05-14",
+    [keys.DESCRIPTION]: "Shelter for survivors of domestic violence and their children",
+  },
 ];
 
 data[keys.RESOURCES] = [
