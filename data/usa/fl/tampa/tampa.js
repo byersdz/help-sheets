@@ -52,6 +52,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2025-05-14",
     [keys.DESCRIPTION]: "Shelter for survivors of domestic violence and their children",
   },
+  {
+    [keys.NAME]: "The Community Housing Solutions Center",
+    [keys.URL]: "https://www.covebh.org/community-housing-solutions-center",
+    [keys.PHONE]: "8136218781",
+    [keys.DATE_CHECKED]: "2025-05-15",
+    [keys.ADDRESS_1]: "3630 N. 50th Street",
+    [keys.CITY]: "Tampa",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33619",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
