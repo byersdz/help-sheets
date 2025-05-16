@@ -63,6 +63,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "33619",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Metropolitan Ministries",
+    [keys.URL]: "https://www.metromin.org/get-help",
+    [keys.PHONE]: "8132091000",
+    [keys.DATE_CHECKED]: "2025-05-15",
+    [keys.ADDRESS_1]: "2002 N. Florida Ave",
+    [keys.CITY]: "Tampa",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33602",
+    [keys.SERVES]: [serves.WOMEN, serves.FAMILIES_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
