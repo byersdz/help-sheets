@@ -74,6 +74,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "33602",
     [keys.SERVES]: [serves.WOMEN, serves.FAMILIES_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://southernusa.salvationarmy.org/florida",
+    [keys.PHONE]: "8135490641",
+    [keys.DATE_CHECKED]: "2025-05-16",
+    [keys.ADDRESS_1]: "1514 N. Florida Avenue",
+    [keys.CITY]: "Tampa",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33602",
+  },
 ];
 
 data[keys.RESOURCES] = [
