@@ -84,6 +84,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "33602",
   },
+  {
+    [keys.NAME]: "St. Vincent de Paul CARE Center",
+    [keys.URL]: "https://www.svdpsp.org/programs/homeless-services/care-center",
+    [keys.PHONE]: "7279548676",
+    [keys.DATE_CHECKED]: "2025-05-20",
+    [keys.ADDRESS_1]: "401 15th St N",
+    [keys.CITY]: "St. Petersburg",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33705",
+  },
 ];
 
 data[keys.RESOURCES] = [
