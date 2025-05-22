@@ -94,6 +94,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "FL",
     [keys.ZIP_CODE]: "33705",
   },
+  {
+    [keys.NAME]: "Dawning Family Services",
+    [keys.URL]: "https://www.dawningfamilyservices.org/get-help",
+    [keys.PHONE]: "8138752024",
+    [keys.DATE_CHECKED]: "2025-05-22",
+    [keys.ADDRESS_1]: "6718 N Armenia Ave",
+    [keys.CITY]: "Tampa",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33604",
+    [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
