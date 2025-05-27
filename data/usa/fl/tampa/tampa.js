@@ -16,18 +16,54 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Daily Bread - Downtown",
-    [keys.URL]: "https://www.christianservicecenter.org/dailybread",
-    [keys.PHONE]: "4074252523",
-    [keys.DATE_CHECKED]: "2025-04-19",
-    [keys.ADDRESS_1]: "808 W. Central Blvd.",
-    [keys.CITY]: "Orlando",
+    [keys.NAME]: "Trinity Cafe Nebraska",
+    [keys.URL]: "https://feedingtampabay.org/ways-we-serve/trinity-cafe",
+    [keys.PHONE]: "8132541190",
+    [keys.DATE_CHECKED]: "2025-05-26",
+    [keys.ADDRESS_1]: "2801 N. Nebraska Ave.",
+    [keys.CITY]: "Tampa",
     [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "32805",
+    [keys.ZIP_CODE]: "33602",
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: "Meals",
-        [keys.HOURS]: "Mon-Fri noon-1pm, Sun 11am-noon",
+        [keys.HOURS]: "Mon-Fri 11:30am-12:30pm, Sat/Sun 9am-10am",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Trinity Cafe at Feeding Pinellas",
+    [keys.URL]: "https://feedingtampabay.org/ways-we-serve/trinity-cafe",
+    [keys.PHONE]: "8132541190",
+    [keys.DATE_CHECKED]: "2025-05-26",
+    [keys.ADDRESS_1]: "6330 54th Ave N.",
+    [keys.CITY]: "St. Petersburg",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33709",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Fri 11:30am-12:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Thur/Fri 1:30pm-4:30pm",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "The Bistro at Causeway Center",
+    [keys.URL]: "https://feedingtampabay.org/ways-we-serve/trinity-cafe",
+    [keys.PHONE]: "8132541190",
+    [keys.DATE_CHECKED]: "2025-05-26",
+    [keys.ADDRESS_1]: "3624 Causeway Blvd",
+    [keys.CITY]: "Tampa",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33619",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon/Wed 11am-2pm",
       },
     ],
   },
