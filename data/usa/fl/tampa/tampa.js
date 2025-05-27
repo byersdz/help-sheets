@@ -31,6 +31,12 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Feeding Tampa Bay",
+    [keys.URL]: "https://feedingtampabay.org",
+    [keys.PHONE]: "8132541190",
+    [keys.DATE_CHECKED]: "2025-05-26",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
