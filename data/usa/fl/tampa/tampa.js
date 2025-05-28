@@ -68,6 +68,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Metropolitan Ministries Metro Market",
+    [keys.URL]: "https://www.metromin.org/get-help",
+    [keys.PHONE]: "8132091200",
+    [keys.DATE_CHECKED]: "2025-05-15",
+    [keys.ADDRESS_1]: "2301 N Tampa St",
+    [keys.CITY]: "Tampa",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33602",
+    [keys.DESCRIPTION]: "Also provide meals in multiple locations, see website for details",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Groceries",
+        [keys.HOURS]: "Mon-Fri 9am-5pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Feeding Tampa Bay",
     [keys.URL]: "https://feedingtampabay.org",
     [keys.PHONE]: "8132541190",
