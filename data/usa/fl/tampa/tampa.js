@@ -101,6 +101,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Clearview UMC",
+    [keys.URL]: "https://clearviewumc.org/food",
+    [keys.PHONE]: "7275224673",
+    [keys.DATE_CHECKED]: "2025-06-04",
+    [keys.ADDRESS_1]: "4515 38th Ave N",
+    [keys.CITY]: "St. Petersburg",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33713",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Free Food",
+        [keys.HOURS]: "Sat 8:15am-noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Feeding Tampa Bay",
     [keys.URL]: "https://feedingtampabay.org",
     [keys.PHONE]: "8132541190",
