@@ -85,6 +85,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Beaming Hope Church",
+    [keys.URL]: "https://beaminghope.org",
+    [keys.PHONE]: "7272163364",
+    [keys.DATE_CHECKED]: "2025-06-04",
+    [keys.ADDRESS_1]: "11000 110TH Ave N",
+    [keys.CITY]: "Largo",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33778",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Groceries",
+        [keys.HOURS]: "Tue 11:30am-12:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Feeding Tampa Bay",
     [keys.URL]: "https://feedingtampabay.org",
     [keys.PHONE]: "8132541190",
