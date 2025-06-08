@@ -117,6 +117,17 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Daystar Life Center",
+    [keys.URL]: "https://daystarlife.org",
+    [keys.PHONE]: "7278250442",
+    [keys.DATE_CHECKED]: "2025-06-08",
+    [keys.ADDRESS_1]: "1055 28th Street South",
+    [keys.CITY]: "St. Petersburg",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33712",
+    [keys.DESCRIPTION]: "Food Pantry, Clothing Closet, Rent/Utility Assistance",
+  },
+  {
     [keys.NAME]: "Feeding Tampa Bay",
     [keys.URL]: "https://feedingtampabay.org",
     [keys.PHONE]: "8132541190",
