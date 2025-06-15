@@ -144,6 +144,16 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "St. Vincent de Paul Community Kitchen",
+    [keys.URL]: "https://clearwatersvdp.org/kitchen",
+    [keys.PHONE]: "7274413790",
+    [keys.DATE_CHECKED]: "2025-06-15",
+    [keys.ADDRESS_1]: "1345 Park Street",
+    [keys.CITY]: "Clearwater",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33756",
+  },
+  {
     [keys.NAME]: "Feeding Tampa Bay",
     [keys.URL]: "https://feedingtampabay.org",
     [keys.PHONE]: "8132541190",
