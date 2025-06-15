@@ -128,6 +128,22 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Food Pantry, Clothing Closet, Rent/Utility Assistance",
   },
   {
+    [keys.NAME]: "Hope Villiages of America",
+    [keys.URL]: "https://hopevillagesofamerica.org/help/#food",
+    [keys.PHONE]: "7274434031",
+    [keys.DATE_CHECKED]: "2025-06-15",
+    [keys.ADDRESS_1]: "700 Druid Road",
+    [keys.CITY]: "Clearwater",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33756",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mon-Fri 12:30pm-3:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Feeding Tampa Bay",
     [keys.URL]: "https://feedingtampabay.org",
     [keys.PHONE]: "8132541190",
