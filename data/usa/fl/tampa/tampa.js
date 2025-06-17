@@ -144,6 +144,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Wesley UMC",
+    [keys.URL]: "https://www.wesleystpete.org/food-pantry-thrift-store-aa-more",
+    [keys.PHONE]: "7278964797",
+    [keys.DATE_CHECKED]: "2025-06-16",
+    [keys.ADDRESS_1]: "301 37th Avenue North",
+    [keys.CITY]: "St. Petersburg",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33704",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mon/Wed/Fri 9am-noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "St. Vincent de Paul Community Kitchen",
     [keys.URL]: "https://clearwatersvdp.org/kitchen",
     [keys.PHONE]: "7274413790",
