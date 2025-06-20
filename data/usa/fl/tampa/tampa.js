@@ -253,14 +253,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Orange County Energy Bill Assistance",
-    [keys.URL]: "https://www.orangecountyfl.net/FamiliesHealthSocialSvcs/EnergyBillAssistance.aspx",
-    [keys.DATE_CHECKED]: "2025-05-03",
-    [keys.PHONE]: "4078367429",
-    [keys.ADDRESS_1]: "2100 E Michigan Street",
-    [keys.CITY]: "Orlando",
+    [keys.NAME]: "Operation PAR",
+    [keys.URL]: "https://www.operationpar.org",
+    [keys.PHONE]: "7275244311",
+    [keys.DATE_CHECKED]: "2025-06-19",
+    [keys.ADDRESS_1]: "6150 150th Ave N",
+    [keys.CITY]: "Clearwater",
     [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "32806",
+    [keys.ZIP_CODE]: "33760",
+    [keys.DESCRIPTION]: "Substance abuse recovery",
   },
 ];
 
