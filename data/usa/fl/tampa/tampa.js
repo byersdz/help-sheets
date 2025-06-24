@@ -263,6 +263,18 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "33760",
     [keys.DESCRIPTION]: "Substance abuse recovery",
   },
+  {
+    [keys.NAME]: "Pinellas Ex-offender Re-entry Coalition",
+    [keys.URL]: "https://exoffender.org",
+    [keys.PHONE]: "8555057372",
+    [keys.DATE_CHECKED]: "2025-06-24",
+    [keys.ADDRESS_1]: "12810 US HWY 19 N",
+    [keys.ADDRESS_2]: "Suite 1",
+    [keys.CITY]: "Clearwater",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33764",
+    [keys.DESCRIPTION]: "Job, housing, and education assistance for ex-offenders",
+  },
 ];
 
 module.exports = data;
