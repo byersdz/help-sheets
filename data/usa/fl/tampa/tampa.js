@@ -276,6 +276,17 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Job, housing, and education assistance for ex-offenders",
   },
   {
+    [keys.NAME]: "Gulf Coast Jewish Family and Community Services",
+    [keys.URL]: "https://gulfcoastjfcs.org",
+    [keys.PHONE]: "7274791800",
+    [keys.DATE_CHECKED]: "2025-07-04",
+    [keys.ADDRESS_1]: "14041 Icot Boulevard",
+    [keys.CITY]: "Clearwater",
+    [keys.STATE]: "FL",
+    [keys.ZIP_CODE]: "33760",
+    [keys.DESCRIPTION]: "affordable housing, rent and utility assistance, and more",
+  },
+  {
     [keys.NAME]: "Reach St. Pete",
     [keys.URL]: "https://reachstpete.org/get-help",
     [keys.PHONE]: "7272758655",
