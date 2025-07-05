@@ -275,6 +275,13 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "33764",
     [keys.DESCRIPTION]: "Job, housing, and education assistance for ex-offenders",
   },
+  {
+    [keys.NAME]: "Reach St. Pete",
+    [keys.URL]: "https://reachstpete.org/get-help",
+    [keys.PHONE]: "7272758655",
+    [keys.DATE_CHECKED]: "2025-07-04",
+    [keys.DESCRIPTION]: "Limited utility and rent assistance",
+  },
 ];
 
 module.exports = data;
