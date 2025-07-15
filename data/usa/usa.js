@@ -3,6 +3,7 @@ const alabama = require( './al/al' );
 const florida = require( './fl/fl' );
 const georgia = require( './ga/ga' );
 const kentucky = require( './ky/ky' );
+const louisiana = require( './la/la' );
 const maryland = require( './md/md' );
 const massachussetts = require( './ma/ma' );
 const newYork = require( './ny/ny' );
@@ -26,6 +27,7 @@ data[keys.STATES] = [
   florida,
   georgia,
   kentucky,
+  louisiana,
   maryland,
   massachussetts,
   newYork,
