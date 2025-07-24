@@ -45,6 +45,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "70113",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Ozanam Inn",
+    [keys.URL]: "https://www.ozanaminn.org",
+    [keys.PHONE]: "5045231184",
+    [keys.DATE_CHECKED]: "2025-07-23",
+    [keys.ADDRESS_1]: "2239 Poydras Street",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70119",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
