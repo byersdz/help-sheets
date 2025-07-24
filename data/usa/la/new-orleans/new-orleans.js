@@ -56,6 +56,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "70119",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Salvation Army Center of Hope",
+    [keys.URL]: "https://southernusa.salvationarmy.org/new-orleans/center-of-hope",
+    [keys.PHONE]: "5048994569",
+    [keys.DATE_CHECKED]: "2025-07-23",
+    [keys.ADDRESS_1]: "4500 S. Claiborne Ave",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70125",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
