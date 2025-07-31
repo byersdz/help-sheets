@@ -78,6 +78,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "70112",
     [keys.DESCRIPTION]: "Serves ages 16-22",
   },
+  {
+    [keys.NAME]: "Hagar's House",
+    [keys.URL]: "https://fgca.squarespace.com/about/news/hagarshouse",
+    [keys.PHONE]: "5042105064",
+    [keys.DATE_CHECKED]: "2025-07-30",
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN, serves.TRANSGENDER],
+  },
 ];
 
 data[keys.RESOURCES] = [

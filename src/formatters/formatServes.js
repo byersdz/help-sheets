@@ -18,6 +18,7 @@ displayStrings[serves.AGE_12_TO_27] = 'Ages 12 to 17';
 displayStrings[serves.AGE_18_TO_22] = 'Ages 18 to 22';
 displayStrings[serves.SINGLE_MOTHERS] = 'Single Mothers';
 displayStrings[serves.SINGLE_FATHERS] = 'Single Fathers';
+displayStrings[serves.TRANSGENDER] = 'Trans';
 
 function formatServes( servesData ) {
   let result = 'Serves:';

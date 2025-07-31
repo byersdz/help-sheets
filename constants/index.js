@@ -83,6 +83,7 @@ serves.AGE_12_TO_27 = 'age12To17';
 serves.AGE_18_TO_22 = 'age18To22';
 serves.SINGLE_MOTHERS = 'singleMothers';
 serves.SINGLE_FATHERS = 'singleFathers';
+serves.TRANSGENDER = 'transgender';
 
 constants.keys = keys;
 constants.languageCodes = languageCodes;
