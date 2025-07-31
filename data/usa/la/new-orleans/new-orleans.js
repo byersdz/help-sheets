@@ -85,6 +85,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2025-07-30",
     [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN, serves.TRANSGENDER],
   },
+  {
+    [keys.NAME]: "Metro Mission",
+    [keys.URL]: "http://www.mccagno.org/",
+    [keys.PHONE]: "8884111333",
+    [keys.DATE_CHECKED]: "2025-07-30",
+    [keys.DESCRIPTION]: "Domestic violence shelter",
+  },
 ];
 
 data[keys.RESOURCES] = [
