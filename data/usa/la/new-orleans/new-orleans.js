@@ -67,6 +67,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "70125",
     [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Covenant House",
+    [keys.URL]: "https://www.covenanthousenola.org/get-help-now",
+    [keys.PHONE]: "5045841111",
+    [keys.DATE_CHECKED]: "2025-07-30",
+    [keys.ADDRESS_1]: "611 North Rampart Street",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70112",
+    [keys.DESCRIPTION]: "Serves ages 16-22",
+  },
 ];
 
 data[keys.RESOURCES] = [
