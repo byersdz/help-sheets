@@ -16,18 +16,19 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Trinity Cafe Nebraska",
-    [keys.URL]: "https://feedingtampabay.org/ways-we-serve/trinity-cafe",
-    [keys.PHONE]: "8132541190",
-    [keys.DATE_CHECKED]: "2025-05-26",
-    [keys.ADDRESS_1]: "2801 N. Nebraska Ave.",
-    [keys.CITY]: "Tampa",
-    [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "33602",
+    [keys.NAME]: "Lantern Light",
+    [keys.URL]: "https://www.lanternlight.org",
+    [keys.PHONE]: "5042735573",
+    [keys.PHONE_EXTENSION]: "115",
+    [keys.DATE_CHECKED]: "2025-07-31",
+    [keys.ADDRESS_1]: "1803 Gravier St.",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70112",
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: "Meals",
-        [keys.HOURS]: "Mon-Fri 11:30am-12:30pm, Sat/Sun 9am-10am",
+        [keys.HOURS]: "Mon-Fri 1pm (door closes at 1pm)",
       },
     ],
   },
