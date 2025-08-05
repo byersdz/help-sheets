@@ -32,6 +32,32 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Ozanam Inn",
+    [keys.URL]: "https://www.ozanaminn.org",
+    [keys.PHONE]: "5045231184",
+    [keys.DATE_CHECKED]: "2025-07-23",
+    [keys.ADDRESS_1]: "2239 Poydras Street",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70119",
+    [keys.DESCRIPTION]: "Also provides clothing",
+
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Everyday 6am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Everyday 2pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Everyday 6pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
