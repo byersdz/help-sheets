@@ -36,13 +36,12 @@ data[keys.BASIC_NEEDS] = [
     [keys.NAME]: "Ozanam Inn",
     [keys.URL]: "https://www.ozanaminn.org",
     [keys.PHONE]: "5045231184",
-    [keys.DATE_CHECKED]: "2025-07-23",
+    [keys.DATE_CHECKED]: "2025-08-04",
     [keys.ADDRESS_1]: "2239 Poydras Street",
     [keys.CITY]: "New Orleans",
     [keys.STATE]: "LA",
     [keys.ZIP_CODE]: "70119",
     [keys.DESCRIPTION]: "Also provides clothing",
-
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: "Breakfast",
@@ -55,6 +54,22 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: "Dinner",
         [keys.HOURS]: "Everyday 6pm",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "St. George's Episcopal",
+    [keys.URL]: "https://www.stgeorge-nola.org/outreach-ministries",
+    [keys.PHONE]: "5048992811",
+    [keys.DATE_CHECKED]: "2025-08-04",
+    [keys.ADDRESS_1]: "4600 St. Charles Avenue",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70115",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Thur 9am-10:30am, Sun 8:30am-9:30am",
       },
     ],
   },
