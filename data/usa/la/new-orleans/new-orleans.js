@@ -190,15 +190,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Operation PAR",
-    [keys.URL]: "https://www.operationpar.org",
-    [keys.PHONE]: "7275244311",
-    [keys.DATE_CHECKED]: "2025-06-19",
-    [keys.ADDRESS_1]: "6150 150th Ave N",
-    [keys.CITY]: "Clearwater",
-    [keys.STATE]: "FL",
-    [keys.ZIP_CODE]: "33760",
-    [keys.DESCRIPTION]: "Substance abuse recovery",
+    [keys.NAME]: "Health Care for the Homeless",
+    [keys.URL]: "https://nola.gov/next/health-care-for-the-homeless/home",
+    [keys.PHONE]: "5046582785",
+    [keys.DATE_CHECKED]: "2025-08-08",
+    [keys.ADDRESS_1]: "2222 Simon Bolivar Ave",
+    [keys.ADDRESS_2]: "2nd Floor",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70113",
   },
 ];
 
