@@ -200,6 +200,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "LA",
     [keys.ZIP_CODE]: "70113",
   },
+  {
+    [keys.NAME]: "Harry Tompson Center",
+    [keys.URL]: "https://www.harrytompsoncenter.org",
+    [keys.PHONE]: "5042735547",
+    [keys.DATE_CHECKED]: "2025-08-08",
+    [keys.ADDRESS_1]: "1803 Gravier St.",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70112",
+    [keys.DESCRIPTION]: "Day Shelter",
+  },
 ];
 
 module.exports = data;
