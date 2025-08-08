@@ -73,6 +73,38 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Giving Hope East",
+    [keys.URL]: "https://givinghopenola.org",
+    [keys.PHONE]: "5049401592",
+    [keys.DATE_CHECKED]: "2025-08-08",
+    [keys.ADDRESS_1]: "13040 I-10 Service Road",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70128",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Thurs-Sat 8am-noon",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Giving Hope West Bank",
+    [keys.URL]: "https://givinghopenola.org",
+    [keys.PHONE]: "5049401592",
+    [keys.DATE_CHECKED]: "2025-08-08",
+    [keys.ADDRESS_1]: "5151 Lapalco Blvd.",
+    [keys.CITY]: "Marrero",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70072",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mon-Wed 10am-2pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
