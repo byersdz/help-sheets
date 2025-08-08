@@ -105,6 +105,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Grace at the Greenlight",
+    [keys.URL]: "https://graceatthegreenlight.org",
+    [keys.PHONE]: "5042394544",
+    [keys.DATE_CHECKED]: "2025-08-08",
+    [keys.ADDRESS_1]: "400 N. Rampart St.",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70112",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Every day 6:30am-7:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing Closet",
+        [keys.HOURS]: "Tue/Thur/Sun 6:30am-7:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
