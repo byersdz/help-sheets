@@ -223,6 +223,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "70119",
     [keys.DESCRIPTION]: "Temporary grant for rent/utilities/deposit assistance",
   },
+  {
+    [keys.NAME]: "Traveler's Aid Society",
+    [keys.URL]: "https://travelersaidsocietyneworleans.org",
+    [keys.PHONE]: "5046582944",
+    [keys.DATE_CHECKED]: "2025-08-11",
+    [keys.ADDRESS_1]: "1530 Gravier St",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70112",
+    [keys.DESCRIPTION]: "Housing resources",
+  },
 ];
 
 module.exports = data;
