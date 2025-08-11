@@ -211,6 +211,18 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "70112",
     [keys.DESCRIPTION]: "Day Shelter",
   },
+  {
+    [keys.NAME]: "Unity of Greater New Orleans",
+    [keys.URL]: "https://unitygno.org",
+    [keys.PHONE]: "5048214496",
+    [keys.DATE_CHECKED]: "2025-08-11",
+    [keys.ADDRESS_1]: "2475 Canal Street",
+    [keys.ADDRESS_2]: "Suite 300",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70119",
+    [keys.DESCRIPTION]: "Temporary grant for rent/utilities/deposit assistance",
+  },
 ];
 
 module.exports = data;
