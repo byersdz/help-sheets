@@ -234,6 +234,13 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "70112",
     [keys.DESCRIPTION]: "Housing resources",
   },
+  {
+    [keys.NAME]: "Catholic Charities Archdiocese of New Orleans",
+    [keys.URL]: "https://www.ccano.org",
+    [keys.PHONE]: "8668912210",
+    [keys.DATE_CHECKED]: "2025-08-12",
+    [keys.DESCRIPTION]: "Case management, direct assistance",
+  },
 ];
 
 module.exports = data;
