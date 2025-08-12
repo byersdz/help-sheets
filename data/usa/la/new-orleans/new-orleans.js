@@ -241,6 +241,12 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2025-08-12",
     [keys.DESCRIPTION]: "Case management, direct assistance",
   },
+  {
+    [keys.NAME]: "City of Kenner Community Resource Centers",
+    [keys.URL]: "https://www.kenner.la.us/469/3844/Community-Resource-Centers",
+    [keys.PHONE]: "5044687564",
+    [keys.DATE_CHECKED]: "2025-08-12",
+  },
 ];
 
 module.exports = data;
