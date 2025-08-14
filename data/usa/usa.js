@@ -12,6 +12,7 @@ const ohio = require( './oh/oh' );
 const pennsylvania = require( './pa/pa' );
 const southCarolina = require( './sc/sc' );
 const tennessee = require( './tn/tn' );
+const texas = require( './tx/tx' );
 const virginia = require( './va/va' );
 
 const data = {};
@@ -36,6 +37,7 @@ data[keys.STATES] = [
   pennsylvania,
   southCarolina,
   tennessee,
+  texas,
   virginia,
 ];
 
