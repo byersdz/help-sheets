@@ -251,8 +251,19 @@ data[keys.RESOURCES] = [
     [keys.NAME]: "Jefferson Community Action Programs",
     [keys.URL]: "https://www.jeffparish.gov/358/Community-Centers",
     [keys.PHONE]: "5047366900",
-    [keys.DATE_CHECKED]: "2025-08-12",
+    [keys.DATE_CHECKED]: "2025-08-13",
     [keys.DESCRIPTION]: "Community Centers. Emergency food assistance, rent/utility assistance",
+  },
+  {
+    [keys.NAME]: "Total Community Action, Inc.",
+    [keys.URL]: "https://www.tca-nola.org",
+    [keys.PHONE]: "5048720334",
+    [keys.DATE_CHECKED]: "2025-08-13",
+    [keys.DESCRIPTION]: "Energy/rent assistance, job counseling, elderly/disabled transport",
+    [keys.ADDRESS_1]: "1420 S Norman C. Francis Pkwy",
+    [keys.CITY]: "New Orleans",
+    [keys.STATE]: "LA",
+    [keys.ZIP_CODE]: "70125",
   },
 ];
 
