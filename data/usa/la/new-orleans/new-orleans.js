@@ -247,6 +247,13 @@ data[keys.RESOURCES] = [
     [keys.PHONE]: "5044687564",
     [keys.DATE_CHECKED]: "2025-08-12",
   },
+  {
+    [keys.NAME]: "Jefferson Community Action Programs",
+    [keys.URL]: "https://www.jeffparish.gov/358/Community-Centers",
+    [keys.PHONE]: "5047366900",
+    [keys.DATE_CHECKED]: "2025-08-12",
+    [keys.DESCRIPTION]: "Community Centers. Emergency food assistance, rent/utility assistance",
+  },
 ];
 
 module.exports = data;
