@@ -36,15 +36,26 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "New Orleans Mission",
-    [keys.URL]: "https://neworleansmission.org",
-    [keys.PHONE]: "5045232116",
-    [keys.DATE_CHECKED]: "2025-07-18",
-    [keys.ADDRESS_1]: "1130 Oretha Castle Haley Blvd.",
-    [keys.CITY]: "New Orleans",
-    [keys.STATE]: "LA",
-    [keys.ZIP_CODE]: "70113",
-    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.NAME]: "Star of Hope",
+    [keys.URL]: "https://www.sohmission.org",
+    [keys.PHONE]: "7137480700",
+    [keys.DATE_CHECKED]: "2025-08-17",
+    [keys.ADDRESS_1]: "1811 Ruiz St.",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77002",
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
+    [keys.NAME]: "Star of Hope Women and Family",
+    [keys.URL]: "https://www.sohmission.org",
+    [keys.PHONE]: "7137480700",
+    [keys.DATE_CHECKED]: "2025-08-17",
+    [keys.ADDRESS_1]: "2575 Reed Road",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77051",
+    [keys.SERVES]: [serves.WOMEN, serves.FAMILIES],
   },
 ];
 
