@@ -57,6 +57,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "77051",
     [keys.SERVES]: [serves.WOMEN, serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Magnificat House",
+    [keys.URL]: "https://mhihouston.org/need-assistance",
+    [keys.PHONE]: "7135294231",
+    [keys.DATE_CHECKED]: "2025-08-19",
+    [keys.ADDRESS_1]: "1410 Elgin St",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77004",
+  },
 ];
 
 data[keys.RESOURCES] = [
