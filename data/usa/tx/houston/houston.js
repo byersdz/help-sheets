@@ -67,19 +67,15 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "TX",
     [keys.ZIP_CODE]: "77004",
   },
+
 ];
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Health Care for the Homeless",
-    [keys.URL]: "https://nola.gov/next/health-care-for-the-homeless/home",
-    [keys.PHONE]: "5046582785",
-    [keys.DATE_CHECKED]: "2025-08-08",
-    [keys.ADDRESS_1]: "2222 Simon Bolivar Ave",
-    [keys.ADDRESS_2]: "2nd Floor",
-    [keys.CITY]: "New Orleans",
-    [keys.STATE]: "LA",
-    [keys.ZIP_CODE]: "70113",
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://salvationarmyhouston.org",
+    [keys.PHONE]: "7132242875",
+    [keys.DATE_CHECKED]: "2025-08-19",
   },
 ];
 
