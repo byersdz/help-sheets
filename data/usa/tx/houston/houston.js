@@ -67,7 +67,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "TX",
     [keys.ZIP_CODE]: "77004",
   },
-
+  {
+    [keys.NAME]: "Bay Area Homeless Services",
+    [keys.URL]: "https://bahs-shelter.org",
+    [keys.PHONE]: "2818371654",
+    [keys.DATE_CHECKED]: "2025-08-21",
+    [keys.ADDRESS_1]: "3406 Wisconsin St",
+    [keys.CITY]: "Baytown",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77520",
+  },
 ];
 
 data[keys.RESOURCES] = [
