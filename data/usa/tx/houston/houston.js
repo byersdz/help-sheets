@@ -88,6 +88,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "77338",
     [keys.SERVES]: [serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "The Mission of Yahweh",
+    [keys.URL]: "https://missionofyahweh.org",
+    [keys.PHONE]: "7139300667",
+    [keys.DATE_CHECKED]: "2025-08-25",
+    [keys.ADDRESS_1]: "10247 Algiers Road",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77041",
+    [keys.SERVES]: [serves.WOMEN_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
