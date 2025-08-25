@@ -77,6 +77,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "TX",
     [keys.ZIP_CODE]: "77520",
   },
+  {
+    [keys.NAME]: "Family Promise",
+    [keys.URL]: "https://fplh.org/get-help",
+    [keys.PHONE]: "2814413754",
+    [keys.DATE_CHECKED]: "2025-08-25",
+    [keys.ADDRESS_1]: "111 South Avenue G.",
+    [keys.CITY]: "Humble",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77338",
+    [keys.SERVES]: [serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
