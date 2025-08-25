@@ -99,6 +99,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "77041",
     [keys.SERVES]: [serves.WOMEN_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Covenant House",
+    [keys.URL]: "https://www.covenanthousetx.org",
+    [keys.PHONE]: "7135232231",
+    [keys.DATE_CHECKED]: "2025-08-25",
+    [keys.ADDRESS_1]: "1111 Lovett Blvd.",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77006",
+    [keys.SERVES]: [serves.AGE_18_TO_24],
+  },
 ];
 
 data[keys.RESOURCES] = [
