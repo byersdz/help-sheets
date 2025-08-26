@@ -16,19 +16,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Lantern Light",
-    [keys.URL]: "https://www.lanternlight.org",
-    [keys.PHONE]: "5042735573",
-    [keys.PHONE_EXTENSION]: "115",
-    [keys.DATE_CHECKED]: "2025-07-31",
-    [keys.ADDRESS_1]: "1803 Gravier St.",
-    [keys.CITY]: "New Orleans",
-    [keys.STATE]: "LA",
-    [keys.ZIP_CODE]: "70112",
+    [keys.NAME]: "Crossroads",
+    [keys.URL]: "https://crossroadsatparkplace.org",
+    [keys.PHONE]: "7132523604",
+    [keys.DATE_CHECKED]: "2025-08-26",
+    [keys.ADDRESS_1]: "7843 Park Place Blvd.",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77087",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Meals",
-        [keys.HOURS]: "Mon-Fri 1pm (door closes at 1pm)",
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Tue/Thur 7:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Tue/Thur 11:15am",
       },
     ],
   },
