@@ -35,6 +35,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "The Beacon",
+    [keys.URL]: "https://www.beaconhomeless.org/gethelp",
+    [keys.PHONE]: "7132209737",
+    [keys.DATE_CHECKED]: "2025-08-28",
+    [keys.ADDRESS_1]: "1212 Prairie Street",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77002",
+    [keys.DESCRIPTION]: "Also provides showers and laundry",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Thur-Mon 7am-9:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Thur-Mon 11am-noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
