@@ -56,6 +56,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Martha's Kitchen",
+    [keys.URL]: "https://stmartha.com/marthas-kitchen",
+    [keys.PHONE]: "7132242522",
+    [keys.DATE_CHECKED]: "2025-09-04",
+    [keys.ADDRESS_1]: "322 South Jensen Dr",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77003",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 11am-noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
