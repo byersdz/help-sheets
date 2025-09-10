@@ -72,6 +72,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "1000 Hills Ministry",
+    [keys.URL]: "https://1000hills.org",
+    [keys.PHONE]: "2817878275",
+    [keys.DATE_CHECKED]: "2025-09-10",
+    [keys.ADDRESS_1]: "2800 St. Charles St.",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77004",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon-Sat 7:30pm, Sun 3pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
