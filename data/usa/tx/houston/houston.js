@@ -88,6 +88,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Emergency Aid Coalition",
+    [keys.URL]: "https://eachouston.org/services",
+    [keys.PHONE]: "7133433061",
+    [keys.DATE_CHECKED]: "2025-09-12",
+    [keys.ADDRESS_1]: "5401 Fannin St.",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77004",
+    [keys.DESCRIPTION]: "Groceries and clothing, by appointment only",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
