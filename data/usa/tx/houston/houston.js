@@ -115,6 +115,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Trinity Episcopal Church",
+    [keys.URL]: "https://www.trinitymidtown.org/our-community/outreach/sandwich-makers",
+    [keys.PHONE]: "7135284100",
+    [keys.DATE_CHECKED]: "2025-09-14",
+    [keys.ADDRESS_1]: "1015 Holman St.",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77004",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon-Fri 5:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
