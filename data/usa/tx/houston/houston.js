@@ -99,6 +99,22 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "77004",
     [keys.DESCRIPTION]: "Groceries and clothing, by appointment only",
   },
+  {
+    [keys.NAME]: "Rose of Sharon",
+    [keys.URL]: "https://www.roseofsharon4thward.org/s-projects-basic",
+    [keys.PHONE]: "7136511215",
+    [keys.DATE_CHECKED]: "2025-09-14",
+    [keys.ADDRESS_1]: "1106 Valentine St.",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77019",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Sack Lunch",
+        [keys.HOURS]: "Thur 11am, Sat 11:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
