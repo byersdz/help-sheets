@@ -131,6 +131,39 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Montrose Street Reach",
+    [keys.URL]: "https://www.montrosestreetreach.com/what-we-do.html",
+    [keys.PHONE]: "2816824379",
+    [keys.DATE_CHECKED]: "2025-09-16",
+    [keys.ADDRESS_1]: "1206 Lovett Blvd",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77006",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Thursday 6pm",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Montrose Street Reach - Morning Outreach",
+    [keys.URL]: "https://www.montrosestreetreach.com/what-we-do.html",
+    [keys.PHONE]: "2816824379",
+    [keys.DATE_CHECKED]: "2025-09-16",
+    [keys.ADDRESS_1]: "2121 Main St",
+    [keys.DESCRIPTION]: "Old Greyhound Bus Station",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77004",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food",
+        [keys.HOURS]: "Tue/Wed 10am-noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
