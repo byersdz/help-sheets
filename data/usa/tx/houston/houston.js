@@ -164,6 +164,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Cy-Fair Helping Hands",
+    [keys.URL]: "https://www.cyfairhelpinghands.org/homeless-services",
+    [keys.PHONE]: "2818581222",
+    [keys.DATE_CHECKED]: "2025-09-18",
+    [keys.ADDRESS_1]: "9204 Emmott Road",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77040",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meal, Shower, Laundry",
+        [keys.HOURS]: "Tue/Wed 10am-1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
