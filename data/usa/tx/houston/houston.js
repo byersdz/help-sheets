@@ -180,6 +180,18 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Salvation Army Young Adult Resource Center",
+    [keys.URL]: "https://salvationarmyhouston.org/houston/YARC",
+    [keys.PHONE]: "7137520677",
+    [keys.DATE_CHECKED]: "2025-09-19",
+    [keys.ADDRESS_1]: "1621 McGowen St",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77004",
+    [keys.DESCRIPTION]: "Meals, Shower, Laundry",
+    [keys.SERVES]: [serves.YOUTH],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
