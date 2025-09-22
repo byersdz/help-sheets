@@ -279,6 +279,17 @@ data[keys.RESOURCES] = [
     [keys.PHONE]: "7132242875",
     [keys.DATE_CHECKED]: "2025-08-19",
   },
+  {
+    [keys.NAME]: "Lord of the Streets",
+    [keys.URL]: "https://www.lotshouston.org",
+    [keys.PHONE]: "7135260311",
+    [keys.DATE_CHECKED]: "2025-09-22",
+    [keys.ADDRESS_1]: "3401 Fannin Street",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77004",
+    [keys.DESCRIPTION]: "Day Shelter",
+  },
 ];
 
 module.exports = data;
