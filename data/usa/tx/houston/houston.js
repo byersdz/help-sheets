@@ -192,6 +192,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "Meals, Shower, Laundry",
     [keys.SERVES]: [serves.YOUTH],
   },
+  {
+    [keys.NAME]: "Hope Center",
+    [keys.URL]: "https://hopecenterhouston.org/services",
+    [keys.PHONE]: "8329655511",
+    [keys.DATE_CHECKED]: "2025-09-23",
+    [keys.ADDRESS_1]: "821 Peakwood Dr.",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77090",
+    [keys.DESCRIPTION]: "Day Shelter, Food, Clothing, Shower, Laundry, Hair, Medical, Dental",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
