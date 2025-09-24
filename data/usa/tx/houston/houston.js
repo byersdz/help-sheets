@@ -202,6 +202,32 @@ data[keys.BASIC_NEEDS] = [
     [keys.STATE]: "TX",
     [keys.ZIP_CODE]: "77090",
     [keys.DESCRIPTION]: "Day Shelter, Food, Clothing, Shower, Laundry, Hair, Medical, Dental",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Fri 8:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Showers",
+        [keys.HOURS]: "Mon-Fri 7am-10am",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing Closet",
+        [keys.HOURS]: "Mon/Thur 8:30am-10:30am",
+      },
+    ],
+
+  },
+  {
+    [keys.NAME]: "Compassion United",
+    [keys.URL]: "https://compassionunited.us/get-help",
+    [keys.PHONE]: "9362743799",
+    [keys.DATE_CHECKED]: "2025-09-24",
+    [keys.ADDRESS_1]: "350 Foster Dr.",
+    [keys.CITY]: "Conroe",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77301",
+    [keys.DESCRIPTION]: "Day Shelter, Food, Clothing, Shower, Laundry, Hair, Medical, Dental",
   },
 ];
 
