@@ -327,6 +327,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "77004",
     [keys.DESCRIPTION]: "Day Shelter",
   },
+  {
+    [keys.NAME]: "VA Community Resource and Referral Center",
+    [keys.URL]: "https://www.va.gov/HOMELESS/crrc.asp",
+    [keys.PHONE]: "7137947533",
+    [keys.DATE_CHECKED]: "2025-09-25",
+    [keys.ADDRESS_1]: "1700 Webster Street",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77003",
+    [keys.DESCRIPTION]: "Resources for veterans who are homeless or at risk of homelessness",
+  },
 ];
 
 module.exports = data;
