@@ -311,6 +311,18 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
+    [keys.NAME]: "Harris County Domestic Violence Coordinating Council",
+    [keys.URL]: "https://www.hcdvcc.org/resourcesforsurvivors",
+    [keys.PHONE]: "2814003680",
+    [keys.DATE_CHECKED]: "2025-09-28",
+    [keys.ADDRESS_1]: "2990 Richmond Ave.",
+    [keys.ADDRESS_2]: "Ste. 550",
+    [keys.CITY]: "Houston",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "77098",
+    [keys.DESCRIPTION]: "Resources for survivors of domestic violence",
+  },
+  {
     [keys.NAME]: "Salvation Army",
     [keys.URL]: "https://salvationarmyhouston.org",
     [keys.PHONE]: "7132242875",
