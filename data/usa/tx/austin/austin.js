@@ -39,15 +39,16 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Star of Hope",
-    [keys.URL]: "https://www.sohmission.org",
-    [keys.PHONE]: "7137480700",
-    [keys.DATE_CHECKED]: "2025-08-17",
-    [keys.ADDRESS_1]: "1811 Ruiz St.",
-    [keys.CITY]: "Houston",
+    [keys.NAME]: "Austin Shelter for Women and Children",
+    [keys.URL]: "https://salvationarmytexas.org",
+    [keys.PHONE]: "5129330600",
+    [keys.DATE_CHECKED]: "2025-09-30",
+    [keys.ADDRESS_1]: "4613 Tannehill Ln",
+    [keys.ADDRESS_2]: "Bldg 3",
+    [keys.CITY]: "Austin",
     [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "77002",
-    [keys.SERVES]: [serves.MEN],
+    [keys.ZIP_CODE]: "78721",
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
   },
 ];
 
