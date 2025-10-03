@@ -50,6 +50,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "78721",
     [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Eighth Street Shelter",
+    [keys.URL]: "https://urban-alchemy.us/cities/austin",
+    [keys.PHONE]: "5125221097",
+    [keys.DATE_CHECKED]: "2025-10-03",
+    [keys.ADDRESS_1]: "501 East 8th St.",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78701",
+    [keys.SERVES]: [serves.WOMEN, serves.TRANSGENDER],
+  },
 ];
 
 data[keys.RESOURCES] = [
