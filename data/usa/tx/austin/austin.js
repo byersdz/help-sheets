@@ -61,6 +61,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "78701",
     [keys.SERVES]: [serves.WOMEN, serves.TRANSGENDER],
   },
+  {
+    [keys.NAME]: "Austin Resource Center for the Homeless",
+    [keys.URL]: "https://urban-alchemy.us/cities/austin",
+    [keys.PHONE]: "5125221097",
+    [keys.DATE_CHECKED]: "2025-10-03",
+    [keys.ADDRESS_1]: "500 E 7th Street",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78701",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
