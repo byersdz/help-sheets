@@ -72,6 +72,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "78701",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "SAFE",
+    [keys.URL]: "https://www.safeaustin.org",
+    [keys.PHONE]: "5122677233",
+    [keys.DATE_CHECKED]: "2025-10-06",
+    [keys.DESCRIPTION]: "Emergency and transitional shelter for individuals and families escaping domestic violence",
+  },
 ];
 
 data[keys.RESOURCES] = [
