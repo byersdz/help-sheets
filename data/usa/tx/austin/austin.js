@@ -79,6 +79,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2025-10-06",
     [keys.DESCRIPTION]: "Emergency and transitional shelter for individuals and families escaping domestic violence",
   },
+  {
+    [keys.NAME]: "Casa Marianella",
+    [keys.URL]: "https://www.casamarianella.org",
+    [keys.PHONE]: "5123855571",
+    [keys.DATE_CHECKED]: "2025-10-07",
+    [keys.ADDRESS_1]: "821 Gunter Street",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78702",
+    [keys.DESCRIPTION]: "Shelter and support services for displaced immigrants",
+  },
 ];
 
 data[keys.RESOURCES] = [
