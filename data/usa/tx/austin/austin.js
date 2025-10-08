@@ -90,6 +90,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "78702",
     [keys.DESCRIPTION]: "Shelter and support services for displaced immigrants",
   },
+  {
+    [keys.NAME]: "LifeWorks",
+    [keys.URL]: "https://www.lifeworksaustin.org",
+    [keys.PHONE]: "5127352400",
+    [keys.DATE_CHECKED]: "2025-10-08",
+    [keys.ADDRESS_1]: "835 North Pleasant Valley Road",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78702",
+    [keys.DESCRIPTION]: "Emergency shelter for individuals 17 years old and younger",
+  },
 ];
 
 data[keys.RESOURCES] = [
