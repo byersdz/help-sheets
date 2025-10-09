@@ -16,22 +16,26 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Crossroads",
-    [keys.URL]: "https://crossroadsatparkplace.org",
-    [keys.PHONE]: "7132523604",
-    [keys.DATE_CHECKED]: "2025-08-26",
-    [keys.ADDRESS_1]: "7843 Park Place Blvd.",
-    [keys.CITY]: "Houston",
+    [keys.NAME]: "Trinity Center",
+    [keys.URL]: "https://www.trinitycenteraustin.org/programs",
+    [keys.DATE_CHECKED]: "2025-10-09",
+    [keys.ADDRESS_1]: "304 E. 7th St",
+    [keys.CITY]: "Austin",
     [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "77087",
+    [keys.ZIP_CODE]: "78701",
+    [keys.DESCRIPTION]: "Also provides clothing closet, bus passes, limited financial assistance",
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "Tue/Thur 7:30am",
+        [keys.HOURS]: "Mon-Fri 9am-9:30am",
       },
       {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Tue/Thur 11:15am",
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon-Thur 4pm-4:30pm, Sun 3:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Showers",
+        [keys.HOURS]: "Mon-Thur 2pm-6pm",
       },
     ],
   },
