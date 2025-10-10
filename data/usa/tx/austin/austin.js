@@ -39,6 +39,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Angel House Soup Kitchen",
+    [keys.URL]: "https://www.austinbaptistchapel.com",
+    [keys.PHONE]: "5126432327",
+    [keys.DATE_CHECKED]: "2025-10-10",
+    [keys.ADDRESS_1]: "908 E Cesar Chavez St.",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78702",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Everyday 9:30am-10am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Everyday 11am-12:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
