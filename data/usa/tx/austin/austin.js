@@ -59,6 +59,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Caritas Community Kitchen",
+    [keys.URL]: "https://caritasofaustin.org",
+    [keys.PHONE]: "5124794610",
+    [keys.DATE_CHECKED]: "2025-10-11",
+    [keys.ADDRESS_1]: "611 Neches Street",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78701",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 11am-12:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
