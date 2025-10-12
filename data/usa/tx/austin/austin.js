@@ -95,6 +95,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Central Presbyterian Church",
+    [keys.URL]: "https://cpcaustin.org/ministries-fellowship/neighbors/central-mission",
+    [keys.PHONE]: "5124722445",
+    [keys.DATE_CHECKED]: "2025-10-12",
+    [keys.ADDRESS_1]: "200 E. 8th Street",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78701",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast, Toiletries, Clothing",
+        [keys.HOURS]: "Thursday 8am-11am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
