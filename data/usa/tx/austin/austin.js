@@ -75,6 +75,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Sunrise Homeless Navigation Center",
+    [keys.URL]: "https://sunrisenavigationcenter.org/get-help",
+    [keys.PHONE]: "5123682685",
+    [keys.DATE_CHECKED]: "2025-10-12",
+    [keys.ADDRESS_1]: "4430 Menchaca Rd",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78745",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food, Day Center",
+        [keys.HOURS]: "Mon-Fri 9am-1pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Showers",
+        [keys.HOURS]: "Mon-Fri 9am-11am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
