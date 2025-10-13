@@ -126,6 +126,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "First United Methodist",
+    [keys.URL]: "https://www.fumcaustin.org",
+    [keys.DATE_CHECKED]: "2025-10-13",
+    [keys.PHONE]: "5124785684",
+    [keys.ADDRESS_1]: "1201 Lavaca Street",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78701",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Tue/Thur 5:15am-7:15am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
