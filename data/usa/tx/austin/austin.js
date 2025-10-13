@@ -111,6 +111,21 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Community of Christ",
+    [keys.URL]: "https://ccox82.wixsite.com/austin-cofchrist",
+    [keys.DATE_CHECKED]: "2025-10-13",
+    [keys.ADDRESS_1]: "2132 Bluebonnet Lane",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78704",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Sunday 9am-9:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
