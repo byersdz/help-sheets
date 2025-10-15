@@ -142,6 +142,13 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Mobile Loaves & Fishes",
+    [keys.URL]: "https://mlf.org/truck-schedules",
+    [keys.DATE_CHECKED]: "2025-10-15",
+    [keys.PHONE]: "5123287299",
+    [keys.DESCRIPTION]: "Food Truck, multiple locations",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
