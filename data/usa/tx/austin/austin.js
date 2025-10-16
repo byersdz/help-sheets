@@ -143,6 +143,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "University Baptist Church",
+    [keys.URL]: "https://www.ubcaustin.org",
+    [keys.DATE_CHECKED]: "2025-10-16",
+    [keys.PHONE]: "5124788559",
+    [keys.ADDRESS_1]: "2130 Guadalupe St",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78705",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Thursday 5pm-6pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Mobile Loaves & Fishes",
     [keys.URL]: "https://mlf.org/truck-schedules",
     [keys.DATE_CHECKED]: "2025-10-15",
