@@ -159,6 +159,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "University United Methodist Church",
+    [keys.URL]: "https://www.uumc.org/open-door",
+    [keys.DATE_CHECKED]: "2025-10-16",
+    [keys.PHONE]: "5124789387",
+    [keys.ADDRESS_1]: "2409 Guadalupe St",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78705",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Saturday 8am-9:30am",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Mobile Loaves & Fishes",
     [keys.URL]: "https://mlf.org/truck-schedules",
     [keys.DATE_CHECKED]: "2025-10-15",
