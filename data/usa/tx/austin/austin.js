@@ -175,6 +175,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Olivet Helping Hands Center",
+    [keys.URL]: "http://www.obcaus.org/ministry-that-ministers/helping-hands.html",
+    [keys.DATE_CHECKED]: "2025-10-17",
+    [keys.PHONE]: "5124722298",
+    [keys.ADDRESS_1]: "1161 San Bernard St.",
+    [keys.CITY]: "Austin",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "78702",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food",
+        [keys.HOURS]: "2nd & 4th Saturday 9am-noon",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Mobile Loaves & Fishes",
     [keys.URL]: "https://mlf.org/truck-schedules",
     [keys.DATE_CHECKED]: "2025-10-15",
