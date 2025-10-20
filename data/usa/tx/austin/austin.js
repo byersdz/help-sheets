@@ -267,17 +267,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Harris County Domestic Violence Coordinating Council",
-    [keys.URL]: "https://www.hcdvcc.org/resourcesforsurvivors",
-    [keys.PHONE]: "2814003680",
-    [keys.DATE_CHECKED]: "2025-09-28",
-    [keys.ADDRESS_1]: "2990 Richmond Ave.",
-    [keys.ADDRESS_2]: "Ste. 550",
-    [keys.CITY]: "Houston",
+    [keys.NAME]: "ARCH Clinic",
+    [keys.URL]: "https://communitycaretx.org/all-locations/austin-resource-center-for-the-homeless-clinic",
+    [keys.PHONE]: "5129789920",
+    [keys.DATE_CHECKED]: "2025-10-19",
+    [keys.ADDRESS_1]: "500 E 7th Street",
+    [keys.CITY]: "Austin",
     [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "77098",
-    [keys.DESCRIPTION]: "Resources for survivors of domestic violence",
-  },
-];
+    [keys.ZIP_CODE]: "78701",
+    [keys.DESCRIPTION]: "Medical care",
+  },];
 
 module.exports = data;
