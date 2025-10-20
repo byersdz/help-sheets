@@ -276,6 +276,14 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "TX",
     [keys.ZIP_CODE]: "78701",
     [keys.DESCRIPTION]: "Medical care",
-  },];
+  },
+  {
+    [keys.NAME]: "MAP (Medical Access Program)",
+    [keys.URL]: "https://www.centralhealth.net/map",
+    [keys.PHONE]: "5129788130",
+    [keys.DATE_CHECKED]: "2025-10-20",
+    [keys.DESCRIPTION]: "Health coverage for Travis County residents without insurance",
+  },
+];
 
 module.exports = data;
