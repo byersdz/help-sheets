@@ -50,16 +50,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Austin Shelter for Women and Children",
-    [keys.URL]: "https://salvationarmytexas.org",
-    [keys.PHONE]: "5129330600",
-    [keys.DATE_CHECKED]: "2025-09-30",
-    [keys.ADDRESS_1]: "4613 Tannehill Ln",
-    [keys.ADDRESS_2]: "Bldg 3",
-    [keys.CITY]: "Austin",
+    [keys.NAME]: "The Bridge",
+    [keys.URL]: "https://www.bridgehrc.org",
+    [keys.PHONE]: "2146701507",
+    [keys.DATE_CHECKED]: "2025-10-22",
+    [keys.ADDRESS_1]: "1818 Corsicana Street",
+    [keys.CITY]: "Dallas",
     [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "78721",
-    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+    [keys.ZIP_CODE]: "75201",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
 
