@@ -12,6 +12,13 @@ data[keys.EXCLUDE_LIST] = [
 ];
 
 data[keys.ACCESS_POINTS] = [
+  {
+    [keys.NAME]: "Housing Forward Homeless Crisis Help Line",
+    [keys.URL]: "https://www.mdhadallas.org/help-resources",
+    [keys.PHONE]: "8884116802",
+    [keys.DATE_CHECKED]: "2025-10-22",
+    [keys.DESCRIPTION]: "Call if you are currently experiencing homelessness",
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
