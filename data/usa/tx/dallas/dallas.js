@@ -60,6 +60,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "75201",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Dallas Life",
+    [keys.URL]: "https://dallaslife.org",
+    [keys.PHONE]: "2144211380",
+    [keys.DATE_CHECKED]: "2025-10-23",
+    [keys.ADDRESS_1]: "1100 Cadiz Street",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75215",
+    [keys.DESCRIPTION]: "$15 a night, first 3 days free",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
