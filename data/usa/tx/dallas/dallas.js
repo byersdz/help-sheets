@@ -72,6 +72,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DESCRIPTION]: "$15 a night, first 3 days free",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Austin Street Center",
+    [keys.URL]: "https://austinstreet.org/get-help",
+    [keys.PHONE]: "2144284242",
+    [keys.DATE_CHECKED]: "2025-10-24",
+    [keys.ADDRESS_1]: "1717 Jeffries Street",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75226",
+    [keys.DESCRIPTION]: "Serves women 18+, men 45+",
+  },
 ];
 
 data[keys.RESOURCES] = [
