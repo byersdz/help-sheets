@@ -83,6 +83,28 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "75226",
     [keys.DESCRIPTION]: "Serves women 18+, men 45+",
   },
+  {
+    [keys.NAME]: "Union Gospel Mission Men's Shelter",
+    [keys.URL]: "https://ugmdallas.org/calvert-place-mens-shelter",
+    [keys.PHONE]: "2146376117",
+    [keys.DATE_CHECKED]: "2025-10-24",
+    [keys.ADDRESS_1]: "3211 Irving Blvd.",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75247",
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
+    [keys.NAME]: "Union Gospel Mission Women's Shelter",
+    [keys.URL]: "https://ugmdallas.org/shelter-and-housing-for-women-and-children",
+    [keys.PHONE]: "2146382988",
+    [keys.DATE_CHECKED]: "2025-10-24",
+    [keys.ADDRESS_1]: "4815 Cass Street",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75235",
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
