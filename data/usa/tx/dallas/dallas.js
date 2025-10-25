@@ -109,15 +109,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "ARCH Clinic",
-    [keys.URL]: "https://communitycaretx.org/all-locations/austin-resource-center-for-the-homeless-clinic",
-    [keys.PHONE]: "5129789920",
-    [keys.DATE_CHECKED]: "2025-10-19",
-    [keys.ADDRESS_1]: "500 E 7th Street",
-    [keys.CITY]: "Austin",
+    [keys.NAME]: "Home Point",
+    [keys.URL]: "https://homepoint.org",
+    [keys.PHONE]: "2148284244",
+    [keys.DATE_CHECKED]: "2025-10-25",
+    [keys.ADDRESS_1]: "2800 Live Oak Street",
+    [keys.CITY]: "Dallas",
     [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "78701",
-    [keys.DESCRIPTION]: "Medical care",
+    [keys.ZIP_CODE]: "75204",
+    [keys.DESCRIPTION]: "Housing programs. Rent / Utility assistance.",
   },
 ];
 
