@@ -43,6 +43,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "SoupMobile",
+    [keys.URL]: "https://soupmobile.org",
+    [keys.PHONE]: "2146556396",
+    [keys.DATE_CHECKED]: "2025-10-27",
+    [keys.ADDRESS_1]: "2490 Coombs Street",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75215",
+    [keys.DESCRIPTION]: "Mobile soup kitchen",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
