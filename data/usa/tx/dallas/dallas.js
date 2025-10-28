@@ -127,6 +127,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "75204",
     [keys.DESCRIPTION]: "Housing programs. Rent / Utility assistance.",
   },
+  {
+    [keys.NAME]: "Resource Center",
+    [keys.URL]: "https://myresourcecenter.org",
+    [keys.PHONE]: "2145215124",
+    [keys.DATE_CHECKED]: "2025-10-28",
+    [keys.ADDRESS_1]: "5750 Cedar Springs Rd.",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75235",
+    [keys.DESCRIPTION]: "LGBTQIA+ health and wellness",
+  },
 ];
 
 module.exports = data;
