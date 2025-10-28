@@ -23,26 +23,23 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Trinity Center",
-    [keys.URL]: "https://www.trinitycenteraustin.org/programs",
-    [keys.DATE_CHECKED]: "2025-10-09",
-    [keys.ADDRESS_1]: "304 E. 7th St",
-    [keys.CITY]: "Austin",
+    [keys.NAME]: "The Bridge",
+    [keys.URL]: "https://www.bridgehrc.org",
+    [keys.PHONE]: "2146701507",
+    [keys.DATE_CHECKED]: "2025-10-27",
+    [keys.ADDRESS_1]: "1818 Corsicana Street",
+    [keys.CITY]: "Dallas",
     [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "78701",
-    [keys.DESCRIPTION]: "Also provides clothing closet, bus passes, limited financial assistance",
+    [keys.ZIP_CODE]: "75201",
+    [keys.DESCRIPTION]: "Day shelter, night shelter, hygiene supplies, laundry, barbershop, mail",
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "Mon-Fri 9am-9:30am",
+        [keys.HOURS]: "Every day 7:30am-8:30am",
       },
       {
-        [keys.DESCRIPTION]: "Dinner",
-        [keys.HOURS]: "Mon-Thur 4pm-4:30pm, Sun 3:30pm",
-      },
-      {
-        [keys.DESCRIPTION]: "Showers",
-        [keys.HOURS]: "Mon-Thur 2pm-6pm",
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every day noon-1pm",
       },
     ],
   },
