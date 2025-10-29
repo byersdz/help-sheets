@@ -113,6 +113,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "75235",
     [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Genesis Women's Shelter",
+    [keys.URL]: "https://www.genesisshelter.org",
+    [keys.PHONE]: "2149464357",
+    [keys.DATE_CHECKED]: "2025-10-29",
+    [keys.ADDRESS_1]: "2023 Lucas Drive",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75219",
+    [keys.DESCRIPTION]: "Shelter for women experiencing domestic abuse",
+  },
 ];
 
 data[keys.RESOURCES] = [
