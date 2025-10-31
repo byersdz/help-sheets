@@ -124,6 +124,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "75219",
     [keys.DESCRIPTION]: "Shelter for women experiencing domestic abuse",
   },
+  {
+    [keys.NAME]: "Hope's Door",
+    [keys.URL]: "https://hdnbc.org/find-help-now",
+    [keys.PHONE]: "9722760057",
+    [keys.DATE_CHECKED]: "2025-10-30",
+    [keys.DESCRIPTION]: "Shelter for victims of domestic violence",
+  },
 ];
 
 data[keys.RESOURCES] = [
