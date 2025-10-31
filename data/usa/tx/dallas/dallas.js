@@ -131,6 +131,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2025-10-30",
     [keys.DESCRIPTION]: "Shelter for victims of domestic violence",
   },
+  {
+    [keys.NAME]: "Emily's Place",
+    [keys.URL]: "https://www.emilysplacetx.org",
+    [keys.PHONE]: "9724247775",
+    [keys.DATE_CHECKED]: "2025-10-31",
+    [keys.DESCRIPTION]: "Transitional housing for women experiencing domestic violence",
+  },
 ];
 
 data[keys.RESOURCES] = [
