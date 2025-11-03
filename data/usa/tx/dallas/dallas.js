@@ -138,6 +138,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2025-10-31",
     [keys.DESCRIPTION]: "Transitional housing for women experiencing domestic violence",
   },
+  {
+    [keys.NAME]: "Women in Need",
+    [keys.URL]: "https://www.wintexas.org",
+    [keys.PHONE]: "9034544357",
+    [keys.DATE_CHECKED]: "2025-11-02",
+    [keys.DESCRIPTION]: "Shelter for victims of domestic violence",
+  },
 ];
 
 data[keys.RESOURCES] = [
