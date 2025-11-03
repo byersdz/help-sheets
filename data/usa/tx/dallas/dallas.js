@@ -145,6 +145,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2025-11-02",
     [keys.DESCRIPTION]: "Shelter for victims of domestic violence",
   },
+  {
+    [keys.NAME]: "Texas Muslim Women's Foundation",
+    [keys.URL]: "https://tmwf.org",
+    [keys.PHONE]: "9728804192",
+    [keys.DATE_CHECKED]: "2025-11-03",
+    [keys.DESCRIPTION]: "Domestic violence shelter",
+  },
 ];
 
 data[keys.RESOURCES] = [
