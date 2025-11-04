@@ -54,6 +54,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "75215",
     [keys.DESCRIPTION]: "Mobile soup kitchen",
   },
+  {
+    [keys.NAME]: "Crossroads Community Market",
+    [keys.URL]: "https://ccsdallas.org/needfood-english",
+    [keys.PHONE]: "4698606090",
+    [keys.DATE_CHECKED]: "2025-11-04",
+    [keys.ADDRESS_1]: "4500 S Cockrell Hill Rd",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75236",
+    [keys.DESCRIPTION]: "Groceries. By appointment only",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
