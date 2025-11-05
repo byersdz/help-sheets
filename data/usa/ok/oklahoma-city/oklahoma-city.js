@@ -1,0 +1,76 @@
+const { keys, languageCodes, serves } = require( "../../../../constants" );
+
+const data = {};
+
+data[keys.NAME] = "Oklahoma City";
+data[keys.URL_NAME] = "oklahoma-city";
+data[keys.DEFAULT_LANGUAGE] = languageCodes.ENGLISH;
+data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
+
+data[keys.EXCLUDE_LIST] = [
+  "usa-shelter-directory",
+];
+
+data[keys.ACCESS_POINTS] = [
+  {
+    [keys.NAME]: "Housing Forward Homeless Crisis Help Line",
+    [keys.URL]: "https://www.mdhadallas.org/help-resources",
+    [keys.PHONE]: "8884116802",
+    [keys.DATE_CHECKED]: "2025-10-22",
+    [keys.DESCRIPTION]: "Call if you are currently experiencing homelessness",
+  },
+];
+
+data[keys.BASIC_NEEDS] = [
+  {
+    [keys.NAME]: "The Bridge",
+    [keys.URL]: "https://www.bridgehrc.org",
+    [keys.PHONE]: "2146701507",
+    [keys.DATE_CHECKED]: "2025-10-27",
+    [keys.ADDRESS_1]: "1818 Corsicana Street",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75201",
+    [keys.DESCRIPTION]: "Day shelter, night shelter, hygiene supplies, laundry, barbershop, mail",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Every day 7:30am-8:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every day noon-1pm",
+      },
+    ],
+  },
+];
+
+data[keys.EMERGENCY_SHELTERS] = [
+  {
+    [keys.NAME]: "The Bridge",
+    [keys.URL]: "https://www.bridgehrc.org",
+    [keys.PHONE]: "2146701507",
+    [keys.DATE_CHECKED]: "2025-10-22",
+    [keys.ADDRESS_1]: "1818 Corsicana Street",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75201",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+  },
+];
+
+data[keys.RESOURCES] = [
+  {
+    [keys.NAME]: "Home Point",
+    [keys.URL]: "https://homepoint.org",
+    [keys.PHONE]: "2148284244",
+    [keys.DATE_CHECKED]: "2025-10-25",
+    [keys.ADDRESS_1]: "2800 Live Oak Street",
+    [keys.CITY]: "Dallas",
+    [keys.STATE]: "TX",
+    [keys.ZIP_CODE]: "75204",
+    [keys.DESCRIPTION]: "Housing programs. Rent / Utility assistance.",
+  },
+];
+
+module.exports = data;
