@@ -47,15 +47,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "The Bridge",
-    [keys.URL]: "https://www.bridgehrc.org",
-    [keys.PHONE]: "2146701507",
-    [keys.DATE_CHECKED]: "2025-10-22",
-    [keys.ADDRESS_1]: "1818 Corsicana Street",
-    [keys.CITY]: "Dallas",
-    [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "75201",
-    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.NAME]: "City Rescue Mission",
+    [keys.URL]: "https://cityrescue.org",
+    [keys.PHONE]: "4052322709",
+    [keys.DATE_CHECKED]: "2025-11-06",
+    [keys.ADDRESS_1]: "800 W. California Ave.",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73106",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES_WITH_CHILDREN],
   },
 ];
 
