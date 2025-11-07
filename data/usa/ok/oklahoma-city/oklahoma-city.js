@@ -61,15 +61,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Home Point",
-    [keys.URL]: "https://homepoint.org",
-    [keys.PHONE]: "2148284244",
-    [keys.DATE_CHECKED]: "2025-10-25",
-    [keys.ADDRESS_1]: "2800 Live Oak Street",
-    [keys.CITY]: "Dallas",
-    [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "75204",
-    [keys.DESCRIPTION]: "Housing programs. Rent / Utility assistance.",
+    [keys.NAME]: "Jesus House",
+    [keys.URL]: "https://jesushouseokc.org/get-help",
+    [keys.PHONE]: "4052327164",
+    [keys.DATE_CHECKED]: "2025-11-07",
+    [keys.ADDRESS_1]: "1335 West Sheridan Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73106",
+    [keys.DESCRIPTION]: "Substance abuse recovery program",
   },
 ];
 
