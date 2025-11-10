@@ -67,6 +67,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "OK",
     [keys.ZIP_CODE]: "73107",
   },
+  {
+    [keys.NAME]: "Homeless Alliance Winter Shelter",
+    [keys.URL]: "https://www.homelessalliance.org/campus",
+    [keys.PHONE]: "4054158410",
+    [keys.DATE_CHECKED]: "2025-11-10",
+    [keys.ADDRESS_1]: "1601 NW 4th Street",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73106",
+    [keys.DESCRIPTION]: "Nov 1 - March 31 only",
+  },
 ];
 
 data[keys.RESOURCES] = [
