@@ -57,6 +57,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "73106",
     [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "City Care",
+    [keys.URL]: "https://www.citycareokc.org/homelessservices",
+    [keys.PHONE]: "4057248439",
+    [keys.DATE_CHECKED]: "2025-11-10",
+    [keys.ADDRESS_1]: "532 N. Villa Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73107",
+  },
 ];
 
 data[keys.RESOURCES] = [
