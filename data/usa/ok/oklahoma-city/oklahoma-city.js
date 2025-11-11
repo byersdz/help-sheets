@@ -78,6 +78,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "73106",
     [keys.DESCRIPTION]: "Nov 1 - March 31 only",
   },
+  {
+    [keys.NAME]: "Pivot",
+    [keys.URL]: "https://www.pivotok.org",
+    [keys.PHONE]: "4052357537",
+    [keys.DATE_CHECKED]: "2025-11-11",
+    [keys.ADDRESS_1]: "201 NE 50th Street",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73105",
+    [keys.DESCRIPTION]: "Shelter for youth 12-17, services for youth 12-24",
+  },
 ];
 
 data[keys.RESOURCES] = [
