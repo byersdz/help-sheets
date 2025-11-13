@@ -89,6 +89,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "73105",
     [keys.DESCRIPTION]: "Shelter for youth 12-17, services for youth 12-24",
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://southernusa.salvationarmy.org/central-oklahoma/emergency-shelter",
+    [keys.PHONE]: "4052461133",
+    [keys.DATE_CHECKED]: "2025-11-13",
+    [keys.ADDRESS_1]: "1001 N Pennsylvania Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73107",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
