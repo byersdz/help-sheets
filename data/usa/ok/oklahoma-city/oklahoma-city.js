@@ -100,6 +100,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "73107",
     [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Sisu Youth Services",
+    [keys.URL]: "https://sisuyouth.org",
+    [keys.PHONE]: "4054597478",
+    [keys.DATE_CHECKED]: "2025-11-13",
+    [keys.ADDRESS_1]: "2129 NW 30th Street",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73112",
+    [keys.DESCRIPTION]: "Shelter for youth 15-22, services for youth 15-24",
+  },
 ];
 
 data[keys.RESOURCES] = [
