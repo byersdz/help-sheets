@@ -111,6 +111,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "73112",
     [keys.DESCRIPTION]: "Shelter for youth 15-22, services for youth 15-24",
   },
+  {
+    [keys.NAME]: "YWCA",
+    [keys.URL]: "https://www.ywcaokc.org/programs/domestic-violence-services",
+    [keys.PHONE]: "4059179922",
+    [keys.DATE_CHECKED]: "2025-11-14",
+    [keys.ADDRESS_1]: "2460 NW 39th St",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73112",
+    [keys.DESCRIPTION]: "Shelter for victims of domestic violence",
+  },
 ];
 
 data[keys.RESOURCES] = [
