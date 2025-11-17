@@ -23,23 +23,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "The Bridge",
-    [keys.URL]: "https://www.bridgehrc.org",
-    [keys.PHONE]: "2146701507",
-    [keys.DATE_CHECKED]: "2025-10-27",
-    [keys.ADDRESS_1]: "1818 Corsicana Street",
-    [keys.CITY]: "Dallas",
-    [keys.STATE]: "TX",
-    [keys.ZIP_CODE]: "75201",
-    [keys.DESCRIPTION]: "Day shelter, night shelter, hygiene supplies, laundry, barbershop, mail",
+    [keys.NAME]: "Jesus House",
+    [keys.URL]: "https://jesushouseokc.org/our-programs",
+    [keys.PHONE]: "4052327164",
+    [keys.DATE_CHECKED]: "2025-11-07",
+    [keys.ADDRESS_1]: "1335 West Sheridan Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73106",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "Every day 7:30am-8:30am",
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Every day 4pm-5pm",
       },
       {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Every day noon-1pm",
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Wednesday 8am",
       },
     ],
   },
