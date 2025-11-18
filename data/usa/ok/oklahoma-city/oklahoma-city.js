@@ -42,6 +42,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Homeless Alliance Day Shelter",
+    [keys.URL]: "https://www.homelessalliance.org/get-help",
+    [keys.PHONE]: "4054158410",
+    [keys.DATE_CHECKED]: "2025-11-18",
+    [keys.ADDRESS_1]: "1724 NW 4th Street",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73106",
+    [keys.DESCRIPTION]: "Breakfast, lunch, showers, mail, computers, barbershop",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
