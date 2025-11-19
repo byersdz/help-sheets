@@ -53,6 +53,23 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "73106",
     [keys.DESCRIPTION]: "Breakfast, lunch, showers, mail, computers, barbershop",
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://southernusa.salvationarmy.org/central-oklahoma/food-services",
+    [keys.PHONE]: "4052461060",
+    [keys.DATE_CHECKED]: "2025-11-13",
+    [keys.ADDRESS_1]: "1001 N Pennsylvania Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73107",
+    [keys.DESCRIPTION]: "Also provides food pantry",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Every day 4:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
