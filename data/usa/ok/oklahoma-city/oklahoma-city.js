@@ -70,6 +70,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Sisu Drop in Resource center",
+    [keys.URL]: "https://sisuyouth.org",
+    [keys.PHONE]: "4054597478",
+    [keys.DATE_CHECKED]: "2025-11-13",
+    [keys.ADDRESS_1]: "2129 NW 30th Street",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73112",
+    [keys.DESCRIPTION]: "For youth 15-24. Clothing closet, meals, food pantry, showers, laundry",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
