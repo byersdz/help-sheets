@@ -81,6 +81,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "73112",
     [keys.DESCRIPTION]: "For youth 15-24. Clothing closet, meals, food pantry, showers, laundry",
   },
+  {
+    [keys.NAME]: "Bethel Foundation",
+    [keys.URL]: "https://www.bethelfoundation.org",
+    [keys.PHONE]: "4052863700",
+    [keys.DATE_CHECKED]: "2025-11-21",
+    [keys.ADDRESS_1]: "13003 N Western Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73114",
+    [keys.DESCRIPTION]: "Food pantry, clothing, household goods",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
