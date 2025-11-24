@@ -92,6 +92,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "73114",
     [keys.DESCRIPTION]: "Food pantry, clothing, household goods",
   },
+  {
+    [keys.NAME]: "Britvil Food Pantry",
+    [keys.URL]: "https://www.britvilfoodpantry.com/get-help",
+    [keys.PHONE]: "4058421275",
+    [keys.DATE_CHECKED]: "2025-11-24",
+    [keys.ADDRESS_1]: "8717 N Western Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73114",
+    [keys.DESCRIPTION]: "Mon-Fri 9am-10:30am. 73105, 73114, 73120, 73131, zipcodes only, bring ID",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
