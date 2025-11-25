@@ -114,6 +114,26 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "73129",
     [keys.DESCRIPTION]: "Bring ID",
   },
+  {
+    [keys.NAME]: "Exchange Avenue Baptist Church",
+    [keys.URL]: "http://exchangeokc.org",
+    [keys.PHONE]: "4052322551",
+    [keys.DATE_CHECKED]: "2025-11-25",
+    [keys.ADDRESS_1]: "1312 S. Pennsylvania Avenue",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73108",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Monday 6pm-7pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "3rd Monday 3:30pm-5:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
