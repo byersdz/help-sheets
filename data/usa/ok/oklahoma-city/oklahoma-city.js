@@ -103,6 +103,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "73114",
     [keys.DESCRIPTION]: "Mon-Fri 9am-10:30am. 73105, 73114, 73120, 73131, zipcodes only, bring ID",
   },
+  {
+    [keys.NAME]: "Skyline Food Resource Center",
+    [keys.URL]: "https://www.okcskyline.org/frc",
+    [keys.PHONE]: "4056322644",
+    [keys.DATE_CHECKED]: "2025-11-25",
+    [keys.ADDRESS_1]: "500 SE 15th Street",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73129",
+    [keys.DESCRIPTION]: "Bring ID",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
