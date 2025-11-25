@@ -134,6 +134,21 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "First Park Church",
+    [keys.URL]: "https://www.firstpark.org/wecare",
+    [keys.DATE_CHECKED]: "2025-11-25",
+    [keys.ADDRESS_1]: "2020 Nicoma Ln",
+    [keys.CITY]: "Nicoma Park",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73066",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry, Clothing, Home Goods",
+        [keys.HOURS]: "Friday 9:30am-1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
