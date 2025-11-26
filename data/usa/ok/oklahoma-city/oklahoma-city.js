@@ -149,6 +149,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Church of the Open Arms",
+    [keys.URL]: "https://www.openarms.org/ministry/food-pantry",
+    [keys.DATE_CHECKED]: "2025-11-26",
+    [keys.PHONE]: "4055259555",
+    [keys.ADDRESS_1]: "3131 N Pennsylvania Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73112",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Friday 3pm-6pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
