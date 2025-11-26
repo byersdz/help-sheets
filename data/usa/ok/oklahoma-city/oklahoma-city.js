@@ -165,6 +165,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Trinity Baptist Church",
+    [keys.URL]: "https://www.trinityokc.com/food-pantry",
+    [keys.DATE_CHECKED]: "2025-11-26",
+    [keys.PHONE]: "4055286327",
+    [keys.ADDRESS_1]: "1329 NW 23rd St",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73106",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "1st 2nd 4th Thursday 9:30am-11:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
