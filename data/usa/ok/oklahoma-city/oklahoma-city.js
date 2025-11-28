@@ -12,13 +12,6 @@ data[keys.EXCLUDE_LIST] = [
 ];
 
 data[keys.ACCESS_POINTS] = [
-  {
-    [keys.NAME]: "Housing Forward Homeless Crisis Help Line",
-    [keys.URL]: "https://www.mdhadallas.org/help-resources",
-    [keys.PHONE]: "8884116802",
-    [keys.DATE_CHECKED]: "2025-10-22",
-    [keys.DESCRIPTION]: "Call if you are currently experiencing homelessness",
-  },
 ];
 
 data[keys.BASIC_NEEDS] = [
@@ -178,6 +171,22 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: "Food Pantry",
         [keys.HOURS]: "1st 2nd 4th Thursday 9:30am-11:30am",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Urban Mission",
+    [keys.URL]: "https://urbanmissionokc.org/588-2",
+    [keys.DATE_CHECKED]: "2025-11-26",
+    [keys.PHONE]: "4059461556",
+    [keys.ADDRESS_1]: "3737 N. Portland Ave",
+    [keys.CITY]: "Oklahoma City",
+    [keys.STATE]: "OK",
+    [keys.ZIP_CODE]: "73112",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Thur 9am-11:30am",
       },
     ],
   },
