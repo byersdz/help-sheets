@@ -6,6 +6,7 @@ const kentucky = require( './ky/ky' );
 const louisiana = require( './la/la' );
 const maryland = require( './md/md' );
 const massachussetts = require( './ma/ma' );
+const newMexico = require( './nm/nm' );
 const newYork = require( './ny/ny' );
 const northCarolina = require( './nc/nc' );
 const ohio = require( './oh/oh' );
@@ -32,6 +33,7 @@ data[keys.STATES] = [
   louisiana,
   maryland,
   massachussetts,
+  newMexico,
   newYork,
   northCarolina,
   ohio,
