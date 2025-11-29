@@ -39,15 +39,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "City Rescue Mission",
-    [keys.URL]: "https://cityrescue.org",
-    [keys.PHONE]: "4052322709",
-    [keys.DATE_CHECKED]: "2025-11-06",
-    [keys.ADDRESS_1]: "800 W. California Ave.",
-    [keys.CITY]: "Oklahoma City",
-    [keys.STATE]: "OK",
-    [keys.ZIP_CODE]: "73106",
-    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES_WITH_CHILDREN],
+    [keys.NAME]: "Gateway West",
+    [keys.URL]: "https://www.cabq.gov/health-housing-homelessness/gateway-system-of-care/gateway-west",
+    [keys.PHONE]: "5058399193",
+    [keys.DATE_CHECKED]: "2025-11-29",
+    [keys.ADDRESS_1]: "7440 Jim McDowell NW",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87121",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
 
