@@ -49,6 +49,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "87121",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Housing Navigation Center at Gateway",
+    [keys.URL]: "https://www.cabq.gov/health-housing-homelessness/gateway-system-of-care/gateway-center",
+    [keys.PHONE]: "5055378588",
+    [keys.DATE_CHECKED]: "2025-12-01",
+    [keys.ADDRESS_1]: "5400 Gibson Blvd SE",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87108",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
