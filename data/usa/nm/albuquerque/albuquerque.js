@@ -71,6 +71,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "87112",
     [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "Casa Q",
+    [keys.URL]: "https://www.casaq.org",
+    [keys.PHONE]: "5058722099",
+    [keys.DATE_CHECKED]: "2025-12-02",
+    [keys.DESCRIPTION]: "Shelter for LGBTQ+ youth",
+  },
 ];
 
 data[keys.RESOURCES] = [
