@@ -60,6 +60,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "87108",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Barret Foundation",
+    [keys.URL]: "https://www.barrettfoundation.org",
+    [keys.PHONE]: "5052434887",
+    [keys.DATE_CHECKED]: "2025-12-02",
+    [keys.ADDRESS_1]: "10300 Constitution Ave. NE",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87112",
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
