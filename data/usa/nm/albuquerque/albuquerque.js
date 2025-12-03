@@ -78,6 +78,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2025-12-02",
     [keys.DESCRIPTION]: "Shelter for LGBTQ+ youth",
   },
+  {
+    [keys.NAME]: "New Day Youth and Family Services",
+    [keys.URL]: "https://www.ndnm.org/safe-home.html",
+    [keys.PHONE]: "5059381060",
+    [keys.DATE_CHECKED]: "2025-12-03",
+    [keys.ADDRESS_1]: "2820 Ridgecrest SE",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87108",
+    [keys.SERVES]: [serves.YOUTH],
+  },
 ];
 
 data[keys.RESOURCES] = [
