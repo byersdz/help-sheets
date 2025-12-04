@@ -89,6 +89,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "87108",
     [keys.SERVES]: [serves.YOUTH],
   },
+  {
+    [keys.NAME]: "Good Shepherd Center",
+    [keys.URL]: "https://www.gscnm.org",
+    [keys.PHONE]: "5052432527",
+    [keys.DATE_CHECKED]: "2025-12-04",
+    [keys.ADDRESS_1]: "218 Iron Avenue SW",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87102",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
