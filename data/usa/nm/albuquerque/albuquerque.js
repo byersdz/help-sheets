@@ -100,6 +100,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "87102",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Heading Home",
+    [keys.URL]: "https://headinghome.org/get-help/#shelter-respite",
+    [keys.PHONE]: "5053444340",
+    [keys.DATE_CHECKED]: "2025-12-05",
+    [keys.ADDRESS_1]: "715 Candelaria NE",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87107",
+    [keys.DESCRIPTION]: "No walk ins, call ahead for referral.",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
