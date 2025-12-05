@@ -112,6 +112,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DESCRIPTION]: "No walk ins, call ahead for referral.",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "SAFE House",
+    [keys.URL]: "https://www.safehousenm.org",
+    [keys.PHONE]: "5052474219",
+    [keys.DATE_CHECKED]: "2025-12-05",
+    [keys.DESCRIPTION]: "Shelter for survivors of domestic violence",
+  },
 ];
 
 data[keys.RESOURCES] = [
