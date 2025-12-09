@@ -36,6 +36,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Good Shepherd Center",
+    [keys.URL]: "https://www.gscnm.org/services",
+    [keys.PHONE]: "5052432527",
+    [keys.DATE_CHECKED]: "2025-12-04",
+    [keys.ADDRESS_1]: "218 Iron Avenue SW",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87102",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meal",
+        [keys.HOURS]: "Mon/Tue/Wed/Fri 2pm, Sat 11:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Mon/Tue/Wed/Fri 9am-11am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
