@@ -56,6 +56,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "The Rock at Noonday",
+    [keys.URL]: "https://www.therockabq.com",
+    [keys.PHONE]: "5052468001",
+    [keys.DATE_CHECKED]: "2025-12-10",
+    [keys.ADDRESS_1]: "2400 2nd St NW",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87102",
+    [keys.DESCRIPTION]: "Also provides showers, clothing, hair cuts",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Tue-Fri 8:30am-9am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Tue-Fri 11am-11:30am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
