@@ -77,6 +77,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "All Nations Wellness & Healing Center",
+    [keys.URL]: "https://www.fnch.org/services/all-nation-wellness-and-healing-center",
+    [keys.PHONE]: "5057172704",
+    [keys.DATE_CHECKED]: "2025-12-11",
+    [keys.ADDRESS_1]: "6416 Zuni Rd SE",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87108",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Fri 8am-9:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri noon-1:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
