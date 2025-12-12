@@ -175,6 +175,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.MEN],
   },
   {
+    [keys.NAME]: "Joy Junction",
+    [keys.URL]: "https://www.joyjunction.org/homeless-shelter",
+    [keys.PHONE]: "5058776967",
+    [keys.DATE_CHECKED]: "2025-12-12",
+    [keys.ADDRESS_1]: "4500 2nd St. SW",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87105",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+  },
+  {
     [keys.NAME]: "SAFE House",
     [keys.URL]: "https://www.safehousenm.org",
     [keys.PHONE]: "5052474219",
