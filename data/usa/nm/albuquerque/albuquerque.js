@@ -78,6 +78,30 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "God's Warehouse",
+    [keys.URL]: "https://www.godswarehouses.org",
+    [keys.PHONE]: "5052662535",
+    [keys.DATE_CHECKED]: "2025-12-15",
+    [keys.ADDRESS_1]: "8011 Central Ave NE",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87108",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Tue/Fri 3pm-6pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Tuesday 3pm-6pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Boxes",
+        [keys.HOURS]: "3rd Friday 11am-1pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "All Nations Wellness & Healing Center",
     [keys.URL]: "https://www.fnch.org/services/all-nation-wellness-and-healing-center",
     [keys.PHONE]: "5057172704",
