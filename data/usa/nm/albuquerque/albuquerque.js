@@ -121,6 +121,29 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Mission ABQ",
+    [keys.URL]: "https://www.missionabq.org/resource-center",
+    [keys.DATE_CHECKED]: "2025-12-16",
+    [keys.ADDRESS_1]: "8216 Central Ave SE",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87108",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Sunday 8am",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Thursday 4:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Boxes",
+        [keys.HOURS]: "Tuesday 11am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
