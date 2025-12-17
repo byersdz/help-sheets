@@ -144,6 +144,27 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Joy Junction",
+    [keys.URL]: "https://www.joyjunction.org/day-shelter-program",
+    [keys.PHONE]: "5058776967",
+    [keys.DATE_CHECKED]: "2025-12-12",
+    [keys.ADDRESS_1]: "4500 2nd St. SW",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87105",
+    [keys.DESCRIPTION]: "Day shelter",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every day noon",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Every day 5pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
