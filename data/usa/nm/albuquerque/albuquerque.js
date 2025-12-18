@@ -264,15 +264,14 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Jesus House",
-    [keys.URL]: "https://jesushouseokc.org/get-help",
-    [keys.PHONE]: "4052327164",
-    [keys.DATE_CHECKED]: "2025-11-07",
-    [keys.ADDRESS_1]: "1335 West Sheridan Ave",
-    [keys.CITY]: "Oklahoma City",
-    [keys.STATE]: "OK",
-    [keys.ZIP_CODE]: "73106",
-    [keys.DESCRIPTION]: "Substance abuse recovery program",
+    [keys.NAME]: "Health Care for the Homeless",
+    [keys.URL]: "https://www.abqhch.org",
+    [keys.PHONE]: "5057665197",
+    [keys.DATE_CHECKED]: "2025-12-18",
+    [keys.ADDRESS_1]: "1217 1st NW",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87102",
   },
 ];
 
