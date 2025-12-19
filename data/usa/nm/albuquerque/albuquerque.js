@@ -273,6 +273,16 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "NM",
     [keys.ZIP_CODE]: "87102",
   },
+  {
+    [keys.NAME]: "First Nations Community Healthsource",
+    [keys.URL]: "https://www.fnch.org/services/homeless-outreach-program",
+    [keys.PHONE]: "5052622481",
+    [keys.DATE_CHECKED]: "2025-12-18",
+    [keys.ADDRESS_1]: "6416 Zuni SE",
+    [keys.CITY]: "Albuquerque",
+    [keys.STATE]: "NM",
+    [keys.ZIP_CODE]: "87108",
+  },
 ];
 
 module.exports = data;
