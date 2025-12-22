@@ -12,6 +12,12 @@ data[keys.EXCLUDE_LIST] = [
 ];
 
 data[keys.ACCESS_POINTS] = [
+  {
+    [keys.NAME]: "Coordinated Entry",
+    [keys.URL]: "https://www.cabq.gov/health-housing-homelessness/transparency/help-with-housing-or-services",
+    [keys.PHONE]: "311",
+    [keys.DATE_CHECKED]: "2025-12-22",
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
