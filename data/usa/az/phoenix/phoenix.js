@@ -40,14 +40,14 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Gateway West",
-    [keys.URL]: "https://www.cabq.gov/health-housing-homelessness/gateway-system-of-care/gateway-west",
-    [keys.PHONE]: "5058399193",
-    [keys.DATE_CHECKED]: "2025-11-29",
-    [keys.ADDRESS_1]: "7440 Jim McDowell NW",
-    [keys.CITY]: "Albuquerque",
-    [keys.STATE]: "NM",
-    [keys.ZIP_CODE]: "87121",
+    [keys.NAME]: "Central Arizona Shelter Services",
+    [keys.URL]: "https://www.cassaz.org/get-help",
+    [keys.PHONE]: "6042566945",
+    [keys.DATE_CHECKED]: "2025-12-30",
+    [keys.ADDRESS_1]: "204 S 12th Ave",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85007",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
