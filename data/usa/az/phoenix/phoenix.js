@@ -54,14 +54,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Health Care for the Homeless",
-    [keys.URL]: "https://www.abqhch.org",
-    [keys.PHONE]: "5057665197",
-    [keys.DATE_CHECKED]: "2025-12-18",
-    [keys.ADDRESS_1]: "1217 1st NW",
-    [keys.CITY]: "Albuquerque",
-    [keys.STATE]: "NM",
-    [keys.ZIP_CODE]: "87102",
+    [keys.NAME]: "Native American Connections",
+    [keys.URL]: "https://www.nativeconnections.org",
+    [keys.PHONE]: "6022543247",
+    [keys.DATE_CHECKED]: "2025-12-31",
+    [keys.ADDRESS_1]: "3216 N 3rd St",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85012",
+    [keys.DESCRIPTION]: "Addiction recovery, medical services, housing resources",
   },
 ];
 
