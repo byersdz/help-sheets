@@ -50,6 +50,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "85007",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "HomeBase",
+    [keys.URL]: "https://www.nativeconnections.org/housing/youth/homebase-youth-services",
+    [keys.PHONE]: "6022635531",
+    [keys.DATE_CHECKED]: "2025-12-30",
+    [keys.ADDRESS_1]: "931 E. Devonshire Ave.",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85014",
+    [keys.SERVES]: [serves.AGE_18_TO_24],
+  },
 ];
 
 data[keys.RESOURCES] = [
