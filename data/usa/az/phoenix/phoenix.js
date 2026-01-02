@@ -86,6 +86,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "85012",
     [keys.DESCRIPTION]: "Addiction recovery, medical services, housing resources",
   },
+  {
+    [keys.NAME]: "Homeward Bound",
+    [keys.URL]: "https://turnanewleaf.org/services/housing-and-shelter/homeward-bound",
+    [keys.PHONE]: "6028998089",
+    [keys.DATE_CHECKED]: "2026-01-02",
+    [keys.ADDRESS_1]: "2302 West Colter Street",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85015",
+    [keys.DESCRIPTION]: "Affordable housing",
+  },
 ];
 
 module.exports = data;
