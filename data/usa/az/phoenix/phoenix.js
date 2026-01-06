@@ -72,6 +72,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "85017",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "UMOM Halle Women's Center",
+    [keys.URL]: "https://www.umom.org/find-help",
+    [keys.PHONE]: "6023625833",
+    [keys.DATE_CHECKED]: "2026-01-06",
+    [keys.ADDRESS_1]: "3424 E Van Buren St",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85008",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
