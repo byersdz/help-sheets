@@ -108,6 +108,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "85015",
     [keys.DESCRIPTION]: "Affordable housing",
   },
+  {
+    [keys.NAME]: "U.S. Veteran Community Resource & Referral Center (CRRC)",
+    [keys.URL]: "https://www.va.gov/HOMELESS/Crrc.asp",
+    [keys.PHONE]: "6022486040",
+    [keys.DATE_CHECKED]: "2026-01-08",
+    [keys.ADDRESS_1]: "1500 E. Thomas Road",
+    [keys.ADDRESS_2]: "Suite 106",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85014",
+  },
 ];
 
 module.exports = data;
