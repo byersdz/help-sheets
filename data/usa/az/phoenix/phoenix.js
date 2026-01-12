@@ -94,6 +94,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "85021",
     [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "The Haven",
+    [keys.URL]: "https://www.cassaz.org/services",
+    [keys.PHONE]: "6042566945",
+    [keys.DATE_CHECKED]: "2025-12-30",
+    [keys.ADDRESS_1]: "I-17 and Northern",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85051",
+    [keys.SERVES]: [serves.AGE_55_PLUS],
+  },
 ];
 
 data[keys.RESOURCES] = [

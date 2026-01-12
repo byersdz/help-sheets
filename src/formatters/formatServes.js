@@ -16,6 +16,7 @@ displayStrings[serves.AGE_14_TO_24] = 'Ages 14 to 24';
 displayStrings[serves.AGE_18_TO_24] = 'Ages 18 to 24';
 displayStrings[serves.AGE_12_TO_27] = 'Ages 12 to 17';
 displayStrings[serves.AGE_18_TO_22] = 'Ages 18 to 22';
+displayStrings[serves.AGE_55_PLUS] = 'Age 55+';
 displayStrings[serves.SINGLE_MOTHERS] = 'Single Mothers';
 displayStrings[serves.SINGLE_FATHERS] = 'Single Fathers';
 displayStrings[serves.TRANSGENDER] = 'Trans';
