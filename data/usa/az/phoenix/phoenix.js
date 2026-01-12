@@ -83,6 +83,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "85008",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Vista Colina Family Shelter",
+    [keys.URL]: "https://www.cassaz.org/services",
+    [keys.PHONE]: "6042566945",
+    [keys.DATE_CHECKED]: "2025-12-30",
+    [keys.ADDRESS_1]: "1050 W. Mountain View Rd",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85021",
+    [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
