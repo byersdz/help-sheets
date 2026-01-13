@@ -16,23 +16,27 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "HopeWorks",
-    [keys.URL]: "https://hopeworksnm.org/get-help",
-    [keys.PHONE]: "5058439405",
-    [keys.DATE_CHECKED]: "2025-12-08",
-    [keys.ADDRESS_1]: "1201 3rd St NW",
-    [keys.CITY]: "Albuquerque",
-    [keys.STATE]: "NM",
-    [keys.ZIP_CODE]: "87102",
-    [keys.DESCRIPTION]: "Day shelter, clothing",
+    [keys.NAME]: "Andre House",
+    [keys.URL]: "https://andrehouse.org/what-we-do",
+    [keys.PHONE]: "6022550580",
+    [keys.DATE_CHECKED]: "2026-01-13",
+    [keys.ADDRESS_1]: "213 S. 11th Ave",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85007",
+    [keys.DESCRIPTION]: "Also provides showers, hygiene kits",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Coffee & meal checkin",
-        [keys.HOURS]: "Mon-Fri 8am-10am",
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Sat-Thur 5pm-6pm",
       },
       {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Mon-Fri 10am-noon",
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Tue/Thur 12:30pm-3pm, Sat 1pm-3pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Laundry",
+        [keys.HOURS]: "Mon-Wed 8:30am-noon",
       },
     ],
   },
