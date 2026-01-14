@@ -40,6 +40,12 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. Mary's Food Bank",
+    [keys.URL]: "https://www.stmarysfoodbank.org",
+    [keys.PHONE]: "6022423663",
+    [keys.DATE_CHECKED]: "2026-01-14",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
