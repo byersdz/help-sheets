@@ -41,6 +41,30 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "St. Vincent de Paul",
+    [keys.URL]: "https://www.stvincentdepaul.net/locations/phoenix-dining-room",
+    [keys.PHONE]: "6022664673",
+    [keys.DATE_CHECKED]: "2026-01-13",
+    [keys.ADDRESS_1]: "1075 W. Jackson St.",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85007",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Fri 7am-8am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every day 11am-12:45pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Friday 4pm-5pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "St. Mary's Food Bank",
     [keys.URL]: "https://www.stmarysfoodbank.org",
     [keys.PHONE]: "6022423663",
