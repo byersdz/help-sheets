@@ -65,6 +65,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "St. Vincent de Paul Family Dining Room",
+    [keys.URL]: "https://www.stvincentdepaul.net/locations/nextphase-family-dining-room",
+    [keys.PHONE]: "6022543338",
+    [keys.DATE_CHECKED]: "2026-01-20",
+    [keys.ADDRESS_1]: "420 W. Watkins Rd.",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85003",
+    [keys.DESCRIPTION]: "Open to anyone with a child under the age of 18",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon-Fri 4pm-6pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "St. Mary's Food Bank",
     [keys.URL]: "https://www.stmarysfoodbank.org",
     [keys.PHONE]: "6022423663",
