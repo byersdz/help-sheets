@@ -82,6 +82,21 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "FIBCO Family Services",
+    [keys.URL]: "https://www.fibco.org/programs",
+    [keys.DATE_CHECKED]: "2026-01-20",
+    [keys.ADDRESS_1]: "1141 E. Jefferson St.",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85034",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food & Clothing",
+        [keys.HOURS]: "Tue/Wed/Fri 10:30am-12:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "St. Mary's Food Bank",
     [keys.URL]: "https://www.stmarysfoodbank.org",
     [keys.PHONE]: "6022423663",
