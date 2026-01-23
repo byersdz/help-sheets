@@ -207,6 +207,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "AZ",
     [keys.ZIP_CODE]: "85014",
   },
+  {
+    [keys.NAME]: "Justa Center",
+    [keys.URL]: "https://www.justacenter.org",
+    [keys.PHONE]: "6022546524",
+    [keys.DATE_CHECKED]: "2026-01-22",
+    [keys.ADDRESS_1]: "1001 W Jefferson Street",
+    [keys.CITY]: "Phoenix",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85007",
+    [keys.DESCRIPTION]: "Day center for seniors",
+  },
 ];
 
 module.exports = data;
