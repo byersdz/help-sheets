@@ -82,6 +82,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Mesa Dining Room",
+    [keys.URL]: "https://www.stvincentdepaul.net/locations/mesa-dining-room",
+    [keys.PHONE]: "6026199411",
+    [keys.DATE_CHECKED]: "2026-01-20",
+    [keys.ADDRESS_1]: "49 W Broadway Rd.",
+    [keys.CITY]: "Mesa",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85210",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Daily 9:30am-11:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Heat Relief June 1 - Sept 30",
+        [keys.HOURS]: "Daily noon-4:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "FIBCO Family Services",
     [keys.URL]: "https://www.fibco.org/programs",
     [keys.DATE_CHECKED]: "2026-01-20",
