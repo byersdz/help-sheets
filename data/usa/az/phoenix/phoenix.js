@@ -102,6 +102,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "El Mirage Dining Room",
+    [keys.URL]: "https://www.stvincentdepaul.net/locations/el-mirage-dining-room",
+    [keys.PHONE]: "6022664673",
+    [keys.DATE_CHECKED]: "2026-01-29",
+    [keys.ADDRESS_1]: "14013 N Verbena St.",
+    [keys.CITY]: "El Mirage",
+    [keys.STATE]: "AZ",
+    [keys.ZIP_CODE]: "85335",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 9am-11am",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "FIBCO Family Services",
     [keys.URL]: "https://www.fibco.org/programs",
     [keys.DATE_CHECKED]: "2026-01-20",
