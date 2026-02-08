@@ -16,33 +16,31 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Andre House",
-    [keys.URL]: "https://andrehouse.org/what-we-do",
-    [keys.PHONE]: "6022550580",
-    [keys.DATE_CHECKED]: "2026-01-13",
-    [keys.ADDRESS_1]: "213 S. 11th Ave",
-    [keys.CITY]: "Phoenix",
-    [keys.STATE]: "AZ",
-    [keys.ZIP_CODE]: "85007",
-    [keys.DESCRIPTION]: "Also provides showers, hygiene kits",
+    [keys.NAME]: "Dreams for Change",
+    [keys.URL]: "https://www.dreamsforchange.org/need-help",
+    [keys.PHONE]: "6194970236",
+    [keys.DATE_CHECKED]: "2026-02-08",
+    [keys.ADDRESS_1]: "5605 Imperial Ave",
+    [keys.CITY]: "San Diego",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "92114",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Dinner",
-        [keys.HOURS]: "Sat-Thur 5pm-6pm",
-      },
-      {
-        [keys.DESCRIPTION]: "Clothing",
-        [keys.HOURS]: "Tue/Thur 12:30pm-3pm, Sat 1pm-3pm",
-      },
-      {
-        [keys.DESCRIPTION]: "Laundry",
-        [keys.HOURS]: "Mon-Wed 8:30am-noon",
+        [keys.DESCRIPTION]: "Food Distribution",
+        [keys.HOURS]: "Wednesday 10am-noon",
       },
     ],
   },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
+  {
+    [keys.NAME]: "Dreams for Change Self Parking",
+    [keys.URL]: "https://www.dreamsforchange.org/need-help",
+    [keys.PHONE]: "6194970236",
+    [keys.DATE_CHECKED]: "2026-02-08",
+    [keys.DESCRIPTION]: "Various safe parking locations.",
+  },
   {
     [keys.NAME]: "Central Arizona Shelter Services",
     [keys.URL]: "https://www.cassaz.org/get-help",
