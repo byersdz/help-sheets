@@ -9,9 +9,23 @@ data[keys.SUPPORTED_LANGUAGES] = [languageCodes.ENGLISH];
 
 data[keys.EXCLUDE_LIST] = [
   "usa-shelter-directory",
+  "211-usa",
 ];
 
 data[keys.ACCESS_POINTS] = [
+  {
+    [keys.NAME]: "211",
+    [keys.URL]: "https://211la.org/",
+    [keys.PHONE]: "211",
+    [keys.DESCRIPTION]: "For more information and referrals for all health and human services",
+    [keys.DATE_CHECKED]: "2026-02-11",
+  },
+  {
+    [keys.NAME]: "Los Angeles Homeless Services Authority",
+    [keys.URL]: "https://www.lahsa.org/get-help",
+    [keys.PHONE]: "2132256581",
+    [keys.DATE_CHECKED]: "2026-02-11",
+  },
 ];
 
 data[keys.BASIC_NEEDS] = [
