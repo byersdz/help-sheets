@@ -42,6 +42,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "CA",
     [keys.ZIP_CODE]: "90401",
   },
+  {
+    [keys.NAME]: "Midnight Mission",
+    [keys.URL]: "https://www.midnightmission.org/our-services/emergency-services/shelter",
+    [keys.PHONE]: "2136249258",
+    [keys.DATE_CHECKED]: "2026-02-13",
+    [keys.ADDRESS_1]: "601 S. San Pedro St",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90014",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
