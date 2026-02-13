@@ -29,42 +29,18 @@ data[keys.ACCESS_POINTS] = [
 ];
 
 data[keys.BASIC_NEEDS] = [
-  {
-    [keys.NAME]: "Dreams for Change",
-    [keys.URL]: "https://www.dreamsforchange.org/need-help",
-    [keys.PHONE]: "6194970236",
-    [keys.DATE_CHECKED]: "2026-02-08",
-    [keys.ADDRESS_1]: "5605 Imperial Ave",
-    [keys.CITY]: "San Diego",
-    [keys.STATE]: "CA",
-    [keys.ZIP_CODE]: "92114",
-    [keys.PROVIDES]: [
-      {
-        [keys.DESCRIPTION]: "Food Distribution",
-        [keys.HOURS]: "Wednesday 10am-noon",
-      },
-    ],
-  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Dreams for Change Self Parking",
-    [keys.URL]: "https://www.dreamsforchange.org/need-help",
-    [keys.PHONE]: "6194970236",
-    [keys.DATE_CHECKED]: "2026-02-08",
-    [keys.DESCRIPTION]: "Various safe parking locations.",
-  },
-  {
-    [keys.NAME]: "Central Arizona Shelter Services",
-    [keys.URL]: "https://www.cassaz.org/get-help",
-    [keys.PHONE]: "6042566945",
-    [keys.DATE_CHECKED]: "2025-12-30",
-    [keys.ADDRESS_1]: "204 S 12th Ave",
-    [keys.CITY]: "Phoenix",
-    [keys.STATE]: "AZ",
-    [keys.ZIP_CODE]: "85007",
-    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.NAME]: "The People Concern",
+    [keys.URL]: "https://www.thepeopleconcern.org/get-help",
+    [keys.PHONE]: "3104504050",
+    [keys.DATE_CHECKED]: "2026-02-12",
+    [keys.ADDRESS_1]: "503 Olympic Blvd.",
+    [keys.CITY]: "Santa Monica",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90401",
   },
 ];
 
