@@ -29,6 +29,17 @@ data[keys.ACCESS_POINTS] = [
 ];
 
 data[keys.BASIC_NEEDS] = [
+  {
+    [keys.NAME]: "St. Joseph Center",
+    [keys.URL]: "https://stjosephctr.org/if-you-need-help/",
+    [keys.PHONE]: "3103996878",
+    [keys.DATE_CHECKED]: "2026-02-13",
+    [keys.ADDRESS_1]: "404 Lincoln Blvd",
+    [keys.CITY]: "Venice",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90291",
+    [keys.DESCRIPTION]: "hot showers, clothing and hygiene kits, mail, basic medical, case management services",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
