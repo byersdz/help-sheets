@@ -64,6 +64,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "90014",
     [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Hope the Mission",
+    [keys.URL]: "https://hopethemission.org/our-programs/navigation-job-centers",
+    [keys.PHONE]: "8183017988",
+    [keys.DATE_CHECKED]: "2026-02-15",
+    [keys.ADDRESS_1]: "11839 Sherman Way",
+    [keys.CITY]: "North Hollywood",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "91605",
+  },
 ];
 
 data[keys.RESOURCES] = [
