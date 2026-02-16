@@ -78,15 +78,14 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Native American Connections",
-    [keys.URL]: "https://www.nativeconnections.org",
-    [keys.PHONE]: "6022543247",
-    [keys.DATE_CHECKED]: "2025-12-31",
-    [keys.ADDRESS_1]: "3216 N 3rd St",
-    [keys.CITY]: "Phoenix",
-    [keys.STATE]: "AZ",
-    [keys.ZIP_CODE]: "85012",
-    [keys.DESCRIPTION]: "Addiction recovery, medical services, housing resources",
+    [keys.NAME]: "San Fernando Valley Community Mental Health Center",
+    [keys.URL]: "https://www.movinglivesforward.org",
+    [keys.PHONE]: "8189014830",
+    [keys.DATE_CHECKED]: "2026-02-16",
+    [keys.ADDRESS_1]: "16650 Sherman Way",
+    [keys.CITY]: "Van Nuys",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "91406",
   },
 ];
 
