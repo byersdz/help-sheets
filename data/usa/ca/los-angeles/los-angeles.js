@@ -87,6 +87,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "CA",
     [keys.ZIP_CODE]: "91406",
   },
+  {
+    [keys.NAME]: "Volunteers of America",
+    [keys.URL]: "https://voala.org",
+    [keys.PHONE]: "2133891500",
+    [keys.DATE_CHECKED]: "2026-02-17",
+    [keys.ADDRESS_1]: "3600 Wilshire Blvd",
+    [keys.ADDRESS_2]: "Suite 1500",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90010",
+  },
 ];
 
 module.exports = data;
