@@ -40,6 +40,28 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "90291",
     [keys.DESCRIPTION]: "hot showers, clothing and hygiene kits, mail, basic medical, case management services",
   },
+  {
+    [keys.NAME]: "Downtown Women's Center",
+    [keys.URL]: "https://downtownwomenscenter.org/get-help",
+    [keys.PHONE]: "2132132874",
+    [keys.DATE_CHECKED]: "2026-02-17",
+    [keys.ADDRESS_1]: "442 S. San Pedro Street",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90013",
+    [keys.SERVES]: [serves.WOMEN],
+    [keys.DESCRIPTION]: "Also provides mail, showers, bathroom, health services",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Daily 7:30am-8:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Daily 11:30am-12:30am, Thur 11am-noon",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
