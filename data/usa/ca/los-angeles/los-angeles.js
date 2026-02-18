@@ -66,6 +66,17 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
+    [keys.NAME]: "Union Rescue Mission",
+    [keys.URL]: "https://urm.org/get-help",
+    [keys.PHONE]: "2133476351",
+    [keys.DATE_CHECKED]: "2026-02-18",
+    [keys.ADDRESS_1]: "545 S. San Pedro St.",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90013",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
+  },
+  {
     [keys.NAME]: "The People Concern",
     [keys.URL]: "https://www.thepeopleconcern.org/get-help",
     [keys.PHONE]: "3104504050",
