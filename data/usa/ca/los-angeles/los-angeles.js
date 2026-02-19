@@ -138,6 +138,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "CA",
     [keys.ZIP_CODE]: "90010",
   },
+  {
+    [keys.NAME]: "Weingart Acceess Center",
+    [keys.URL]: "https://www.weingart.org/access-center",
+    [keys.PHONE]: "2138335020",
+    [keys.DATE_CHECKED]: "2026-02-19",
+    [keys.ADDRESS_1]: "501 E 6th Street",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90021",
+    [keys.DESCRIPTION]: "Homeless services and referrals",
+  },
 ];
 
 module.exports = data;
