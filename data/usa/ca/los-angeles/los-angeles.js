@@ -107,6 +107,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "CA",
     [keys.ZIP_CODE]: "91605",
   },
+  {
+    [keys.NAME]: "Winter Shelter Program",
+    [keys.URL]: "https://www.lahsa.org/winter-shelter",
+    [keys.PHONE]: "211",
+    [keys.DATE_CHECKED]: "2026-02-19",
+    [keys.DESCRIPTION]: "Nov 1 - March 31. Various locations",
+  },
 ];
 
 data[keys.RESOURCES] = [
