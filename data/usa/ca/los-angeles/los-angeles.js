@@ -160,6 +160,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "90044",
     [keys.DESCRIPTION]: "Homeless services and referrals",
   },
+  {
+    [keys.NAME]: "Watts Labor Community Access Center",
+    [keys.URL]: "https://wlcac.org/services/houseless-services",
+    [keys.PHONE]: "3235634721",
+    [keys.DATE_CHECKED]: "2026-02-21",
+    [keys.ADDRESS_1]: "958 E 108th Street",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90059",
+    [keys.DESCRIPTION]: "Homeless services and referrals",
+  },
 ];
 
 module.exports = data;
