@@ -30,6 +30,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
+    [keys.NAME]: "Bread and Roses Cafe",
+    [keys.URL]: "https://stjosephctr.org/if-you-need-help/",
+    [keys.PHONE]: "3103996878",
+    [keys.DATE_CHECKED]: "2026-02-13",
+    [keys.ADDRESS_1]: "663 Rose Avenue",
+    [keys.CITY]: "Venice",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90291",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Hot Meals",
+        [keys.HOURS]: "Mon-Fri 8:30am-12:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "St. Joseph Center",
     [keys.URL]: "https://stjosephctr.org/if-you-need-help/",
     [keys.PHONE]: "3103996878",
