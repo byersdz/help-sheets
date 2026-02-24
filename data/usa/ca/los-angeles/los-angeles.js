@@ -187,6 +187,12 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "90059",
     [keys.DESCRIPTION]: "Homeless services and referrals",
   },
+  {
+    [keys.NAME]: "LA County Department of Mental Health",
+    [keys.URL]: "https://dmh.lacounty.gov/get-help-now/",
+    [keys.DATE_CHECKED]: "2026-02-23",
+    [keys.DESCRIPTION]: "Mental health services",
+  },
 ];
 
 module.exports = data;
