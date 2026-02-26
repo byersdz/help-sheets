@@ -188,6 +188,17 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Homeless services and referrals",
   },
   {
+    [keys.NAME]: "Venice Family Clinic",
+    [keys.URL]: "https://venicefamilyclinic.org",
+    [keys.PHONE]: "3103928636",
+    [keys.DATE_CHECKED]: "2026-02-26",
+    [keys.ADDRESS_1]: "604 Rose Ave Venice",
+    [keys.CITY]: "Venice",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90291",
+    [keys.DESCRIPTION]: "Homeless health care services",
+  },
+  {
     [keys.NAME]: "LA County Department of Mental Health",
     [keys.URL]: "https://dmh.lacounty.gov/get-help-now/",
     [keys.DATE_CHECKED]: "2026-02-23",
