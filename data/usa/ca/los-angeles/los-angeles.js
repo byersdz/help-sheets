@@ -78,6 +78,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Safe Place for Youth Drop in Center",
+    [keys.URL]: "https://www.safeplaceforyouth.org/youth",
+    [keys.PHONE]: "3109022283",
+    [keys.DATE_CHECKED]: "2026-03-02",
+    [keys.ADDRESS_1]: "2471 Lincoln Blvd",
+    [keys.CITY]: "Venice",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90291",
+    [keys.DESCRIPTION]: "Serves ages 12-25. Food, clothing, housing referrals, showers, laundry, health, dental, legal",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
