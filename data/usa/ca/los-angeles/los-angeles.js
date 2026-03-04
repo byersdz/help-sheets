@@ -166,7 +166,7 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "90010",
   },
   {
-    [keys.NAME]: "Weingart Acceess Center",
+    [keys.NAME]: "Weingart Access Center",
     [keys.URL]: "https://www.weingart.org/access-center",
     [keys.PHONE]: "2138335020",
     [keys.DATE_CHECKED]: "2026-02-19",
@@ -229,6 +229,17 @@ data[keys.RESOURCES] = [
     [keys.CITY]: "North Hollywood",
     [keys.STATE]: "CA",
     [keys.ZIP_CODE]: "91605",
+    [keys.DESCRIPTION]: "Housing and supportive services",
+  },
+  {
+    [keys.NAME]: "Harbor Interfaith Services",
+    [keys.URL]: "https://www.harborinterfaith.org",
+    [keys.PHONE]: "3108310603",
+    [keys.DATE_CHECKED]: "2026-03-03",
+    [keys.ADDRESS_1]: "670 W. 9th St.",
+    [keys.CITY]: "San Pedro",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90731",
     [keys.DESCRIPTION]: "Housing and supportive services",
   },
   {
