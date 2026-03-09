@@ -57,6 +57,23 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: "hot showers, clothing and hygiene kits, mail, basic medical, case management services",
   },
   {
+    [keys.NAME]: "St. Francis Center",
+    [keys.URL]: "https://stfranciscenterla.org/homeless-well-being",
+    [keys.PHONE]: "2137475347",
+    [keys.DATE_CHECKED]: "2026-03-09",
+    [keys.ADDRESS_1]: "1835 S. Hope St.",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90015",
+    [keys.DESCRIPTION]: "Also provides laundry, showers, food pantry",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast & Sack Lunch",
+        [keys.HOURS]: "Mon-Fri 7:30am-8:30am, Sat 8:30am-9:30am",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Downtown Women's Center",
     [keys.URL]: "https://downtownwomenscenter.org/get-help",
     [keys.PHONE]: "2132132874",
