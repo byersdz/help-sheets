@@ -30,6 +30,30 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
+    [keys.NAME]: "Midnight Mission",
+    [keys.URL]: "https://www.midnightmission.org/our-services/emergency-services/food",
+    [keys.PHONE]: "2136249258",
+    [keys.DATE_CHECKED]: "2026-03-10",
+    [keys.ADDRESS_1]: "601 S. San Pedro St",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90014",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Every day 6:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Sat 12:30pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Every day 4:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Bread and Roses Cafe",
     [keys.URL]: "https://stjosephctr.org/if-you-need-help/",
     [keys.PHONE]: "3103996878",
