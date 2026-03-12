@@ -130,6 +130,16 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "90291",
     [keys.DESCRIPTION]: "Serves ages 12-25. Food, clothing, housing referrals, showers, laundry, health, dental, legal",
   },
+  {
+    [keys.NAME]: "World Harvest Food Bank",
+    [keys.URL]: "https://worldharvestfoodbank.org",
+    [keys.PHONE]: "2137462227",
+    [keys.DATE_CHECKED]: "2026-03-12",
+    [keys.ADDRESS_1]: "3100 Venice Blvd.",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90019",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
