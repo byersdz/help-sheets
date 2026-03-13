@@ -140,6 +140,12 @@ data[keys.BASIC_NEEDS] = [
     [keys.STATE]: "CA",
     [keys.ZIP_CODE]: "90019",
   },
+  {
+    [keys.NAME]: "Food Oasis Los Angeles",
+    [keys.URL]: "https://foodoasis.la/",
+    [keys.DATE_CHECKED]: "2026-03-13",
+    [keys.DESCRIPTION]: "Interactive map of free food resources",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
