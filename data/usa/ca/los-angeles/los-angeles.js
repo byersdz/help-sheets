@@ -198,6 +198,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2026-02-19",
     [keys.DESCRIPTION]: "Nov 1 - March 31. Various locations",
   },
+  {
+    [keys.NAME]: "Good Shepherd Center",
+    [keys.URL]: "https://www.gschomeless.org",
+    [keys.PHONE]: "2133185779",
+    [keys.DATE_CHECKED]: "2026-03-14",
+    [keys.ADDRESS_1]: "1650 Rockwood Street",
+    [keys.CITY]: "Los Angeles",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "90026",
+    [keys.SERVES]: [serves.WOMEN, serves.WOMEN_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
