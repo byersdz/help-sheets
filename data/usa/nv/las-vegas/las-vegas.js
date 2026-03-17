@@ -13,11 +13,15 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: "211",
-    [keys.URL]: "https://211la.org/",
-    [keys.PHONE]: "211",
-    [keys.DESCRIPTION]: "For more information and referrals for all health and human services",
-    [keys.DATE_CHECKED]: "2026-02-11",
+    [keys.NAME]: "Courtyard Homeless Resource Center",
+    [keys.URL]: "https://www.lasvegasnevada.gov/Residents/Resident-Services/Homeless-Services",
+    [keys.PHONE]: "7022296117",
+    [keys.DESCRIPTION]: "A starting point where homeless individuals can go to access resources all in one place",
+    [keys.DATE_CHECKED]: "2026-03-17",
+    [keys.ADDRESS_1]: "314 Foremaster Lane",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89101",
   },
 ];
 
