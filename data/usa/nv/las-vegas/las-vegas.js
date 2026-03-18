@@ -27,26 +27,18 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Midnight Mission",
-    [keys.URL]: "https://www.midnightmission.org/our-services/emergency-services/food",
-    [keys.PHONE]: "2136249258",
-    [keys.DATE_CHECKED]: "2026-03-10",
-    [keys.ADDRESS_1]: "601 S. San Pedro St",
-    [keys.CITY]: "Los Angeles",
-    [keys.STATE]: "CA",
-    [keys.ZIP_CODE]: "90014",
+    [keys.NAME]: "Las Vegas Rescue Mission",
+    [keys.URL]: "https://vegasrescue.org/meals",
+    [keys.PHONE]: "7023821766",
+    [keys.DATE_CHECKED]: "2026-03-18",
+    [keys.ADDRESS_1]: "480 West Bonanza Rd",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89106",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Breakfast",
-        [keys.HOURS]: "Every day 6:30am",
-      },
-      {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Mon-Sat 12:30pm",
-      },
-      {
-        [keys.DESCRIPTION]: "Dinner",
-        [keys.HOURS]: "Every day 4:30pm",
+        [keys.DESCRIPTION]: "Community Meal",
+        [keys.HOURS]: "Daily 5pm-6pm",
       },
     ],
   },
@@ -54,14 +46,14 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Union Rescue Mission",
-    [keys.URL]: "https://urm.org/get-help",
-    [keys.PHONE]: "2133476351",
-    [keys.DATE_CHECKED]: "2026-02-18",
-    [keys.ADDRESS_1]: "545 S. San Pedro St.",
-    [keys.CITY]: "Los Angeles",
-    [keys.STATE]: "CA",
-    [keys.ZIP_CODE]: "90013",
+    [keys.NAME]: "Las Vegas Rescue Mission",
+    [keys.URL]: "https://vegasrescue.org/emergencyshelter",
+    [keys.PHONE]: "7023821766",
+    [keys.DATE_CHECKED]: "2026-03-18",
+    [keys.ADDRESS_1]: "480 West Bonanza Rd",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89106",
     [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
   },
 ];
