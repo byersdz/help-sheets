@@ -42,6 +42,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Catholic Charities",
+    [keys.URL]: "https://www.catholiccharities.com/programs/community-meal-st-vincent-lied-dining-facility",
+    [keys.PHONE]: "7023852662",
+    [keys.DATE_CHECKED]: "2026-03-20",
+    [keys.ADDRESS_1]: "1501 Las Vegas Blvd North",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89101",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Community Meal",
+        [keys.HOURS]: "Daily 10am-11am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
