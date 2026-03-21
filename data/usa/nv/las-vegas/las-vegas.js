@@ -72,6 +72,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "89106",
     [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Catholic Charities",
+    [keys.URL]: "https://www.catholiccharities.com/programs/mens-emergency-night-shelter",
+    [keys.PHONE]: "7023852662",
+    [keys.DATE_CHECKED]: "2026-03-20",
+    [keys.ADDRESS_1]: "1501 Las Vegas Blvd North",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89101",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
