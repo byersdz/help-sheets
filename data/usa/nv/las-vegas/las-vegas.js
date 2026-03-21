@@ -83,6 +83,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "89101",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "The Shade Tree",
+    [keys.URL]: "https://theshadetree.org/get-help/",
+    [keys.PHONE]: "8553850072",
+    [keys.DATE_CHECKED]: "2026-03-21",
+    [keys.ADDRESS_1]: "1 W. Owens Ave North",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89030",
+    [keys.DESCRIPTION]: "Domestic violence shelter",
+  },
 ];
 
 data[keys.RESOURCES] = [
