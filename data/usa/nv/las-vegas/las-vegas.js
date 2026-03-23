@@ -94,6 +94,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "89030",
     [keys.DESCRIPTION]: "Domestic violence shelter",
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://www.salvationarmysouthernnevada.org/homeless-services",
+    [keys.PHONE]: "7027015347",
+    [keys.DATE_CHECKED]: "2026-03-23",
+    [keys.ADDRESS_1]: "35 W Owens Ave",
+    [keys.ADDRESS_2]: "#103",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89030",
+  },
 ];
 
 data[keys.RESOURCES] = [
