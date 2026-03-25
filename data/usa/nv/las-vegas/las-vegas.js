@@ -105,6 +105,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "NV",
     [keys.ZIP_CODE]: "89030",
   },
+  {
+    [keys.NAME]: "Nevada Partnership for Homeless Youth",
+    [keys.URL]: "https://nphy.org",
+    [keys.PHONE]: "8668273723",
+    [keys.DATE_CHECKED]: "2026-03-24",
+    [keys.ADDRESS_1]: "4981 Shirley Street",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89119",
+    [keys.DESCRIPTION]: "For youth Ages 12 - 24. Drop in Center provides food, clothing, resources.",
+  },
 ];
 
 data[keys.RESOURCES] = [
