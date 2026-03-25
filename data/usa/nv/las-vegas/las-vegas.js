@@ -120,14 +120,16 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "San Fernando Valley Community Mental Health Center",
-    [keys.URL]: "https://www.movinglivesforward.org",
-    [keys.PHONE]: "8189014830",
-    [keys.DATE_CHECKED]: "2026-02-16",
-    [keys.ADDRESS_1]: "16650 Sherman Way",
-    [keys.CITY]: "Van Nuys",
-    [keys.STATE]: "CA",
-    [keys.ZIP_CODE]: "91406",
+    [keys.NAME]: "HELP of Southern Nevada",
+    [keys.URL]: "https://www.helpsonv.org",
+    [keys.PHONE]: "7023694357",
+    [keys.DATE_CHECKED]: "2026-03-25",
+    [keys.ADDRESS_1]: "1640 E. Flamingo Rd.",
+    [keys.ADDRESS_2]: "#100",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89119",
+    [keys.DESCRIPTION]: "Housing programs, referrals, and support services",
   },
 ];
 
