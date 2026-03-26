@@ -58,6 +58,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "CARE Complex",
+    [keys.URL]: "https://carecomplex.org/essential-services",
+    [keys.PHONE]: "7024833055",
+    [keys.DATE_CHECKED]: "2026-03-26",
+    [keys.ADDRESS_1]: "200 Foremaster Lane",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89101",
+    [keys.DESCRIPTION]: "Meals, showers, haircuts, bus passes, mail, lockers, internet access",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
