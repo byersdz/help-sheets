@@ -142,6 +142,13 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "89119",
     [keys.DESCRIPTION]: "Housing programs, referrals, and support services",
   },
+  {
+    [keys.NAME]: "Nevada Health Centers",
+    [keys.URL]: "https://www.nevadahealthcenters.org/healthcare-for-the-homeless",
+    [keys.PHONE]: "8007872568",
+    [keys.DATE_CHECKED]: "2026-03-27",
+    [keys.DESCRIPTION]: "Healthcare for the homeless",
+  },
 ];
 
 module.exports = data;
