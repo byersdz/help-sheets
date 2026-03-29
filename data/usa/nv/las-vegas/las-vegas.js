@@ -149,6 +149,16 @@ data[keys.RESOURCES] = [
     [keys.DATE_CHECKED]: "2026-03-27",
     [keys.DESCRIPTION]: "Healthcare for the homeless",
   },
+  {
+    [keys.NAME]: "Clark County Cooling Stations",
+    [keys.URL]: "https://www.clarkcountynv.gov/government/departments/fire/cooling-stations",
+    [keys.DATE_CHECKED]: "2026-03-29",
+  },
+  {
+    [keys.NAME]: "Stay Cool Clark County",
+    [keys.URL]: "https://allin.clarkcountynv.gov/Initiative/StayCool",
+    [keys.DATE_CHECKED]: "2026-03-29",
+  },
 ];
 
 module.exports = data;
