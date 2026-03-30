@@ -69,6 +69,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "89101",
     [keys.DESCRIPTION]: "Meals, showers, haircuts, bus passes, mail, lockers, internet access",
   },
+  {
+    [keys.NAME]: "Casa de Luz",
+    [keys.URL]: "https://www.casadeluzlv.com/programs",
+    [keys.PHONE]: "7026845866",
+    [keys.DATE_CHECKED]: "2026-03-30",
+    [keys.ADDRESS_1]: "2412 Tam St.",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89102",
+    [keys.DESCRIPTION]: "Food Pantry, primary medical care, children's dentistry, diapers, case management",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
