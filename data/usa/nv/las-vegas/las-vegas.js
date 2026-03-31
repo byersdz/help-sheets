@@ -80,6 +80,22 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "89102",
     [keys.DESCRIPTION]: "Food Pantry, primary medical care, children's dentistry, diapers, case management",
   },
+  {
+    [keys.NAME]: "Lutheran Social Services of Nevada",
+    [keys.URL]: "https://lutheransocialservicesofnevada.org",
+    [keys.PHONE]: "7028339580",
+    [keys.DATE_CHECKED]: "2026-03-31",
+    [keys.ADDRESS_1]: "4323 Boulder Highway",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89121",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mon-Thur 9am-1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
