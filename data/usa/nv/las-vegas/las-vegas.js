@@ -96,6 +96,13 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "The WASH Foundation",
+    [keys.URL]: "https://thewashfoundation.org/freshstart",
+    [keys.PHONE]: "4075748353",
+    [keys.DATE_CHECKED]: "2026-04-01",
+    [keys.DESCRIPTION]: "Mobile shower program",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
