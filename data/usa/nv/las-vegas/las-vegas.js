@@ -161,6 +161,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "89119",
     [keys.DESCRIPTION]: "For youth Ages 12 - 24. Drop in Center provides food, clothing, resources.",
   },
+  {
+    [keys.NAME]: "Family Promise",
+    [keys.URL]: "https://familypromiselv.com",
+    [keys.PHONE]: "7026388806",
+    [keys.DATE_CHECKED]: "2026-04-03",
+    [keys.ADDRESS_1]: "1410 S. Maryland Parkway",
+    [keys.CITY]: "Las Vegas",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89121",
+    [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
+  },
 ];
 
 data[keys.RESOURCES] = [
