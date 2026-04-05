@@ -172,6 +172,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "89121",
     [keys.SERVES]: [serves.FAMILIES_WITH_CHILDREN],
   },
+  {
+    [keys.NAME]: "St. Jude's Ranch",
+    [keys.URL]: "https://stjudesranch.org/our-programs/",
+    [keys.PHONE]: "7022947100",
+    [keys.DATE_CHECKED]: "2026-04-05",
+    [keys.ADDRESS_1]: "100 St. Jude's St.",
+    [keys.CITY]: "Boulder City",
+    [keys.STATE]: "NV",
+    [keys.ZIP_CODE]: "89005",
+    [keys.DESCRIPTION]: "Transitional housing for youth 18-24",
+  },
 ];
 
 data[keys.RESOURCES] = [
