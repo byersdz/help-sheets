@@ -215,6 +215,12 @@ data[keys.RESOURCES] = [
     [keys.URL]: "https://allin.clarkcountynv.gov/Initiative/StayCool",
     [keys.DATE_CHECKED]: "2026-03-29",
   },
+  {
+    [keys.NAME]: "Gambler's Anonymous",
+    [keys.URL]: "https://gasn.info",
+    [keys.PHONE]: "7055290202",
+    [keys.DATE_CHECKED]: "2026-04-06",
+  },
 ];
 
 module.exports = data;
