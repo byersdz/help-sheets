@@ -13,15 +13,11 @@ data[keys.EXCLUDE_LIST] = [
 
 data[keys.ACCESS_POINTS] = [
   {
-    [keys.NAME]: "Courtyard Homeless Resource Center",
-    [keys.URL]: "https://www.lasvegasnevada.gov/Residents/Resident-Services/Homeless-Services",
-    [keys.PHONE]: "7022296117",
-    [keys.DESCRIPTION]: "A starting point where homeless individuals can go to access resources all in one place",
-    [keys.DATE_CHECKED]: "2026-03-17",
-    [keys.ADDRESS_1]: "314 Foremaster Lane",
-    [keys.CITY]: "Las Vegas",
-    [keys.STATE]: "NV",
-    [keys.ZIP_CODE]: "89101",
+    [keys.NAME]: "Shelter the Homeless Hotline",
+    [keys.URL]: "https://homelessutah.org",
+    [keys.PHONE]: "8019909999",
+    [keys.DESCRIPTION]: "If you or someone you know is experiencing or at risk of homelessness, call for shelter and assistance",
+    [keys.DATE_CHECKED]: "2026-04-11",
   },
 ];
 
