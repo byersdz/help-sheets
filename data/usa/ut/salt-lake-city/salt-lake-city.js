@@ -42,15 +42,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Las Vegas Rescue Mission",
-    [keys.URL]: "https://vegasrescue.org/emergencyshelter",
-    [keys.PHONE]: "7023821766",
-    [keys.DATE_CHECKED]: "2026-03-18",
-    [keys.ADDRESS_1]: "480 West Bonanza Rd",
-    [keys.CITY]: "Las Vegas",
-    [keys.STATE]: "NV",
-    [keys.ZIP_CODE]: "89106",
-    [keys.SERVES]: [serves.MEN, serves.WOMEN, serves.FAMILIES],
+    [keys.NAME]: "Gail Miller Resource Center",
+    [keys.URL]: "https://theroadhome.org/resourcecenter/gail-miller-resource-center",
+    [keys.PHONE]: "8014565900",
+    [keys.DATE_CHECKED]: "2026-04-13",
+    [keys.ADDRESS_1]: "242 W. Paramount Ave.",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84115",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
 
