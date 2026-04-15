@@ -52,6 +52,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "84115",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Geraldine E. King Resource Center",
+    [keys.URL]: "https://www.voaut.org/get-help/adult-homeless-services",
+    [keys.PHONE]: "8019909999",
+    [keys.DATE_CHECKED]: "2026-04-15",
+    [keys.ADDRESS_1]: "131 E 700 S",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84111",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
