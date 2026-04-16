@@ -63,6 +63,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "84111",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Pamela Atkinson Resource Center",
+    [keys.URL]: "https://theroadhome.org/resourcecenter/south-salt-lake-mens-resource-center",
+    [keys.PHONE]: "8013594142",
+    [keys.DATE_CHECKED]: "2026-04-16",
+    [keys.ADDRESS_1]: "3380 South 1000 West",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84119",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
