@@ -74,6 +74,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "84119",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Family Promise",
+    [keys.URL]: "https://familypromisesaltlake.org",
+    [keys.PHONE]: "8019618622",
+    [keys.DATE_CHECKED]: "2026-04-16",
+    [keys.ADDRESS_1]: "814 West 800 South",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84104",
+    [keys.SERVES]: [serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
