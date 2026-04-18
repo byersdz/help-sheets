@@ -85,6 +85,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "84104",
     [keys.SERVES]: [serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Connie Crosby Family Resource Center",
+    [keys.URL]: "https://theroadhome.org/resourcecenter/connie-crosby-family-resource-center",
+    [keys.PHONE]: "8015691201",
+    [keys.DATE_CHECKED]: "2026-04-18",
+    [keys.ADDRESS_1]: "529 W. 9th Ave",
+    [keys.CITY]: "Midvale",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84047",
+    [keys.SERVES]: [serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
