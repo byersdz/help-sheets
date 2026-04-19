@@ -96,6 +96,28 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "84047",
     [keys.SERVES]: [serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Rescue Mission of Salt Lake Men's Center",
+    [keys.URL]: "https://rescuesaltlake.org/get-help",
+    [keys.PHONE]: "8013551302",
+    [keys.DATE_CHECKED]: "2026-04-19",
+    [keys.ADDRESS_1]: "463 S 400 W",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84101",
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
+    [keys.NAME]: "Rescue Mission of Salt Lake Women's Center",
+    [keys.URL]: "https://rescuesaltlake.org/get-help",
+    [keys.PHONE]: "8015215925",
+    [keys.DATE_CHECKED]: "2026-04-19",
+    [keys.ADDRESS_1]: "1165 S State Street",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84111",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
