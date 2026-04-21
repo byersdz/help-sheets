@@ -118,6 +118,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "84111",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "YWCA Shelter (Domestic Violence)",
+    [keys.URL]: "https://www.ywcautah.org/survivor-services",
+    [keys.PHONE]: "8015378600",
+    [keys.DATE_CHECKED]: "2026-04-21",
+    [keys.ADDRESS_1]: "322 East 300 South",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84111",
+  },
 ];
 
 data[keys.RESOURCES] = [
