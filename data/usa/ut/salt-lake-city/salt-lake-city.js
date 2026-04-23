@@ -128,6 +128,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "UT",
     [keys.ZIP_CODE]: "84111",
   },
+  {
+    [keys.NAME]: "Salt Lake County Youth Services",
+    [keys.URL]: "https://www.saltlakecounty.gov/youth",
+    [keys.PHONE]: "3854684500",
+    [keys.DATE_CHECKED]: "2026-04-23",
+    [keys.ADDRESS_1]: "177 West Price Avenue",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84115",
+    [keys.DESCRIPTION]: "Safety, shelter, and support to at-risk and under-served youth and families residing in Salt lake County",
+  },
 ];
 
 data[keys.RESOURCES] = [
