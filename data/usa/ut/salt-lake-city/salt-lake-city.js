@@ -23,18 +23,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Las Vegas Rescue Mission",
-    [keys.URL]: "https://vegasrescue.org/meals",
-    [keys.PHONE]: "7023821766",
-    [keys.DATE_CHECKED]: "2026-03-18",
-    [keys.ADDRESS_1]: "480 West Bonanza Rd",
-    [keys.CITY]: "Las Vegas",
-    [keys.STATE]: "NV",
-    [keys.ZIP_CODE]: "89106",
+    [keys.NAME]: "St. Vincent de Paul Dining Hall",
+    [keys.URL]: "https://ccsutah.org/programs/st-vincent-de-paul-dining-hall",
+    [keys.PHONE]: "8013637710",
+    [keys.DATE_CHECKED]: "2026-04-30",
+    [keys.ADDRESS_1]: "437 West 200 South",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84101",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Community Meal",
-        [keys.HOURS]: "Daily 5pm-6pm",
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 11:30am-12:30pm, Sat 10am-11am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every Day 5pm-6pm",
       },
     ],
   },
