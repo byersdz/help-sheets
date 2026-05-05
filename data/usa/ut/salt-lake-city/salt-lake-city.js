@@ -42,6 +42,24 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Salt Lake City Mission",
+    [keys.URL]: "https://saltlakecitymission.org/daily-meal-outreach-and-day-center",
+    [keys.PHONE]: "8013556310",
+    [keys.DATE_CHECKED]: "2026-05-05",
+    [keys.ADDRESS_1]: "1151 S. Redwood Rd",
+    [keys.ADDRESS_2]: "#106",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84104",
+    [keys.DESCRIPTION]: "Food pantry and clothing by appointment",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 11am-1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
