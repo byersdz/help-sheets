@@ -60,6 +60,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Hildegarde's Food pantry",
+    [keys.URL]: "https://stmarksutah.org/foodpantry",
+    [keys.PHONE]: "8013282303",
+    [keys.DATE_CHECKED]: "2026-05-06",
+    [keys.ADDRESS_1]: "231 E 100 S",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84111",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue/Wed/Fri 11am-1:30pm, Thur 5pm-6:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
