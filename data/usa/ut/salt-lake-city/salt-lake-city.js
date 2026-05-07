@@ -76,6 +76,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Crossroads Urban Center",
+    [keys.URL]: "https://www.crossroadsurbancenter.org/downtown.html",
+    [keys.PHONE]: "8013647765",
+    [keys.DATE_CHECKED]: "2026-05-07",
+    [keys.ADDRESS_1]: "347 South 400 East",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84111",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mon-Fri 9am-5pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
