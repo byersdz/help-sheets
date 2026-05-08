@@ -92,6 +92,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://saltlakecity.salvationarmy.org/salt_lake_city_corps/cure-hunger",
+    [keys.PHONE]: "8019884204",
+    [keys.DATE_CHECKED]: "2026-05-08",
+    [keys.ADDRESS_1]: "438 South 900 West",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue 10am-noon, Wed/Fri 2pm-4pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
