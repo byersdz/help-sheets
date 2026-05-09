@@ -108,6 +108,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St Paul's Episcopal Church",
+    [keys.URL]: "https://www.stpauls-slc.org/food-pantry",
+    [keys.PHONE]: "8013225869",
+    [keys.DATE_CHECKED]: "2026-05-09",
+    [keys.ADDRESS_1]: "261 S.  900 E.",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84102",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Saturday 9am-1pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
