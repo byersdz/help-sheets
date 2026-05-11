@@ -124,6 +124,13 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Mosaic Interfaith Ministies",
+    [keys.URL]: "http://www.lssu.org/calendar",
+    [keys.PHONE]: "8015880139",
+    [keys.DATE_CHECKED]: "2026-05-09",
+    [keys.DESCRIPTION]: "Food Pantry",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
