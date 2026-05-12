@@ -125,6 +125,23 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Jewish Family Services",
+    [keys.URL]: "https://jfsutah.org/get-help/food-pantry",
+    [keys.PHONE]: "8017464334",
+    [keys.DATE_CHECKED]: "2026-05-12",
+    [keys.ADDRESS_1]: "495 E 4500 S",
+    [keys.ADDRESS_2]: "Ste. 100",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84107",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Tue 11am-3pm, Wed/Thur 1pm-3pm, Fri 11am-1pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Mosaic Interfaith Ministies",
     [keys.URL]: "http://www.lssu.org/calendar",
     [keys.PHONE]: "8015880139",
