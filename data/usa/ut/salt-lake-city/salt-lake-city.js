@@ -142,6 +142,22 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Utah Food for Families",
+    [keys.URL]: "https://www.utahfoodforfamilies.com",
+    [keys.PHONE]: "8012649999",
+    [keys.DATE_CHECKED]: "2026-05-14",
+    [keys.ADDRESS_1]: "460 W Century Drive",
+    [keys.CITY]: "Murray",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84123",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Thursday 3pm-7pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Mosaic Interfaith Ministies",
     [keys.URL]: "http://www.lssu.org/calendar",
     [keys.PHONE]: "8015880139",
