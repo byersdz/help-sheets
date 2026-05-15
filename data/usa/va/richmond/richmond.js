@@ -16,15 +16,15 @@ data[keys.ACCESS_POINTS] = [
     [keys.NAME]: 'The Homeless Connection Line',
     [keys.DESCRIPTION]: 'Call if you are currently homeless or are within 3 days of losing your housing',
     [keys.PHONE]: '8049720813',
-    [keys.URL]: 'https://www.homewardva.org/homeless-connection-line',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.URL]: 'https://www.homewardva.org/get-help',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'Empowernet Hotline',
     [keys.DESCRIPTION]: '24/7 assistance line for victims of domestic violence',
     [keys.PHONE]: '8046126126',
-    [keys.URL]: 'https://empowernetva.org',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.URL]: 'https://ywcarichmond.org/get-help',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
 ];
 
@@ -34,8 +34,8 @@ data[keys.BASIC_NEEDS] = [
     [keys.DESCRIPTION]: 'Find local emergency food resources',
     [keys.PHONE]: '8045212500',
     [keys.PHONE_EXTENSION]: '631',
-    [keys.URL]: 'https://feedmore.org/agency-network/agency-locator',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.URL]: 'https://feedmore.org/get-help/',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'Second Presbyterian Church',
@@ -45,7 +45,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23219',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Lunch',
@@ -60,15 +60,15 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: 'Hot Meal',
-        [keys.HOURS]: 'Sunday 5pm - 6pm',
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Monday 11am-2pm',
       },
       {
-        [keys.DESCRIPTION]: 'Food Pantry / Showers / Clothes Closet',
-        [keys.HOURS]: 'Monday and Thursday 11am - 2pm',
+        [keys.DESCRIPTION]: 'Showers / Clothes Closet / Laundry',
+        [keys.HOURS]: 'Mon/Thur/Sat 11am-2pm',
       },
     ],
   },
@@ -80,39 +80,39 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23229',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.DESCRIPTION]: 'housing/financial counseling; immigration services',
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: 'Food Pantry - once per 30 days',
-        [keys.HOURS]: 'Tuesday / Wednesday / Thursday 9am - 12pm',
+        [keys.DESCRIPTION]: 'Food Pantry',
+        [keys.HOURS]: 'Mon/Wed/Thur/Fri 9am-noon',
       },
       {
-        [keys.DESCRIPTION]: 'Baby Clothes - 4x per year',
-        [keys.HOURS]: 'Tuesday / Wednesday / Thursday 10am - 12pm',
+        [keys.DESCRIPTION]: 'Baby Clothes',
+        [keys.HOURS]: 'Mon-Fri 9am-noon',
       },
     ],
   },
-  {
-    [keys.NAME]: "St. Peter's Catholic Church",
-    [keys.PHONE]: '8046434315',
-    [keys.URL]: 'https://stpeterchurch1834.org',
-    [keys.ADDRESS_1]: '800 East Grace Street',
-    [keys.CITY]: 'Richmond',
-    [keys.STATE]: 'VA',
-    [keys.ZIP_CODE]: '23218',
-    [keys.DATE_CHECKED]: '2022-06-29',
-    [keys.PROVIDES]: [
-      {
-        [keys.DESCRIPTION]: 'Hot Meals',
-        [keys.HOURS]: 'Tuesday 11:45am - 12:30pm, Wednesday 4:30pm - 6pm',
-      },
-      {
-        [keys.DESCRIPTION]: 'Shower / Pantry',
-        [keys.HOURS]: 'Tuesday 1pm - 3pm',
-      },
-    ],
-  },
+  // {
+  //   [keys.NAME]: "St. Peter's Catholic Church",
+  //   [keys.PHONE]: '8046434315',
+  //   [keys.URL]: 'https://stpeterchurch1834.org',
+  //   [keys.ADDRESS_1]: '800 East Grace Street',
+  //   [keys.CITY]: 'Richmond',
+  //   [keys.STATE]: 'VA',
+  //   [keys.ZIP_CODE]: '23218',
+  //   [keys.DATE_CHECKED]: '2022-06-29',
+  //   [keys.PROVIDES]: [
+  //     {
+  //       [keys.DESCRIPTION]: 'Hot Meals',
+  //       [keys.HOURS]: 'Tuesday 11:45am - 12:30pm, Wednesday 4:30pm - 6pm',
+  //     },
+  //     {
+  //       [keys.DESCRIPTION]: 'Shower / Pantry',
+  //       [keys.HOURS]: 'Tuesday 1pm - 3pm',
+  //     },
+  //   ],
+  // },
   {
     [keys.NAME]: 'Oregon Hill Baptist Center',
     [keys.PHONE]: '8046481353',
@@ -121,7 +121,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Bagged Lunch',
@@ -137,7 +137,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23219',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Bagged Lunch',
@@ -153,7 +153,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23219',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Bagged Lunch',
@@ -169,7 +169,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'To Go Lunch',
@@ -185,27 +185,11 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Food Pantry',
-        [keys.HOURS]: '2nd and 4th Saturdays of the month, 9am - 10:30am',
-      },
-    ],
-  },
-  {
-    [keys.NAME]: "Shepherd's Way Relief Center",
-    [keys.PHONE]: '8045627490',
-    [keys.URL]: 'https://www.ourshepherdsway.org',
-    [keys.ADDRESS_1]: '400 East Main Street',
-    [keys.CITY]: 'Richmond',
-    [keys.STATE]: 'VA',
-    [keys.ZIP_CODE]: '23219',
-    [keys.DATE_CHECKED]: '2022-06-29',
-    [keys.PROVIDES]: [
-      {
-        [keys.DESCRIPTION]: 'Meals, Food Pantry, Clothes, Toiletries',
-        [keys.HOURS]: 'Mon / Tue / Wed: 9am - 10:30am. Sat: 12pm - 1pm. Sun: 8:30am - 9:30am',
+        [keys.HOURS]: '2nd and 4th Saturdays of the month, 9am - 10am',
       },
     ],
   },
@@ -217,10 +201,10 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23235',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: 'Drive thru food pantry',
+        [keys.DESCRIPTION]: 'Food Pantry',
         [keys.HOURS]: '1st and 3rd Wednesday of month: 3 - 4:30pm',
       },
     ],
@@ -233,11 +217,11 @@ data[keys.BASIC_NEEDS] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23222',
-    [keys.DATE_CHECKED]: '2023-12-02',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Free Groceries',
-        [keys.HOURS]: 'Saturday 10am - 4pm',
+        [keys.HOURS]: 'Saturday 10am - 3pm',
       },
     ],
   },
@@ -247,18 +231,18 @@ data[keys.BASIC_NEEDS] = [
       + 'clothing and financial assistance for rent/utilities.',
     [keys.URL]: 'https://www.facebook.com/EasternHenricoFISHInc',
     [keys.PHONE]: '8042577730',
-    [keys.DATE_CHECKED]: '2022-07-06',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'Welborne United Methodist',
     [keys.DESCRIPTION]: 'Serves western Henrico County.',
-    [keys.URL]: 'http://welbornechurch.org/programs/missions/food-box/',
+    [keys.URL]: 'https://www.welbornechurch.org/food-pantry',
     [keys.PHONE]: '8047407128',
     [keys.ADDRESS_1]: '920 Maybeury Dr',
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23229',
-    [keys.DATE_CHECKED]: '2022-07-06',
+    [keys.DATE_CHECKED]: '2026-05-15',
     [keys.PROVIDES]: [
       {
         [keys.DESCRIPTION]: 'Food Pantry',
@@ -270,7 +254,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.NAME]: 'RVA Community Fridges',
     [keys.DESCRIPTION]: 'Community run fridges and food pantries.',
     [keys.URL]: 'https://www.rvacommunityfridges.com',
-    [keys.DATE_CHECKED]: '2023-02-23',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
 ];
 
@@ -281,48 +265,47 @@ data[keys.RESOURCES] = [
       + 'Vision, medical, and dental. Call for intake appointments.',
     [keys.URL]: 'https://dailyplanetva.org/',
     [keys.PHONE]: '8047832505',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'CARITAS The Healing Place for Men',
     [keys.DESCRIPTION]: 'No cost residential recovery program. Call for intake.',
-    [keys.URL]: 'https://www.caritasva.org/get-help/get-sober',
+    [keys.URL]: 'https://caritasva.org/i-need-help',
     [keys.PHONE]: '8042301184',
     [keys.ADDRESS_1]: '700 Dinwiddie Avenue',
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23224',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'CARITAS The Healing Place for Women',
     [keys.DESCRIPTION]: 'No cost residential recovery program. Call for intake.',
-    [keys.URL]: 'https://www.caritasva.org/get-help/get-sober',
+    [keys.URL]: 'https://caritasva.org/i-need-help',
     [keys.PHONE]: '8044183049',
     [keys.ADDRESS_1]: '2220 Stockton Street',
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23224',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'Richmond Behavioral Health Authority',
     [keys.DESCRIPTION]: '24/7 crisis intervention services.',
     [keys.URL]: 'https://www.rbha.org',
     [keys.PHONE]: '8048194100',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
-  // moving in early 2024
   {
     [keys.NAME]: 'New Season Treatment Center',
     [keys.DESCRIPTION]: 'Opiod Addiction Treatment Center',
     [keys.URL]: 'https://www.newseason.com/treatment-center-locations/virginia/richmond-treatment-center/',
     [keys.PHONE]: '8772847074',
-    [keys.ADDRESS_1]: '2217 East Franklin Street',
+    [keys.ADDRESS_1]: '3021 Mechanicsville Turnpike',
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23223',
-    [keys.DATE_CHECKED]: '2023-12-02',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'OAR of Richmond',
@@ -333,14 +316,14 @@ data[keys.RESOURCES] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23230',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'REAL LIFE',
     [keys.DESCRIPTION]: 'Services for people impacted by incarceration, homelessness, or substance use disorder',
     [keys.URL]: 'https://reallifeprogram.org',
     [keys.PHONE]: '8043223311',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'RVA Light',
@@ -351,22 +334,22 @@ data[keys.RESOURCES] = [
     [keys.CITY]: 'Richmond',
     [keys.STATE]: 'VA',
     [keys.ZIP_CODE]: '23220',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'Housing Resource Line',
     [keys.DESCRIPTION]: 'Connect to programs and services to help with housing',
     [keys.URL]: 'https://pharva.com/housing-hotline',
     [keys.PHONE]: '8044225061',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
   {
     [keys.NAME]: 'Warm Line',
     [keys.DESCRIPTION]: 'Peer-to-peer mental health support',
-    [keys.URL]: 'https://mhav.org/support/warm-line',
+    [keys.URL]: 'https://mentalhealthvirginia.org/get-help/warm-line',
     [keys.PHONE]: '8664006428',
     [keys.COUNTRY_CODE]: '1',
-    [keys.DATE_CHECKED]: '2022-06-29',
+    [keys.DATE_CHECKED]: '2026-05-15',
   },
 ];
 
