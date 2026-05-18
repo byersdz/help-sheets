@@ -269,16 +269,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "HELP of Southern Nevada",
-    [keys.URL]: "https://www.helpsonv.org",
-    [keys.PHONE]: "7023694357",
-    [keys.DATE_CHECKED]: "2026-03-25",
-    [keys.ADDRESS_1]: "1640 E. Flamingo Rd.",
-    [keys.ADDRESS_2]: "#100",
-    [keys.CITY]: "Las Vegas",
-    [keys.STATE]: "NV",
-    [keys.ZIP_CODE]: "89119",
-    [keys.DESCRIPTION]: "Housing programs, referrals, and support services",
+    [keys.NAME]: "Fourth Street Clinic",
+    [keys.URL]: "https://fourthstreetclinic.org",
+    [keys.PHONE]: "8013640058",
+    [keys.DATE_CHECKED]: "2026-05-18",
+    [keys.ADDRESS_1]: "409 West 400 South",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84101",
+    [keys.DESCRIPTION]: "Medical care for the homeless",
   },
 ];
 
