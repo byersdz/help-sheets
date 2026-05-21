@@ -279,6 +279,18 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "84101",
     [keys.DESCRIPTION]: "Medical care for the homeless",
   },
+  {
+    [keys.NAME]: "Sacred Circle Healthcare",
+    [keys.URL]: "https://sacredcircle.com",
+    [keys.PHONE]: "8013592256",
+    [keys.DATE_CHECKED]: "2026-05-21",
+    [keys.ADDRESS_1]: "660 South 200 East",
+    [keys.ADDRESS_2]: "Suite 250",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84111",
+    [keys.DESCRIPTION]: "Medical care",
+  },
 ];
 
 module.exports = data;
