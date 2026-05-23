@@ -291,6 +291,18 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "84111",
     [keys.DESCRIPTION]: "Medical care",
   },
+  {
+    [keys.NAME]: "Salt Lake Donated Dental Services",
+    [keys.URL]: "https://donateddental.org",
+    [keys.PHONE]: "8019722747",
+    [keys.DATE_CHECKED]: "2026-05-23",
+    [keys.ADDRESS_1]: "1383 South 900 West",
+    [keys.ADDRESS_2]: "Suite 128",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84104",
+    [keys.DESCRIPTION]: "Free or discounted dental care for low income patients",
+  },
 ];
 
 module.exports = data;
