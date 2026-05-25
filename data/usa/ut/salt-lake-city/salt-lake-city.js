@@ -303,6 +303,13 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "84104",
     [keys.DESCRIPTION]: "Free or discounted dental care for low income patients",
   },
+  {
+    [keys.NAME]: "Utah Department of Workforce Services",
+    [keys.URL]: "https://jobs.utah.gov",
+    [keys.PHONE]: "8664357414",
+    [keys.DATE_CHECKED]: "2026-05-25",
+    [keys.DESCRIPTION]: "Administers SNAP and EBT, TANF, CHIP, and Medicaid.",
+  },
 ];
 
 module.exports = data;
