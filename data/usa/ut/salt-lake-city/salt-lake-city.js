@@ -304,6 +304,16 @@ data[keys.RESOURCES] = [
     [keys.DESCRIPTION]: "Free or discounted dental care for low income patients",
   },
   {
+    [keys.NAME]: "George E Wahlen VA Medical Center",
+    [keys.URL]: "https://www.va.gov/salt-lake-city-health-care/locations/george-e-wahlen-department-of-veterans-affairs-medical",
+    [keys.PHONE]: "8015821565",
+    [keys.DATE_CHECKED]: "2026-05-26",
+    [keys.ADDRESS_1]: "500 Foothill Boulevard",
+    [keys.CITY]: "Salt Lake City",
+    [keys.STATE]: "UT",
+    [keys.ZIP_CODE]: "84148",
+  },
+  {
     [keys.NAME]: "Utah Department of Workforce Services",
     [keys.URL]: "https://jobs.utah.gov",
     [keys.PHONE]: "8664357414",
