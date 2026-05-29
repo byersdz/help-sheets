@@ -46,15 +46,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Gail Miller Resource Center",
-    [keys.URL]: "https://theroadhome.org/resourcecenter/gail-miller-resource-center",
-    [keys.PHONE]: "8014565900",
-    [keys.DATE_CHECKED]: "2026-04-13",
-    [keys.ADDRESS_1]: "242 W. Paramount Ave.",
-    [keys.CITY]: "Salt Lake City",
-    [keys.STATE]: "UT",
-    [keys.ZIP_CODE]: "84115",
-    [keys.SERVES]: [serves.MEN, serves.WOMEN],
+    [keys.NAME]: "Denver Rescue Mission",
+    [keys.URL]: "https://denverrescuemission.org",
+    [keys.PHONE]: "3032940157",
+    [keys.DATE_CHECKED]: "2026-05-28",
+    [keys.ADDRESS_1]: "1130 Park Ave. West",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80205",
+    [keys.SERVES]: [serves.MEN],
   },
 ];
 
