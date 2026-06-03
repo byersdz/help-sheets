@@ -56,6 +56,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "80205",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Salvation Army Crossroads Center",
+    [keys.URL]: "https://crossroadscenter.salvationarmy.org",
+    [keys.PHONE]: "7203054640",
+    [keys.DATE_CHECKED]: "2026-06-02",
+    [keys.ADDRESS_1]: "1901 29TH ST",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80216",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
