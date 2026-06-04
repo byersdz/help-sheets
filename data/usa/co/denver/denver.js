@@ -67,6 +67,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "80216",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "Samaritan House",
+    [keys.URL]: "https://ccdenver.org/denver-samaritan-house",
+    [keys.PHONE]: "7207999506",
+    [keys.DATE_CHECKED]: "2026-06-02",
+    [keys.ADDRESS_1]: "4330 E. 48th Ave",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80216",
+    [keys.SERVES]: [serves.WOMEN, serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
