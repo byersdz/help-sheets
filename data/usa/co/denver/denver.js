@@ -78,6 +78,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "80216",
     [keys.SERVES]: [serves.WOMEN, serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "Urban Peak",
+    [keys.URL]: "https://www.urbanpeak.org",
+    [keys.PHONE]: "3039742908",
+    [keys.DATE_CHECKED]: "2026-06-04",
+    [keys.ADDRESS_1]: "1630 S. Acoma St",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80223",
+    [keys.DESCRIPTION]: "Serves ages 12 - 24",
+  },
 ];
 
 data[keys.RESOURCES] = [
