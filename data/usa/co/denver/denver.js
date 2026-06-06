@@ -89,6 +89,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "80223",
     [keys.DESCRIPTION]: "Serves ages 12 - 24",
   },
+  {
+    [keys.NAME]: "The Delores Project",
+    [keys.URL]: "https://thedeloresproject.org/need-shelter",
+    [keys.PHONE]: "3035345411",
+    [keys.DATE_CHECKED]: "2026-06-06",
+    [keys.SERVES]: [serves.WOMEN, serves.TRANSGENDER],
+  },
 ];
 
 data[keys.RESOURCES] = [
