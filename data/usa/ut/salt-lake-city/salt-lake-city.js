@@ -37,7 +37,7 @@ data[keys.BASIC_NEEDS] = [
         [keys.HOURS]: "Mon-Fri 11:30am-12:30pm, Sat 10am-11am",
       },
       {
-        [keys.DESCRIPTION]: "Lunch",
+        [keys.DESCRIPTION]: "Dinner",
         [keys.HOURS]: "Every Day 5pm-6pm",
       },
     ],
