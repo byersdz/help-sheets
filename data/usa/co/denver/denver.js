@@ -23,22 +23,19 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "St. Vincent de Paul Dining Hall",
-    [keys.URL]: "https://ccsutah.org/programs/st-vincent-de-paul-dining-hall",
-    [keys.PHONE]: "8013637710",
-    [keys.DATE_CHECKED]: "2026-04-30",
-    [keys.ADDRESS_1]: "437 West 200 South",
-    [keys.CITY]: "Salt Lake City",
-    [keys.STATE]: "UT",
-    [keys.ZIP_CODE]: "84101",
+    [keys.NAME]: "Volunteers of America",
+    [keys.URL]: "https://www.voacolorado.org/services/mission-denver-metro",
+    [keys.PHONE]: "3032952165",
+    [keys.DATE_CHECKED]: "2026-06-07",
+    [keys.ADDRESS_1]: "2877 Lawrence Street",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80205",
+    [keys.DESCRIPTION]: "Also provides sack lunches, clothing closet, and hygiene kits",
     [keys.PROVIDES]: [
       {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Mon-Fri 11:30am-12:30pm, Sat 10am-11am",
-      },
-      {
-        [keys.DESCRIPTION]: "Lunch",
-        [keys.HOURS]: "Every Day 5pm-6pm",
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Mon-Thur 5pm-6pm, Sun 12:30pm-1:30pm",
       },
     ],
   },
