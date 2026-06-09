@@ -43,7 +43,7 @@ data[keys.BASIC_NEEDS] = [
     [keys.NAME]: "Cathedral Basilica",
     [keys.URL]: "https://www.denvercathedral.org/food-pantry",
     [keys.PHONE]: "3038317010",
-    [keys.DATE_CHECKED]: "2026-06-07",
+    [keys.DATE_CHECKED]: "2026-06-09",
     [keys.ADDRESS_1]: "1530 Logan St.",
     [keys.CITY]: "Denver",
     [keys.STATE]: "CO",
@@ -56,6 +56,22 @@ data[keys.BASIC_NEEDS] = [
       {
         [keys.DESCRIPTION]: "Food Pantry",
         [keys.HOURS]: "Mon-Fri 1pm-1:30pm",
+      },
+    ],
+  },
+  {
+    [keys.NAME]: "Holy Ghost Church",
+    [keys.URL]: "https://holyghostchurch.org/social-ministry/",
+    [keys.PHONE]: "3032973441",
+    [keys.DATE_CHECKED]: "2026-06-09",
+    [keys.ADDRESS_1]: "1900 California St",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80202",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Sandwiches",
+        [keys.HOURS]: "Mon-Sat 10am-10:30am",
       },
     ],
   },
