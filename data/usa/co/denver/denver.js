@@ -39,6 +39,26 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Cathedral Basilica",
+    [keys.URL]: "https://www.denvercathedral.org/food-pantry",
+    [keys.PHONE]: "3038317010",
+    [keys.DATE_CHECKED]: "2026-06-07",
+    [keys.ADDRESS_1]: "1530 Logan St.",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80203",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Sandwiches and Coffee",
+        [keys.HOURS]: "Mon-Fri 8am-8:30am",
+      },
+      {
+        [keys.DESCRIPTION]: "Food Pantry",
+        [keys.HOURS]: "Mon-Fri 1pm-1:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
