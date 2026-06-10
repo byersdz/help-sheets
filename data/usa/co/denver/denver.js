@@ -75,6 +75,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. Elizabeth Church",
+    [keys.URL]: "https://www.stelizabethdenver.org/catholic-links",
+    [keys.PHONE]: "3035344014",
+    [keys.DATE_CHECKED]: "2026-06-10",
+    [keys.ADDRESS_1]: "1060 St Francis Way",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80204",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Every day 11am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
