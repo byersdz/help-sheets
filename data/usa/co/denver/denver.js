@@ -91,6 +91,22 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Christ's Body Ministries",
+    [keys.URL]: "https://christsbody.org/daily-bread",
+    [keys.PHONE]: "3038601272",
+    [keys.DATE_CHECKED]: "2026-06-11",
+    [keys.ADDRESS_1]: "850 Lincoln St.",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80203",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast, Clothing, Showers",
+        [keys.HOURS]: "Mon-Fri 7am-9am",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
