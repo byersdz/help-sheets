@@ -107,6 +107,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "St. Francis Center",
+    [keys.URL]: "https://www.sfcdenver.org/programs-services/day-services",
+    [keys.PHONE]: "3032971576",
+    [keys.DATE_CHECKED]: "2026-06-12",
+    [keys.ADDRESS_1]: "2323 Curtis Street",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80205",
+    [keys.DESCRIPTION]: "Day center with showers, mail, clothing, wellness, and more",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
