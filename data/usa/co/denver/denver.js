@@ -118,6 +118,21 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "80205",
     [keys.DESCRIPTION]: "Day center with showers, mail, clothing, wellness, and more",
   },
+  {
+    [keys.NAME]: "Church in the City",
+    [keys.URL]: "https://citcba.churchcenter.com",
+    [keys.DATE_CHECKED]: "2026-06-14",
+    [keys.ADDRESS_1]: "1580 Gaylord St.",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80206",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Food Bank",
+        [keys.HOURS]: "Wednesday 11am-12:30pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
