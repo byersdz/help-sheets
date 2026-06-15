@@ -187,6 +187,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2026-06-06",
     [keys.SERVES]: [serves.WOMEN, serves.TRANSGENDER],
   },
+  {
+    [keys.NAME]: "SafeHouse Denver",
+    [keys.URL]: "https://safehouse-denver.org",
+    [keys.PHONE]: "3033189989",
+    [keys.DATE_CHECKED]: "2026-06-15",
+    [keys.DESCRIPTION]: "Crisis line and emergency shelter for victims of domestic violence",
+  },
 ];
 
 data[keys.RESOURCES] = [
