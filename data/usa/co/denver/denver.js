@@ -198,15 +198,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "Fourth Street Clinic",
-    [keys.URL]: "https://fourthstreetclinic.org",
-    [keys.PHONE]: "8013640058",
-    [keys.DATE_CHECKED]: "2026-05-18",
-    [keys.ADDRESS_1]: "409 West 400 South",
-    [keys.CITY]: "Salt Lake City",
-    [keys.STATE]: "UT",
-    [keys.ZIP_CODE]: "84101",
-    [keys.DESCRIPTION]: "Medical care for the homeless",
+    [keys.NAME]: "The Gathering Place",
+    [keys.URL]: "https://tgpdenver.org",
+    [keys.PHONE]: "3033214198",
+    [keys.DATE_CHECKED]: "2026-06-16",
+    [keys.ADDRESS_1]: "1535 N. High St.",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80218",
+    [keys.DESCRIPTION]: "Provides low-barrier care to women, gender-diverse people, and children facing homelessness",
   },
 ];
 
