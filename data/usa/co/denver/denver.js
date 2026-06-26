@@ -208,6 +208,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "80218",
     [keys.DESCRIPTION]: "Provides low-barrier care to women, gender-diverse people, and children facing homelessness",
   },
+  {
+    [keys.NAME]: "CARE Center",
+    [keys.URL]: "https://carecenter.us",
+    [keys.PHONE]: "3038381200",
+    [keys.DATE_CHECKED]: "2026-06-26",
+    [keys.ADDRESS_1]: "1600 N Downing St",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80218",
+    [keys.DESCRIPTION]: "Rent and utility assistance",
+  },
 ];
 
 module.exports = data;
