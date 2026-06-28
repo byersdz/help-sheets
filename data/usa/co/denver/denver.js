@@ -133,6 +133,16 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "DHS GIVE Center",
+    [keys.URL]: "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Denver-Human-Services/Be-Supported/Additional-Assistance/DHS-GIVE/GIVE-Center",
+    [keys.DATE_CHECKED]: "2026-06-28",
+    [keys.ADDRESS_1]: "2929 W. 10th Ave",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80204",
+    [keys.DESCRIPTION]: "Food, hygiene products, clothing referrals",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
