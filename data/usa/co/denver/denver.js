@@ -12,13 +12,6 @@ data[keys.EXCLUDE_LIST] = [
 ];
 
 data[keys.ACCESS_POINTS] = [
-  {
-    [keys.NAME]: "Shelter the Homeless Hotline",
-    [keys.URL]: "https://homelessutah.org",
-    [keys.PHONE]: "8019909999",
-    [keys.DESCRIPTION]: "If you or someone you know is experiencing or at risk of homelessness, call for shelter and assistance",
-    [keys.DATE_CHECKED]: "2026-04-11",
-  },
 ];
 
 data[keys.BASIC_NEEDS] = [
@@ -228,6 +221,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "CO",
     [keys.ZIP_CODE]: "80218",
     [keys.DESCRIPTION]: "Rent and utility assistance",
+  },
+  {
+    [keys.NAME]: "Coalition for the Homeless Stout Street Health Center",
+    [keys.URL]: "https://www.coloradocoalition.org/healthlocations",
+    [keys.PHONE]: "3032932220",
+    [keys.DATE_CHECKED]: "2026-07-01",
+    [keys.ADDRESS_1]: "2130 Stout Street",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80205",
+    [keys.DESCRIPTION]: "Medical Care",
   },
 ];
 
