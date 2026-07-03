@@ -136,6 +136,17 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "80204",
     [keys.DESCRIPTION]: "Food, hygiene products, clothing referrals",
   },
+  {
+    [keys.NAME]: "Haven of Hope",
+    [keys.URL]: "https://www.thoh.org",
+    [keys.DATE_CHECKED]: "2026-07-03",
+    [keys.PHONE]: "3036070855",
+    [keys.ADDRESS_1]: "1101 W 7th Ave.",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80204",
+    [keys.DESCRIPTION]: "Meals, showers, laundry, hygiene kits, mail, and more",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
