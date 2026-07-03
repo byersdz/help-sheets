@@ -244,6 +244,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "80205",
     [keys.DESCRIPTION]: "Medical Care",
   },
+  {
+    [keys.NAME]: "Denver CARES Detox",
+    [keys.URL]: "https://www.denverhealth.org/services/community-health/denver-cares-withdrawal-management-drug-alcohol-rehab",
+    [keys.PHONE]: "3034363500",
+    [keys.DATE_CHECKED]: "2026-07-03",
+    [keys.ADDRESS_1]: "1155 Cherokee Street",
+    [keys.CITY]: "Denver",
+    [keys.STATE]: "CO",
+    [keys.ZIP_CODE]: "80204",
+    [keys.DESCRIPTION]: "Short-term and residential treatment for individuals with substance use disorders",
+  },
 ];
 
 module.exports = data;
