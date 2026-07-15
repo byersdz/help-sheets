@@ -36,15 +36,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Denver Rescue Mission",
-    [keys.URL]: "https://denverrescuemission.org",
-    [keys.PHONE]: "3032940157",
-    [keys.DATE_CHECKED]: "2026-06-15",
-    [keys.ADDRESS_1]: "2222 Lawrence Street",
-    [keys.CITY]: "Denver",
-    [keys.STATE]: "CO",
-    [keys.ZIP_CODE]: "80205",
-    [keys.SERVES]: [serves.MEN],
+    [keys.NAME]: "Portland Rescue Mission",
+    [keys.URL]: "https://portlandrescuemission.org",
+    [keys.PHONE]: "5039067690",
+    [keys.DATE_CHECKED]: "2026-07-15",
+    [keys.ADDRESS_1]: "111 West Burnside Street",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97209",
+    [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
 
