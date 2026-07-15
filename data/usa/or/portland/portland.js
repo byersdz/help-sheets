@@ -57,6 +57,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "97214",
     [keys.SERVES]: [serves.MEN],
   },
+  {
+    [keys.NAME]: "SAFES Women's Shelter",
+    [keys.URL]: "https://safes.salvationarmy.org",
+    [keys.PHONE]: "5032270810",
+    [keys.DATE_CHECKED]: "2026-07-15",
+    [keys.ADDRESS_1]: "30 SW 2nd Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97204",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
