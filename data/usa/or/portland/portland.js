@@ -46,6 +46,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "97209",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "City Team",
+    [keys.URL]: "https://www.cityteam.org/get-help/portland",
+    [keys.PHONE]: "5032319334",
+    [keys.DATE_CHECKED]: "2026-07-15",
+    [keys.ADDRESS_1]: "526 SE Grand Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97214",
+    [keys.SERVES]: [serves.MEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
