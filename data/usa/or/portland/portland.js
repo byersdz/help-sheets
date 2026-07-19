@@ -68,6 +68,18 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "97204",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Porch Light Shelter",
+    [keys.URL]: "https://janusyouth.org/homeless-youth",
+    [keys.PHONE]: "5033807200",
+    [keys.DATE_CHECKED]: "2026-07-18",
+    [keys.ADDRESS_1]: "1635 SW Alder Street",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97205",
+    [keys.SERVES]: [serves.YOUTH],
+    [keys.DESCRIPTION]: "Ages 16-24",
+  },
 ];
 
 data[keys.RESOURCES] = [
