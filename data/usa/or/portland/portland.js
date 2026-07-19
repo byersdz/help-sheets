@@ -80,6 +80,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.YOUTH],
     [keys.DESCRIPTION]: "Ages 16-24",
   },
+  {
+    [keys.NAME]: "Central Church of the Nazarene Shelter",
+    [keys.URL]: "https://www.agapevillagepdx.org/shelter",
+    [keys.PHONE]: "5037606272",
+    [keys.DATE_CHECKED]: "2026-07-18",
+    [keys.ADDRESS_1]: "9715 SE Powell Blvd",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97266",
+  },
 ];
 
 data[keys.RESOURCES] = [
