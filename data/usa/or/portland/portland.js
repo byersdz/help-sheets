@@ -90,6 +90,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "OR",
     [keys.ZIP_CODE]: "97266",
   },
+  {
+    [keys.NAME]: "Salvation Army",
+    [keys.URL]: "https://portland.salvationarmy.org/portland2/provide-shelter",
+    [keys.PHONE]: "9713404010",
+    [keys.DATE_CHECKED]: "2026-07-23",
+    [keys.ADDRESS_1]: "5325 N Williams Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97217",
+  },
 ];
 
 data[keys.RESOURCES] = [
