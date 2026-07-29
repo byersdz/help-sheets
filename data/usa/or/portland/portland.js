@@ -16,21 +16,15 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
-    [keys.NAME]: "Volunteers of America",
-    [keys.URL]: "https://www.voacolorado.org/services/mission-denver-metro",
-    [keys.PHONE]: "3032952165",
-    [keys.DATE_CHECKED]: "2026-06-07",
-    [keys.ADDRESS_1]: "2877 Lawrence Street",
-    [keys.CITY]: "Denver",
-    [keys.STATE]: "CO",
-    [keys.ZIP_CODE]: "80205",
-    [keys.DESCRIPTION]: "Also provides sack lunches, clothing closet, and hygiene kits",
-    [keys.PROVIDES]: [
-      {
-        [keys.DESCRIPTION]: "Meals",
-        [keys.HOURS]: "Mon-Thur 5pm-6pm, Sun 12:30pm-1:30pm",
-      },
-    ],
+    [keys.NAME]: "Transition Projects Resource Center",
+    [keys.URL]: "https://www.tprojects.org/resource-center",
+    [keys.PHONE]: "5032804700",
+    [keys.DATE_CHECKED]: "2026-07-28",
+    [keys.ADDRESS_1]: "650 NW Irving Street",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97209",
+    [keys.DESCRIPTION]: "Showers, Laundry, Haircuts, Clothing, Medical Clinic, Mail, Referrals",
   },
 ];
 
