@@ -16,6 +16,22 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
+    [keys.NAME]: "Operation Nightwatch",
+    [keys.URL]: "https://www.operationnightwatch.org",
+    [keys.PHONE]: "5032200438",
+    [keys.DATE_CHECKED]: "2026-07-29",
+    [keys.ADDRESS_1]: "1432 SW 13th Avenue",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97201",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Meals",
+        [keys.HOURS]: "Thur/Fri/Sat 6:30pm-10pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Transition Projects Resource Center",
     [keys.URL]: "https://www.tprojects.org/resource-center",
     [keys.PHONE]: "5032804700",
