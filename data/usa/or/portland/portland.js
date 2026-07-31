@@ -32,6 +32,16 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "PDX Saints Love Day Center",
+    [keys.URL]: "https://pdxsaintslove.org/day-center",
+    [keys.DATE_CHECKED]: "2026-07-31",
+    [keys.ADDRESS_1]: "247 SE 82nd Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97215",
+    [keys.DESCRIPTION]: "Meals, clothing, showers, laundry, hygiene kits, referrals",
+  },
+  {
     [keys.NAME]: "Transition Projects Resource Center",
     [keys.URL]: "https://www.tprojects.org/resource-center",
     [keys.PHONE]: "5032804700",
