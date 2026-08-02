@@ -32,6 +32,30 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Union Gospel Mission",
+    [keys.URL]: "https://www.ugmportland.org/homeless-services",
+    [keys.PHONE]: "5032744483",
+    [keys.DATE_CHECKED]: "2026-08-02",
+    [keys.ADDRESS_1]: "3 NW Third Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97209",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Tue/Wed/Thur/Fri 2pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Wed/Thur/Fri 8pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Clothing",
+        [keys.HOURS]: "Tue/Wed/Thur/Fri 4pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "PDX Saints Love Day Center",
     [keys.URL]: "https://pdxsaintslove.org/day-center",
     [keys.DATE_CHECKED]: "2026-07-31",
