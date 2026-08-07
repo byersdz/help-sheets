@@ -56,6 +56,26 @@ data[keys.BASIC_NEEDS] = [
     ],
   },
   {
+    [keys.NAME]: "Portland Rescue Mission",
+    [keys.URL]: "https://portlandrescuemission.org/what-we-do/our-solution/get-help/burnside",
+    [keys.PHONE]: "5039067690",
+    [keys.DATE_CHECKED]: "2026-08-07",
+    [keys.ADDRESS_1]: "111 West Burnside Street",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97209",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Daily 7am",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Daily 6pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "PDX Saints Love Day Center",
     [keys.URL]: "https://pdxsaintslove.org/day-center",
     [keys.DATE_CHECKED]: "2026-07-31",
