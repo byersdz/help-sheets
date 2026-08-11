@@ -16,6 +16,30 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
+    [keys.NAME]: "Blanchet House of Hospitality",
+    [keys.URL]: "https://blanchethouse.org/free-food-meal-services",
+    [keys.PHONE]: "5032414340",
+    [keys.DATE_CHECKED]: "2026-08-10",
+    [keys.ADDRESS_1]: "310 NW Glisan St",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97209",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Breakfast",
+        [keys.HOURS]: "Mon-Sat 6:30am-7:25am",
+      },
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Sat 11:30am-12:25pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon-Sat 5pm-5:55pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Operation Nightwatch",
     [keys.URL]: "https://www.operationnightwatch.org",
     [keys.PHONE]: "5032200438",
