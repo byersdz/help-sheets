@@ -120,6 +120,21 @@ data[keys.BASIC_NEEDS] = [
     [keys.ZIP_CODE]: "97209",
     [keys.DESCRIPTION]: "Showers, Laundry, Haircuts, Clothing, Medical Clinic, Mail, Referrals",
   },
+  {
+    [keys.NAME]: "The Wash House",
+    [keys.URL]: "https://www.groundscoreassociation.org/laundry",
+    [keys.DATE_CHECKED]: "2026-08-13",
+    [keys.ADDRESS_1]: "2609 SE 6th Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97202",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Free Laundry",
+        [keys.HOURS]: "Mon/Wed 9am-5pm, Tue/Thur 10am-2pm",
+      },
+    ],
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
