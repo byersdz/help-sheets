@@ -179,6 +179,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.WOMEN],
   },
   {
+    [keys.NAME]: "Bethanie’s Room Women’s Shelter",
+    [keys.URL]: "https://blanchethouse.org/portland-womens-shelter-bethanies-room",
+    [keys.PHONE]: "9713587774",
+    [keys.DATE_CHECKED]: "2026-08-13",
+    [keys.ADDRESS_1]: "1015 NW 17th Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97209",
+    [keys.SERVES]: [serves.WOMEN],
+  },
+  {
     [keys.NAME]: "Porch Light Shelter",
     [keys.URL]: "https://janusyouth.org/homeless-youth",
     [keys.PHONE]: "5033807200",
