@@ -142,6 +142,17 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Outside In Day Program",
+    [keys.URL]: "https://outsidein.org/young-adult-services/meals-housing-and-support",
+    [keys.PHONE]: "5034323986",
+    [keys.DATE_CHECKED]: "2026-08-19",
+    [keys.ADDRESS_1]: "1132 SW 13th Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97205",
+    [keys.DESCRIPTION]: "Serves youth ages 16-24, Meals, Shower, Laundry, Mail, Referrals",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
@@ -225,15 +236,15 @@ data[keys.EMERGENCY_SHELTERS] = [
 
 data[keys.RESOURCES] = [
   {
-    [keys.NAME]: "The Gathering Place",
-    [keys.URL]: "https://tgpdenver.org",
-    [keys.PHONE]: "3033214198",
-    [keys.DATE_CHECKED]: "2026-06-16",
-    [keys.ADDRESS_1]: "1535 N. High St.",
-    [keys.CITY]: "Denver",
-    [keys.STATE]: "CO",
-    [keys.ZIP_CODE]: "80218",
-    [keys.DESCRIPTION]: "Provides low-barrier care to women, gender-diverse people, and children facing homelessness",
+    [keys.NAME]: "Outside In",
+    [keys.URL]: "https://outsidein.org",
+    [keys.PHONE]: "5035353860",
+    [keys.DATE_CHECKED]: "2026-08-19",
+    [keys.ADDRESS_1]: "1132 SW 13th Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97205",
+    [keys.DESCRIPTION]: "Medical services",
   },
 ];
 
