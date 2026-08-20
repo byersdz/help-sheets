@@ -232,6 +232,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.STATE]: "OR",
     [keys.ZIP_CODE]: "97217",
   },
+  {
+    [keys.NAME]: "The Hope Centers",
+    [keys.URL]: "https://www.helpinghandsreentry.org/hope-centers",
+    [keys.PHONE]: "5037384321",
+    [keys.DATE_CHECKED]: "2026-07-23",
+    [keys.DESCRIPTION]: "Emergency shelter and transitional housing",
+  },
 ];
 
 data[keys.RESOURCES] = [
