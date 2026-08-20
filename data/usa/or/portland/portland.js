@@ -236,7 +236,7 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.NAME]: "The Hope Centers",
     [keys.URL]: "https://www.helpinghandsreentry.org/hope-centers",
     [keys.PHONE]: "5037384321",
-    [keys.DATE_CHECKED]: "2026-07-23",
+    [keys.DATE_CHECKED]: "2026-08-20",
     [keys.DESCRIPTION]: "Emergency shelter and transitional housing",
   },
 ];
@@ -252,6 +252,17 @@ data[keys.RESOURCES] = [
     [keys.STATE]: "OR",
     [keys.ZIP_CODE]: "97205",
     [keys.DESCRIPTION]: "Medical services",
+  },
+  {
+    [keys.NAME]: "Behavioral Health Resource Center",
+    [keys.URL]: "https://multco.us/info/behavioral-health-resource-center",
+    [keys.PHONE]: "5039884100",
+    [keys.DATE_CHECKED]: "2026-08-20",
+    [keys.ADDRESS_1]: "333 SW Park Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97205",
+    [keys.DESCRIPTION]: "Drop-in day center with shelter and temporary housing",
   },
 ];
 
