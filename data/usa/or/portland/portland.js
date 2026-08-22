@@ -264,6 +264,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "97205",
     [keys.DESCRIPTION]: "Drop-in day center with shelter and temporary housing",
   },
+  {
+    [keys.NAME]: "Prism Health",
+    [keys.URL]: "https://www.prismhealth.org",
+    [keys.PHONE]: "5034457699",
+    [keys.DATE_CHECKED]: "2026-08-22",
+    [keys.ADDRESS_1]: "2236 SE Belmont St",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97214",
+    [keys.DESCRIPTION]: "LGBTQ-focused health services, testing, and counseling.",
+  },
 ];
 
 module.exports = data;
