@@ -275,6 +275,17 @@ data[keys.RESOURCES] = [
     [keys.ZIP_CODE]: "97214",
     [keys.DESCRIPTION]: "LGBTQ-focused health services, testing, and counseling.",
   },
+  {
+    [keys.NAME]: "Quest Center",
+    [keys.URL]: "https://quest-center.org",
+    [keys.PHONE]: "5032385203",
+    [keys.DATE_CHECKED]: "2026-08-27",
+    [keys.ADDRESS_1]: "3231 SE 50th Ave",
+    [keys.CITY]: "Portland",
+    [keys.STATE]: "OR",
+    [keys.ZIP_CODE]: "97206",
+    [keys.DESCRIPTION]: "Health services",
+  },
 ];
 
 module.exports = data;
