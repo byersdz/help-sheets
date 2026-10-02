@@ -49,14 +49,15 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Portland Rescue Mission",
-    [keys.URL]: "https://portlandrescuemission.org",
-    [keys.PHONE]: "5039067690",
-    [keys.DATE_CHECKED]: "2026-07-15",
-    [keys.ADDRESS_1]: "111 West Burnside Street",
-    [keys.CITY]: "Portland",
-    [keys.STATE]: "OR",
-    [keys.ZIP_CODE]: "97209",
+    [keys.NAME]: "Adult Shelter Reservation System",
+    [keys.URL]: "https://www.sf.gov/sign-adult-shelter-san-francisco",
+    [keys.PHONE]: "6286528000",
+    [keys.DATE_CHECKED]: "2026-10-01",
+    [keys.ADDRESS_1]: "525 5th Street",
+    [keys.CITY]: "San Francisco",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "94107",
+    [keys.DESCRIPTION]: "Shelter reservation for single adults",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
