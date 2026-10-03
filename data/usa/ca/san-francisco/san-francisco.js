@@ -60,6 +60,16 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DESCRIPTION]: "Shelter reservation for single adults",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Dolores Shelter Program",
+    [keys.URL]: "https://www.missionaction.org/our-work/housing-shelter/",
+    [keys.PHONE]: "4152826209",
+    [keys.DATE_CHECKED]: "2026-10-02",
+    [keys.ADDRESS_1]: "1050 South Van Ness Avenue",
+    [keys.CITY]: "San Francisco",
+    [keys.STATE]: "CA",
+    [keys.ZIP_CODE]: "94109",
+  },
 ];
 
 data[keys.RESOURCES] = [
