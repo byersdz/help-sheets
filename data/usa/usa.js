@@ -22,6 +22,7 @@ const tennessee = require( './tn/tn' );
 const texas = require( './tx/tx' );
 const utah = require( './ut/ut' );
 const virginia = require( './va/va' );
+const washington = require( './wa/wa' );
 
 const data = {};
 
@@ -55,6 +56,7 @@ data[keys.STATES] = [
   texas,
   utah,
   virginia,
+  washington,
 ];
 
 data[keys.ACCESS_POINTS] = [
