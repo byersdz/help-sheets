@@ -43,15 +43,14 @@ data[keys.BASIC_NEEDS] = [
 
 data[keys.EMERGENCY_SHELTERS] = [
   {
-    [keys.NAME]: "Adult Shelter Reservation System",
-    [keys.URL]: "https://www.sf.gov/sign-adult-shelter-san-francisco",
-    [keys.PHONE]: "6286528000",
-    [keys.DATE_CHECKED]: "2026-10-01",
-    [keys.ADDRESS_1]: "525 5th Street",
-    [keys.CITY]: "San Francisco",
-    [keys.STATE]: "CA",
-    [keys.ZIP_CODE]: "94107",
-    [keys.DESCRIPTION]: "Shelter reservation for single adults",
+    [keys.NAME]: "Nightwatch Shelter",
+    [keys.URL]: "https://www.seattlenightwatch.org/get-help/nightwatch-shelter",
+    [keys.PHONE]: "2063292099",
+    [keys.DATE_CHECKED]: "2026-10-10",
+    [keys.ADDRESS_1]: "302 14th Ave S",
+    [keys.CITY]: "Seattle",
+    [keys.STATE]: "WA",
+    [keys.ZIP_CODE]: "98144",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
 ];
