@@ -53,6 +53,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "98144",
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
+  {
+    [keys.NAME]: "St. Martin de Porres Shelter",
+    [keys.URL]: "https://ccsww.org/services/st-martin-de-porres-shelter/",
+    [keys.PHONE]: "2063236341",
+    [keys.DATE_CHECKED]: "2026-10-11",
+    [keys.ADDRESS_1]: "1561 Alaskan Way South",
+    [keys.CITY]: "Seattle",
+    [keys.STATE]: "WA",
+    [keys.ZIP_CODE]: "98134",
+    [keys.DESCRIPTION]: "Serves men 50 years or older",
+  },
 ];
 
 data[keys.RESOURCES] = [
