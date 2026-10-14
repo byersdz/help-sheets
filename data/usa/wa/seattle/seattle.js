@@ -54,6 +54,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.MEN, serves.WOMEN],
   },
   {
+    [keys.NAME]: "Union Gospel Mission",
+    [keys.URL]: "https://www.ugm.org",
+    [keys.PHONE]: "2065014357",
+    [keys.DATE_CHECKED]: "2026-10-14",
+    [keys.ADDRESS_1]: "318 2nd Ave Extension S",
+    [keys.CITY]: "Seattle",
+    [keys.STATE]: "WA",
+    [keys.ZIP_CODE]: "98104",
+    [keys.SERVES]: [serves.MEN],
+  },
+  {
     [keys.NAME]: "St. Martin de Porres Shelter",
     [keys.URL]: "https://ccsww.org/services/st-martin-de-porres-shelter/",
     [keys.PHONE]: "2063236341",
