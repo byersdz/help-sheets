@@ -65,6 +65,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.SERVES]: [serves.MEN],
   },
   {
+    [keys.NAME]: "William Booth Center",
+    [keys.URL]: "https://seattle.salvationarmy.org/seattle_services/william-booth-center",
+    [keys.PHONE]: "2063815707",
+    [keys.DATE_CHECKED]: "2026-10-15",
+    [keys.ADDRESS_1]: "811 Maynard Ave. S.",
+    [keys.CITY]: "Seattle",
+    [keys.STATE]: "WA",
+    [keys.ZIP_CODE]: "98134",
+    [keys.SERVES]: [serves.MEN, serves.VETERANS],
+  },
+  {
     [keys.NAME]: "St. Martin de Porres Shelter",
     [keys.URL]: "https://ccsww.org/services/st-martin-de-porres-shelter/",
     [keys.PHONE]: "2063236341",
