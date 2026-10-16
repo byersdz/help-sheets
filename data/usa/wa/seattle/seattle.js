@@ -39,6 +39,18 @@ data[keys.BASIC_NEEDS] = [
       },
     ],
   },
+  {
+    [keys.NAME]: "Bread of life Mission",
+    [keys.URL]: "https://breadoflifemission.org/get-help",
+    [keys.PHONE]: "2066823579",
+    [keys.PHONE_EXTENSION]: "100",
+    [keys.DATE_CHECKED]: "2026-10-15",
+    [keys.ADDRESS_1]: "97 S. Main St",
+    [keys.CITY]: "Seattle",
+    [keys.STATE]: "WA",
+    [keys.ZIP_CODE]: "98104",
+    [keys.DESCRIPTION]: "Day shelter with showers, mail, bus passes, computers, and social services",
+  },
 ];
 
 data[keys.EMERGENCY_SHELTERS] = [
