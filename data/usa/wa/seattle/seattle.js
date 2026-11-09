@@ -94,6 +94,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "98134",
     [keys.DESCRIPTION]: "Serves men 50 years or older",
   },
+  {
+    [keys.NAME]: "Noel House",
+    [keys.URL]: "https://ccsww.org/services/noel-house-programs",
+    [keys.PHONE]: "2064563100",
+    [keys.DATE_CHECKED]: "2026-11-08",
+    [keys.ADDRESS_1]: "118 Bell Street",
+    [keys.CITY]: "Seattle",
+    [keys.STATE]: "WA",
+    [keys.ZIP_CODE]: "98121",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
