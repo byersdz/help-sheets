@@ -105,6 +105,13 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.ZIP_CODE]: "98121",
     [keys.SERVES]: [serves.WOMEN],
   },
+  {
+    [keys.NAME]: "Mary's Place",
+    [keys.URL]: "https://www.marysplaceseattle.org/get-help",
+    [keys.PHONE]: "2062451026",
+    [keys.DATE_CHECKED]: "2026-11-18",
+    [keys.SERVES]: [serves.FAMILIES],
+  },
 ];
 
 data[keys.RESOURCES] = [
