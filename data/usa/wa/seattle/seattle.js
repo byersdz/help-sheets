@@ -112,6 +112,17 @@ data[keys.EMERGENCY_SHELTERS] = [
     [keys.DATE_CHECKED]: "2026-11-18",
     [keys.SERVES]: [serves.FAMILIES],
   },
+  {
+    [keys.NAME]: "YWCA",
+    [keys.URL]: "https://www.ywcaworks.org/programs/angelines-day-center",
+    [keys.PHONE]: "2064368650",
+    [keys.DATE_CHECKED]: "2026-11-20",
+    [keys.ADDRESS_1]: "2030 3rd Avenue",
+    [keys.CITY]: "Seattle",
+    [keys.STATE]: "WA",
+    [keys.ZIP_CODE]: "98121",
+    [keys.SERVES]: [serves.WOMEN],
+  },
 ];
 
 data[keys.RESOURCES] = [
