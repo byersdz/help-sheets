@@ -16,6 +16,26 @@ data[keys.ACCESS_POINTS] = [
 
 data[keys.BASIC_NEEDS] = [
   {
+    [keys.NAME]: "Operation Sack Lunch",
+    [keys.URL]: "https://www.oslserves.org/open-meal-service",
+    [keys.PHONE]: "2063476629",
+    [keys.DATE_CHECKED]: "2026-11-23",
+    [keys.ADDRESS_1]: "210 Alaskan Way",
+    [keys.CITY]: "Seattle",
+    [keys.STATE]: "WA",
+    [keys.ZIP_CODE]: "98104",
+    [keys.PROVIDES]: [
+      {
+        [keys.DESCRIPTION]: "Lunch",
+        [keys.HOURS]: "Mon-Fri 11:30am-12:30pm, Sat 1:30pm-3pm",
+      },
+      {
+        [keys.DESCRIPTION]: "Dinner",
+        [keys.HOURS]: "Mon-Fri 3:30pm-4:30pm",
+      },
+    ],
+  },
+  {
     [keys.NAME]: "Seattle Indian Center",
     [keys.URL]: "https://seattleindiancenter.org/programs",
     [keys.PHONE]: "2063298700",
